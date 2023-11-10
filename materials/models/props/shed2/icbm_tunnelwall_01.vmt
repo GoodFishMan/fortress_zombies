@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "cod4/concrete/icbm_tunnelwall_01"
+	"$surfaceprop" "concrete"
+}

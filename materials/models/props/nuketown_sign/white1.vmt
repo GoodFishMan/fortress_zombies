@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+"$basetexture" "realworldtextures/floor/mixtile/solid/white1"
+"$bumpmap" "realworldtextures/floor/mixtile/bump/512"
+"$surfaceprop" "tile"
+$envmap "env_cubemap"
+$envmaptint "[.8 .8 .8]"
+$envmapcontrast "1"
+}
+//texture made by tophattwaffle
+//steam account: doogiehoogie
+//xfire: rocketrascal34
+//e-mail: doug@tophattwaffle.com

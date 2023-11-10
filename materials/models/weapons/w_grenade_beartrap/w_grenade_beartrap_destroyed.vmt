@@ -1,0 +1,9 @@
+"Patch"
+{
+	"$baseTexture" "models\weapons\w_grenade_beartrap/w_grenade_beartrap_destroyed"
+	"$bumpmap" "models/weapons/v_grenade_beartrap/v_grenade_beartrap_normal"
+
+	"$phong" "1"	"$phongexponenttexture" "models\weapons\v_grenade_beartrap\v_grenade_beartrap_exponent"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+}
+

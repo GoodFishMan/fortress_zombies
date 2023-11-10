@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\de_embassy\embassy_awning_tint"
+$blendtintbybasealpha 1
+$surfaceprop wood
+}

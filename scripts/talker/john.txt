@@ -1,0 +1,540 @@
+Criterion "JohnNotKillSpeechMelee" "JohnKillSpeechMelee" "!=1" "required" weight 0
+Criterion "JohnNotKillSpeech" "JohnKillSpeech" "!=1" "required" weight 0
+criterion "LowHealthContextCod" "playerhealthfrac" "<0.50" required
+Criterion "SniperNotHoldStill" "HoldStillJohn" "!=1" "required" weight 0
+Criterion "LowNotHealthNoises" "LowHealthNoises" "!=1" "required" weight 100
+criterion "ActivityReloadJohn" "playeractivity" "ACT_MP_RELOAD_STAND_PRIMARY" "required"
+
+Rule MvMDefenderDied
+{
+	criteria ConceptMvMDefenderDied IsMvMDefender 50PercentChance IsJohn 
+	Response johnmourn
+}
+response "johnmourn"
+{
+	speak "Rangers.ManDown01"
+	speak "Rangers.ManDown02"
+	speak "Rangers.ManDown03"
+	speak "Rangers.ManDown04"
+	speak "Rangers.ManDown05"
+	speak "Rangers.ManDown06"
+	
+}
+Response PlayerBattleCryJohn
+{
+	speak "Rangers.go01"
+	speak "Rangers.go02"
+	speak "Rangers.go03"
+	speak "Rangers.go04"
+}
+Rule PlayerBattleCryJohn
+{
+	criteria ConceptPlayerBattleCry IsJohn
+	Response PlayerBattleCryJohn
+}
+
+Response PlayerMedicJohn
+{
+	speak "Rangers.Medic01"
+}
+Rule PlayerMedicJohn
+{
+	criteria ConceptPlayerMedic IsJohn
+	Response PlayerMedicJohn
+}
+
+Response PlayerGoJohn
+{
+	speak "Rangers.go01"
+	speak "Rangers.go02"
+	speak "Rangers.go03"
+	speak "Rangers.go04"
+}
+Rule PlayerGoJohn
+{
+	criteria ConceptPlayerGo IsJohn
+	Response PlayerGoJohn
+}
+
+Response PlayerHeadRightJohn
+{
+	speak "Rangers.Right01"
+}
+Rule PlayerHeadRightJohn
+{
+	criteria ConceptPlayerRight IsJohn
+	Response PlayerHeadRightJohn
+}
+
+Response PlayerHeadLeftJohn
+{
+	speak "Rangers.Left01"
+}
+Rule PlayerHeadLeftJohn
+{
+	criteria ConceptPlayerLeft IsJohn
+	Response PlayerHeadLeftJohn
+}
+
+Response PlayerSniperJohn
+{
+	speak "Rangers.Sniper01"
+}
+Rule PlayerSniperJohn
+{
+	criteria ConceptPlayerSniper IsJohn
+	Response PlayerSniperJohn
+}
+
+Response PlayerYesJohn
+{
+	speak "Rangers.Yes01"
+	speak "Rangers.Yes02"
+	speak "Rangers.Yes03"
+	speak "Rangers.Yes04"
+	speak "Rangers.Yes05"
+	speak "Rangers.Yes06"
+	speak "Rangers.Yes07"
+	speak "Rangers.Yes08"
+}
+Rule PlayerYesJohn
+{
+	criteria ConceptPlayerYes  IsJohn
+	Response PlayerYesJohn
+}
+
+Response PlayerIncomingJohn
+{
+	speak "Rangers.Incoming01"
+	speak "Rangers.Incoming02"
+	speak "Rangers.Incoming03"
+	speak "Rangers.Incoming04"
+	speak "Rangers.Incoming05"
+	speak "Rangers.Incoming06"
+	speak "Rangers.Incoming07"
+	speak "Rangers.Incoming08"
+	speak "Rangers.Incoming09"
+}
+Rule PlayerIncomingJohn
+{
+	criteria ConceptPlayerIncoming IsJohn
+	Response PlayerIncomingJohn
+}
+
+Response PlayerHelpJohn
+{
+	speak "Rangers.Help01"
+	speak "Rangers.Help02"
+	speak "Rangers.Help03"
+}
+Rule PlayerHelpJohn
+{
+	criteria ConceptPlayerHelp IsJohn
+	Response PlayerHelpJohn
+}
+
+Response PlayerCheersJohn
+{
+	speak "Rangers.Cheers01"
+	speak "Rangers.Cheers02"
+	speak "Rangers.Cheers03"
+	speak "Rangers.Cheers04"
+	speak "Rangers.Cheers05"
+	speak "Rangers.Cheers06"
+}
+Rule PlayerCheersJohn
+{
+	criteria ConceptPlayerCheers IsJohn
+	Response PlayerCheersJohn
+}
+
+Response PlayerJeersJohn
+{
+	speak "Rangers.Jeers01"
+	speak "Rangers.Jeers02"
+	speak "Rangers.Jeers03"
+	speak "Rangers.Jeers04"
+	speak "Rangers.Jeers05"
+	speak "Rangers.Jeers06"
+	speak "Rangers.Jeers07"
+}
+Rule PlayerJeersJohn
+{
+	criteria ConceptPlayerJeers IsJohn
+	Response PlayerJeersJohn
+}
+
+Response PlayerPositiveJohn
+{
+	speak "Rangers.Positive01"
+	speak "Rangers.Positive02"
+	speak "Rangers.Positive03"
+	speak "Rangers.Positive04"
+	speak "Rangers.Positive05"
+	speak "Rangers.Positive06"
+}
+Rule PlayerPositiveJohn
+{
+	criteria ConceptPlayerPositive IsJohn
+	Response PlayerPositiveJohn
+}
+
+Response PlayerNegativeJohn
+{
+	speak "Rangers.Negative01"
+	speak "Rangers.Negative02"
+	speak "Rangers.Negative03"
+	speak "Rangers.Negative04"
+	speak "Rangers.Negative05"
+	speak "Rangers.Negative06"
+	speak "Rangers.Negative07"
+}
+Rule PlayerNegativeJohn
+{
+	criteria ConceptPlayerNegative IsJohn
+	Response PlayerNegativeJohn
+}
+
+Response PlayerNiceShotJohn
+{
+	speak "Rangers.NiceShot01"
+}
+Rule PlayerNiceShotJohn
+{
+	criteria ConceptPlayerNiceShot IsJohn
+	Response PlayerNiceShotJohn
+}
+
+Response PlayerThanksJohn
+{
+	speak "Rangers.Thanks01"
+	speak "Rangers.Thanks02"
+	speak "Rangers.Thanks03"
+}
+Rule PlayerThanksJohn
+{
+	criteria ConceptPlayerThanks IsJohn
+	Response PlayerThanksJohn
+}
+
+Response PlayerCapturedPointJohn
+{
+	speak "Rangers.Clear01"
+	speak "Rangers.go02"
+	speak "Rangers.go03"
+}
+Rule PlayerCapturedPointJohn
+{
+	criteria ConceptPlayerCapturedPoint 30PercentChance IsJohn
+	Response PlayerCapturedPointJohn
+}
+
+Response PlayerCappedIntelligenceJohn
+{
+	speak "Rangers.Clear01"
+	speak "Rangers.go02"
+	speak "Rangers.go03"
+}
+Rule PlayerCappedIntelligenceJohn
+{
+	criteria ConceptPlayerCapturedIntelligence IsJohn
+	Response PlayerCappedIntelligenceJohn
+}
+
+Response PlayerLostPointJohn
+{
+	speak "Rangers.LostPoint01"
+	speak "Rangers.LostPoint02"
+	speak "Rangers.LostPoint03"
+	speak "Rangers.LostPoint04"
+}
+Rule PlayerLostPointJohn
+{
+	criteria ConceptPlayerLostPoint IsJohn
+	Response PlayerLostPointJohn
+}
+
+Response PlayerSuccessJohn
+{
+	speak "Rangers.CapturedPoint03"
+	speak "Rangers.CapturedPoint04"
+	speak "Rangers.Cheers04"
+	speak "Rangers.Cheers06"
+	speak "Rangers.Positive04"
+	speak "Rangers.Positive02"
+	speak "Rangers.Positive05"
+}
+Rule PlayerSuccessJohn
+{
+	criteria ConceptPlayerSuccess IsJohn
+	Response PlayerSuccessJohn
+}
+
+Response PlayerFailureJohn
+{
+	speak "Rangers.LostPoint03" predelay "6.0"
+	speak "Rangers.Jeers05" predelay "6.0"
+	speak "Rangers.Jeers06" predelay "6.0"
+	speak "Rangers.Negative02" predelay "6.0"
+	speak "Rangers.Negative04" predelay "6.0"
+}
+Rule PlayerFailureJohn
+{
+	criteria ConceptPlayerFailure IsJohn
+	Response PlayerFailureJohn
+}
+
+Response KilledPlayerMeleeJohn
+{
+	speak "Rangers.Kill01" predelay "2.5"
+	speak "Rangers.Kill02" predelay "2.5"
+	speak "Rangers.Kill03" predelay "2.5"
+	speak "Rangers.Kill04" predelay "2.5"
+	speak "Rangers.Kill05" predelay "2.5"
+	speak "Rangers.Kill06" predelay "2.5"
+	speak "Rangers.Kill07" predelay "2.5"
+	speak "Rangers.Kill08" predelay "2.5"
+	speak "Rangers.Kill09" predelay "2.5"
+}
+Rule KilledPlayerMeleeJohn
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 30PercentChance IsWeaponMelee JohnNotKillSpeechMelee IsJohn
+	ApplyContext "JohnKillSpeechMelee:1:10"
+	Response KilledPlayerMeleeJohn
+}
+
+Response KilledPlayerPrimaryJohn
+{
+	speak "Rangers.Kill01" predelay "2.5"
+	speak "Rangers.Kill02" predelay "2.5"
+	speak "Rangers.Kill03" predelay "2.5"
+	speak "Rangers.Kill04" predelay "2.5"
+	speak "Rangers.Kill05" predelay "2.5"
+	speak "Rangers.Kill06" predelay "2.5"
+	speak "Rangers.Kill07" predelay "2.5"
+	speak "Rangers.Kill08" predelay "2.5"
+	speak "Rangers.Kill09" predelay "2.5"
+}
+Rule KilledPlayerPrimaryJohn
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 20PercentChance IsWeaponPrimary JohnNotKillSpeechPrimary IsJohn
+	ApplyContext "JohnKillSpeechPrimary:1:10"
+	Response KilledPlayerPrimaryJohn
+}
+
+Response KilledPlayerSecondaryJohn
+{
+	speak "Rangers.Kill01" predelay "2.5"
+	speak "Rangers.Kill02" predelay "2.5"
+	speak "Rangers.Kill03" predelay "2.5"
+	speak "Rangers.Kill04" predelay "2.5"
+	speak "Rangers.Kill05" predelay "2.5"
+	speak "Rangers.Kill06" predelay "2.5"
+	speak "Rangers.Kill07" predelay "2.5"
+	speak "Rangers.Kill08" predelay "2.5"
+	speak "Rangers.Kill09" predelay "2.5"
+}
+Rule KilledPlayerSecondaryJohn
+{
+	criteria ConceptKilledPlayer KilledPlayerDelay 20PercentChance IsWeaponSecondary JohnNotKillSpeechSecondary IsJohn
+	ApplyContext "JohnKillSpeechSecondary:1:10"
+	Response KilledPlayerSecondaryJohn
+}
+
+Response PlayerKilledDominatingJohn
+{
+	speak "Rangers.Kill01" predelay "2.5"
+	speak "Rangers.Kill02" predelay "2.5"
+	speak "Rangers.Kill03" predelay "2.5"
+	speak "Rangers.Kill04" predelay "2.5"
+	speak "Rangers.Kill05" predelay "2.5"
+	speak "Rangers.Kill06" predelay "2.5"
+	speak "Rangers.Kill07" predelay "2.5"
+	speak "Rangers.Kill08" predelay "2.5"
+	speak "Rangers.Kill09" predelay "2.5"
+}
+Rule PlayerKilledDominatingJohn
+{
+	criteria ConceptKilledPlayer IsJohn IsDominated
+	ApplyContext "JohnKillSpeech:1:7"
+	ApplyContext "IsDominating:1:7"
+	Response PlayerKilledDominatingJohn
+}
+
+Response PlayerRoundStartJohn
+{
+	speak "Rangers.go01" predelay "2.0, 5.0"
+	speak "Rangers.go02" predelay "2.0, 5.0"
+	speak "Rangers.go03" predelay "2.0, 5.0"
+	speak "Rangers.go04" predelay "2.0, 5.0"
+}
+Rule PlayerRoundStartJohn
+{
+	criteria ConceptPlayerRoundStart IsJohn
+	Response PlayerRoundStartJohn
+}
+
+Response PlayerAttackerPainJohn
+{
+	speak "Rangers.Hurt" predelay "3.0, 5.0"
+}
+Rule PlayerAttackerPainJohn
+{
+	criteria ConceptAttackerPain IsJohn LowHealthContextCod
+	Response PlayerAttackerPainJohn
+}
+
+Response PlayerPainJohn
+{
+	speak "Rangers.Hurt" predelay "1.0"
+}
+Rule PlayerPainJohn
+{
+	criteria ConceptPain IsJohn
+	Response PlayerPainJohn
+}
+
+Response PlayerCombineJohn
+{
+	speak "John.Combine01"
+	speak "John.Combine02"
+}
+Rule PlayerCombineJohn
+{
+	criteria ConceptPlayerCombine IsJohn
+	Response PlayerCombineJohn
+}
+
+Response PlayerStriderJohn
+{
+	speak "John.Strider01"
+}
+Rule PlayerStriderJohn
+{
+	criteria ConceptPlayerStrider IsJohn
+	Response PlayerStriderJohn
+}
+
+Response PlayerZombieJohn
+{
+	speak "John.Zombie01"
+	speak "John.Zombie02"
+}
+Rule PlayerZombieJohn
+{
+	criteria ConceptPlayerZombie IsJohn
+	Response PlayerZombieJohn
+}
+
+Response PlayerHeadcrabJohn
+{
+	speak "John.Headcrab01"
+	speak "John.Headcrab02"
+}
+Rule PlayerHeadcrabJohn
+{
+	criteria ConceptPlayerHeadcrab IsJohn
+	Response PlayerHeadcrabJohn
+}
+
+Response PlayerTrapJohn
+{
+	speak "John.Trap01"
+	speak "John.Trap02"
+}
+Rule PlayerTrapJohn
+{
+	criteria ConceptPlayerTrap IsJohn
+	Response PlayerTrapJohn
+}
+
+Response PlayerAmmoJohn
+{
+	speak "John.Ammo01"
+	speak "John.Ammo02"
+	speak "John.Ammo03"
+	speak "John.Ammo04"
+	speak "John.Ammo05"
+}
+Rule PlayerAmmoJohn
+{
+	criteria ConceptPlayerAmmo IsJohn
+	Response PlayerAmmoJohn
+}
+
+Response PlayerHealthJohn
+{
+	speak "John.Health01"
+	speak "John.Health02"
+	speak "John.Health03"
+	speak "John.Health04"
+	speak "John.Health05"
+}
+Rule PlayerHealthJohn
+{
+	criteria ConceptPlayerHealth IsJohn
+	Response PlayerHealthJohn
+}
+Response PlayerNoJohn
+{
+	speak "Rangers.No01"
+}
+Rule PlayerNoJohn
+{
+	criteria ConceptPlayerNo IsJohn
+	Response PlayerNoJohn
+}
+
+// Response to play when looking at enemy
+
+Response ContactJohn
+{
+	speak "Rangers.Contact01"
+	speak "Rangers.Contact02"
+	speak "Rangers.Contact03"
+	speak "Rangers.Contact04"
+	speak "Rangers.Contact05"
+	speak "Rangers.Contact06"
+	speak "Rangers.Contact07"
+	speak "Rangers.Contact08"
+	speak "Rangers.Contact09"
+}
+Rule ContactJohn
+{
+	criteria ConceptFireWeapon IsJohn IsCrosshairEnemy 5PercentChance
+	Response ContactJohn
+}
+
+Response GrenadeJohn
+{
+	speak "Rangers.GrenadeThrow01"
+	speak "Rangers.GrenadeThrow02"
+	speak "Rangers.GrenadeThrow03"
+	speak "Rangers.GrenadeThrow04"
+	speak "Rangers.GrenadeThrow05"
+}
+Rule GrenadeJohn
+{
+	criteria ConceptPlayerGrenade IsJohn 30PercentChance
+	Response GrenadeJohn
+}
+
+Response ReloadJohn
+{
+	speak "Rangers.Right01"
+}
+Rule ReloadJohn
+{
+	criteria ActivityReloadJohn IsJohn
+	Response ReloadJohn
+}
+
+Response PlayerHurtJohn
+{
+	scene "scenes/Player/Demoman/low/983.vcd" 
+}
+Rule PlayerHurtJohn
+{
+	criteria LowHealthContextCod IsJohn
+	Response PlayerHurtJohn
+}

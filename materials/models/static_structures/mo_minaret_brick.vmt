@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "maps/brick/ir_brick04"
+
+	"$surfaceprop" "brick" 
+	"%keywords" "ins2,iraq"
+}

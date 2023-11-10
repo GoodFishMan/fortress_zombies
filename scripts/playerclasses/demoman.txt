@@ -1,0 +1,46 @@
+//
+// Team Fortress - Demoman Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"demoman"
+	"model"			"models/player/spy.mdl"
+	"model_hwm"		"models/player/hwm/spy.mdl"
+	"model_bot"		"models/bots/spy/bot_spy.mdl"
+	"model_hands"	"models/weapons/c_models/c_spy_arms.mdl"
+	"localize_name"	"TF_Class_Name_Spy"
+	"speed_max"		"320"
+	"health_max"		"150"
+	"armor_max"		"0"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_GRENADE_MIRV"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_BOTTLE"
+	"weapon2"		"TF_WEAPON_GRENADELAUNCHER"
+	"weapon3"		""
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"16"
+		"tf_ammo_secondary"	"24"
+		"tf_ammo_metal"		"200"
+		"tf_ammo_grenades1"	"2"
+		"tf_ammo_grenades2"	"2"
+	}
+
+	// Death Sounds
+	"sound_death"				"Spy.Death"
+	"sound_crit_death"				"Spy.CritDeath"
+	"sound_melee_death"			"Spy.MeleeDeath"
+	"sound_explosion_death"			"Spy.ExplosionDeath"
+}

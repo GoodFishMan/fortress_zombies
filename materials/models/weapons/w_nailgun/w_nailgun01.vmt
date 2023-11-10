@@ -1,0 +1,8 @@
+"Patch"
+{
+	"$basetexture"	"models\weapons\w_nailgun\w_nailgun01"
+	"$bumpmap" "models\weapons\w_nailgun\w_nailgun_normal"
+	"$phongexponenttexture" "models\weapons\w_nailgun\w_nailgun_exponent"
+	
+	"$lightwarptexture" "models\weapons\w_nailgun\w_nailgun_lightwarp"
+}

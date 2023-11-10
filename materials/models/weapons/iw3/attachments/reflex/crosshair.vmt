@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models/weapons/iw3/attachments/reflex/crosshair"
+	"$additive"	"1"
+	"$color"		"[1.5 1.5 1.5]"
+	
+	Proxies
+	{
+	TFAReticuleColor
+		{
+		resultvar $color2
+		}
+	}
+}

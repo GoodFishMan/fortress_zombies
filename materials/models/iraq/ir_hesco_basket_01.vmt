@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+ 	"$basetexture" 	"models/iraq/ir_hesco_basket_01" 
+ 	"$bumpmap" 	"models/iraq/ir_hesco_basket_01_normal"
+ 	$envmap env_cubemap
+	$normalmapalphaenvmapmask 1
+		$envmaptint "[0.7 0.7 0.7]"
+	$envmapcontrast "0.9"
+	$envmapsaturation ".4"
+	$envmapsphere 1
+	
+		$rimlight               1
+	$rimlightexponent       2
+	$rimlightboost          .2
+
+	
+}

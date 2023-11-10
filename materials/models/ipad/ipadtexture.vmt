@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/Ipad/Ipad"
+                  $selfillum 1
+                  $surfaceprop glass
+}

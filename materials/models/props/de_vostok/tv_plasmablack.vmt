@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\de_vostok/TV_plasmaBlack"
+$envmap env_cubemap
+$envmapmask "models\props\de_vostok\TV_plasmaBlack_ref"
+}

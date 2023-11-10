@@ -1,0 +1,8 @@
+"unlitgeneric"
+{
+	"$basetexture" "vgui/appchooser/orangeboxlogo"
+	"$transluscent"	1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$nolod" 1
+}

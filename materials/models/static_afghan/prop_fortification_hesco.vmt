@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/static_afghan/prop_fortification_hesco"
+	"$bumpmap"   "models/static_afghan/prop_fortification_hesco_norm"
+	//"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	//"$basealphaenvmapmask" "1"
+	//"$envmapsaturation" "0.5"
+	//"$envmapcontrast" ".5"
+	//$translucent "1"
+	$alphatest 1
+	$model "1"
+}

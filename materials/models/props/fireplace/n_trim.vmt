@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "n_trim"
+	"$bumpmap" "n_trim_nrm"
+	"$surfaceprop" "metal"
+}

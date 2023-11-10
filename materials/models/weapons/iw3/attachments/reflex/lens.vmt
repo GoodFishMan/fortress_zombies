@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/iw3/attachments/reflex/lens"
+                "$translucent"	"1"
+	"$color2"		"[0.8 0.8 0.8]"
+}

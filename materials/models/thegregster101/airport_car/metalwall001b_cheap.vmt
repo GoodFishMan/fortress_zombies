@@ -1,0 +1,13 @@
+// envmaptint_fix
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/metalwall001b"
+	"$surfaceprop" "metal"
+	"%keywords" "c17industrial"
+
+	"vertexlitgeneric_dx9"
+	{
+		"$bumpmap" "metal/metalwall018b_normal"
+	}
+
+}

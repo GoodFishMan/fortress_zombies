@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\static_fortifications\mog_wood_01"
+	"$surfaceprop" "wood"
+	"%keywords" "ins2" 
+}

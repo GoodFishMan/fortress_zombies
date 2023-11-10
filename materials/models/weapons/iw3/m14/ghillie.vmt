@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture" 	"models/weapons/iw3/m14/ghillie"
+      	"$bumpmap" 	"models/weapons/iw3/m14/ghillie_normal"
+	"$translucent" 	"1"
+}

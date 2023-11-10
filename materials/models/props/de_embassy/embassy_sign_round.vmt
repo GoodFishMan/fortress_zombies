@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\de_embassy\embassy_sign_round"
+$envmap env_cubemap
+$envmapmask "models\props\de_embassy\embassy_sign_round_ref"
+}

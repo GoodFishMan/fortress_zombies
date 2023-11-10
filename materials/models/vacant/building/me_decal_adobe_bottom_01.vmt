@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/vacant/building/bottom"
+	"$translucent" "1"
+	"$decal" "1"
+
+}

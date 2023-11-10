@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\crash\mog_metal_plates_01"
+	"$bumpmap" 					"models\crash\mog_metal_plates_01_normal"
+	"$nocull" 0
+	"$BasemapLuminancePhongMask" 	"1"
+	"$phong" 						"1"
+	"$phongexponent"				"40"
+	"$phongboost" 					"1"	
+	"$phongfresnelranges"			"[.75 .25 .5]"
+	"$phongtint"					"[1 1 1]"
+}
+
+

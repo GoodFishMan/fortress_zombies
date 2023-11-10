@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/weapons/iw3/ak47/camo_gold"
+	"$envmapmask"			"models/weapons/iw3/ak47/camo_gold_spec"
+	"$envmap"			"env_cubemap"
+	"$halflambert"			"1"
+	"$envmapcontrast"			"1"
+
+	"$detail"				"models/weapons/iw3/ak47/camo_gold_spec"
+	"$detailscale" 			"1"
+	"$detailblendfactor"			"1"
+	"$detailblendmode"			"1"
+}

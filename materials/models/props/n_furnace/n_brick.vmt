@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "n_brick"
+	"$bumpmap" "n_brick_nrm"
+	"$surfaceprop" "brick"
+}

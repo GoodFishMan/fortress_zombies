@@ -1,0 +1,372 @@
+"items"
+{
+	"9000"
+	{
+		"name"	"Gravity Gun"
+		"prefab"	"valve"
+		"item_class"	"tf_weapon_physcannon"
+		"craft_class"	"weapon"
+		"craft_material_type"	"weapon"
+		"capabilities"
+		{
+			"nameable"		"1"
+			"can_collect"	"1"
+		}
+		"tags"
+		{
+			"can_deal_damage"			"1"
+			"can_deal_critical_damage"	"1"
+			"can_deal_posthumous_damage"	"1"
+			"can_deal_long_distance_damage"	"1"
+			"can_deal_taunt_damage" "1"
+			"can_be_festivized"		"1"
+		}
+		"show_in_armory"	"1"
+		"item_type_name"	"#TF_Weapon_Physcannon"
+		"item_name"		"#TF_Weapon_Physcannon"
+		"item_logname"	"physcannon"
+		"item_iconname"	"physcannon"
+		"item_slot"	"action"
+		"item_quality"	"unique"
+		"propername"	"1"
+		"min_ilevel"	"99"
+		"max_ilevel"	"99"
+		"anim_slot" "secondary"
+		"inspect_panel_dist" "45"
+		"attach_to_hands"	"0"
+		"image_inventory"	"backpack/weapons/physcannon"
+		"image_inventory_size_w"		"128"
+		"image_inventory_size_h"		"82"
+		"model_player"		"models/weapons/v_physcannon.mdl"
+		"model_world"		"models/weapons/w_Physics.mdl"
+		"used_by_classes"
+		{
+			"scout"	"1"
+			"sniper"	"1"
+			"soldier"	"1"
+			"demoman"	"1"
+			"medic"	"1"
+			"heavy"	"1"
+			"pyro" "1"
+			"spy" "1"
+			"engineer" "1"
+			"mercenary"	"1"
+			"civilian"	"1"
+			"john"		"1"
+		}
+		"static_attrs"
+		{
+			"min_viewmodel_offset"					"10 -1 -3"
+		}
+		"attributes"
+		{
+			"special taunt"
+			{
+				"attribute_class"	"special_taunt"
+				"value" "1"
+			}
+		}
+		"visuals"
+		{
+			"sound_single_shot"		"Weapon_PhysCannon.Launch"
+			"sound_reload"			"Weapon_PhysCannon.Charge"
+			"sound_empty"			"Weapon_PhysCannon.DryFire"
+			"sound_melee_hit"		"Weapon_PhysCannon.CloseClaws"
+			"sound_melee_miss"		"Weapon_PhysCannon.Drop"
+			"sound_special1"		"Weapon_PhysCannon.Pickup"
+			"sound_special2"		"Weapon_PhysCannon.OpenClaws"
+			"sound_special3"		"Weapon_PhysCannon.TooHeavy"
+			"sound_burst"			"Weapon_PhysCannon.LaunchCrit"
+		}
+		"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+		"drop_sound"		"ui/item_heavy_gun_drop.wav"
+	}
+	"9001"
+	{
+		"name"	"Super Charged Gravity Gun"
+		"prefab"	"valve"
+		"item_class"	"tf_weapon_physcannon"
+		"craft_class"	"weapon"
+		"craft_material_type"	"weapon"
+		"capabilities"
+		{
+			"nameable"		"1"
+			"can_collect"	"1"
+		}
+		"tags"
+		{
+			"can_deal_damage"			"1"
+			"can_deal_critical_damage"	"1"
+			"can_deal_posthumous_damage"	"1"
+			"can_deal_long_distance_damage"	"1"
+			"can_deal_taunt_damage" "1"
+			"can_be_festivized"		"1"
+		}
+		"show_in_armory"	"1"
+		"item_type_name"	"#TF_Weapon_Physcannon"
+		"item_name"		"#TF_Weapon_Physcannon"
+		"item_logname"	"physcannon_mega"
+		"item_iconname"	"physcannon_mega"
+		"item_slot"	"action"
+		"item_quality"	"rarity4"
+		"propername"	"1"
+		"min_ilevel"	"99"
+		"max_ilevel"	"99"
+		"anim_slot" "secondary"
+		"inspect_panel_dist" "45"
+		"attach_to_hands"	"0"
+		"image_inventory"	"backpack/weapons/physcannon_mega"
+		"image_inventory_size_w"		"128"
+		"image_inventory_size_h"		"82"
+		"model_player"		"models/weapons/v_superphyscannon.mdl"
+		"model_world"		"models/weapons/w_Physics.mdl"
+		"used_by_classes"
+		{
+			"scout"	"1"
+			"sniper"	"1"
+			"soldier"	"1"
+			"demoman"	"1"
+			"medic"	"1"
+			"heavy"	"1"
+			"pyro" "1"
+			"spy" "1"
+			"engineer" "1"
+			"mercenary"	"1"
+			"civilian"	"1"
+			"john"		"1"
+		}
+		"static_attrs"
+		{
+			"min_viewmodel_offset"					"10 -1 -3"
+		}
+		"attributes"
+		{
+			"special taunt"
+			{
+				"attribute_class"	"special_taunt"
+				"value" "1"
+			}
+			"set physcannon mega"
+			{
+				"attribute_class" "set_weapon_mode"
+				"value" "1"
+			}
+			"damage bonus"
+			{
+				"attribute_class"	"mult_dmg"
+				"value"	"1.25"
+			}
+		}
+		"visuals"
+		{
+			"sound_single_shot"		"Weapon_MegaPhysCannon.Launch"
+			"sound_empty"			"Weapon_MegaPhysCannon.DryFire"
+			"sound_melee_miss"		"Weapon_MegaPhysCannon.Drop"
+			"sound_special1"		"Weapon_MegaPhysCannon.Pickup"
+			"sound_burst"			"Weapon_MegaPhysCannon.LaunchCrit"
+		}
+		"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+		"drop_sound"		"ui/item_heavy_gun_drop.wav"
+	}
+	"9002"
+	{
+		"name"	"Physics Gun"
+		"prefab"	"valve"
+		"item_class"	"tf_weapon_physgun"
+		"craft_class"	"weapon"
+		"craft_material_type"	"weapon"
+		"capabilities"
+		{
+			"nameable"		"1"
+			"can_collect"	"1"
+		}
+		"tags"
+		{
+			"can_deal_damage"			"1"
+			"can_deal_critical_damage"	"1"
+			"can_deal_posthumous_damage"	"1"
+			"can_deal_long_distance_damage"	"1"
+			"can_deal_taunt_damage" "1"
+			"can_be_festivized"		"1"
+		}
+		"show_in_armory"	"1"
+		"item_type_name"	"#TF_Weapon_Physgun"
+		"item_name"		"#TF_Weapon_Physgun"
+		"item_logname"	"physcannon"
+		"item_iconname"	"physcannon"
+		"item_slot"	"action"
+		"item_quality"	"developer"
+		"propername"	"1"
+		"min_ilevel"	"99"
+		"max_ilevel"	"99"
+		"anim_slot" "secondary"
+		"inspect_panel_dist" "45"
+		"image_inventory"	"backpack/weapons/physcannon_mega"
+		"image_inventory_size_w"		"128"
+		"image_inventory_size_h"		"82"
+		"attach_to_hands"	"0"
+		"model_player"		"models/weapons/v_superphyscannon.mdl"
+		"model_world"		"models/weapons/w_Physics.mdl"
+		"used_by_classes"
+		{
+		}
+		"static_attrs"
+		{
+			"min_viewmodel_offset"					"10 -1 -3"
+		}
+		"attributes"
+		{
+			"special taunt"
+			{
+				"attribute_class"	"special_taunt"
+				"value" "1"
+			}
+		}
+		"visuals"
+		{
+			"sound_single_shot"		"Weapon_Physgun.On"
+			"sound_reload"			"Weapon_Physgun.Off"
+			"sound_special1"		"Weapon_Physgun.Special1"
+		}
+		"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+		"drop_sound"		"ui/item_heavy_gun_drop.wav"
+	}
+	"9003"
+	{
+		"name"	"Portal Gun"
+		"prefab"	"valve"
+		"item_class"	"tf_weapon_portalgun"
+		"craft_class"	"weapon"
+		"craft_material_type"	"weapon"
+		"capabilities"
+		{
+			"nameable"		"1"
+			"can_collect"	"1"
+		}
+		"tags"
+		{
+			"can_deal_damage"			"1"
+			"can_deal_critical_damage"	"1"
+			"can_deal_posthumous_damage"	"1"
+			"can_deal_long_distance_damage"	"1"
+			"can_deal_taunt_damage" "1"
+			"can_be_festivized"		"1"
+		}
+		"show_in_armory"	"1"
+		"item_type_name"	"#TF_Weapon_Portalgun"
+		"item_name"		"#TF_Weapon_Portalgun"
+		"item_logname"	"skull"
+		"item_iconname"	"skull"
+		"item_slot"	"action"
+		"item_quality"	"unique"
+		"propername"	"1"
+		"min_ilevel"	"99"
+		"max_ilevel"	"99"
+		"anim_slot" "secondary"
+		"inspect_panel_dist" "45"
+		"attach_to_hands"	"0"
+		"image_inventory"	"backpack/weapons/portalgun"
+		"image_inventory_size_w"		"128"
+		"image_inventory_size_h"		"82"
+		"model_player"		"models/weapons/v_portalgun.mdl"
+		"model_world"		"models/weapons/w_portalgun_lfce.mdl"
+		"used_by_classes"
+		{
+		}
+		"static_attrs"
+		{
+			"min_viewmodel_offset"					"10 -1 -4"
+		}
+		"attributes"
+		{
+			"special taunt"
+			{
+				"attribute_class"	"special_taunt"
+				"value" "1"
+			}
+			"set portalgun mode"
+			{
+				"attribute_class" "set_weapon_mode"
+				"value" "1"
+			}
+		}
+		"visuals"
+		{
+			"sound_single_shot"			"Weapon_Portalgun.fire_blue"
+			"sound_double_shot"			"Weapon_Portalgun.fire_red"
+			"sound_single_shot_npc"		"Weapon_Portalgun.fire_blue_npc"
+			"sound_double_shot_npc"		"Weapon_Portalgun.fire_red_npc"
+		}
+		"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+		"drop_sound"		"ui/item_heavy_gun_drop.wav"
+	}
+	"9004"
+	{
+		"name"	"Portal Gun Upgrade"
+		"prefab"	"valve"
+		"item_class"	"tf_weapon_portalgun"
+		"craft_class"	"weapon"
+		"craft_material_type"	"weapon"
+		"capabilities"
+		{
+			"nameable"		"1"
+			"can_collect"	"1"
+		}
+		"tags"
+		{
+			"can_deal_damage"			"1"
+			"can_deal_critical_damage"	"1"
+			"can_deal_posthumous_damage"	"1"
+			"can_deal_long_distance_damage"	"1"
+			"can_deal_taunt_damage" "1"
+			"can_be_festivized"		"1"
+		}
+		"show_in_armory"	"1"
+		"item_type_name"	"#TF_Weapon_Portalgun"
+		"item_name"		"#TF_Weapon_Portalgun"
+		"item_logname"	"skull"
+		"item_iconname"	"skull"
+		"item_slot"	"action"
+		"item_quality"	"unique"
+		"propername"	"1"
+		"min_ilevel"	"99"
+		"max_ilevel"	"99"
+		"anim_slot" "secondary"
+		"inspect_panel_dist" "45"
+		"attach_to_hands"	"0"
+		"image_inventory"	"backpack/weapons/portalgun"
+		"image_inventory_size_w"		"128"
+		"image_inventory_size_h"		"82"
+		"model_player"		"models/weapons/v_portalgun.mdl"
+		"model_world"		"models/weapons/w_portalgun_lfce.mdl"
+		"used_by_classes"
+		{
+		}
+		"static_attrs"
+		{
+			"min_viewmodel_offset"					"10 -1 -4"
+		}
+		"attributes"
+		{
+			"special taunt"
+			{
+				"attribute_class"	"special_taunt"
+				"value" "1"
+			}
+			"set portalgun mode"
+			{
+				"attribute_class" "set_weapon_mode"
+				"value" "2"
+			}
+		}
+		"visuals"
+		{
+			"sound_single_shot"			"Weapon_Portalgun.fire_blue"
+			"sound_double_shot"			"Weapon_Portalgun.fire_red"
+			"sound_single_shot_npc"		"Weapon_Portalgun.fire_blue_npc"
+			"sound_double_shot_npc"		"Weapon_Portalgun.fire_red_npc"
+		}
+		"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+		"drop_sound"		"ui/item_heavy_gun_drop.wav"
+	}
+}

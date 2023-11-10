@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "bo1/nuketown/outside/~-gus_art_wall_vinylsiding_white_c"
+	"$surfaceprop" "wood_plank"
+                "$bumpmap"		"bo1/nuketown/outside/us_art_wall_vinylsiding_n"           
+}

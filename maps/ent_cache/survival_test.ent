@@ -1,0 +1,330 @@
+{
+"world_maxs" "0 1024 128"
+"world_mins" "-1024 0 0"
+"skyname" "sky_day01_01"
+"maxpropscreenwidth" "-1"
+"detailvbsp" "detail.vbsp"
+"detailmaterial" "detail/detailsprites"
+"classname" "worldspawn"
+"mapversion" "11"
+"hammerid" "1"
+}
+{
+"origin" "-768 528 32"
+"targetname" "gamerules"
+"spawnflags" "0"
+"ropes_holiday_lights_allowed" "0"
+"ctf_overtime" "0"
+"classname" "tf_gamerules"
+"hammerid" "8"
+}
+{
+"origin" "-960 512 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "16"
+}
+{
+"origin" "-896 512 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "21"
+}
+{
+"origin" "-896 448 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "23"
+}
+{
+"origin" "-960 448 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "25"
+}
+{
+"origin" "-960 320 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "27"
+}
+{
+"origin" "-896 384 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "29"
+}
+{
+"origin" "-896 320 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "31"
+}
+{
+"origin" "-960 384 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "33"
+}
+{
+"origin" "-960 192 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "43"
+}
+{
+"origin" "-896 256 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "45"
+}
+{
+"origin" "-896 192 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "47"
+}
+{
+"origin" "-960 256 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "49"
+}
+{
+"origin" "-960 64 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "51"
+}
+{
+"origin" "-896 128 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "53"
+}
+{
+"origin" "-896 64 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "55"
+}
+{
+"origin" "-960 128 16"
+"angles" "0 0 0"
+"classname" "item_currencypack_large"
+"hammerid" "57"
+}
+{
+"origin" "-768 560 32"
+"targetname" "mvm"
+"classname" "tf_logic_mann_vs_machine"
+"hammerid" "173"
+}
+{
+"origin" "-769.633 128 8"
+"TeamNum" "2"
+"targetname" "teamspawn_red"
+"spawnflags" "511"
+"angles" "0 90 0"
+"classname" "info_player_teamspawn"
+"hammerid" "65"
+}
+{
+"origin" "-705.633 128 8"
+"TeamNum" "2"
+"targetname" "teamspawn_red"
+"spawnflags" "511"
+"angles" "0 90 0"
+"classname" "info_player_teamspawn"
+"hammerid" "67"
+}
+{
+"origin" "-641.633 128 8"
+"TeamNum" "2"
+"targetname" "teamspawn_red"
+"spawnflags" "511"
+"angles" "0 90 0"
+"classname" "info_player_teamspawn"
+"hammerid" "69"
+}
+{
+"origin" "-640 192 8"
+"TeamNum" "2"
+"targetname" "teamspawn_red"
+"spawnflags" "511"
+"angles" "0 90 0"
+"classname" "info_player_teamspawn"
+"hammerid" "71"
+}
+{
+"origin" "-704 192 8"
+"TeamNum" "2"
+"targetname" "teamspawn_red"
+"spawnflags" "511"
+"angles" "0 90 0"
+"classname" "info_player_teamspawn"
+"hammerid" "73"
+}
+{
+"origin" "-768 192 8"
+"TeamNum" "2"
+"targetname" "teamspawn_red"
+"spawnflags" "511"
+"angles" "0 90 0"
+"classname" "info_player_teamspawn"
+"hammerid" "75"
+}
+{
+"origin" "-768 544 8"
+"spawnflags" "1"
+"classname" "logic_auto"
+"hammerid" "210"
+}
+{
+"origin" "-584 897.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot_invasion"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "79"
+}
+{
+"origin" "-195.265 897.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "81"
+}
+{
+"origin" "-131.265 897.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "83"
+}
+{
+"origin" "-65.6326 896 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "85"
+}
+{
+"origin" "-64 960 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "87"
+}
+{
+"origin" "-129.633 961.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "89"
+}
+{
+"origin" "-193.633 961.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "91"
+}
+{
+"origin" "-257.633 961.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "93"
+}
+{
+"origin" "-336 872 8"
+"TeamNum" "3"
+"Negated" "Allow entities that match criteria"
+"classname" "filter_activator_tfteam"
+"hammerid" "273"
+}
+{
+"model" "*1"
+"TeamNum" "3"
+"StartDisabled" "0"
+"classname" "func_respawnroom"
+"hammerid" "281"
+}
+{
+"origin" "-704 544 8"
+"targetname" "InitWaveOutput"
+"spawnflags" "0"
+"classname" "logic_relay"
+"hammerid" "295"
+}
+{
+"origin" "-704 520 8"
+"targetname" "StartWaveOutput"
+"classname" "logic_relay"
+"hammerid" "297"
+}
+{
+"origin" "-248 788 6.67174"
+"trail_effect" "1"
+"TeamNum" "3"
+"ReturnTime" "60"
+"ReturnBetweenWaves" "1"
+"NeutralType" "1"
+"GameType" "1"
+"flag_trail" "flagtrail"
+"flag_paper" "player_intel_papertrail"
+"flag_model" "models/flag/briefcase.mdl"
+"flag_icon" "../hud/objectives_flagpanel_carried"
+"angles" "0 0 0"
+"classname" "item_teamflag"
+"hammerid" "367"
+}
+{
+"origin" "-800 897.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot_mission_sniper"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "376"
+}
+{
+"origin" "-840 897.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot_mission_spy"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "380"
+}
+{
+"origin" "-880 897.632 8"
+"TeamNum" "3"
+"targetname" "spawnbot_mission_sentrybuster"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "383"
+}
+{
+"origin" "-704 496 8"
+"targetname" "DoneOutput"
+"classname" "logic_relay"
+"hammerid" "392"
+}

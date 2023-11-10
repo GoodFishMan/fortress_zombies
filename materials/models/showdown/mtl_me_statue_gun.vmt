@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/showdown/statue_gun_col"
+	"$surfaceprop" "metal"
+}

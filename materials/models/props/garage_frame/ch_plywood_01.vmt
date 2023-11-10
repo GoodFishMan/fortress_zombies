@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "cod4/wood/ch_plywood_01"
+	"$surfaceprop" "wood_solid"
+}

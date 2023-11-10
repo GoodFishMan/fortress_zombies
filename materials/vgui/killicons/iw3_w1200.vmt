@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/killicons/iw3_w1200"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+	"$translucent"	"1"
+	"$additive"	"1"
+}

@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\player\shared\yellow_invun.vmt"
+	
+	insert
+	{
+	"$baseTexture" "models\player\playermodels\gordon\characters\gordon\gordon_d_yellow_uber"
+	}
+}

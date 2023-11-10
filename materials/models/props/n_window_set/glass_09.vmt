@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "realworldtextures2\glass\glass_09"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.7 .7 .7]"
+} //realworld textures version 2 - made by tophattwaffle - please credit me if used! - contact: www.tophattwaffle.com

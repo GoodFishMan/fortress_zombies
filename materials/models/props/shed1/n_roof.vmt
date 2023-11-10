@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "n_roof"
+	"$bumpmap" "n_roof_nrm"
+	"$surfaceprop" "wood_solid"
+}

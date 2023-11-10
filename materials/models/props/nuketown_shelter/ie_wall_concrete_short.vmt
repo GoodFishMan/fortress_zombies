@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "ie_wall_concrete_short"
+	"$bumpmap" "ie_wall_concrete_short_nrm"
+	"$surfaceprop" "concrete"
+}

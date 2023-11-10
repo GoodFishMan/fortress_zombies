@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\hands\viewhands_sas_woodland\h2_vm_tf141_col"
+	"$bumpmap" "models\hands\viewhands_sas_woodland\h2_vm_tf141_nml"
+	"$phongexponenttexture" "models\viewhands_sas_woodland\h2_vm_tf141_exp"
+	"$translucent" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "25"		
+	"$phongfresnelranges"	"[0.2 0.5 0.7]"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$rimlight"               "1"
+	"$rimlightexponent"	"1"
+	"$rimlightboost"          "1"
+}

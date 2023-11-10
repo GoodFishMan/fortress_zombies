@@ -1,0 +1,951 @@
+// Channels
+//	CHAN_AUTO		= 0,
+//	CHAN_WEAPON		= 1,
+//	CHAN_VOICE		= 2,
+//	CHAN_ITEM		= 3,
+//	CHAN_BODY		= 4,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+// VO
+
+// ------------------------------------------------------------------------------------ //
+// Rangers SOUNDS 
+// ------------------------------------------------------------------------------------ //
+
+"Rangers.Sniper01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	        		"vo/rangers/sniper1.wav"
+}
+"Rangers.Clear01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/clear1.wav"
+}
+"Rangers.Right01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/right1.wav"
+}
+"Rangers.Left01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/left1.wav"
+}
+"Rangers.go01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/go1.wav"
+}
+"Rangers.go02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/go2.wav"
+}
+"Rangers.go03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/go3.wav"
+}
+"Rangers.go04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/go4.wav"
+}
+"Rangers.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/hit1.wav"
+}
+"Rangers.ManDown01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/down1.wav"
+}
+"Rangers.ManDown02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/down2.wav"
+}
+"Rangers.ManDown03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/down3.wav"
+}
+"Rangers.ManDown04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/down4.wav"
+}
+"Rangers.ManDown05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/down5.wav"
+}
+"Rangers.ManDown06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/down6.wav"
+}
+"Rangers.Yes01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes1.wav"
+}
+"Rangers.Yes02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes2.wav"
+}
+"Rangers.Yes03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes3.wav"
+}
+"Rangers.Yes04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes3.wav"
+}
+"Rangers.Yes04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes4.wav"
+}
+"Rangers.Yes05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes5.wav"
+}
+"Rangers.Yes06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes6.wav"
+}
+"Rangers.Yes07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes7.wav"
+}
+"Rangers.Yes08"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/yes8.wav"
+}
+"Rangers.Incoming01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact1.wav"
+}
+"Rangers.Incoming02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact2.wav"
+}
+"Rangers.Incoming03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact3.wav"
+}
+"Rangers.Incoming04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact4.wav"
+}
+"Rangers.Incoming05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact5.wav"
+}
+"Rangers.Incoming06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact6.wav"
+}
+"Rangers.Incoming07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact7.wav"
+}
+"Rangers.Incoming08"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact8.wav"
+}
+"Rangers.Incoming09"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact9.wav"
+}
+"Rangers.Help01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/takingfire1.wav"
+}
+"Rangers.Help02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/takingfire2.wav"
+}
+"Rangers.Help03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/takingfire3.wav"
+}
+"Rangers.Cheers01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscheers01.wav"
+}
+"Rangers.Cheers02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscheers02.wav"
+}
+"Rangers.Cheers03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscheers03.wav"
+}
+"Rangers.Cheers04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscheers04.wav"
+}
+"Rangers.Cheers05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscheers05.wav"
+}
+"Rangers.Cheers06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscheers06.wav"
+}
+"Rangers.Positive01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspositive01.wav"
+}
+"Rangers.Positive02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspositive02.wav"
+}
+"Rangers.Positive03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspositive03.wav"
+}
+"Rangers.Positive04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspositive04.wav"
+}
+"Rangers.Positive05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspositive05.wav"
+}
+"Rangers.Positive06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspositive06.wav"
+}
+"Rangers.Negative01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative01.wav"
+}
+"Rangers.Negative02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative02.wav"
+}
+"Rangers.Negative03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative03.wav"
+}
+"Rangers.Negative04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative04.wav"
+}
+"Rangers.Negative05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative05.wav"
+}
+"Rangers.Negative06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative06.wav"
+}
+"Rangers.Negative07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersnegative07.wav"
+}
+"Rangers.NiceShot01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/niceshot1.wav"
+}
+"Rangers.Thanks01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersthanks01.wav"
+}
+"Rangers.Thanks02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersthanks02.wav"
+}
+"Rangers.Thanks03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersthanks03.wav"
+}
+"Rangers.CapturedPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspointcap01.wav"
+}
+"Rangers.CapturedPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspointcap02.wav"
+}
+"Rangers.CapturedPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspointcap03.wav"
+}
+"Rangers.CapturedPoint04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerspointcap04.wav"
+}
+"Rangers.LostPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerslosepoint01.wav"
+}
+"Rangers.LostPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerslosepoint02.wav"
+}
+"Rangers.LostPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerslosepoint03.wav"
+}
+"Rangers.LostPoint04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerslosepoint04.wav"
+}
+"Rangers.Jeers01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers01.wav"
+}
+"Rangers.Jeers02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers02.wav"
+}
+"Rangers.Jeers03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers03.wav"
+}
+"Rangers.Jeers04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers04.wav"
+}
+"Rangers.Jeers05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers05.wav"
+}
+"Rangers.Jeers06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers06.wav"
+}
+"Rangers.Jeers07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersjeers07.wav"
+}
+"Rangers.Domination01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination01.wav"
+}
+"Rangers.Domination02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination02.wav"
+}
+"Rangers.Domination03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination03.wav"
+}
+"Rangers.Domination04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination04.wav"
+}
+"Rangers.Domination05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination05.wav"
+}
+"Rangers.Domination06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination06.wav"
+}
+"Rangers.Domination07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination07.wav"
+}
+"Rangers.Domination08"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination08.wav"
+}
+"Rangers.Domination01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersdomination01.wav"
+}
+"Rangers.Headcrab01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersheadcrabs01.wav"
+}
+"Rangers.Headcrab02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersheadcrabs02.wav"
+}
+"Rangers.Trap01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerstrap01.wav"
+}
+"Rangers.Trap02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerstrap02.wav"
+}
+"Rangers.Ammo01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersammo01.wav"
+}
+"Rangers.Ammo02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersammo02.wav"
+}
+"Rangers.Ammo03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersammo03.wav"
+}
+"Rangers.Ammo04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersammo04.wav"
+}
+"Rangers.Ammo05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersammo05.wav"
+}
+"Rangers.Health01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangershealth01.wav"
+}
+"Rangers.Health02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangershealth02.wav"
+}
+"Rangers.Health03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangershealth03.wav"
+}
+"Rangers.Health04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangershealth04.wav"
+}
+"Rangers.Health05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangershealth05.wav"
+}
+"Rangers.No01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/no1.wav"
+}
+"Rangers.Contact01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact1.wav"
+}
+"Rangers.Contact02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact2.wav"
+}
+"Rangers.Contact03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact3.wav"
+}
+"Rangers.Contact04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact4.wav"
+}
+"Rangers.Contact05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact5.wav"
+}
+"Rangers.Contact06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact6.wav"
+}
+"Rangers.Contact07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact7.wav"
+}
+"Rangers.Contact08"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact8.wav"
+}
+"Rangers.Contact09"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/contact9.wav"
+}
+"Rangers.Combine01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscombine01.wav"
+}
+"Rangers.Combine02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerscombine02.wav"
+}
+"Rangers.Strider01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangersstrider01.wav"
+}
+"Rangers.Zombie01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerszombies01.wav"
+}
+"Rangers.Zombie02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "player/Rangers/Rangerszombies02.wav"
+}
+"Rangers.Kill01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill1.wav"
+}
+"Rangers.Kill02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill2.wav"
+}
+"Rangers.Kill03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill3.wav"
+}
+"Rangers.Kill04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill4.wav"
+}
+"Rangers.Kill05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill5.wav"
+}
+"Rangers.Kill06"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill6.wav"
+}
+"Rangers.Kill07"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill7.wav"
+}
+"Rangers.Kill08"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill8.wav"
+}
+"Rangers.Kill09"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/kill9.wav"
+}
+
+
+"Rangers.GrenadeThrow01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/frag1.wav"
+}
+"Rangers.GrenadeThrow02"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/frag2.wav"
+}
+"Rangers.GrenadeThrow03"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/frag3.wav"
+}
+"Rangers.GrenadeThrow04"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/frag4.wav"
+}
+"Rangers.GrenadeThrow05"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "vo/rangers/frag5.wav"
+}
+
+"Rangers.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	        "vo/rangers/death1.wav"
+	"wave"	        "vo/rangers/death2.wav"
+	"wave"	        "vo/rangers/death3.wav"
+	"wave"	        "vo/rangers/death4.wav"
+	"wave"	        "vo/rangers/death5.wav"
+	"wave"	        "vo/rangers/death6.wav"
+	"wave"	        "vo/rangers/death7.wav"
+	"wave"	        "vo/rangers/death8.wav"
+}
+"Rangers.Hurt"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_IDLE"
+	"volume"		"VOL_NORM"
+	"wave"	        "vo/rangers/hurt1.wav"
+	"wave"	        "vo/rangers/hurt2.wav"
+	"wave"	        "vo/rangers/hurt3.wav"
+	"wave"	        "vo/rangers/hurt4.wav"
+	"wave"	        "vo/rangers/hurt5.wav"
+	"wave"	        "vo/rangers/hurt6.wav"
+	"wave"	        "vo/rangers/hurt7.wav"
+}
+
+
+
+// ------------------------------------------------------------------------------------ //
+// END OF Rangers SOUNDS 
+// ------------------------------------------------------------------------------------ //
+
+
+// ------------------------------------------------------------------------------------ //
+// SAXTON SOUNDS 
+// ------------------------------------------------------------------------------------ //
+
+"saxton.LaugherBigSnort01"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"		"VOL_NORM"
+	"wave"	                "mvm/saxton_hale_by_matthew_simmons/laugh_01.mp3"
+}
+
+// ------------------------------------------------------------------------------------ //
+// END OF SAXTON SOUNDS 
+// ------------------------------------------------------------------------------------ //
