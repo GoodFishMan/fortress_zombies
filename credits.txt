@@ -277,3 +277,95 @@
 
 	La Résistance
 	https://steamcommunity.com/sharedfiles/filedetails/?id=2808036887
+
+-------------------------------------------------------
+	CREDITS (FRONTLINE)
+--------------------------------------------------------
+	
+	Populus: aa_battery_skybox.mdl, aa_battery.mdl, aa_gun_skybox.mdl, aa_gun.mdl
+
+	Colteh (Model), SediSocks (Texture): air_raid_siren.mdl
+
+	Zoey (Model), SediSocks (Texture): ammocrate_1.mdl, ammocrate_2.mdl
+
+	SediSocks: awning_128_corner_skybox.mdl, awning_128_corner.mdl, awning_128_skybox.mdl, awning_128.mdl, awning_256_corner_skybox.mdl, awning_256_corner.mdl, awning_256_skybox.mdl, awning_256.mdl
+
+	Bapaul: barbed_wire_curve_left.mdl, barbed_wire_curve_right.mdl, barbed_wire_left_mir.mdl, barbed_wire_left.mdl, barbed_wire_mid_128.mdl, barbed_wire_mid_256.mdl, barbed_wire_mid_mir_128.mdl, barbed_wire_mid_mir_256.mdl, barbed_wire_mid_mir.mdl, barbed_wire_mid.mdl, barbed_wire_right_mir.mdl, barbed_wire_right.mdl
+
+	Zoey: barricade.mdl
+
+	SediSocks (Model), Void (Texture): barrier_down.mdl, barrier_up.mdl
+
+	SediSocks: beach_defense_skybox.mdl, beach_defense.mdl
+
+	Bapaul: boeing_b17_air_skybox.mdl, boeing_b17_air.mdl, boeing_b17_ground_skybox.mdl, boeing_b17_ground.mdl
+
+	Zoey: bunkerladder_long.mdl, bunkerladder_medium.mdl, bunkerladder_short.mdl, concrete_barrier_damaged_2.mdl, concrete_barrier_damaged.mdl, concrete_barrier_door.mdl, concrete_barrier.mdl, corrugated_bunker_128.mdl, corrugated_bunker_32.mdl, corrugated_bunker_64.mdl, corrugated_bunker_end.mdl, crate_tarp_1.mdl, crate_tarp_2_short.mdl, crate_tarp_2_tall.mdl
+
+	Sky: chedgehog_1.mdl
+
+	Ryan, Badger, Donhonk: daimler_turret_skybox.mdl, daimler_turret.mdl
+
+	Donhonk, Void: dragonteeth_a_damaged.mdl, dragonteeth_a.mdl, dragonteeth_b_damaged.mdl, dragonteeth_b.mdl
+
+	Populus, Zoey: drop_crate.mdl
+
+	SediSocks, Void (Concept): flagpole_animated.mdl, flagpole.mdl
+
+	Neodement, Void (concept): frontline_console01.mdl
+frontline_console02.mdl
+frontline_console03.mdl
+frontline_console04.mdl
+	Zoey: gasmaskcan.mdl
+
+	Zoey (Model), Badgerpig (Texture): generator.mdl
+generic_locker_door.mdl
+generic_locker_long_closed_2.mdl
+generic_locker_long_closed.mdl
+generic_locker_long_open.mdl
+generic_locker_short_closed_2.mdl
+generic_locker_short_closed.mdl
+generic_locker_short_open.mdl
+
+	Donhonk, Void (Textures), Square (Butcher Sign): hangingsign_curve.mdl
+hangingsign_nocurve.mdl
+
+	Zoey, Square (Concept): hedge_128_short.mdl
+hedge_128.mdl
+hedge_arch.mdl
+hedge_curve_short.mdl
+hedge_curve.mdl
+hedge_end_short.mdl
+hedge_end.mdl
+hedge_rightangle_short.mdl
+hedge_rightangle.mdl
+
+	Populus:
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
