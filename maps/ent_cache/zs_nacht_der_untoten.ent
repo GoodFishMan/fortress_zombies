@@ -7,7 +7,7 @@
 "detailmaterial" "detail/detailsprites"
 "chaptertitle" "Nacht der Untoten"
 "classname" "worldspawn"
-"mapversion" "322"
+"mapversion" "334"
 "hammerid" "1"
 }
 {
@@ -170,29 +170,6 @@
 "hammerid" "516442"
 }
 {
-"model" "*8"
-"wait" "1"
-"unlocked_sound" "0"
-"unlocked_sentence" "0"
-"speed" "1"
-"spawnflags" "1025"
-"sounds" "0"
-"rendermode" "0"
-"renderfx" "0"
-"rendercolor" "255 255 255"
-"renderamt" "255"
-"origin" "466.98 241.13 33.12"
-"movedir" "0 0 0"
-"locked_sound" "0"
-"locked_sentence" "0"
-"lip" "0"
-"health" "0"
-"disablereceiveshadows" "0"
-"classname" "func_button"
-"hammerid" "510986"
-"OnPressed" "wall_weapon_merchant_3,Purchase,,0,-1"
-}
-{
 "origin" "1174 -1015 58"
 "TeamNum" "0"
 "targetname" "wall_weapon_giver_2"
@@ -320,36 +297,26 @@
 "hammerid" "516338"
 }
 {
-"origin" "472 239 58"
-"textcolor" "255 255 255"
-"spawnflags" "0"
-"radius" "128"
-"message" "Buy Shotgun  for 500 points"
-"developeronly" "0"
-"classname" "point_message"
-"hammerid" "510977"
+"origin" "119.598 -1097.11 48"
+"targetname" "zombspawn"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "522178"
 }
 {
-"origin" "456 239 76"
-"targetname" "wall_weapon_merchant_3"
-"StartDisabled" "0"
-"purchasesound" "zomb/accept.wav"
-"PurchaseName" "Bought Shotgun"
-"MaxPointsTake" "0"
-"IsShared" "0"
-"CostOf" "500"
-"AnnounceCashNeeded" "1"
-"classname" "logic_merchant_relay"
-"hammerid" "510975"
-"OnPurchased" "wall_weapon_template_3,ForceSpawn,,0,-1"
+"origin" "360 136 219.567"
+"nodeid" "217"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "521949"
 }
 {
-"origin" "488 239 76"
-"Template01" "wall_weapon_giver_3"
-"targetname" "wall_weapon_template_3"
-"spawnflags" "2"
-"classname" "point_template"
-"hammerid" "510973"
+"origin" "456 -16 219.567"
+"nodeid" "218"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "521951"
 }
 {
 "origin" "4032 1456 1032"
@@ -406,7 +373,7 @@
 "hammerid" "505425"
 }
 {
-"model" "*9"
+"model" "*8"
 "wait" "1"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -437,7 +404,7 @@
 "hammerid" "499297"
 }
 {
-"origin" "-896 -216 16.251"
+"origin" "-896 -216 22.9084"
 "nodeid" "92"
 "angles" "0 0 0"
 "classname" "info_node"
@@ -508,7 +475,7 @@
 "hammerid" "365669"
 }
 {
-"model" "*10"
+"model" "*9"
 "vrad_brush_cast_shadows" "0"
 "targetname" "firstdoor"
 "StartDisabled" "0"
@@ -570,7 +537,7 @@
 "OnAllLiveChildrenDead" "wave12_end_text,Display,,0,-1"
 }
 {
-"model" "*11"
+"model" "*10"
 "wait" "3"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -626,7 +593,7 @@
 "OnPurchased" "stairway1_clip_1,Disable,,0,-1"
 }
 {
-"model" "*12"
+"model" "*11"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stairway1_clip"
 "StartDisabled" "0"
@@ -666,7 +633,7 @@
 "hammerid" "81692"
 }
 {
-"model" "*13"
+"model" "*12"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stairway1_clip2"
 "StartDisabled" "0"
@@ -807,7 +774,7 @@
 "MaxPointsTake" "0"
 "IsShared" "0"
 "CostType" "0"
-"CostOf" "50"
+"CostOf" "750"
 "AnnounceCashNeeded" "1"
 "classname" "logic_merchant_relay"
 "hammerid" "359787"
@@ -816,20 +783,20 @@
 "OnPurchased" "door1_button,Kill,,0,-1"
 }
 {
-"model" "*14"
-"wait" "3"
+"model" "*13"
+"wait" "1"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
 "targetname" "door1_button"
 "speed" "5"
-"spawnflags" "1024"
+"spawnflags" "1025"
 "sounds" "0"
 "rendermode" "0"
 "renderfx" "0"
 "renderdist" "0"
 "rendercolor" "255 255 255"
 "renderamt" "255"
-"origin" "965.02 -191.39 70.04"
+"origin" "968 -194.01 66.08"
 "movedir" "0 0 0"
 "locked_sound" "0"
 "locked_sentence" "0"
@@ -878,7 +845,7 @@
 "hammerid" "435773"
 }
 {
-"model" "*15"
+"model" "*14"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stairway1_clip"
 "StartDisabled" "0"
@@ -1191,7 +1158,7 @@
 "OnAllLiveChildrenDead" "wave11_end_text,Display,,0,-1"
 }
 {
-"model" "*16"
+"model" "*15"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -1313,7 +1280,7 @@
 "targetname" "wall_weapon_merchant_2"
 "StartDisabled" "0"
 "purchasesound" "zomb/accept.wav"
-"PurchaseName" "Bought Tommy gun"
+"PurchaseName" "Bought Supershot gun"
 "MaxPointsTake" "0"
 "IsShared" "0"
 "CostOf" "1200"
@@ -1663,16 +1630,11 @@
 "hammerid" "365695"
 }
 {
-"origin" "472 229 60"
-"spawnflags" "0"
-"_zero_percent_distance" "100"
-"_quadratic_attn" "1"
-"_lightscaleHDR" "1"
-"_lightHDR" "-1 -1 -1 1"
-"_light" "45 139 255 20"
-"_fifty_percent_distance" "60"
-"classname" "light"
-"hammerid" "510979"
+"origin" "-440 -200 11.9367"
+"nodeid" "220"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "521955"
 }
 {
 "origin" "946.957 -271.823 6.4671"
@@ -2186,12 +2148,12 @@
 "TeamNum" "0"
 "targetname" "zomb"
 "StartDisabled" "0"
-"spawnflags" "2052"
+"spawnflags" "2564"
 "rendercolor" "255 255 255"
 "renderamt" "255"
 "physdamagescale" "1.0"
 "angles" "0 0 0"
-"classname" "npc_zombie_fc"
+"classname" "npc_infected"
 "hammerid" "435628"
 "OnDamaged" "logic_currencymanager,GiveCurrency,10,0,-1"
 "OnDeath" "logic_currencymanager,GiveCurrency,60,0,-1"
@@ -2353,7 +2315,7 @@
 "OnAllLiveChildrenDead" "wave15_end_text,Display,,0,-1"
 }
 {
-"model" "*17"
+"model" "*16"
 "wait" "3"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -2853,7 +2815,7 @@
 "hammerid" "488354"
 }
 {
-"model" "*18"
+"model" "*17"
 "wait" "10"
 "unlocked_sentence" "0"
 "targetname" "mysbox_lid"
@@ -3004,7 +2966,7 @@
 "hammerid" "435701"
 }
 {
-"model" "*19"
+"model" "*18"
 "wait" "3"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -3027,51 +2989,11 @@
 "OnPressed" "radio,PlaySound,,0,-1"
 }
 {
-"origin" "472 223 58"
-"TeamNum" "0"
-"targetname" "wall_weapon_giver_3"
-"StartDisabled" "0"
-"spawnflags" "0"
-"minplayerstospawn" "0"
-"itemid" "9736"
-"fadescale" "1"
-"fademindist" "-1"
-"fademaxdist" "0"
-"atv9" "0"
-"atv8" "0"
-"atv7" "0"
-"atv6" "0"
-"atv5" "0"
-"atv4" "0"
-"atv3" "0"
-"atv2" "0"
-"atv16" "0"
-"atv15" "0"
-"atv14" "0"
-"atv13" "0"
-"atv12" "0"
-"atv11" "0"
-"atv10" "0"
-"atv1" "0"
-"at9" "0"
-"at8" "0"
-"at7" "0"
-"at6" "0"
-"at5" "0"
-"at4" "0"
-"at3" "0"
-"at2" "0"
-"at16" "0"
-"at15" "0"
-"at14" "0"
-"at13" "0"
-"at12" "0"
-"at11" "0"
-"at10" "0"
-"at1" "0"
-"angles" "0 89 0"
-"classname" "lfe_weapon_custom"
-"hammerid" "510984"
+"origin" "-360 40 11.5674"
+"nodeid" "219"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "521953"
 }
 {
 "origin" "480 -32 8"
@@ -3081,7 +3003,7 @@
 "hammerid" "488303"
 }
 {
-"origin" "-1024 -224 13.8244"
+"origin" "-1024 -224 20.4818"
 "nodeid" "93"
 "angles" "0 0 0"
 "classname" "info_node"
@@ -3602,7 +3524,7 @@
 "hammerid" "250051"
 }
 {
-"model" "*20"
+"model" "*19"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -3621,7 +3543,7 @@
 "hammerid" "262622"
 }
 {
-"model" "*21"
+"model" "*20"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -3640,7 +3562,7 @@
 "hammerid" "262628"
 }
 {
-"model" "*22"
+"model" "*21"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -3659,7 +3581,7 @@
 "hammerid" "262700"
 }
 {
-"model" "*23"
+"model" "*22"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -3678,7 +3600,7 @@
 "hammerid" "262706"
 }
 {
-"model" "*24"
+"model" "*23"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -3697,7 +3619,7 @@
 "hammerid" "263640"
 }
 {
-"model" "*25"
+"model" "*24"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5066,7 +4988,7 @@
 "hammerid" "36412"
 }
 {
-"model" "*26"
+"model" "*25"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5088,15 +5010,15 @@
 "origin" "4176 1904 1056"
 "targetname" "ai_think"
 "StartDisabled" "0"
-"spawnflags" "0"
-"RefireTime" "2"
+"spawnflags" "4"
+"RefireTime" "4"
 "classname" "logic_timer"
 "hammerid" "499036"
 "OnTimer" "aiscripted_schedule,StartSchedule,,0,-1"
 "OnTimer" "ai_think,ResetTimer,,0,-1"
 }
 {
-"model" "*27"
+"model" "*26"
 "vrad_brush_cast_shadows" "0"
 "targetname" "stairway1_clip_1"
 "StartDisabled" "0"
@@ -5210,7 +5132,7 @@
 "hammerid" "365689"
 }
 {
-"model" "*28"
+"model" "*27"
 "wait" "3"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -5235,7 +5157,7 @@
 "OnPressed" "stairway1_merchant,Purchase,,0,-1"
 }
 {
-"model" "*29"
+"model" "*28"
 "team_startcap_4" "1"
 "team_startcap_3" "1"
 "team_startcap_2" "1"
@@ -5256,7 +5178,7 @@
 "hammerid" "53161"
 }
 {
-"model" "*30"
+"model" "*29"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "50"
@@ -5273,7 +5195,7 @@
 "hammerid" "54046"
 }
 {
-"model" "*31"
+"model" "*30"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5290,7 +5212,7 @@
 "hammerid" "54056"
 }
 {
-"model" "*32"
+"model" "*31"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5307,7 +5229,7 @@
 "hammerid" "54060"
 }
 {
-"model" "*33"
+"model" "*32"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5324,7 +5246,7 @@
 "hammerid" "54064"
 }
 {
-"model" "*34"
+"model" "*33"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5341,7 +5263,7 @@
 "hammerid" "54068"
 }
 {
-"model" "*35"
+"model" "*34"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5358,7 +5280,7 @@
 "hammerid" "54072"
 }
 {
-"model" "*36"
+"model" "*35"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "50"
@@ -5375,7 +5297,7 @@
 "hammerid" "54076"
 }
 {
-"model" "*37"
+"model" "*36"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "50"
@@ -5392,7 +5314,7 @@
 "hammerid" "54088"
 }
 {
-"model" "*38"
+"model" "*37"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5409,7 +5331,7 @@
 "hammerid" "54094"
 }
 {
-"model" "*39"
+"model" "*38"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5426,7 +5348,7 @@
 "hammerid" "54098"
 }
 {
-"model" "*40"
+"model" "*39"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5443,7 +5365,7 @@
 "hammerid" "54102"
 }
 {
-"model" "*41"
+"model" "*40"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5460,7 +5382,7 @@
 "hammerid" "54106"
 }
 {
-"model" "*42"
+"model" "*41"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -5477,7 +5399,7 @@
 "hammerid" "54110"
 }
 {
-"model" "*43"
+"model" "*42"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "50"
@@ -5494,7 +5416,7 @@
 "hammerid" "54116"
 }
 {
-"model" "*44"
+"model" "*43"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "50"
@@ -5511,7 +5433,7 @@
 "hammerid" "54120"
 }
 {
-"model" "*45"
+"model" "*44"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "50"
@@ -5631,7 +5553,7 @@
 "hammerid" "59763"
 }
 {
-"model" "*46"
+"model" "*45"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5646,7 +5568,7 @@
 "hammerid" "62933"
 }
 {
-"model" "*47"
+"model" "*46"
 "spawnflags" "0"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
@@ -5662,7 +5584,7 @@
 "hammerid" "62935"
 }
 {
-"model" "*48"
+"model" "*47"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5677,7 +5599,7 @@
 "hammerid" "62941"
 }
 {
-"model" "*49"
+"model" "*48"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5692,7 +5614,7 @@
 "hammerid" "62953"
 }
 {
-"model" "*50"
+"model" "*49"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5707,7 +5629,7 @@
 "hammerid" "62961"
 }
 {
-"model" "*51"
+"model" "*50"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5722,7 +5644,7 @@
 "hammerid" "62975"
 }
 {
-"model" "*52"
+"model" "*51"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5737,7 +5659,7 @@
 "hammerid" "63021"
 }
 {
-"model" "*53"
+"model" "*52"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5756,7 +5678,7 @@
 "hammerid" "63110"
 }
 {
-"model" "*54"
+"model" "*53"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5775,7 +5697,7 @@
 "hammerid" "63212"
 }
 {
-"model" "*55"
+"model" "*54"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5794,7 +5716,7 @@
 "hammerid" "63287"
 }
 {
-"model" "*56"
+"model" "*55"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5813,7 +5735,7 @@
 "hammerid" "63319"
 }
 {
-"model" "*57"
+"model" "*56"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5832,7 +5754,7 @@
 "hammerid" "63371"
 }
 {
-"model" "*58"
+"model" "*57"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5851,7 +5773,7 @@
 "hammerid" "63392"
 }
 {
-"model" "*59"
+"model" "*58"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5870,7 +5792,7 @@
 "hammerid" "63413"
 }
 {
-"model" "*60"
+"model" "*59"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -5895,7 +5817,7 @@
 "hammerid" "366532"
 }
 {
-"model" "*61"
+"model" "*60"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -5910,7 +5832,7 @@
 "hammerid" "68154"
 }
 {
-"model" "*62"
+"model" "*61"
 "spawnflags" "0"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
@@ -6111,7 +6033,7 @@
 "hammerid" "76372"
 }
 {
-"model" "*63"
+"model" "*62"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -6147,7 +6069,7 @@
 "hammerid" "79372"
 }
 {
-"model" "*64"
+"model" "*63"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -6293,7 +6215,7 @@
 "hammerid" "98146"
 }
 {
-"model" "*65"
+"model" "*64"
 "vrad_brush_cast_shadows" "0"
 "targetname" "radio_grate_brush"
 "StartDisabled" "0"
@@ -6313,7 +6235,7 @@
 "hammerid" "110141"
 }
 {
-"model" "*66"
+"model" "*65"
 "wait" "-1"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -6393,7 +6315,7 @@
 "hammerid" "113132"
 }
 {
-"model" "*67"
+"model" "*66"
 "StartDisabled" "0"
 "SpeedMax" "5"
 "SpawnRate" "25"
@@ -6429,7 +6351,7 @@
 "hammerid" "366274"
 }
 {
-"model" "*68"
+"model" "*67"
 "TeamNum" "2"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -6485,7 +6407,7 @@
 "hammerid" "120743"
 }
 {
-"model" "*69"
+"model" "*68"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6591,7 +6513,7 @@
 "hammerid" "365667"
 }
 {
-"model" "*70"
+"model" "*69"
 "targetname" "mysbox_movelinear_weapon_travel"
 "startposition" "0"
 "speed" "3.5"
@@ -6665,7 +6587,7 @@
 "hammerid" "263775"
 }
 {
-"model" "*71"
+"model" "*70"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6684,7 +6606,7 @@
 "hammerid" "274241"
 }
 {
-"model" "*72"
+"model" "*71"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -6890,7 +6812,7 @@
 "hammerid" "290166"
 }
 {
-"model" "*73"
+"model" "*72"
 "targetname" "easteregg_endless_teleIN1"
 "target" "easteregg_endless_tele_des01"
 "StartDisabled" "1"
@@ -6900,7 +6822,7 @@
 "hammerid" "291207"
 }
 {
-"model" "*74"
+"model" "*73"
 "targetname" "easteregg_endless_teleOUT"
 "target" "easteregg_endless_tele_des00"
 "StartDisabled" "1"
@@ -6910,7 +6832,7 @@
 "hammerid" "291292"
 }
 {
-"model" "*75"
+"model" "*74"
 "targetname" "easteregg_endless_teleOUT1"
 "target" "red_start_tele_dest"
 "StartDisabled" "1"
@@ -6920,7 +6842,7 @@
 "hammerid" "291295"
 }
 {
-"model" "*76"
+"model" "*75"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -6935,7 +6857,7 @@
 "hammerid" "291418"
 }
 {
-"model" "*77"
+"model" "*76"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -6950,7 +6872,7 @@
 "hammerid" "291424"
 }
 {
-"model" "*78"
+"model" "*77"
 "RotationSpeed" "10"
 "ParticleSpacingDistance" "120"
 "ParticleDrawWidth" "120"
@@ -7005,7 +6927,7 @@
 "hammerid" "297522"
 }
 {
-"model" "*79"
+"model" "*78"
 "wait" "-1"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -7029,7 +6951,7 @@
 "OnPressed" "easteregg_button_hit_counter,Add,1,0,-1"
 }
 {
-"model" "*80"
+"model" "*79"
 "TeamNum" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
@@ -7070,7 +6992,7 @@
 "hammerid" "305325"
 }
 {
-"model" "*81"
+"model" "*80"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -7109,7 +7031,7 @@
 "hammerid" "309068"
 }
 {
-"model" "*82"
+"model" "*81"
 "vrad_brush_cast_shadows" "0"
 "StartDisabled" "0"
 "spawnflags" "2"
@@ -7128,7 +7050,7 @@
 "hammerid" "309321"
 }
 {
-"model" "*83"
+"model" "*82"
 "TeamNum" "3"
 "targetname" "blu"
 "StartDisabled" "0"
@@ -7243,7 +7165,7 @@
 "hammerid" "504919"
 }
 {
-"model" "*84"
+"model" "*83"
 "wait" "1"
 "unlocked_sound" "0"
 "unlocked_sentence" "0"
@@ -7330,1494 +7252,1802 @@
 "OnPurchased" "wall_weapon_template_1,ForceSpawn,,0,-1"
 }
 {
-"origin" "1504 -936 212.91"
+"origin" "1504 -936 219.567"
 "nodeid" "1"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521515"
 }
 {
-"origin" "1176 -936 212.91"
+"origin" "1176 -936 219.567"
 "nodeid" "2"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521517"
 }
 {
-"origin" "1048 -936 212.91"
+"origin" "1048 -936 219.567"
 "nodeid" "3"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521519"
 }
 {
-"origin" "1048 -784 212.91"
+"origin" "1048 -784 219.567"
 "nodeid" "4"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521521"
 }
 {
-"origin" "1176 -792 212.91"
+"origin" "1176 -792 219.567"
 "nodeid" "5"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521523"
 }
 {
-"origin" "1168 -672 212.91"
+"origin" "1168 -672 219.567"
 "nodeid" "6"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521525"
 }
 {
-"origin" "1056 -672 212.91"
+"origin" "1056 -672 219.567"
 "nodeid" "7"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521527"
 }
 {
-"origin" "1352 -680 212.91"
+"origin" "1352 -680 219.567"
 "nodeid" "8"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521529"
 }
 {
-"origin" "1344 -784 212.91"
+"origin" "1344 -784 219.567"
 "nodeid" "9"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521531"
 }
 {
-"origin" "1480 -680 212.91"
+"origin" "1480 -680 219.567"
 "nodeid" "10"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521533"
 }
 {
-"origin" "1456 -472 212.91"
+"origin" "1456 -472 219.567"
 "nodeid" "11"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521535"
 }
 {
-"origin" "1344 -480 212.91"
+"origin" "1344 -480 219.567"
 "nodeid" "12"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521537"
 }
 {
-"origin" "1616 -472 212.91"
+"origin" "1616 -472 219.567"
 "nodeid" "13"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521539"
 }
 {
-"origin" "1664 -424 212.91"
+"origin" "1664 -424 219.567"
 "nodeid" "14"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521541"
 }
 {
-"origin" "1616 -296 212.91"
+"origin" "1616 -296 219.567"
 "nodeid" "15"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521543"
 }
 {
-"origin" "1456 -104 212.91"
+"origin" "1456 -104 219.567"
 "nodeid" "16"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521545"
 }
 {
-"origin" "1464 -288 212.91"
+"origin" "1464 -288 219.567"
 "nodeid" "17"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521547"
 }
 {
-"origin" "1336 -264 212.91"
+"origin" "1336 -264 219.567"
 "nodeid" "19"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521551"
 }
 {
-"origin" "1200 -264 212.91"
+"origin" "1200 -264 219.567"
 "nodeid" "20"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521553"
 }
 {
-"origin" "1176 -544 212.91"
+"origin" "1176 -544 219.567"
 "nodeid" "21"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521555"
 }
 {
-"origin" "1072 -544 212.91"
+"origin" "1072 -544 219.567"
 "nodeid" "22"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521557"
 }
 {
-"origin" "1024 -432 212.91"
+"origin" "1024 -432 219.567"
 "nodeid" "23"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521559"
 }
 {
-"origin" "1184 -424 212.91"
+"origin" "1184 -424 219.567"
 "nodeid" "24"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521561"
 }
 {
-"origin" "912 -432 212.91"
+"origin" "912 -432 219.567"
 "nodeid" "25"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521563"
 }
 {
-"origin" "584 -432 212.91"
+"origin" "584 -432 219.567"
 "nodeid" "26"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521565"
 }
 {
-"origin" "480 -424 212.91"
+"origin" "480 -424 219.567"
 "nodeid" "27"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521567"
 }
 {
-"origin" "584 -248 212.91"
+"origin" "584 -248 219.567"
 "nodeid" "28"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521569"
 }
 {
-"origin" "648 -136 212.91"
+"origin" "648 -136 219.567"
 "nodeid" "29"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521571"
 }
 {
-"origin" "848 -160 212.91"
+"origin" "848 -160 219.567"
 "nodeid" "30"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521573"
 }
 {
-"origin" "888 -264 212.91"
+"origin" "888 -264 219.567"
 "nodeid" "31"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521575"
 }
 {
-"origin" "904 40 212.91"
+"origin" "904 40 219.567"
 "nodeid" "32"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521577"
 }
 {
-"origin" "1032 48 212.91"
+"origin" "1032 48 219.567"
 "nodeid" "33"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521579"
 }
 {
-"origin" "632 -8 206.788"
+"origin" "632 -8 213.445"
 "nodeid" "34"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521581"
 }
 {
-"origin" "528 88 212.561"
+"origin" "528 88 219.218"
 "nodeid" "35"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521583"
 }
 {
-"origin" "232 112 212.91"
+"origin" "232 112 219.567"
 "nodeid" "36"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521585"
 }
 {
-"origin" "232 184 212.91"
+"origin" "232 184 219.567"
 "nodeid" "37"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521587"
 }
 {
-"origin" "536 168 212.097"
+"origin" "536 168 218.754"
 "nodeid" "38"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521589"
 }
 {
-"origin" "896 176 209.307"
+"origin" "896 176 215.964"
 "nodeid" "39"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521591"
 }
 {
-"origin" "728 152 212.792"
+"origin" "728 152 219.449"
 "nodeid" "40"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521593"
 }
 {
-"origin" "1040 -112 212.91"
+"origin" "1040 -112 219.567"
 "nodeid" "41"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521595"
 }
 {
-"origin" "1200 -112 212.91"
+"origin" "1200 -112 219.567"
 "nodeid" "42"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521597"
 }
 {
-"origin" "1192 24 212.91"
+"origin" "1192 24 219.567"
 "nodeid" "43"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521599"
 }
 {
-"origin" "1336 32 212.91"
+"origin" "1336 32 219.567"
 "nodeid" "44"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521601"
 }
 {
-"origin" "1328 -104 212.91"
+"origin" "1328 -104 219.567"
 "nodeid" "45"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521603"
 }
 {
-"origin" "1208 168 212.91"
+"origin" "1208 168 219.567"
 "nodeid" "46"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521605"
 }
 {
-"origin" "1040 176 212.91"
+"origin" "1040 176 219.567"
 "nodeid" "47"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521607"
 }
 {
-"origin" "1464 168 212.91"
+"origin" "1464 168 219.567"
 "nodeid" "48"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521609"
 }
 {
-"origin" "1616 176 212.91"
+"origin" "1616 176 219.567"
 "nodeid" "49"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521611"
 }
 {
-"origin" "1616 80 212.91"
+"origin" "1616 80 219.567"
 "nodeid" "50"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521613"
 }
 {
-"origin" "456 -248 212.91"
+"origin" "456 -248 219.567"
 "nodeid" "51"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521615"
 }
 {
-"origin" "224 -256 68.91"
+"origin" "224 -256 75.5674"
 "nodeid" "52"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521617"
 }
 {
-"origin" "216 -168 68.91"
+"origin" "216 -168 75.5674"
 "nodeid" "53"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521619"
 }
 {
-"origin" "224 -72 4.91002"
+"origin" "224 -72 11.5674"
 "nodeid" "54"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521621"
 }
 {
-"origin" "400 -72 4.91002"
+"origin" "400 -72 11.5674"
 "nodeid" "55"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521623"
 }
 {
-"origin" "552 -208 4.91002"
+"origin" "552 -208 11.5674"
 "nodeid" "56"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521625"
 }
 {
-"origin" "696 -224 1.29772"
+"origin" "696 -224 7.95511"
 "nodeid" "57"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521627"
 }
 {
-"origin" "808 -224 12.6982"
+"origin" "808 -224 19.3556"
 "nodeid" "58"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521629"
 }
 {
-"origin" "928 -192 2.33622"
+"origin" "928 -192 8.99361"
 "nodeid" "60"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521633"
 }
 {
-"origin" "832 -288 22.4436"
+"origin" "832 -288 29.101"
 "nodeid" "61"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521635"
 }
 {
-"origin" "800 -104 5.41433"
+"origin" "800 -104 12.0717"
 "nodeid" "62"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521637"
 }
 {
-"origin" "776 0 8.91003"
+"origin" "776 0 15.5674"
 "nodeid" "63"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521639"
 }
 {
-"origin" "632 -40 4.91003"
+"origin" "632 -40 11.5674"
 "nodeid" "64"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521641"
 }
 {
-"origin" "536 -40 4.91002"
+"origin" "536 -40 11.5674"
 "nodeid" "65"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521643"
 }
 {
-"origin" "552 168 4.91003"
+"origin" "552 168 11.5674"
 "nodeid" "66"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521645"
 }
 {
-"origin" "712 160 4.91004"
+"origin" "712 160 11.5674"
 "nodeid" "67"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521647"
 }
 {
-"origin" "856 184 4.91003"
+"origin" "856 184 11.5674"
 "nodeid" "68"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521649"
 }
 {
-"origin" "400 152 4.91003"
+"origin" "400 152 11.5674"
 "nodeid" "69"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521651"
 }
 {
-"origin" "240 152 4.91003"
+"origin" "240 152 11.5674"
 "nodeid" "70"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521653"
 }
 {
-"origin" "224 296 7.50303"
+"origin" "224 296 14.1604"
 "nodeid" "71"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521655"
 }
 {
-"origin" "32 -72 4.91003"
+"origin" "32 -72 11.5674"
 "nodeid" "72"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521657"
 }
 {
-"origin" "0 -296 2.4198"
+"origin" "4 -224 9.07719"
 "nodeid" "73"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521659"
 }
 {
-"origin" "-56 -112 4.91003"
+"origin" "-56 -112 11.5674"
 "nodeid" "74"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521661"
 }
 {
-"origin" "-216 -96 4.91003"
+"origin" "-216 -96 11.5674"
 "nodeid" "75"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521663"
 }
 {
-"origin" "-352 -200 7.36776"
+"origin" "-352 -200 14.0252"
 "nodeid" "76"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521665"
 }
 {
-"origin" "-424 -248 8.01999"
+"origin" "-408 -268 14.6774"
 "nodeid" "77"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521667"
 }
 {
-"origin" "-528 -208 0.910028"
+"origin" "-504 -208 8"
 "nodeid" "78"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521669"
 }
 {
-"origin" "-424 -72 4.91003"
+"origin" "-424 -72 11.5674"
 "nodeid" "79"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521671"
 }
 {
-"origin" "-488 48 4.91003"
+"origin" "-488 48 11.5674"
 "nodeid" "80"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521673"
 }
 {
-"origin" "-376 192 4.91003"
+"origin" "-376 192 11.5674"
 "nodeid" "81"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521675"
 }
 {
-"origin" "-248 184 4.91003"
+"origin" "-248 184 11.5674"
 "nodeid" "82"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521677"
 }
 {
-"origin" "-232 32 4.91003"
+"origin" "-232 32 11.5674"
 "nodeid" "83"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521679"
 }
 {
-"origin" "-64 0 4.91003"
+"origin" "-64 0 11.5674"
 "nodeid" "84"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521681"
 }
 {
-"origin" "72 32 4.91003"
+"origin" "72 32 11.5674"
 "nodeid" "85"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521683"
 }
 {
-"origin" "216 32 4.91003"
+"origin" "216 32 11.5674"
 "nodeid" "86"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521685"
 }
 {
-"origin" "-480 176 4.91004"
+"origin" "-480 176 11.5674"
 "nodeid" "87"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521687"
 }
 {
-"origin" "-504 -72 4.91003"
+"origin" "-504 -72 11.5674"
 "nodeid" "88"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521689"
 }
 {
-"origin" "-312 -72 4.91003"
+"origin" "-312 -72 11.5674"
 "nodeid" "89"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521691"
 }
 {
-"origin" "-624 -208 8.87396"
+"origin" "-624 -208 15.5314"
 "nodeid" "90"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521693"
 }
 {
-"origin" "-768 -208 9.33557"
+"origin" "-768 -208 15.993"
 "nodeid" "91"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521695"
 }
 {
-"origin" "-328 864 -26.2248"
+"origin" "-328 864 -19.5674"
 "nodeid" "94"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521701"
 }
 {
-"origin" "-320 752 -15.1905"
+"origin" "-320 752 -8.53311"
 "nodeid" "95"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521703"
 }
 {
-"origin" "-352 672 -0.00368309"
+"origin" "-352 672 6.65371"
 "nodeid" "96"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521705"
 }
 {
-"origin" "-384 552 4.00319"
+"origin" "-384 552 10.6606"
 "nodeid" "97"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521707"
 }
 {
-"origin" "-480 544 4.91003"
+"origin" "-480 544 11.5674"
 "nodeid" "98"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521709"
 }
 {
-"origin" "-456 680 2.27585"
+"origin" "-456 680 8.93324"
 "nodeid" "99"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521711"
 }
 {
-"origin" "-440 808 -9.28218"
+"origin" "-440 808 -2.62479"
 "nodeid" "100"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521713"
 }
 {
-"origin" "-432 872 -13.813"
+"origin" "-432 872 -7.15561"
 "nodeid" "101"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521715"
 }
 {
-"origin" "-592 552 4.91003"
+"origin" "-592 552 11.5674"
 "nodeid" "102"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521717"
 }
 {
-"origin" "-584 728 3.49945"
+"origin" "-584 728 10.1568"
 "nodeid" "103"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521719"
 }
 {
-"origin" "-552 856 -2.72809"
+"origin" "-552 856 3.9293"
 "nodeid" "104"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521721"
 }
 {
-"origin" "-584 424 19.7345"
+"origin" "-584 424 26.3919"
 "nodeid" "105"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521723"
 }
 {
-"origin" "-376 304 12.9078"
+"origin" "-376 304 19.5652"
 "nodeid" "106"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521725"
 }
 {
-"origin" "-528 328 31.1185"
+"origin" "-528 328 37.7759"
 "nodeid" "107"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521727"
 }
 {
-"origin" "-424 416 14.3166"
+"origin" "-424 416 20.974"
 "nodeid" "108"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521729"
 }
 {
-"origin" "-344 432 3.73662"
+"origin" "-344 432 10.394"
 "nodeid" "109"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521731"
 }
 {
-"origin" "-296 336 -0.688839"
+"origin" "-296 336 5.96856"
 "nodeid" "110"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521733"
 }
 {
-"origin" "-696 -280 12.4549"
+"origin" "-696 -280 19.1123"
 "nodeid" "111"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521735"
 }
 {
-"origin" "-816 -280 14.9475"
+"origin" "-816 -280 21.6049"
 "nodeid" "112"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521737"
 }
 {
-"origin" "-968 -272 22.0347"
+"origin" "-968 -272 28.6921"
 "nodeid" "113"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521739"
 }
 {
-"origin" "-960 -152 12.4657"
+"origin" "-960 -152 19.1231"
 "nodeid" "114"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521741"
 }
 {
-"origin" "-768 -144 7.28001"
+"origin" "-768 -144 13.9374"
 "nodeid" "115"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521743"
 }
 {
-"origin" "0 -368 4.86828"
+"origin" "0 -368 11.5257"
 "nodeid" "116"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521745"
 }
 {
-"origin" "0 -536 3.34719"
+"origin" "0 -536 10.0046"
 "nodeid" "117"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521747"
 }
 {
-"origin" "0 -448 4.77425"
+"origin" "0 -448 11.4316"
 "nodeid" "118"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521749"
 }
 {
-"origin" "88 -424 4.80761"
+"origin" "88 -424 11.465"
 "nodeid" "119"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521751"
 }
 {
-"origin" "-120 -456 6.20691"
+"origin" "-120 -456 12.8643"
 "nodeid" "120"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521753"
 }
 {
-"origin" "272 -384 94.0147"
+"origin" "272 -384 100.672"
 "nodeid" "122"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521757"
 }
 {
-"origin" "272 -464 93.6212"
+"origin" "272 -464 100.279"
 "nodeid" "123"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521759"
 }
 {
-"origin" "576 -376 212.91"
+"origin" "576 -376 219.567"
 "nodeid" "124"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521761"
 }
 {
-"origin" "760 -424 212.91"
+"origin" "760 -424 219.567"
 "nodeid" "125"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521763"
 }
 {
-"origin" "280 -256 68.91"
+"origin" "280 -256 75.5674"
 "nodeid" "126"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521765"
 }
 {
-"origin" "848 8 4.91003"
+"origin" "848 8 11.5674"
 "nodeid" "127"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521767"
 }
 {
-"origin" "856 304 5.32827"
+"origin" "856 304 11.9857"
 "nodeid" "128"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521769"
 }
 {
-"origin" "856 408 6.27717"
+"origin" "856 408 12.9346"
 "nodeid" "129"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521771"
 }
 {
-"origin" "1000 424 7.37189"
+"origin" "1000 424 14.0293"
 "nodeid" "130"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521773"
 }
 {
-"origin" "1112 440 7.93324"
+"origin" "1112 440 14.5906"
 "nodeid" "131"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521775"
 }
 {
-"origin" "1048 432 6.2398"
+"origin" "1048 432 12.8972"
 "nodeid" "132"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521777"
 }
 {
-"origin" "680 392 4.91003"
+"origin" "680 392 11.5674"
 "nodeid" "133"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521779"
 }
 {
-"origin" "672 584 -5.43997"
+"origin" "672 584 1.21742"
 "nodeid" "134"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521781"
 }
 {
-"origin" "672 728 -7.7872"
+"origin" "672 728 -1.12981"
 "nodeid" "135"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521783"
 }
 {
-"origin" "544 424 4.79567"
+"origin" "544 424 11.4531"
 "nodeid" "136"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521785"
 }
 {
-"origin" "560 544 -0.484386"
+"origin" "560 544 6.17301"
 "nodeid" "137"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521787"
 }
 {
-"origin" "432 536 -7.22543"
+"origin" "432 536 -0.568036"
 "nodeid" "138"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521789"
 }
 {
-"origin" "440 400 3.16267"
+"origin" "440 400 9.82006"
 "nodeid" "139"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521791"
 }
 {
-"origin" "240 392 1.89278"
+"origin" "240 392 8.55017"
 "nodeid" "140"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521793"
 }
 {
-"origin" "224 568 -23.7919"
+"origin" "224 568 -17.1345"
 "nodeid" "141"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521795"
 }
 {
-"origin" "264 744 -16.3098"
+"origin" "264 744 -9.6524"
 "nodeid" "142"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521797"
 }
 {
-"origin" "264 872 1.28644"
+"origin" "264 872 7.94383"
 "nodeid" "143"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521799"
 }
 {
-"origin" "272 680 -20.9034"
+"origin" "272 680 -14.246"
 "nodeid" "144"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521801"
 }
 {
-"origin" "328 544 -13.9954"
+"origin" "328 544 -7.33801"
 "nodeid" "145"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521803"
 }
 {
-"origin" "320 392 2.19865"
+"origin" "320 392 8.85604"
 "nodeid" "146"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521805"
 }
 {
-"origin" "48 584 -14.4096"
+"origin" "48 584 -7.75221"
 "nodeid" "147"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521807"
 }
 {
-"origin" "440 320 4.91003"
+"origin" "440 320 11.5674"
 "nodeid" "148"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521809"
 }
 {
-"origin" "1032 -192 4.91003"
+"origin" "1032 -192 11.5674"
 "nodeid" "149"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521811"
 }
 {
-"origin" "1072 -296 4.91003"
+"origin" "1072 -296 11.5674"
 "nodeid" "150"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521813"
 }
 {
-"origin" "1080 -496 4.91003"
+"origin" "1080 -496 11.5674"
 "nodeid" "151"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521815"
 }
 {
-"origin" "1016 -624 4.91002"
+"origin" "1016 -624 11.5674"
 "nodeid" "152"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521817"
 }
 {
-"origin" "904 -624 5.03366"
+"origin" "904 -624 11.6911"
 "nodeid" "153"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521819"
 }
 {
-"origin" "704 -632 2.76564"
+"origin" "704 -632 9.42303"
 "nodeid" "154"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521821"
 }
 {
-"origin" "568 -696 -3.0226"
+"origin" "568 -696 3.63479"
 "nodeid" "155"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521823"
 }
 {
-"origin" "1248 -192 4.91003"
+"origin" "1248 -192 11.5674"
 "nodeid" "156"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521825"
 }
 {
-"origin" "1264 96 4.91003"
+"origin" "1264 96 11.5674"
 "nodeid" "157"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521827"
 }
 {
-"origin" "1104 80 4.91003"
+"origin" "1104 80 11.5674"
 "nodeid" "158"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521829"
 }
 {
-"origin" "1096 -80 4.91003"
+"origin" "1096 -80 11.5674"
 "nodeid" "159"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521831"
 }
 {
-"origin" "1448 -192 4.91003"
+"origin" "1448 -192 11.5674"
 "nodeid" "160"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521833"
 }
 {
-"origin" "1624 -192 4.91003"
+"origin" "1624 -192 11.5674"
 "nodeid" "161"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521835"
 }
 {
-"origin" "1424 0 4.91003"
+"origin" "1424 0 11.5674"
 "nodeid" "162"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521837"
 }
 {
-"origin" "1424 120 4.91003"
+"origin" "1424 120 11.5674"
 "nodeid" "163"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521839"
 }
 {
-"origin" "1312 184 4.91003"
+"origin" "1312 184 11.5674"
 "nodeid" "164"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521841"
 }
 {
-"origin" "1256 -400 4.91003"
+"origin" "1256 -400 11.5674"
 "nodeid" "165"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521843"
 }
 {
-"origin" "1392 -408 4.91002"
+"origin" "1392 -408 11.5674"
 "nodeid" "166"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521845"
 }
 {
-"origin" "1384 -632 4.91003"
+"origin" "1384 -632 11.5674"
 "nodeid" "167"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521847"
 }
 {
-"origin" "1160 -616 4.91003"
+"origin" "1160 -616 11.5674"
 "nodeid" "168"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521849"
 }
 {
-"origin" "1176 -488 4.91003"
+"origin" "1176 -488 11.5674"
 "nodeid" "169"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521851"
 }
 {
-"origin" "1152 -776 4.91002"
+"origin" "1152 -776 11.5674"
 "nodeid" "170"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521853"
 }
 {
-"origin" "1040 -776 4.91002"
+"origin" "1040 -776 11.5674"
 "nodeid" "171"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521855"
 }
 {
-"origin" "1048 -944 4.91003"
+"origin" "1048 -944 11.5674"
 "nodeid" "172"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521857"
 }
 {
-"origin" "1176 -944 4.91003"
+"origin" "1176 -944 11.5674"
 "nodeid" "173"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521859"
 }
 {
-"origin" "1368 -952 4.91003"
+"origin" "1368 -952 11.5674"
 "nodeid" "175"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521863"
 }
 {
-"origin" "1368 -1000 4.91003"
+"origin" "1368 -1000 11.5674"
 "nodeid" "176"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521865"
 }
 {
-"origin" "1432 -896 4.91003"
+"origin" "1432 -896 11.5674"
 "nodeid" "177"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521867"
 }
 {
-"origin" "1416 -760 4.91004"
+"origin" "1416 -760 11.5674"
 "nodeid" "178"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521871"
 }
 {
-"origin" "408 -720 -9.76128"
+"origin" "408 -720 -3.10389"
 "nodeid" "179"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521873"
 }
 {
-"origin" "248 -720 -11.6648"
+"origin" "248 -720 -5.00741"
 "nodeid" "180"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521875"
 }
 {
-"origin" "72 -688 -7.44591"
+"origin" "72 -688 -0.788516"
 "nodeid" "181"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521877"
 }
 {
-"origin" "384 -584 -3.13691"
+"origin" "384 -584 3.52048"
 "nodeid" "182"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521879"
 }
 {
-"origin" "176 -864 4.05722"
+"origin" "176 -864 10.7146"
 "nodeid" "183"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521881"
 }
 {
-"origin" "40 -952 22.5191"
+"origin" "40 -952 29.1765"
 "nodeid" "184"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521883"
 }
 {
-"origin" "200 -1024 38.6685"
+"origin" "200 -1024 45.3259"
 "nodeid" "185"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521885"
 }
 {
-"origin" "336 -1048 43.6555"
+"origin" "336 -1048 50.3129"
 "nodeid" "186"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521887"
 }
 {
-"origin" "472 -1056 47.1328"
+"origin" "472 -1056 53.7902"
 "nodeid" "187"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521889"
 }
 {
-"origin" "632 -1056 49.7263"
+"origin" "632 -1056 56.3837"
 "nodeid" "188"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521891"
 }
 {
-"origin" "584 -1152 40.9873"
+"origin" "584 -1152 47.6447"
 "nodeid" "189"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521893"
 }
 {
-"origin" "616 -1264 -0.516598"
+"origin" "616 -1264 6.1408"
 "nodeid" "190"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521895"
 }
 {
-"origin" "456 -1160 25.5168"
+"origin" "456 -1160 32.1742"
 "nodeid" "191"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521897"
 }
 {
-"origin" "320 -1144 16.3996"
+"origin" "320 -1144 23.057"
 "nodeid" "192"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521899"
 }
 {
-"origin" "120 -1096 28.7468"
+"origin" "120 -1096 35.4042"
 "nodeid" "193"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521901"
 }
 {
-"origin" "-8 -1088 34.0661"
+"origin" "-8 -1088 40.7235"
 "nodeid" "194"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521903"
 }
 {
-"origin" "616 -936 20.8396"
+"origin" "616 -936 27.497"
 "nodeid" "195"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521905"
 }
 {
-"origin" "576 -840 1.57589"
+"origin" "576 -840 8.23328"
 "nodeid" "196"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521907"
 }
 {
-"origin" "744 -952 19.6637"
+"origin" "744 -952 26.3211"
 "nodeid" "197"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521909"
 }
 {
-"origin" "720 -808 4.60682"
+"origin" "720 -808 11.2642"
 "nodeid" "198"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521911"
 }
 {
-"origin" "696 -1136 43.2837"
+"origin" "696 -1136 49.9411"
 "nodeid" "199"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521913"
 }
 {
-"origin" "16 -800 -0.0779152"
+"origin" "16 -800 6.57948"
 "nodeid" "200"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521915"
 }
 {
-"origin" "272 -968 25.8434"
+"origin" "272 -968 32.5008"
 "nodeid" "201"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521917"
 }
 {
-"origin" "816 -1056 42.3204"
+"origin" "816 -1056 48.9778"
 "nodeid" "202"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521919"
 }
 {
-"origin" "1376 -1288 -28.9101"
+"origin" "1376 -1368 -28"
 "nodeid" "203"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521921"
 }
 {
-"origin" "1384 -1216 -14.4642"
+"origin" "1384 -1216 -7.80681"
 "nodeid" "204"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521923"
 }
 {
-"origin" "1376 -1120 -2.21492"
+"origin" "1376 -1120 4.44247"
 "nodeid" "205"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521925"
 }
 {
-"origin" "1264 -704 4.91003"
+"origin" "1264 -704 11.5674"
 "nodeid" "206"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521927"
 }
 {
-"origin" "1672 -8.00001 125.024"
+"origin" "1672 -8.00001 131.681"
 "nodeid" "208"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521931"
 }
 {
-"origin" "1600 -16 120.814"
+"origin" "1600 -16 127.471"
 "nodeid" "209"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521933"
 }
 {
-"origin" "1280 -104 4.91003"
+"origin" "1280 -104 11.5674"
 "nodeid" "210"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521935"
 }
 {
-"origin" "1392 -528 4.91003"
+"origin" "1392 -528 11.5674"
 "nodeid" "211"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521937"
 }
 {
-"origin" "472 40 4.91003"
+"origin" "472 40 11.5674"
 "nodeid" "212"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521939"
 }
 {
-"origin" "384 -216 148.511"
+"origin" "384 -216 155.168"
 "nodeid" "214"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521943"
 }
 {
-"origin" "384 -280 148.818"
+"origin" "384 -280 155.475"
 "nodeid" "215"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521945"
 }
 {
-"origin" "784 -16 210.127"
+"origin" "784 -16 216.784"
 "nodeid" "216"
 "angles" "0 0 0"
 "classname" "info_node"
 "hammerid" "521947"
 }
 {
-"origin" "360 136 212.91"
-"nodeid" "217"
-"angles" "0 0 0"
-"classname" "info_node"
-"hammerid" "521949"
+"origin" "456 239 76"
+"targetname" "wall_weapon_merchant_3"
+"StartDisabled" "0"
+"purchasesound" "zomb/accept.wav"
+"PurchaseName" "Bought Shotgun"
+"MaxPointsTake" "0"
+"IsShared" "0"
+"CostOf" "500"
+"AnnounceCashNeeded" "1"
+"classname" "logic_merchant_relay"
+"hammerid" "510975"
+"OnPurchased" "wall_weapon_template_3,ForceSpawn,,0,-1"
 }
 {
-"origin" "456 -16 212.91"
-"nodeid" "218"
-"angles" "0 0 0"
-"classname" "info_node"
-"hammerid" "521951"
+"origin" "488 239 76"
+"Template01" "wall_weapon_giver_3"
+"targetname" "wall_weapon_template_3"
+"spawnflags" "2"
+"classname" "point_template"
+"hammerid" "510973"
 }
 {
-"origin" "-360 40 4.91003"
-"nodeid" "219"
-"angles" "0 0 0"
-"classname" "info_node"
-"hammerid" "521953"
+"origin" "472 223 58"
+"TeamNum" "0"
+"targetname" "wall_weapon_giver_3"
+"StartDisabled" "0"
+"spawnflags" "0"
+"minplayerstospawn" "0"
+"itemid" "9736"
+"fadescale" "1"
+"fademindist" "-1"
+"fademaxdist" "0"
+"atv9" "0"
+"atv8" "0"
+"atv7" "0"
+"atv6" "0"
+"atv5" "0"
+"atv4" "0"
+"atv3" "0"
+"atv2" "0"
+"atv16" "0"
+"atv15" "0"
+"atv14" "0"
+"atv13" "0"
+"atv12" "0"
+"atv11" "0"
+"atv10" "0"
+"atv1" "0"
+"at9" "0"
+"at8" "0"
+"at7" "0"
+"at6" "0"
+"at5" "0"
+"at4" "0"
+"at3" "0"
+"at2" "0"
+"at16" "0"
+"at15" "0"
+"at14" "0"
+"at13" "0"
+"at12" "0"
+"at11" "0"
+"at10" "0"
+"at1" "0"
+"angles" "0 89 0"
+"classname" "lfe_weapon_custom"
+"hammerid" "510984"
 }
 {
-"origin" "-440 -200 5.27926"
-"nodeid" "220"
-"angles" "0 0 0"
-"classname" "info_node"
-"hammerid" "521955"
+"origin" "472 229 60"
+"spawnflags" "0"
+"_zero_percent_distance" "100"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "45 139 255 20"
+"_fifty_percent_distance" "60"
+"classname" "light"
+"hammerid" "510979"
 }
 {
-"origin" "119.598 -1097.11 48"
-"targetname" "zombspawn"
-"ReuseDelay" "1"
+"origin" "472 239 58"
+"textcolor" "255 255 255"
+"spawnflags" "0"
+"radius" "128"
+"message" "Buy Shotgun  for 500 points"
+"developeronly" "0"
+"classname" "point_message"
+"hammerid" "510977"
+}
+{
+"model" "*84"
+"wait" "1"
+"unlocked_sound" "0"
+"unlocked_sentence" "0"
+"speed" "1"
+"spawnflags" "1025"
+"sounds" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "466.98 241.13 33.12"
+"movedir" "0 0 0"
+"locked_sound" "0"
+"locked_sentence" "0"
+"lip" "0"
+"health" "0"
+"disablereceiveshadows" "0"
+"classname" "func_button"
+"hammerid" "510986"
+"OnPressed" "wall_weapon_merchant_3,Purchase,,0,-1"
+}
+{
+"model" "*85"
+"wait" "1"
+"unlocked_sound" "0"
+"unlocked_sentence" "0"
+"speed" "1"
+"spawnflags" "1025"
+"sounds" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"origin" "36.98 89.13 33.12"
+"movedir" "0 0 0"
+"locked_sound" "0"
+"locked_sentence" "0"
+"lip" "0"
+"health" "0"
+"disablereceiveshadows" "0"
+"classname" "func_button"
+"hammerid" "522264"
+"OnPressed" "wall_weapon_merchant_4,Purchase,,0,-1"
+}
+{
+"origin" "42 87 58"
+"textcolor" "255 255 255"
+"spawnflags" "0"
+"radius" "128"
+"message" "Buy Shotgun  for 500 points"
+"developeronly" "0"
+"classname" "point_message"
+"hammerid" "522267"
+}
+{
+"origin" "42 77 60"
+"spawnflags" "0"
+"_zero_percent_distance" "100"
+"_quadratic_attn" "1"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "45 139 255 20"
+"_fifty_percent_distance" "60"
+"classname" "light"
+"hammerid" "522269"
+}
+{
+"origin" "42 71 58"
+"TeamNum" "0"
+"targetname" "wall_weapon_giver_4"
+"StartDisabled" "0"
+"spawnflags" "0"
+"minplayerstospawn" "0"
+"itemid" "9736"
+"fadescale" "1"
+"fademindist" "-1"
+"fademaxdist" "0"
+"atv9" "0"
+"atv8" "0"
+"atv7" "0"
+"atv6" "0"
+"atv5" "0"
+"atv4" "0"
+"atv3" "0"
+"atv2" "0"
+"atv16" "0"
+"atv15" "0"
+"atv14" "0"
+"atv13" "0"
+"atv12" "0"
+"atv11" "0"
+"atv10" "0"
+"atv1" "0"
+"at9" "0"
+"at8" "0"
+"at7" "0"
+"at6" "0"
+"at5" "0"
+"at4" "0"
+"at3" "0"
+"at2" "0"
+"at16" "0"
+"at15" "0"
+"at14" "0"
+"at13" "0"
+"at12" "0"
+"at11" "0"
+"at10" "0"
+"at1" "0"
+"angles" "0 89 0"
+"classname" "lfe_weapon_custom"
+"hammerid" "522274"
+}
+{
+"origin" "58 87 76"
+"Template01" "wall_weapon_giver_4"
+"targetname" "wall_weapon_template_4"
+"spawnflags" "2"
+"classname" "point_template"
+"hammerid" "522276"
+}
+{
+"origin" "26 87 76"
+"targetname" "wall_weapon_merchant_4"
+"StartDisabled" "0"
+"purchasesound" "zomb/accept.wav"
+"PurchaseName" "Bought Shotgun"
+"MaxPointsTake" "0"
+"IsShared" "0"
+"CostOf" "500"
+"AnnounceCashNeeded" "1"
+"classname" "logic_merchant_relay"
+"hammerid" "522278"
+"OnPurchased" "wall_weapon_template_4,ForceSpawn,,0,-1"
+}
+{
+"origin" "49 90 54"
+"StartDisabled" "0"
+"spawnflags" "0"
+"solid" "0"
+"skin" "0"
+"SetBodyGroup" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"RandomAnimation" "0"
+"pressuredelay" "0"
+"PerformanceMode" "0"
+"modelscale" "1.0"
+"model" "models/weapons/w_models/w_shotgun.mdl"
+"mindxlevel" "0"
+"MinAnimTime" "5"
+"maxdxlevel" "0"
+"MaxAnimTime" "10"
+"fadescale" "1"
+"fademindist" "-1"
+"fademaxdist" "0"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"DisableBoneFollowers" "0"
+"angles" "0 180 0"
+"classname" "prop_dynamic"
+"hammerid" "522281"
+}
+{
+"origin" "1319.41 -1302.18 -16.0234"
+"nodeid" "221"
 "angles" "0 0 0"
-"classname" "info_npc_spawn_destination"
-"hammerid" "522178"
+"classname" "info_node"
+"hammerid" "527801"
+}
+{
+"origin" "1407.49 -1301.74 -15.9766"
+"nodeid" "222"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527803"
+}
+{
+"origin" "1420.23 -1167.4 -3.97661"
+"nodeid" "223"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527811"
+}
+{
+"origin" "1332.16 -1167.84 -4.02339"
+"nodeid" "224"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527813"
+}
+{
+"origin" "1369.69 -1047.35 12"
+"nodeid" "225"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527819"
+}
+{
+"origin" "966.082 -624 8"
+"nodeid" "226"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527840"
+}
+{
+"origin" "860 252 8"
+"nodeid" "227"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527845"
+}
+{
+"origin" "224 251.45 12"
+"nodeid" "228"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527852"
+}
+{
+"origin" "-0.0904846 -328 8"
+"nodeid" "229"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527857"
+}
+{
+"origin" "-376 251.297 12"
+"nodeid" "230"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527863"
+}
+{
+"origin" "-566.927 -212 12"
+"nodeid" "231"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527868"
+}
+{
+"origin" "-114.704 -204 24"
+"nodeid" "232"
+"angles" "0 0 0"
+"classname" "info_node"
+"hammerid" "527875"
 }
