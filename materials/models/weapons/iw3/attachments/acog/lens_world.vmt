@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"			"models/weapons/iw3/attachments/acog/lens_world"
-	"$envmapmask"			"models/weapons/iw3/attachments/acog/lens_world_spec"
-	"$envmap"			"env_cubemap"
-	"$translucent"			"1"
-}

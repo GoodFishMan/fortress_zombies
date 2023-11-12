@@ -3418,12 +3418,13 @@
 			"baseitem" "0"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
-			"attach_to_hands"	"1"
 			"inspect_panel_dist" "40"
 			"image_inventory"	"backpack/weapons/w_models/w_shotgun"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_shotgun.mdl"
+			"model_player"	"models/weapons/v_models/v_shotgun_soldier.mdl"
+			"model_world"	"models/weapons/w_models/w_shotgun.mdl"
+			"attach_to_hands"	"2"
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 			"particle_suffix"		"shotgun"
@@ -3461,9 +3462,7 @@
 			"item_quality"		"unique"
 			"min_ilevel"		"1"
 			"max_ilevel"		"99"
-			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/w_models/w_shotgun"
-			"model_player"	"models/weapons/w_models/w_shotgun.mdl"
 			"used_by_classes"
 			{
 				"engineer"	"primary"
@@ -3515,8 +3514,9 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"inspect_panel_dist" "45"
-			"attach_to_hands"	"1"
-			"model_player"	"models/weapons/w_models/w_shovel.mdl"
+			"model_player"	"models/weapons/v_models/v_shovel_soldier.mdl"
+			"model_world"	"models/weapons/w_models/w_shovel.mdl"
+			"attach_to_hands"	"2"
 			"used_by_classes"
 			{
 				"soldier"	"1"
@@ -3623,11 +3623,15 @@
 			"image_inventory"	"backpack/weapons/w_models/w_smg"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_smg.mdl"
-			"attach_to_hands"	"1"
+			"model_player"	"models/weapons/v_models/v_smg_sniper.mdl"
+			"model_world"	"models/weapons/w_models/w_smg.mdl"
+			"attach_to_hands"	"2"
 			"used_by_classes"
 			{
-				"sniper"	"1"
+				"soldier"	"1"
+				"heavy"		"1"
+				"demoman"	"1"
+				"medic"		"1"
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -4290,61 +4294,37 @@
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 		}
-        "9"
-        {
-            "name"    "TF_WEAPON_SHOTGUN_PRIMARY"
-            "first_sale_date"    "2010/09/29"
-            "prefab"    "weapon_shotgun"
-            "baseitem"    "1"
-            "item_slot"    "primary"
-            "model_player"    "models/weapons/c_models/c_shotgun/c_shotgun.mdl"
-            "attach_to_hands"    "1"
-            "used_by_classes"
-            {
-                "engineer"    "1"
-            }
-        }
 		"10"
 		{
-			"name"	"TF_WEAPON_SHOTGUN_SOLDIER"
-			"first_sale_date"	"2010/09/29"
+			"name"	"TF_WEAPON_SHOTGUN"
 			"prefab"	"weapon_shotgun"
-			"hidden"	"1"
+			"baseitem" "1"
 			"item_slot"	"secondary"
+			"item_quality"	"normal"
 			"used_by_classes"
 			{
 				"soldier"	"1"
+				"heavy"		"1"
+				"demoman"	"1"
+				"medic"		"1"
 			}
 			"baseitem" "1"
 		}
 		"11"
 		{
-			"name"	"TF_WEAPON_SHOTGUN_HWG"
-			"first_sale_date"	"2010/09/29"
-			"prefab"	"weapon_shotgun"
-			"hidden"	"1"
-			"item_slot"	"secondary"
-			"used_by_classes"
-			{
-				"heavy"	"1"
-			}
-			"baseitem" "1"
-		}
-		"14"
-		{
 			"name"	"TF_WEAPON_SNIPERRIFLE"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_sniperrifle"
-			"baseitem" "1"
+			"baseitem" "0"
 		}
-		"15"
+		"12"
 		{
 			"name"	"TF_WEAPON_MINIGUN"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_minigun"
-			"baseitem" "1"
+			"baseitem" "0"
 		}
-		"16"
+		"13"
 		{
 			"name"	"TF_WEAPON_SMG"
 			"prefab"	"weapon_smg"
@@ -4366,30 +4346,31 @@
 			"item_name"	"#TF_Weapon_SMG"
 			"item_slot"	"secondary"
 			"item_quality"	"normal"
-			"baseitem" "1"
+			"baseitem" "0"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
 			"image_inventory"	"backpack/weapons/w_models/w_smg"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_smg/c_smg.mdl"
-			"attach_to_hands"	"1"
 			"used_by_classes"
 			{
-				"sniper"	"1"
+				"soldier"	"1"
+				"heavy"		"1"
+				"demoman"	"1"
+				"medic"		"1"
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
-		"18"
+		"14"
 		{
 			"name"	"TF_WEAPON_ROCKETLAUNCHER"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_rocketlauncher"
 			"xifier_class_remap"	"rocket_launcher"
-			"baseitem" "1"
+			"baseitem" "0"
 		}
-		"19"
+		"15"
 		{
 			"name"	"TF_WEAPON_GRENADELAUNCHER"
 			"first_sale_date"	"2010/09/29"
@@ -4401,14 +4382,14 @@
 			"name"	"TF_WEAPON_PIPEBOMBLAUNCHER"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_stickybomb_launcher"
-			"baseitem" "1"
+			"baseitem" "0"
 		}
 		"21"
 		{
 			"name"	"TF_WEAPON_FLAMETHROWER"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_flamethrower"
-			"baseitem" "1"
+			"baseitem" "0"
 			"visuals"
 			{
 				"attached_models"
@@ -8258,6 +8239,439 @@
 				}
 			}
 		}
+		"2000"
+		{
+			"name"	"Juggernog"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"Juggernog"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"max health additive bonus"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value" "100"
+				}		
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"2001"
+		{
+			"name"	"Speed Cola"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"Speed Cola"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"Reload time decreased"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"	"0.5"
+				}
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"2002"
+		{
+			"name"	"Double Tap"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"Double Tap"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "0.67"
+				}
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"2003"
+		{
+			"name"	"Quick Revive"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"Quick Revive"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"health regen"
+				{
+					"attribute_class"	"add_health_regen"
+					"value"	"10"
+				}	
+				"restore health on kill"
+				{
+					"attribute_class"	"restore_health_on_kill"
+					"value"	"25"
+				}
+				"drop health pack on kill"
+				{
+					"attribute_class"	"drop_health_pack_on_kill"
+					"value"			"1"
+				}
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"2004"
+		{
+			"name"	"Deadshot Daiquiri"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"Deadshot Daiquiri"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"aiming no flinch"
+				{
+					"attribute_class"	"aiming_no_flinch"
+					"value" "1"
+				}	
+				"no_movespeed_penalty_while_aiming"
+				{
+					"attribute_class"	"no_movespeed_penalty_while_aiming"
+					"value"				"1"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"0.7"
+				}
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"2005"
+		{
+			"name"	"Stamin-Up"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"Stamin-Up"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"move speed bonus"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value" "1.2"
+				}	
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
+		"2006"
+		{
+			"name"	"PhD Flopper"
+			"item_class"		"tf_weapon_spellbook"
+			"hidden"	"0"
+			"show_in_armory"	"0"
+			"item_type_name" "perk bottle"
+			"item_name"	"PhD Flopper"
+			"item_description"	"Reach for me, Jugger Girl. Oorah. — Tank Dempsey"
+			"item_slot"	"ITEM4"
+			"equip_region"	"arms"
+			"anim_slot"		"melee"
+			"equip_region"	"hat"
+			"act_as_wearable" "1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/player/items/all_class/ghostly_gibus_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/weapons/v_models/v_perkbottle_jug.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"attributes"
+			{
+				"no self blast dmg"
+				{
+					"attribute_class"	"no_self_blast_dmg"
+					"value" "1"
+				}		
+				"override projectile type"
+				{
+					"attribute_class"	"override_projectile_type"
+					"value"				"5" 
+				}
+				"single wep deploy time increased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"4.0"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 			"ui/item_hat_drop.wav"
+		}
 		"1175"
 		{
 			"name"	"Taunt: The Boiling Point"
@@ -8601,284 +9015,7 @@
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 			"xifier_class_remap"	"TTG Max Pistol"
 		}
-		"9412"
-		{
-			"name"	"midget"
-			"first_sale_date"	"2012/12/20"
-			"prefab"	"valve base_misc"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"craft_class"	"hat"
-			"craft_material_type"	"hat"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-				"can_craft_if_purchased"	"1"
-			}
-			"loadondemand" "1"
-			"propername" "1"
-			"show_in_armory"	"1"
-			"item_name"	"Skinny"
-			"item_type_name"	"Starvation"
-			"item_slot"	"misc2"
-			"equip_region"		"head"
-			"item_quality"	"unique"
-			"min_ilevel"	"20"
-			"max_ilevel"	"20"
-			"image_inventory"	"backpack/player/items/c_skinny"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"pyro" "1"
-				"engineer" "1"
-				"spy" "1"
-				"civilian"	"1" 
-			}
-			"attributes"
-			{
-				"torso scale"
-				{
-					"attribute_class"		"torso_scale"
-					"value"		"0.5"
-				} 
-				"voice pitch scale"
-				{
-					"attribute_class"	"voice_pitch_scale"
-					"value"		"3.0"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"vo/heavy_laughhappy02.mp3"
-			"drop_sound"	"boner.mp3"
-		}
-		"9413"
-		{
-			"name"	"D-IED"
-			"item_class"	"tf_weapon_rocketlauncher_mortar"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"		"1"
-				"can_headshot"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"item_type_name"	"Rocket Launcher"
-			"item_name"	"D-IED"
-			"item_description"	"Model by AlreadyADemon
-			Faulty Tracking: Rockets might not go where
-			you want them to, so BEWAAAAAAAARE!"
-			"item_slot"	"primary"
-			"item_quality"	"unique"
-			"show_in_armory"	"1"
-			"propername"	"0"
-			"item_logname"	"rpg"
-			"item_iconname"	"rpg"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"image_inventory"	"backpack/weapons/c_models/c_died"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_died/c_rocketlauncher.mdl"
-			"attach_to_hands" "1"
-			"inspect_panel_dist" "32"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -6"
-			}
-			"attributes"
-			{
-				"override projectile type"
-				{
-					"attribute_class"	"override_projectile_type"
-					"value"				"2"
-				}
-				"clip size penalty"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value" "0.3"
-				}
-				"maxammo primary reduced"
-				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value" "0.3"
-				}
-                "fire rate penalty"
-                {
-                    "attribute_class"    "mult_postfiredelay"
-                    "value"    "1.5"
-                }
-				"damage bonus"
-				{
-					"attribute_class"	"mult_dmg"
-					"value" "1.2"
-				}
-				"crit mod disabled"
-				{
-					"attribute_class"	"mult_crit_chance"
-					"value"	"0"
-				}
-				"Reload time decreased"
-				{
-					"attribute_class"	"mult_reload_time"
-					"value"	"0.7"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"weapons/shotgun_cock_forward.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-		}
-		"9414"
-		{
-			"name"	"projectile tester"
-			"item_class"	"tf_weapon_rocketlauncher"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"		"1"
-				"can_headshot"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"item_type_name"	"Rocket Launcher"
-			"item_name"	"Projectile Tester"
-			"item_description"	"Model by AlreadyADemon
-Fires....... something"
-			"item_slot"	"primary"
-			"item_quality"	"rarity1"
-			"show_in_armory"	"1"
-			"propername"	"0"
-			"item_logname"	"rpg"
-			"item_iconname"	"rpg"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"image_inventory"	"backpack/weapons/w_models/w_rocketlauncher"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_died/c_rocketlauncher.mdl"
-			"attach_to_hands" "1"
-			"inspect_panel_dist" "32"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -6"
-			}
-			"attributes"
-			{
-				"projectile entity name"
-				{
-					"attribute_class"	"projectile_entity_name"
-					"value"				"monster_snark"
-				}
-				"Reload time decreased"
-				{
-					"attribute_class"	"mult_reload_time"
-					"value"	"0.7"
-				}
-			}
-			"visuals"
-			{
 
-			}
-			"mouse_pressed_sound"	"weapons/shotgun_cock_forward.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-		}
-		"9416"
-		{
-			"name"	"fatty"
-			"first_sale_date"	"2012/12/20"
-			"prefab"	"valve base_misc"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"craft_class"	"hat"
-			"craft_material_type"	"hat"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_craft_count"	"1"
-				"can_craft_if_purchased"	"1"
-			}
-			"loadondemand" "1"
-			"propername" "1"
-			"show_in_armory"	"1"
-			"item_name"	"Average American"
-			"item_type_name"	"Diabetus"
-			"item_slot"	"misc2"
-			"equip_region"		"head"
-			"item_quality"	"unique"
-			"min_ilevel"	"20"
-			"max_ilevel"	"20"
-			"image_inventory"	"backpack/player/items/c_fat"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"pyro" "1"
-				"engineer" "1"
-				"spy" "1"
-				"civilian"	"1" 
-			}
-			"attributes"
-			{
-				"torso scale"
-				{
-					"attribute_class"		"torso_scale"
-					"value"		"1.5"
-				} 
-				"move speed penalty"
-				{
-					"attribute_class" 	"mult_player_movespeed"
-					"value"		"0.6"
-				} 
-				"voice pitch scale"
-				{
-					"attribute_class"	"voice_pitch_scale"
-					"value"		"0.2"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound"	"heavy.wav"
-			"drop_sound"	"vo/heavy_laughhappy02.mp3"
-		}
 
 		"9418"
 		{
@@ -9246,82 +9383,6 @@ Fires....... something"
 			"mouse_pressed_sound"	"ui/item_shovel_pickup.wav"
 			"drop_sound"		"ui/item_shovel_drop.wav"
         }
-		"9708"
-		{
-			"enabled"	"1"
-			"item_class"	"tf_weapon_shotgun"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"		"1"
-				"can_headshot"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"base_item_name"	"Shotgun"
-			"item_type_name"	"#TF_Weapon_shotgun"
-			"item_name"	"Model 37"
-			"item_description"	"Model by Svdl"
-			"item_slot"	"primary"
-			"item_quality"	"unique"
-			"show_in_armory"	"1"
-			"propername"	"1"
-			"item_logname"	"model37"
-			"item_iconname"	"shotgun"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"image_inventory"	"backpack/weapons/c_models/c_m37/w_shotgun"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"		"models/weapons/lambda/model37/c_shotgun.mdl"
-			"attach_to_hands" "1"
-			"anim_slot"	"primary"
-			"inspect_panel_dist" "32"
-			"used_by_classes"
-			{
-				"engineer"	"primary"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -6"
-			}
-			"attributes"
-			{
-				"reload time decreased"
-				{
-					"attribute_class"	"mult_reload_time"
-					"value"	"0.55"
-				}
-				"fire rate bonus"
-				{
-					"attribute_class"	"mult_postfiredelay"
-					"value" "0.6"
-				}
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value" "0.85"
-				}
-				"clip size penalty"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value" "0.85"
-				}
-			}
-			"visuals"
-			{
-				"sound_single_shot" "lambda.executioner"
-				"sound_burst" "lambda.executioner"
-			}
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-		}
 		"9717"
 		{
 			"name"	"The tommy Gun"
@@ -9362,163 +9423,34 @@ Fires....... something"
 			}
 		        "visuals"
 			{
-				"animation_replacement"
-				{
-				    "ACT_MP_STAND_SECONDARY"	"ACT_MERC_STAND_TOMMY"
-					"ACT_MP_CROUCH_SECONDARY"	"ACT_MERC_CROUCH_TOMMY"
-					"ACT_MP_RUN_SECONDARY"	"ACT_MERC_RUN_TOMMY"
-					"ACT_MP_AIRWALK_SECONDARY"	"ACT_MERC_AIRWALK_TOMMY"
-					"ACT_MP_CROUCHWALK_SECONDARY"	"ACT_MERC_CROUCHWALK_TOMMY"
-					"ACT_MP_JUMP_SECONDARY"	"ACT_MERC_JUMP_TOMMY"
-					"ACT_MP_JUMP_START_SECONDARY"	"ACT_MERC_JUMP_START_TOMMY"
-					"ACT_MP_JUMP_FLOAT_SECONDARY"	"ACT_MERC_JUMP_FLOAT_TOMMY"
-					"ACT_MP_SWIM_SECONDARY"	"ACT_MERC_SWIM_TOMMY"
-					"ACT_MP_RELOAD_STAND_SECONDARY"	"ACT_MERC_RELOAD_STAND_TOMMY"
-					"ACT_MP_RELOAD_CROUCH_SECONDARY"	"ACT_MERC_RELOAD_CROUCH_TOMMY"
-					"ACT_MP_RELOAD_SWIM_SECONDARY"	"ACT_MERC_RELOAD_SWIM_TOMMY"
-					"ACT_MP_RELOAD_AIRWALK_SECONDARY"	"ACT_MERC_RELOAD_AIRWALK_TOMMY"
-					"ACT_MP_ATTACK_STAND_SECONDARY"	"ACT_MERC_ATTACK_STAND_TOMMY"
-					"ACT_MP_ATTACK_CROUCH_SECONDARY"	"ACT_MERC_ATTACK_CROUCH_TOMMY"
-					"ACT_MP_ATTACK_SWIM_SECONDARY"	"ACT_MERC_ATTACK_SWIM_TOMMY"
-					"ACT_MP_ATTACK_AIRWALK_SECONDARY"	"ACT_MERC_ATTACK_AIRWALK_TOMMY"
-				}
 				"sound_single_shot"		"Weapon_Tommygun.Single"
 				"sound_burst"			"Weapon_Tommygun.SingleCrit"
 			}
 			"attributes"
 			{
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value" "1.5"
+				}
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.20"
+					"value"	"1.40"
 				}
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.80"
+					"value"	"0.70"
 				}
 				"clip size bonus"
 				{
 					"attribute_class"	"mult_clipsize"
 					"value"	"2.00"
 				}
-				"weapon spread bonus"
-				{
-					"attribute_class"	"mult_spread_scale"
-					"value" "0.50"
-				}
-				"mult_spread_scales_consecutive"
-				{
-					"attribute_class" 	"mult_spread_scales_consecutive"
-					"value" "1"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
-        }
-		"9718"
-		{
-			"enabled"	"1"
-			"item_class"	"tf_weapon_shotgun_primary"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_collect" "1"
-			}
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"base_item_name"	"The Super Shotgun"
-			"item_type_name"	"Double Barreled Shotgun"
-			"item_name"	"The Super Shotgun"
-			"item_description"	"Model from Open Fortress"
-			"item_logname"	"supershot"
-			"item_iconname"	"supershot"
-			"item_slot"	"primary"
-			"item_quality"	"unique"
-			"show_in_armory"	"1"
-			"propername"	"1"
-			"min_ilevel"	"10"
-			"max_ilevel"	"10"
-			"anim_slot"		"primary"
-			"image_inventory"	"backpack/weapons/w_models/supershotgun"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/v_models/v_supershotgun_mercenary.mdl"
-			"model_world"	"models/weapons/w_models/w_supershotgun.mdl"
-			"attach_to_hands" "2"
-			"inspect_panel_dist" "38"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"10 0 -10"
-			}
-			"attributes"
-			{
-				"bullets per shot bonus"
-				{
-					"attribute_class"	"mult_bullets_per_shot"
-					"value" "2.00"
-				}
-				"damage causes airblast"
-				{
-					"attribute_class"	"damage_causes_airblast"
-					"value" "10.0"
-				}
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value" "1.2"
-				}
-				"clip size penalty"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value" "0.10"
-				}
-				"spread penalty"
-				{
-					"attribute_class"	"mult_spread_scale"
-					"value" "3.00"
-				}
-				"maxammo primary reduced"
-				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value" "0.16"
-				}
-				"dmg falloff increased"
-				{
-					"attribute_class"	"mult_dmg_falloff"
-					"value"	"4.00"
-				}
-				"Reload time increased"
-				{
-					"attribute_class"	"mult_reload_time"
-					"value"	"1.50"
-				}
-				"crit mod disabled"
-				{
-					"attribute_class"	"mult_crit_chance"
-					"value"	"0"
-				}
-			}
-			"visuals"
-			{
-				"sound_single_shot"		"Weapon_SuperShotgun.Single"
-				"sound_burst"			"Weapon_SuperShotgun.SingleCrit"
-				"muzzle_flash"	"muzzle_bignasty"
-				"tracer_effect"	"bullet_bignasty_tracer01"
-			}
-			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
-			"drop_sound"		"ui/item_heavy_gun_drop.wav"
         }
 		"9729"
 		{

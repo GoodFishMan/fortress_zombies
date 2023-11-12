@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"models/weapons/iw3/attachments/acog/reticle"
-	"$translucent"	"1"
-	"$selfillum"	"1"
-}
