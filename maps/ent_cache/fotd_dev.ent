@@ -1,0 +1,182 @@
+{
+"world_maxs" "192 192 128"
+"world_mins" "-192 -1024 0"
+"skyname" "sky_hydro_01"
+"maxpropscreenwidth" "-1"
+"detailvbsp" "detail.vbsp"
+"detailmaterial" "detail/detailsprites"
+"classname" "worldspawn"
+"mapversion" "5"
+"hammerid" "1"
+}
+{
+"origin" "-1.6325 -1.6325 5.441"
+"spawnflags" "511"
+"angles" "0 270 0"
+"classname" "info_player_teamspawn"
+"hammerid" "8"
+}
+{
+"origin" "-128 160 8"
+"targetname" "logic_currencymanager"
+"classname" "logic_currencymanager"
+"hammerid" "438"
+}
+{
+"origin" "-160 160 8"
+"effects" "0"
+"classname" "lfe_logic_coop"
+"hammerid" "436"
+}
+{
+"origin" "-96 160 8"
+"targetname" "difficulty"
+"classname" "point_servercommand"
+"hammerid" "434"
+}
+{
+"origin" "128 -960 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "428"
+}
+{
+"origin" "-32 -128 0.269357"
+"angles" "0 0 0"
+"classname" "item_healthkit_full"
+"hammerid" "74"
+}
+{
+"origin" "32 -128 0.269357"
+"angles" "0 0 0"
+"classname" "item_ammopack_full"
+"hammerid" "77"
+}
+{
+"origin" "72 -200 120"
+"SunSpreadAngle" "0.5"
+"pitch" "-37"
+"angles" "0 51 0"
+"_lightscaleHDR" "1"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "244 215 193 750"
+"_AmbientScaleHDR" "1"
+"_ambientHDR" "-1 -1 -1 1"
+"_ambient" "156 178 255 250"
+"classname" "light_environment"
+"hammerid" "110"
+}
+{
+"origin" "72 -216 120"
+"spawnflags" "1"
+"classname" "logic_auto"
+"hammerid" "348"
+"OnMapSpawn" "command,Command,sv_cheats 1,0,-1"
+}
+{
+"origin" "72 -232 120"
+"targetname" "command"
+"effects" "0"
+"classname" "point_servercommand"
+"hammerid" "355"
+}
+{
+"origin" "72 -248 120"
+"TemplateName" "zomb"
+"targetname" "zomb_maker"
+"StartDisabled" "0"
+"SpawnFrequency" "1"
+"spawnflags" "16"
+"Radius" "50"
+"MaxNPCCount" "99999"
+"MaxLiveChildren" "7"
+"DestinationGroup" "info_npc_spawn_destination"
+"CriterionVisibility" "2"
+"CriterionDistance" "2"
+"angles" "0 0 0"
+"classname" "npc_template_maker"
+"hammerid" "363"
+}
+{
+"origin" "72 -264 120"
+"wakesquad" "0"
+"wakeradius" "0"
+"targetname" "zomb"
+"StartDisabled" "1"
+"spawnflags" "2564"
+"sleepstate" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"physdamagescale" "1.0"
+"ignoreunseenenemies" "0"
+"hintlimiting" "0"
+"disableshadows" "0"
+"disablereceiveshadows" "0"
+"angles" "0 0 0"
+"classname" "npc_infected"
+"hammerid" "366"
+"OnDeath" "logic_currencymanager,GiveCurrency,60,0,-1"
+"OnDamaged" "logic_currencymanager,GiveCurrency,10,0,-1"
+}
+{
+"origin" "0 -448 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "387"
+}
+{
+"origin" "128 -448 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "396"
+}
+{
+"origin" "-128 -448 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "398"
+}
+{
+"origin" "72 -296 120"
+"target" "!player"
+"subject" "zomb"
+"StartActive" "1"
+"spawnflags" "0"
+"disposition" "3"
+"classname" "ai_relationship"
+"hammerid" "401"
+}
+{
+"origin" "64 -704 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "408"
+}
+{
+"origin" "-64 -704 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "410"
+}
+{
+"origin" "-128 -960 8"
+"targetname" "info_npc_spawn_destination"
+"ReuseDelay" "1"
+"angles" "0 0 0"
+"classname" "info_npc_spawn_destination"
+"hammerid" "426"
+}

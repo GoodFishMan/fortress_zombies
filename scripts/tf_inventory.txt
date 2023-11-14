@@ -45,8 +45,8 @@
 	"soldier"
 	{
 		"primary"		"0"
-		"secondary"		"0"
-		"melee"		"0"
+		"secondary"		"4"
+		"melee"		"4"
 		"building"		"0"
 		"pda"		"0"
 		"pda2"		"0"
@@ -87,8 +87,8 @@
 	"medic"
 	{
 		"primary"		"0"
-		"secondary"		"0"
-		"melee"		"0"
+		"secondary"		"2"
+		"melee"		"1"
 		"building"		"0"
 		"pda"		"0"
 		"pda2"		"0"
