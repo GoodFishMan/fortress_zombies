@@ -9507,10 +9507,10 @@
 			"name"						"Revolver"
 			"show_in_armory"			"1"
 			"item_class"				"tf_weapon_revolver"
-			"item_quality"		"unique"
+			"item_quality"				"unique"
 			"item_logname"				"Revolver"
 			"item_iconname"				"Revolver"
-			"item_type_name"			"Rifle"
+			"item_type_name"			"Revolver"
 			"item_name"					"Revolver"
 			"show_in_armory"			"0"
 			"propername"				"1"
@@ -9540,7 +9540,7 @@
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "2.0"
+					"value" "1.2"
 				}
 				"fire rate bonus"
 				{
@@ -9735,7 +9735,7 @@
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "2.0"
+					"value" "3.0"
 				}
 				"fire rate penalty"
 				{
@@ -9928,11 +9928,6 @@
 			}
 			"attributes"
 			{
-				"mod_recoil_angle"
-				{
-					"attribute_class"	"mod_recoil_angle"
-					"value" "1"
-				}
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
@@ -9956,7 +9951,7 @@
 				"weapon spread bonus"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value" "1.75"
+					"value" "2.0"
 				}
 			}
 			
@@ -9966,6 +9961,87 @@
 				"sound_burst" "Weapon_M1.Single"
 				"sound_reload"	"Weapon_M1.Reload"
 			}
+		}
+		"1515"
+		{
+			"name"	"The Csmg"
+			"item_class"	"tf_weapon_smg"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"\
+				"can_headshot"			"1"
+			}
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"show_in_armory"	"1"
+			"item_type_name"	"Rifle"
+			"item_name"	"The Csmg"
+			"item_description"	"Model from Open Fortress"
+			"item_slot"	"secondary"
+			"item_quality"		"unique"
+			"anim_slot"			"secondary"
+			"item_logname"	"csmg"
+			"item_iconname"	"csmg"
+			"baseitem" "0"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/weapons/w_models/w_assaultrifle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models\weapons\v_models\v_smg_dm.mdl"
+			"model_world"	"models/weapons/w_models/w_smg_dm.mdl"
+			"attach_to_hands"	"2"
+			"used_by_classes"
+			{
+				"mercenary"	"1"
+			}
+		        "visuals"
+			{
+				"sound_single_shot"		"Weapon_AR.Single"
+				"sound_burst"			"Weapon_AR.SingleCrit"
+				"sound_reload"			"Weapon_AR.WorldReload"
+			}
+			"attributes"
+			{
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"	"1.20"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.35"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.8"
+				}
+				"maxammo secondary reduced"
+				{
+					"attribute_class"	"mult_maxammo_secondary"
+					"value"	"1.5"
+				}
+				"crits_become_minicrits"
+				{
+					"attribute_class"	"crits_become_minicrits"
+					"value" "1"
+				}
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
 	}
 	"attributes"
