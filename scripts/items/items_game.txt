@@ -2218,8 +2218,8 @@
 			"image_inventory"	"backpack/weapons/w_models/w_grenadelauncher"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/v_models/v_grenadelauncher_demo.mdl"
-			"model_world"	"models/weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl"
+			"model_world"	"models/weapons/w_models/w_grenadelauncher.mdl"
+			"model_player"	"models\weapons\v_models\v_grenadelauncher_demo.mdl"
 			"attach_to_hands"	"2"
 			"inspect_panel_dist" "55"
 			"used_by_classes"
@@ -9056,7 +9056,7 @@
 		"1501"
 		{
 			"name"	"The Tommy Gun"
-			"item_class"	"tf_weapon_smg"
+			"item_class"	"tf_weapon_smg_primary"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9126,7 +9126,7 @@
 				"fire rate bonus with reduced health"
 				{
 					"attribute_class"	"mult_postfiredelay_with_reduced_health"
-					"value"	"0.25"
+					"value"	"0.75"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -9253,7 +9253,7 @@
 			"item_type_name"	"Rifle"
 			"item_name"	"The Assault Rifle"
 			"item_description"	"Model from Open Fortress"
-			"item_slot"	"primary"
+			"item_slot"			"primary"
 			"item_quality"		"unique"
 			"anim_slot"			"secondary"
 			"item_logname"	"Assault Rifle"
@@ -9292,7 +9292,7 @@
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.4"
+					"value"	"3.5"
 				}
                 "no damage falloff over distance"
 				{
@@ -9303,6 +9303,11 @@
 				{
 					"attribute_class"	"mult_maxammo_primary"
 					"value"				"1.8"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"0.75"
 				}
 				"crits_become_minicrits"
 				{
@@ -9512,6 +9517,7 @@
 			"item_iconname"				"Revolver"
 			"item_type_name"			"Revolver"
 			"item_name"					"Revolver"
+			"item_slot"					"secondary"
 			"show_in_armory"			"0"
 			"propername"				"1"
 			"min_ilevel"				"8"
@@ -9661,6 +9667,7 @@
 			"item_type_name"			"#TF_Weapon_SniperRifle"
 			"item_name"					"Revolving Shotgun"
 			"anim_slot"					"secondary"
+			"item_slot"					"primary"
 			"propername"				"1"
 			"min_ilevel"				"8"
 			"max_ilevel"				"8"
@@ -9712,6 +9719,7 @@
 			"min_ilevel"				"8"
 			"max_ilevel"				"8"
 			"anim_slot"					"secondary"
+			"item_slot"					"primary"
 			"image_inventory"			"backpack/weapons/m1"
 			"model_world"				"models/weapons/w_models/w_kar98.mdl"
 			"model_player"				"models/weapons/v_models/v_kar98.mdl"
@@ -9845,6 +9853,7 @@
 			"item_iconname"				"hunterrifle"
 			"item_type_name"			"#TF_Weapon_SniperRifle"
 			"item_name"					"Revolving Shotgun"
+			"item_slot"					"primary"
 			"propername"				"1"
 			"anim_slot"					"secondary"
 			"min_ilevel"				"8"
@@ -9912,6 +9921,7 @@
 			"item_logname"				"ppsh"
 			"item_iconname"				"ppsh"
 			"item_type_name"			"Submachine Gun"
+			"item_slot"					"secondary"
 			"item_name"					"ppsh"
 			"show_in_armory"			"0"
 			"propername"				"1"
@@ -9981,6 +9991,7 @@
 			"craft_material_type"	"weapon"
 			"show_in_armory"	"1"
 			"item_type_name"	"Rifle"
+			"item_slot"					"secondary"
 			"item_name"	"The Csmg"
 			"item_description"	"Model from Open Fortress"
 			"item_slot"	"secondary"
@@ -10017,22 +10028,17 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.35"
+					"value"	"1.2"
 				}
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.8"
+					"value"	"2.0"
 				}
-				"maxammo secondary reduced"
+				"maxammo secondary increased"
 				{
 					"attribute_class"	"mult_maxammo_secondary"
-					"value"	"1.5"
-				}
-				"crits_become_minicrits"
-				{
-					"attribute_class"	"crits_become_minicrits"
-					"value" "1"
+					"value"	"1.50"
 				}
 				"revolver use hit locations"
 				{
