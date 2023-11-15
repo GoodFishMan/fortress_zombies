@@ -5,3 +5,6 @@ cfg/user.scr
 cfg/user_default.scr
 media/viewed.res
 *.cache
+cfg/config.cfg
+tf2_playerstats.dmx
+modelsounds.cache
