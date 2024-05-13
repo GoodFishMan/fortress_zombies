@@ -1,5 +1,0 @@
-particles_manifest
-{
-"file""!particles/wartime_explosions.pcf"
-"file""!particles/wartime_tank_fx.pcf"
-}

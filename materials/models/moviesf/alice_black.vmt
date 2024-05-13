@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\MovieSF/ALICE_black"
+	"$bumpmap" "models\MovieSF/ALICE_nml"
+	"$phong" "1"
+	"$phongexponent" "4"
+//	"$phongalbedotint" "1"
+	"$phongboost" ".05"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+//        "$lightwarptexture" 	"models\MovieSF/Clothes_wrp"
+	$halflambert 1
+}

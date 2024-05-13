@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\MovieSF/boots_jungle"
+	"$bumpmap" "models\MovieSF/boots_n"
+$phong "1"
+$phongexponent "3"
+$phongboost ".5"
+$phongfresnelranges  "[1 1 30]"
+$phongalbedotint "1"
+
+$rimlight "1"
+$rimlightexponent "7"
+$rimlightboost "1"
+}

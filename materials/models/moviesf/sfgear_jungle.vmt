@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\MovieSF/SFgear_jungle"
+	"$bumpmap" "models\MovieSF/SFgear_nml"
+	"$alphatest" 1
+	"$phong" "1"
+	"$phongexponent" "4"
+//	"$phongalbedotint" "1"
+	"$phongboost" ".05"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+//        "$lightwarptexture" 	"models\MovieSF/Clothes_wrp"
+	$halflambert 1
+	"$nocull" 1
+}

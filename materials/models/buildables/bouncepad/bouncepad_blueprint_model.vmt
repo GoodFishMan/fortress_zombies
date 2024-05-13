@@ -1,0 +1,8 @@
+"unlitgeneric"
+{
+	$translucent 1
+	"$basetexture"	"models/buildables/bouncepad/bouncepad_blueprint_model"
+	$nocull 1
+	$model 1
+	$surfaceprop no_decal
+}

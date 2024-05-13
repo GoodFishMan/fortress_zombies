@@ -1,0 +1,20 @@
+vertexlitgeneric
+{
+$baseTexture "models\MovieSF\MW2_facemaps\SF_head_3"
+$bumpmap "models\MovieSF\MW2_facemaps\SF_head_nml"
+$nocull 1
+
+$phong 1
+$phongboost "2"
+$phongexponent 10
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+	"$detail" "models\MovieSF\skin_detail"
+	"$detailscale"        "8"
+	"$detailblendfactor"  ".7"
+	"$detailblendmode"    "0"
+}

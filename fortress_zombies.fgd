@@ -3,6 +3,7 @@
 // Purpose: Fortress Connected definition file (.fgd) 
 //
 //=============================================================================
+@include "tf.fgd"
 @include "base.fgd"
 
 //

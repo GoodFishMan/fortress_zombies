@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\MovieSF/usmc_tactical_mich_stripes_nomex_col"
+                "$bumpmap"    "models\MovieSF/usmc_tactical_mich_stripes_nomex_nml"
+	"$phong" "1"
+	"$phongexponent" "4"
+//	"$phongalbedotint" "1"
+	"$phongboost" ".05"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+//        "$lightwarptexture" 	"models\MovieSF/Clothes_wrp"
+	$halflambert 1
+}
+
+

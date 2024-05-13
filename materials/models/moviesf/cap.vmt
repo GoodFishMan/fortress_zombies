@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\MovieSF/cap"
+	"$bumpmap" "models\MovieSF/cap_n"
+	"$nocull" 1
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost" ".8"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+}
