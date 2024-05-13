@@ -181,7 +181,6 @@ criterion "ConceptCapBlocked" "Concept" "TLK_CAPTURE_BLOCKED" required
 criterion "ConceptMedicChargeDeployed" "Concept" "TLK_MEDIC_CHARGEDEPLOYED" required
 criterion "ConceptMedicChargeStopped" "Concept" "TLK_HEALTARGET_STOPPEDHEALING" required 
 
-
 criterion "ConceptEngineerPickupBuilding" "Concept" "TLK_PICKUP_BUILDING" required 
 criterion "ConceptEngineerDeployBuilding" "Concept" "TLK_REDEPLOY_BUILDING" required 
 criterion "ConceptEngineerCarryingBuilding" "Concept" "TLK_CARRYING_BUILDING" required 
@@ -195,13 +194,6 @@ criterion "ConceptPlayerAntlion" "Concept" "TLK_PLAYER_ANTLION_CO" required
 criterion "ConceptPlayerTrap" "Concept" "TLK_PLAYER_TRAP_CO" required 
 criterion "ConceptPlayerAmmo" "Concept" "TLK_PLAYER_AMMO_CO" required 
 criterion "ConceptPlayerHealth" "Concept" "TLK_PLAYER_HEALTH_CO" required 
-
-criterion "ConceptPlayerSniper" "Concept" "TLK_PLAYER_SNIPER_CO" required
-
-
-criterion "ConceptPlayerGrenade" "Concept" "TLK_PLAYER_GRENADE" required 
-
-
 
 
 
@@ -580,10 +572,9 @@ criterion "WeaponIsAntlionClaw" "playerweapon" "tf_weapon_antlion_claw" "require
 criterion "WeaponIsCrowbar" "playerweapon" "tf_weapon_tfc_crowbar" "required"
 criterion "WeaponIsUmbrella" "playerweapon" "tf_weapon_tfc_umbrella" "required"
 criterion "WeaponIsAR2" "playerweapon" "tf_weapon_ar2" "required"
+criterion "WeaponIsEnforcerGrenade" "playerweapon" "tf_weapon_lunchbox_grenade" "required"
 
 criterion "WeaponIsNone" "playerweapon" "none" "required"
-
-criterion "WeaponIsGrenadeNormal" "playerweapon" "tf_weapon_grenade_normal" "required"
 
 //Custom healed concept and critical hit
 criterion "IsBeingHealed" "beinghealed" "1" "required"
@@ -609,7 +600,6 @@ criterion "ConceptFireWeapon" "Concept" "TLK_FIREWEAPON" required
 criterion "ConceptFireMinigun" "Concept" "TLK_FIREMINIGUN" required
 criterion "ConceptWindMinigun" "Concept" "TLK_WINDMINIGUN" required
 criterion "LowHealthContext" "playerhealthfrac" "<0.25" required
-criterion "LowHealthContextCod" "playerhealthfrac" "<0.50" required
 // Custom stuff
 criterion "CaberHealthContext" "playerhealthfrac" ">0.429" required
 criterion "BonkHealthContext" "playerhealthfrac" "<0.641" required

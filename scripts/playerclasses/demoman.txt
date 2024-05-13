@@ -5,14 +5,16 @@ PlayerClass
 {
 	// Attributes.
 	"name"			"demoman"
-	"model"			"models/player/spy.mdl"
-	"model_hwm"		"models/player/hwm/spy.mdl"
-	"model_bot"		"models/bots/spy/bot_spy.mdl"
-	"model_hands"	"models/weapons/c_models/c_spy_arms.mdl"
-	"localize_name"	"TF_Class_Name_Spy"
-	"speed_max"		"320"
-	"health_max"		"150"
-	"armor_max"		"0"
+	"model"			"models/player/demo.mdl"
+	"model_hwm"		"models/player/hwm/demo.mdl"
+	"model_bot"		"models/bots/demo/bot_demo.mdl"
+	"model_hands"		"models/weapons/c_models/c_demo_arms.mdl"
+	"localize_name"		"TF_Class_Name_Demoman"
+	"speed_max"		"280"
+	"health_armor_max"		"90"
+	"armor_max"		"100"
+	"armortype"		"2"
+	"health_max"		"175"
 
 	// Grenades.
 	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
@@ -21,7 +23,7 @@ PlayerClass
 	// Weapons.
 	"weapon1"		"TF_WEAPON_BOTTLE"
 	"weapon2"		"TF_WEAPON_GRENADELAUNCHER"
-	"weapon3"		""
+	"weapon3"		"TF_WEAPON_PIPEBOMBLAUNCHER"
 
 	//Thirdperson
 	"cameraoffset_forward"	"85"
@@ -34,13 +36,15 @@ PlayerClass
 		"tf_ammo_primary"	"16"
 		"tf_ammo_secondary"	"24"
 		"tf_ammo_metal"		"200"
-		"tf_ammo_grenades1"	"2"
-		"tf_ammo_grenades2"	"2"
+		"tf_ammo_grenades1"	"1"
+		"tf_ammo_grenades2"	"1"
+		"lfe_ammo_grenades1"	"2"
+		"lfe_ammo_grenades2"	"2"
 	}
 
 	// Death Sounds
-	"sound_death"				"Spy.Death"
-	"sound_crit_death"				"Spy.CritDeath"
-	"sound_melee_death"			"Spy.MeleeDeath"
-	"sound_explosion_death"			"Spy.ExplosionDeath"
+	"sound_death"				"Demoman.Death"
+	"sound_crit_death"				"Demoman.CritDeath"
+	"sound_melee_death"			"Demoman.MeleeDeath"
+	"sound_explosion_death"			"Demoman.ExplosionDeath"		
 }

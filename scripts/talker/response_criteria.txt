@@ -95,8 +95,6 @@ criterion "ContextActivityRun" "activity" "ACT_RUN" required
 criterion "ContextActivityDuckDodge" "activity" "ACT_DUCK_DODG" required
 criterion "ContextActivityIdle" "activity" "ACT_IDLE" required
 
-
-
 criterion "ConceptJoinPlayer" "Concept" "TLK_JOINPLAYER" required
 criterion "ConceptTalkRestart" "Concept" "TLK_RESTART_MONOLOG" "required"
 criterion "ConceptEnemyBurning" "Concept" "TLK_ENEMY_BURNING" "required"

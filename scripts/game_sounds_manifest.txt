@@ -2,39 +2,46 @@ game_sounds_manifest
 {
 
 	"precache_file"		"scripts/gamesounds/game_sounds.txt"
-	"preload_file"		"scripts/game_sounds_lambda_ui.txt"
 	"preload_file"		"scripts/gamesounds/game_sounds_footsteps.txt"
 	"precache_file"		"scripts/gamesounds/game_sounds_player.txt"
 	"precache_file"		"scripts/gamesounds/game_sounds_player_hl2.txt"
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo.txt"
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo_handmade.txt"
 	"precache_file"		"scripts/game_sounds_vo_tf2c.txt"
-	"precache_file"		"scripts/game_sounds_vo_lfce.txt"
-	"precache_file"		"scripts/gamesounds/game_sounds_music.txt"
-	"precache_file"		"scripts/game_sounds_lambda.txt"
-	"precache_file"		"scripts/game_sounds_lambda_npcs.txt"
-	"precache_file"		"scripts/game_sounds_lambda_grenades.txt"
+	"precache_file"		"scripts/game_sounds_vo_fc.txt"
+	"preload_file"		"scripts/game_sounds_ui_fc.txt"
+	"precache_file"		"scripts/game_sounds_fc.txt"
+	"precache_file"		"scripts/game_sounds_npcs_fc.txt"
+	"precache_file"		"scripts/game_sounds_grenades_fc.txt"
+	"precache_file"		"scripts/game_sounds_weapons_fc.txt"
+	"precache_file"		"scripts/game_sounds_weapons_of.txt"
 
-	"precache_file"		"scripts/game_sounds_music_ofz.txt"
 	"precache_file"		"scripts/game_sounds_general_ofz.txt"
-	"precache_file"		"scripts/game_sounds_weapons_ofz.txt"
+	"precache_file"		"scripts/game_sounds_music_ofz.txt"
 
 	"preload_file"  	"scripts/gamesounds/game_sounds_mvm.txt"
 	"preload_file"  	"scripts/gamesounds/game_sounds_vo_mvm.txt"
 	"preload_file"  	"scripts/gamesounds/game_sounds_vo_mvm_mighty.txt"
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo_mvm_handmade.txt"
 
+	"precache_file"		"scripts/gamesounds/game_sounds_music.txt"
 	//"preload_file" 	"scripts/gamesounds/mvm_level_sounds.txt"
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo_rd_robots.txt"
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo_taunts.txt"
+
+	"precache_file"		"scripts/gamesounds/game_sounds_taunt_workshop.txt"
+
+	"precache_file"  	"scripts/gamesounds/game_sounds_vo_pauling.txt"
+	"precache_file"  	"scripts/gamesounds/game_sounds_vo_merasmus.txt"
+	"precache_file"		"scripts/gamesounds/game_sounds_vo_tough_break.txt"
+
+	"precache_file"  	"scripts/gamesounds/game_sounds_passtime.txt"
+	
 
 	// Weapon sounds
 	"precache_file"		"scripts/gamesounds/game_sounds_weapons.txt"
 	"precache_file"		"scripts/gamesounds/game_sounds_weapons_hl2.txt"
 	"precache_file"		"scripts/gamesounds/game_sounds_weapons_ep2.txt"
-	"precache_file"		"scripts/game_sounds_mw2cr.txt"
-	"precache_file"		"scripts/game_sounds_cod_misc.txt"
-	
 
 	// HL2 World, Ambient Generic, Items, Physics, Vehicles
 	"precache_file"		"scripts/gamesounds/game_sounds_world.txt"

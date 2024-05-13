@@ -9,7 +9,7 @@ fWeaponData
 	
 	// Primary Attributes
 	"Damage"			"6"
-	"Range"				"1024"
+	"Range"				"8192"
 	"BulletsPerShot"		"10"
 	"Spread"			"0.0675"
 	"PunchAngle"			"2.0"

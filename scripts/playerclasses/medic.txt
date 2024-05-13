@@ -10,11 +10,11 @@ PlayerClass
 	"model_bot"		"models/bots/medic/bot_medic.mdl"
 	"model_hands"	"models/weapons/c_models/c_medic_arms.mdl"
 	"localize_name"	"TF_Class_Name_Medic"
-	"speed_max"		"300"
-//	"health_max"		"90"
-//	"armor_max"		"100"
+	"speed_max"		"320"
+	"health_armor_max"		"100"
+	"armor_max"		"50"
+	"armortype"		"2"
 	"health_max"		"150"
-	"armor_max"		"0"
 
 	// Grenades.
 	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
@@ -35,11 +35,13 @@ PlayerClass
 
 	AmmoMax
 	{
-		"tf_ammo_primary"	"100"
-		"tf_ammo_secondary"	"100"
+		"tf_ammo_primary"	"150"
+		"tf_ammo_secondary"	"150"
 		"tf_ammo_metal"		"200"
-		"tf_ammo_grenades1"	"2"
-		"tf_ammo_grenades2"	"2"
+		"tf_ammo_grenades1"	"1"
+		"tf_ammo_grenades2"	"1"
+		"lfe_ammo_grenades1"	"2"
+		"lfe_ammo_grenades2"	"2"
 	}	
 
 	// Death Sounds

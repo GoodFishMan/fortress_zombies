@@ -2030,8 +2030,9 @@
 			"image_inventory"	"backpack/weapons/c_models/c_flamethrower/c_flamethrower"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
-			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
-			"attach_to_hands"	"1"
+			"attach_to_hands" "2"
+			"model_player"	"models/weapons/v_models/v_rocketlauncher_soldier.mdl"
+			"model_world"	"models/weapons/w_models/w_flamethrower.mdl"
 			"used_by_classes"
 			{
 				"pyro"	"1"
@@ -3293,8 +3294,9 @@
 			"image_inventory"	"backpack/weapons/w_models/w_rocketlauncher"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"attach_to_hands" "2"
+
 			"inspect_panel_dist" "68"
+			"attach_to_hands" "2"
 			"model_player"	"models/weapons/v_models/v_rocketlauncher_soldier.mdl"
 			"model_world"	"models/weapons/w_models/w_rocketlauncher.mdl"
 			"used_by_classes"
@@ -4369,13 +4371,40 @@
 			"prefab"	"weapon_rocketlauncher"
 			"xifier_class_remap"	"rocket_launcher"
 			"baseitem" "0"
+			"attributes"
+			{
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"32"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "32"
+				}
+			}
 		}
 		"15"
 		{
 			"name"	"TF_WEAPON_GRENADELAUNCHER"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_grenade_launcher"
-			"baseitem" "1"
+			"baseitem" "0"
+			"attributes"
+			{
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"32"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "32"
+				}
+
+			}
 		}
 		"20"
 		{
@@ -4390,6 +4419,20 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_flamethrower"
 			"baseitem" "0"
+			"attributes"
+			{
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"150"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "150"
+				}
+
+			}
 			"visuals"
 			{
 				"attached_models"
@@ -9123,10 +9166,15 @@
 					"attribute_class"	"mult_maxammo_primary"
 					"value"				"1.5"
 				}
-				"fire rate bonus with reduced health"
+				"spawn ammo override"
 				{
-					"attribute_class"	"mult_postfiredelay_with_reduced_health"
-					"value"	"0.75"
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"150"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "150"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -9318,6 +9366,16 @@
 				{
 					"attribute_class"	"set_weapon_mode"
 					"value"	"1"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"180"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "180"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -9511,7 +9569,7 @@
 		{
 			"name"						"Revolver"
 			"show_in_armory"			"1"
-			"item_class"				"tf_weapon_revolver"
+			"item_class"				"tf_weapon_revolver_secondary"
 			"item_quality"				"unique"
 			"item_logname"				"Revolver"
 			"item_iconname"				"Revolver"
@@ -9553,10 +9611,15 @@
 					"attribute_class"	"mult_postfiredelay"
 					"value"	"0.8"
 				}
-				"maxammo primary reduced"
+				"spawn ammo override"
 				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value"				"0.36"
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"48"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "48"
 				}
 			}
 			
@@ -9697,11 +9760,17 @@
 					"attribute_class" 	"mult_spread_scale"
 					"value" "1.20"
 				}
-				"maxammo primary reduced"
+				"spawn ammo override"
 				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value"				"0.48"
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"48"
 				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "48"
+				}
+				
 			}
 		}
 		"1511"
@@ -9755,10 +9824,15 @@
 					"attribute_class"	"mod_max_primary_clip_override"
 					"value"	"-1"
 				}
-				"maxammo primary reduced"
+				"spawn ammo override"
 				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value"				"0.3"
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"40"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "40"
 				}
 			}
 			
@@ -9909,6 +9983,16 @@
 					"attribute_class"	"scattergun_knockback_mult"
 					"value"	"0.7"
 				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"40"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "40"
+				}
 			}
 		}
 		"1514"
@@ -9962,6 +10046,16 @@
 				{
 					"attribute_class"	"mult_spread_scale"
 					"value" "2.0"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"240"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "240"
 				}
 			}
 			
@@ -10045,9 +10139,138 @@
 					"attribute_class"	"set_weapon_mode"
 					"value"	"1"
 				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"180"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "180"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
+		"1516"
+		{
+			"name"	"Oneshot"
+			"prefab"	"valve"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_weapon_sniperrifle"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_headshot"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_deal_gib_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_SniperRifle"
+			"item_name"		"Oneshot"
+			"item_description"	""
+			"item_slot"	"primary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"1"
+			"max_ilevel"	"100"
+			"image_inventory"	"backpack/weapons/w_models/lever/w_sniperrifle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models\weapons\lambda\onehit\v_onehit.mdl"
+			"model_world"	"models\weapons\lambda\onehit\v_onehit.mdl"
+			"attach_to_hands"	"2"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"attributes"
+			{
+				"sniper penetrate players when charged"
+				{
+					"attribute_class"	"sniper_penetrate_players_when_charged"
+					"value"	"1"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.10"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.5"
+				}
+				"SRifle Charge rate increased"
+				{
+					"attribute_class"	"mult_sniper_charge_per_sec"
+					"value"				"2.0"
+ 				}
+				"sniper full charge damage bonus"
+				{
+					"attribute_class"	"sniper_full_charge_damage_bonus"
+					"value"				"2.0"
+ 				}
+ 				"sniper fires tracer"
+ 				{
+					"attribute_class"	"sniper_fires_tracer"
+					"value"	"1"
+				}
+				"hidden primary max ammo bonus"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"	"0.3"
+				}
+
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			
+		}
+		"1517"
+		{
+			"name"						"Chaingun"
+			"show_in_armory"			"1"
+			"item_class"				"tf_weapon_minigun"
+			"item_quality"				"unique"
+			"item_logname"				"chaingun"
+			"item_iconname"				"chaingun"
+			"item_type_name"			"Submachine Gun"
+			"item_slot"					"primary"
+			"item_name"					"Chaingun"
+			"show_in_armory"			"0"
+			"propername"				"1"
+			"min_ilevel"				"8"
+			"max_ilevel"				"8"
+			"anim_slot"					"primary"
+			"model_world"				"models/weapons/w_models/w_minigun_dm.mdl"
+			"model_player"				"models/weapons/v_models/v_minigun_dm.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier" "1"
+			}
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.6"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value" "1.3"
+				}
+			}
 		}
 	}
 	"attributes"
@@ -18484,6 +18707,177 @@
 			"hidden"	"0"
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
+		}
+		"10043"
+		{
+			"name"	"has silencer"
+			"attribute_class"	"has_silencer"
+			"description_string"	"Has a removable supressor on ALT-FIRE"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"10044"
+		{
+			"name"	"dmg bonus vs breakables"
+			"attribute_class"	"mult_dmg_vs_breakables"
+			"description_string"	"#Attrib_DmgVsBreakable_increased"
+			"description_format"	"value_is_percentage"
+			"effect_type"	"positive"
+		}
+		"10045"
+		{
+			"name"	"dmg bonus vs breakables"
+			"attribute_class"	"mult_dmg_vs_breakables"
+			"description_string"	"#Attrib_DmgVsBreakable_decreased"
+			"description_format"	"value_is_percentage"
+			"effect_type"	"negative"
+		}
+		"10046"
+		{
+			"name"	"Burst Fire Size"
+			"attribute_class"	"burst_size"
+			"description_string"	"#Attrib_BurstFire_Size"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+		}
+		"10047"
+		{
+			"name"	"Burst Fire Delay"
+			"attribute_class"	"burst_delay"
+			"description_string"	"#Attrib_BurstFire_Delay"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+		}
+		"10048"
+		{
+			"name"	"no scope"
+			"attribute_class"	"mod_no_scope"
+			"description_string"	"#Attrib_NoScope"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"10049"
+		{
+			"name"	"max ammo override"
+			"attribute_class"	"max_ammo"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+		}
+		"10050"
+		{
+			"name"	"impulse grenade blast"
+			"attribute_class"	"set_detonate_mode"
+			"description_string"	"#Attrib_ExplodeOnImpact"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+		}
+		"10051"
+		{
+			"name"	"override engineer object type"
+			"attribute_class"	"override_engineer_object_type"
+			"description_string"	"#Attrib_OverrideEngineerObjectType"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+		}
+		"10052"
+		{
+			"name"	"override engineer object type 2"
+			"attribute_class"	"override_engineer_object_type_2"
+			"description_string"	"#Attrib_OverrideEngineerObjectType2"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+		}
+		"10053" //DUMMY DESCRIPTION ATTRIBUTE DOES NOTHING
+		{
+			"name"	"bounce pad pda"
+			"attribute_class"	"bounce_pad_desc"
+			"description_string"	"#Attrib_Bouncepaddesc"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"10054"
+		{
+			"name"	"fixed_shot_pattern_supershotgun"
+			"attribute_class"	"fixed_shot_pattern_supershotgun"
+			"description_string"	"#Attrib_FixedShotPattern"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"10055"
+		{
+			"name"	"bayonet_melee_damage"
+			"attribute_class"	"bayonet_melee_damage"
+			"description_format"	"value_is_percentage"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"10056"
+		{
+			"name"	"silent footsteps"
+			"attribute_class"	"silent_steps"
+			"description_string"	"Footsteps are silent when undisguised"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"1"
+		}
+		"10057"
+		{
+			"name"	"underbarrel grenade"
+			"attribute_class"	"underbarrel_grenade"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+			"description_string" "Press the alt-fire key to fire a grenade"
+		}
+		"10058"
+		{
+			"name"	"mod underbarrel grenade cost"
+			"attribute_class"	"mod_underbarrel_ammo_cost"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+			"description_string" "Grenade uses %1s ammo"
+		}
+		"10059"
+		{
+			"name"	"secondary projectile entity name"
+			"attribute_class"	"secondary_projectile_entity_name"
+			"description_format"	"value_is_additive"
+			"attribute_type" "string"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+		}
+		"10060"
+		{
+			"name"	"secondary projectile override number"
+			"attribute_class"	"secondary_projectile_override_number"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+						"stored_as_integer"	"1"
+
 		}
 	}
 	"attribute_controlled_attached_particles"

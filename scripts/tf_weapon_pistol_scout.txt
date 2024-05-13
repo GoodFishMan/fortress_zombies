@@ -11,12 +11,11 @@ WeaponData
 	"Damage"		"15"
 	"Range"			"4096"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.015"
-	"TimeFireDelay"		"0.25"
+	"Spread"		"0.04"
+	"TimeFireDelay"		"0.15"
 	"TimeIdle"		"5.0"
 	"TimeIdleEmpty"		"0.25"
 	"TimeReload"		"0.5"
-	"DoInstantEjectBrass"	"1"
 	"ProjectileType"	"projectile_bullet"
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 	"UseRapidFireCrits"	"1"
@@ -30,7 +29,7 @@ WeaponData
 
 	// Buckets.
 	"bucket"		"1"
-	"bucket_position"	"1"
+	"bucket_position"	"0"
 
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_pistol_scout.mdl"
