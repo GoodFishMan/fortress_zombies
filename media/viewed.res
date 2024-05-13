@@ -1,67 +1,23 @@
 "viewed.res"
 {
-	"mvm_bigrock"
+	"heist_safehouse"
 	{
-		"viewed"		"12"
+		"viewed"		"13"
 	}
-	"survival_test"
-	{
-		"viewed"		"10"
-	}
-	"mvm_survival_test"
-	{
-		"viewed"		"53"
-	}
-	"mvm_example"
-	{
-		"viewed"		"3"
-	}
-	"mvm_coaltown"
+	"c1m1"
 	{
 		"viewed"		"2"
 	}
-	"mvm_badwater_v2"
+	"d2_coast_01"
 	{
 		"viewed"		"1"
 	}
-	"cp_5gorge"
+	"d2_coast_03"
 	{
 		"viewed"		"1"
 	}
-	"cp_dustbowl"
-	{
-		"viewed"		"3"
-	}
-	"dom_crash"
-	{
-		"viewed"		"53"
-	}
-	"cods_crash"
-	{
-		"viewed"		"2"
-	}
-	"dom_prefab"
-	{
-		"viewed"		"4"
-	}
-	"dom_nuketown"
-	{
-		"viewed"		"54"
-	}
-	"sur_dev"
+	"d2_coast_04"
 	{
 		"viewed"		"1"
-	}
-	"dom_terminal"
-	{
-		"viewed"		"8"
-	}
-	"dom_showdown"
-	{
-		"viewed"		"3"
-	}
-	"lfce_devtest"
-	{
-		"viewed"		"28"
 	}
 }

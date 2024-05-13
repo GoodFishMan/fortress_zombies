@@ -1,10 +1,11 @@
 "VertexLitGeneric"
 {
 	"$basetexture"	"models/weapons/v_shotgun/v_shotgun"
-	"$bumpmap" "models/weapons\v_shotgun\v_shotgun_normal"
+//	"$bumpmap" "models/weapons\v_shotgun\v_shotgun_normal"
+	$BASEMAPALPHAPHONGMASK 1
 
 	"$normalmapalphaenvmapmask" 1
-	//"$envmap" "env_cubemap"
+	"$envmap" "env_cubemap"
 	"$envmaptint" "[.35 .35 .35]"
 
 	"$phong" "1"
@@ -17,31 +18,55 @@
 	"$rimlightexponent" "10"	
 	"$rimlightboost" "1.5"
 
+
 	"$glowcolor" "1"
-	
+
+	// Cloaking
 	"$cloakPassEnabled" "1"
-	
+	"$sheenPassEnabled" "1"
+
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+
+	"$yellow" "0"
+
 	"Proxies"
 	{
-		"weapon_invis"
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
 		{
 		}
 		"ModelGlowColor"
 		{
-			"resultVar""$glowcolor"
+			"resultVar" "$glowcolor"
 		}
 		"Equals"
 		{
-			"srcVar1"	"$glowcolor"
-			"resultVar"	"$selfillumtint"
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
 		}
 		"Equals"
 		{
-			"srcVar1"	"$glowcolor"
-			"resultVar"	"$color2"
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
 		}
-		"spy_invis"
+		"YellowLevel"
 		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
 		}
 	}
 }

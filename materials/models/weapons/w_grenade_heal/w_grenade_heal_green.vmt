@@ -4,30 +4,8 @@
 	"$selfillum" "1"
 
 	"$phong" "1"
-	"$phongexponent" "35"
-	"$phongboost" "5"	
+	"$phongexponent" "30"
+	"$phongboost" "2"	
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
-	"$phongfresnelranges" "[0.25 0.5 1]"
-
-
-	"Proxies"
-	{
-		"Sine"
-		{
-			"resultVar" $selfillumtint
-			"sinemin" .1
-			"sinemax" 2.00
-			"sineperiod" 0.30
-		}
-	}
-
-	// Cloaking
-	"$cloakPassEnabled" "1"
-	"Proxies"
-	{
-		"invis"
-		{
-		}
-	}
-
+	"$phongfresnelranges" "[0.5 0.75 1]"
 }

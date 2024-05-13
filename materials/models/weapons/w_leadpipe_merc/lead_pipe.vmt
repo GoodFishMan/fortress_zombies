@@ -1,8 +1,6 @@
 "VertexLitGeneric"
 {
 	"$basetexture"	"models/weapons/w_leadpipe_merc/lead_pipe"
-	"$bumpmap"	"models/weapons/w_leadpipe_merc/lead_pipe_normal"
-	
 
 	"$glowcolor" "1"
 	"$phong" "1"
