@@ -111,7 +111,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_saxton"
+		"activeimage"		"class_sel_sm_saxton_yellow"
 		"inactiveimage"		"class_sel_sm_saxton_inactive"
 	}
 	

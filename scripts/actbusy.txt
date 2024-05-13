@@ -467,63 +467,12 @@
 		"interrupts"	"BA_INT_NONE"
 	}
 
-	"Sur_WallCover_R"
-	{
-		"busy_sequence"		"Cover_R"
-		"exit_sequence"		"Cover_RToShootSMG1"
-		"min_time"		"10.0"
-		"max_time"		"30.0"
-		"interrupts"		"BA_INT_DANGER"
-	}
-	
-	"Sur_WallCover_L"
-	{
-		"busy_sequence"		"Cover_L"
-		"exit_sequence"		"Cover_LToShootSMG1"
-		"min_time"		"10.0"
-		"max_time"		"30.0"
-		"interrupts"		"BA_INT_DANGER"
-	}
-	
-	"Sur_Cover"
-	{
-		"busy_sequence"		"Crouch_idleD"
-		"exit_sequence"		"CrouchDToStand"
-		"min_time"		"10.0"
-		"max_time"		"30.0"
-		"interrupts"		"BA_INT_DANGER"
-	}
 //*****************************************************************************
 //************  Soldier actbusy section   *************************************
 //*****************************************************************************
 
 	
-	"Sur_BadWallCover_R"
-	{
-		"busy_sequence"		"leanwall_Left_B_idle"
-		"exit_sequence"		"leanwall_Left_B_exit"
-		"min_time"		"2.0"
-		"max_time"		"10.0"
-		"interrupts"		"BA_INT_DANGER"
-	}
-	
-	"Sur_BadWallCover_L"
-	{
-		"busy_sequence"		"leanwall_right_idle"
-		"exit_sequence"		"leanwall_right_exit"
-		"min_time"		"2.0"
-		"max_time"		"10.0"
-		"interrupts"		"BA_INT_DANGER"
-	}
-	
-	"Sur_BadCover"
-	{
-		"busy_sequence"		"Crouch_idleD"
-		"exit_sequence"		"CrouchDToStand"
-		"min_time"		"2.0"
-		"max_time"		"10.0"
-		"interrupts"		"BA_INT_DANGER"
-	}
+
 	"Cover_crouch"
 	{
 		"busy_sequence"		"crouchidle_AB"

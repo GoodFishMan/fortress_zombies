@@ -111,7 +111,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_saxton"
+		"activeimage"		"class_sel_sm_saxton_blu"
 		"inactiveimage"		"class_sel_sm_saxton_inactive"
 	}
 	
@@ -141,7 +141,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_telecon"
+		"activeimage"		"class_sel_sm_telecon_blu"
 		"inactiveimage"		"class_sel_sm_telecon_inactive"
 	}
 	

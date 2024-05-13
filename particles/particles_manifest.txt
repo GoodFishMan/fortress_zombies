@@ -85,6 +85,7 @@ particles_manifest
 	"file"		"!particles/fuse_spark.pcf"	
 	"file"		"!particles/grenades.pcf"	
 	"file"		"!particles/heal_grenade.pcf"	
+	"file"		"!particles/heal_ticker.pcf"	
 	"file"		"!particles/incendiaryrocket.pcf"	
 	"file"		"!particles/medic_infection.pcf"	
 	"file"		"!particles/madieval_fx.pcf"	
@@ -95,6 +96,8 @@ particles_manifest
 	"file"		"!particles/sniper_rifle.pcf"	
 	"file"		"!particles/sniper_tracer.pcf"	
 	"file"		"!particles/spy_gasgrenade.pcf"	
+	"file"		"!particles/mlg_fx.pcf"	
+	"file"		"!particles/mlg_crit_fx.pcf"	
 
 	"file"		"!particles/physcannon.pcf"
 
