@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "119"
+	"mapversion" "121"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "119"
+	"mapversion" "121"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32682,21 +32682,26 @@ entity
 }
 entity
 {
-	"id" "27590"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"solid" "6"
-	"origin" "604 -572 8"
+	"id" "29018"
+	"classname" "info_node_hint"
+	"angles" "0 90 0"
+	"effects" "0"
+	"hinttype" "901"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "360"
+	"nodeid" "139"
+	"spawnflags" "0"
+	"StartHintDisabled" "0"
+	"TargetNode" "138"
+	"origin" "1344 -1216 1.52588e-05"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "232 219 8"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -16268]"
+		"logicalpos" "[0 -3268]"
 	}
 }
 entity
@@ -33227,30 +33232,6 @@ entity
 	"StartHintDisabled" "0"
 	"TargetNode" "139"
 	"origin" "1344 -1312 192"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "29018"
-	"classname" "info_node_hint"
-	"angles" "0 90 0"
-	"effects" "0"
-	"hinttype" "901"
-	"IgnoreFacing" "2"
-	"MaximumState" "3"
-	"MinimumState" "1"
-	"nodeFOV" "360"
-	"nodeid" "139"
-	"spawnflags" "0"
-	"StartHintDisabled" "0"
-	"TargetNode" "138"
-	"origin" "1344 -1216 1.52588e-05"
 	editor
 	{
 		"color" "232 219 8"
