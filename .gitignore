@@ -93,3 +93,8 @@ cfg/server_blacklist.txt
 tf_coop_lambda_gamestats.dat
 *.ztmp
 cfg/server_blacklist.txt
+cfg/config.cfg
+GameState.txt
+scripts/tf_inventory.txt
+sound/sound.cache
+tf2_playerstats.dmx
