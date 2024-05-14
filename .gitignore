@@ -99,3 +99,4 @@ scripts/tf_inventory.txt
 sound/sound.cache
 tf2_playerstats.dmx
 cfg/config.cfg
+*.cfg
