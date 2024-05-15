@@ -105,3 +105,4 @@ modelsounds.cache
 scripts/tf_inventory.txt
 ServerConfig.vdf
 tf2_playerstats.dmx
+GameState.txt
