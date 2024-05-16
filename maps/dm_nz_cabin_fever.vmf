@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "177"
+	"mapversion" "182"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "177"
+	"mapversion" "182"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -85265,7 +85265,7 @@ entity
 	"id" "55047"
 	"classname" "npc_zombie"
 	"angles" "0 0 0"
-	"noheadcrab" "1"
+	"noheadcrab" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -92788,146 +92788,42 @@ entity
 }
 entity
 {
-	"id" "21660"
-	"classname" "func_dustcloud"
-	"Alpha" "24"
-	"angles" "0 0 0"
-	"Color" "28 73 98"
-	"DistMax" "2000"
-	"effects" "0"
-	"FallSpeed" "0"
-	"Frozen" "0"
-	"LifetimeMax" "8"
-	"LifetimeMin" "4"
-	"SizeMax" "300"
-	"SizeMin" "100"
-	"SpawnRate" "30"
-	"SpeedMax" "13"
+	"id" "56122"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/weapons/w_models/w_smg_dm.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
 	"StartDisabled" "0"
-	solid
-	{
-		"id" "21661"
-		side
-		{
-			"id" "8190"
-			"plane" "(-640 1792 128) (0 1792 128) (0 1280 16)"
-			vertices_plus
-			{
-				"v" "-640 1792 128"
-				"v" "0 1792 128"
-				"v" "0 1280 16"
-				"v" "-640 1280 16"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8189"
-			"plane" "(-640 1280 -32) (0 1280 -32) (0 1792 -32)"
-			vertices_plus
-			{
-				"v" "-640 1280 -32"
-				"v" "0 1280 -32"
-				"v" "0 1792 -32"
-				"v" "-640 1792 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8188"
-			"plane" "(-640 1280 16) (-640 1280 -32) (-640 1792 -32)"
-			vertices_plus
-			{
-				"v" "-640 1280 16"
-				"v" "-640 1280 -32"
-				"v" "-640 1792 -32"
-				"v" "-640 1792 128"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8187"
-			"plane" "(0 1280 -32) (0 1280 16) (0 1792 128)"
-			vertices_plus
-			{
-				"v" "0 1280 -32"
-				"v" "0 1280 16"
-				"v" "0 1792 128"
-				"v" "0 1792 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8186"
-			"plane" "(0 1792 -32) (0 1792 128) (-640 1792 128)"
-			vertices_plus
-			{
-				"v" "0 1792 -32"
-				"v" "0 1792 128"
-				"v" "-640 1792 128"
-				"v" "-640 1792 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8185"
-			"plane" "(-640 1280 -32) (-640 1280 16) (0 1280 16)"
-			vertices_plus
-			{
-				"v" "-640 1280 -32"
-				"v" "-640 1280 16"
-				"v" "0 1280 16"
-				"v" "0 1280 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"origin" "-511 -159 59"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
+		"logicalpos" "[3500 -6768]"
 	}
 }
 entity
@@ -99369,7 +99265,7 @@ entity
 	"id" "54814"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-2063.92 819.519 14.3803"
 	editor
@@ -99385,7 +99281,7 @@ entity
 	"id" "54816"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-2069.92 425.696 21.6224"
 	editor
@@ -99401,7 +99297,7 @@ entity
 	"id" "54818"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-1874.11 707.687 2.37764"
 	editor
@@ -99417,7 +99313,7 @@ entity
 	"id" "54826"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-1331.61 -882.508 16"
 	editor
@@ -99433,7 +99329,7 @@ entity
 	"id" "54831"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-1454.86 -606.344 0"
 	editor
@@ -99449,7 +99345,7 @@ entity
 	"id" "54835"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-403.838 -1078 -16"
 	editor
@@ -99462,12 +99358,12 @@ entity
 }
 entity
 {
-	"id" "54840"
+	"id" "57332"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
-	"origin" "192.563 -1091.97 -8"
+	"origin" "224.359 -1123.16 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -99481,7 +99377,7 @@ entity
 	"id" "54845"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "484.885 -853.89 4"
 	editor
@@ -99497,7 +99393,7 @@ entity
 	"id" "54850"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "1392 68 -16"
 	editor
@@ -99513,7 +99409,7 @@ entity
 	"id" "54853"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "1312 308 -32"
 	editor
@@ -99529,7 +99425,7 @@ entity
 	"id" "54855"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "1416 540 -12"
 	editor
@@ -99545,7 +99441,7 @@ entity
 	"id" "54864"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
 	"origin" "-288.127 1705.36 0"
 	editor
@@ -99561,9 +99457,9 @@ entity
 	"id" "54869"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
-	"ReuseDelay" "1"
+	"ReuseDelay" "2"
 	"targetname" "zombspawn_1"
-	"origin" "-301.839 1545.21 -16"
+	"origin" "-380 1545.21 -16"
 	editor
 	{
 		"color" "220 30 220"
@@ -104093,42 +103989,304 @@ entity
 }
 entity
 {
-	"id" "56122"
-	"classname" "prop_dynamic"
-	"angles" "0 270 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/weapons/w_models/w_smg_dm.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"origin" "-511 -159 59"
+	"id" "57291"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-450.645 1289.9 -28"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[3500 -6768]"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57293"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-228.432 1231.01 -28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57300"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-263.387 1448.07 -20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57305"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "157"
+	"origin" "-328.592 1480.04 -32"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "57308"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "158"
+	"origin" "-208.862 901.128 -36"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "57315"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "1112.94 567.539 -20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57320"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "1118.51 153.932 -28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57323"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-283.277 -1134.79 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57326"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-204.215 -741.617 -20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57329"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "324.124 -893.055 -12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57335"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-1356.15 -402.777 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57338"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-1043.5 -164.882 -20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57341"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-1194.23 -820.216 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57344"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-2085.15 639.698 20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57347"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-1844.37 478.273 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57350"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-1724.79 865.748 -4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57409"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "-1582.23 5.15625 -12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57412"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "678.571 315.514 -20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "57417"
+	"classname" "info_npc_spawn_destination"
+	"angles" "0 0 0"
+	"ReuseDelay" "2"
+	"targetname" "zombspawn_1"
+	"origin" "354.714 871.659 -12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
 	}
 }
 cameras

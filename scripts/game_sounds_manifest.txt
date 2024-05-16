@@ -18,6 +18,7 @@ game_sounds_manifest
 
 	"precache_file"		"scripts/game_sounds_general_ofz.txt"
 	"precache_file"		"scripts/game_sounds_music_ofz.txt"
+	"precache_file"		"scripts/game_sounds_npcs_fz.txt"
 
 	"preload_file"  	"scripts/gamesounds/game_sounds_mvm.txt"
 	"preload_file"  	"scripts/gamesounds/game_sounds_vo_mvm.txt"

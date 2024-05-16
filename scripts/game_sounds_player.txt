@@ -660,13 +660,12 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"		"90, 110"
 	"rndwave"
 	{
-		"wave"		"player/crit_hit_mini.wav"
-		"wave"		"player/crit_hit_mini2.wav"
-		"wave"		"player/crit_hit_mini3.wav"
-		"wave"		"player/crit_hit_mini4.wav"
-		"wave"		"player/crit_hit_mini5.wav"
+		"wave"		"player/decapitated1.wav"
+		"wave"		"player/decapitated2.wav"
+		"wave"		"player/decapitated3.wav"
 	}
 }
 
