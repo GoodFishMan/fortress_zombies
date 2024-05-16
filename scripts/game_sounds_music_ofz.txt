@@ -381,3 +381,18 @@
 	"pitch"			"PITCH_NORM"
 	"wave"			"#ui\gamestartup11.mp3"
 }
+
+"nz.radio.nacht"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_80dB"
+	"pitch"			"PITCH_NORM"
+	rndwave
+	{
+		wave		"#music\Dusk.mp3"
+		wave		"#music\hell_gate.mp3"
+		wave		"#music\pentagon.mp3"
+		wave		"#music\Sand.mp3"
+	}
+}
