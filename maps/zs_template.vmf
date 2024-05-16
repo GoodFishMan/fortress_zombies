@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "121"
+	"mapversion" "127"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "121"
+	"mapversion" "127"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4682,56 +4682,56 @@ world
 	}
 	solid
 	{
-		"id" "2119"
+		"id" "27351"
 		side
 		{
-			"id" "918"
-			"plane" "(128 -1296 128) (128 -1280 128) (256 -1280 128)"
+			"id" "3662"
+			"plane" "(1024.06 -1280 128) (1024.06 -1664 128) (128.059 -1664 128)"
 			vertices_plus
 			{
-				"v" "128 -1296 128"
-				"v" "128 -1280 128"
-				"v" "256 -1280 128"
-				"v" "256 -1296 128"
+				"v" "1024.06 -1280 128"
+				"v" "1024.06 -1664 128"
+				"v" "128.059 -1664 128"
+				"v" "128.059 -1280 128"
 			}
-			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "DEV/DEV_BLENDMEASURE"
+			"uaxis" "[-1 0 0 0.234863] 0.25"
+			"vaxis" "[0 1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "917"
-			"plane" "(128 -1280 0) (128 -1296 0) (256 -1296 0)"
+			"id" "3661"
+			"plane" "(1024.06 -1664 0) (1024.06 -1280 0) (128.059 -1280 0)"
 			vertices_plus
 			{
-				"v" "128 -1280 0"
-				"v" "128 -1296 0"
-				"v" "256 -1296 0"
-				"v" "256 -1280 0"
+				"v" "1024.06 -1664 0"
+				"v" "1024.06 -1280 0"
+				"v" "128.059 -1280 0"
+				"v" "128.059 -1664 0"
 			}
 			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 0.234863] 0.25"
+			"vaxis" "[0 1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "916"
-			"plane" "(256 -1280 0) (256 -1296 0) (256 -1296 128)"
+			"id" "3660"
+			"plane" "(1024.06 -1280 0) (1024.06 -1664 0) (1024.06 -1664 128)"
 			vertices_plus
 			{
-				"v" "256 -1280 0"
-				"v" "256 -1296 0"
-				"v" "256 -1296 128"
-				"v" "256 -1280 128"
+				"v" "1024.06 -1280 0"
+				"v" "1024.06 -1664 0"
+				"v" "1024.06 -1664 128"
+				"v" "1024.06 -1280 128"
 			}
 			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4739,17 +4739,17 @@ world
 		}
 		side
 		{
-			"id" "915"
-			"plane" "(128 -1296 0) (128 -1280 0) (128 -1280 128)"
+			"id" "3659"
+			"plane" "(128.059 -1664 0) (128.059 -1280 0) (128.059 -1280 128)"
 			vertices_plus
 			{
-				"v" "128 -1296 0"
-				"v" "128 -1280 0"
-				"v" "128 -1280 128"
-				"v" "128 -1296 128"
+				"v" "128.059 -1664 0"
+				"v" "128.059 -1280 0"
+				"v" "128.059 -1280 128"
+				"v" "128.059 -1664 128"
 			}
 			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4757,17 +4757,17 @@ world
 		}
 		side
 		{
-			"id" "914"
-			"plane" "(256 -1296 0) (128 -1296 0) (128 -1296 128)"
+			"id" "3658"
+			"plane" "(1024.06 -1664 0) (128.059 -1664 0) (128.059 -1664 128)"
 			vertices_plus
 			{
-				"v" "256 -1296 0"
-				"v" "128 -1296 0"
-				"v" "128 -1296 128"
-				"v" "256 -1296 128"
+				"v" "1024.06 -1664 0"
+				"v" "128.059 -1664 0"
+				"v" "128.059 -1664 128"
+				"v" "1024.06 -1664 128"
 			}
 			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 0.234863] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4775,17 +4775,17 @@ world
 		}
 		side
 		{
-			"id" "913"
-			"plane" "(128 -1280 0) (256 -1280 0) (256 -1280 128)"
+			"id" "3657"
+			"plane" "(128.059 -1280 0) (1024.06 -1280 0) (1024.06 -1280 128)"
 			vertices_plus
 			{
-				"v" "128 -1280 0"
-				"v" "256 -1280 0"
-				"v" "256 -1280 128"
-				"v" "128 -1280 128"
+				"v" "128.059 -1280 0"
+				"v" "1024.06 -1280 0"
+				"v" "1024.06 -1280 128"
+				"v" "128.059 -1280 128"
 			}
 			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 0.234863] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4793,7 +4793,7 @@ world
 		}
 		editor
 		{
-			"color" "0 211 140"
+			"color" "0 152 141"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7428,478 +7428,6 @@ world
 		editor
 		{
 			"color" "0 215 240"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18451"
-		side
-		{
-			"id" "2471"
-			"plane" "(2304 -128 912) (2496 -128 912) (2496 -768 912)"
-			vertices_plus
-			{
-				"v" "2304 -128 912"
-				"v" "2496 -128 912"
-				"v" "2496 -768 912"
-				"v" "2304 -768 912"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2470"
-			"plane" "(2304 -768 896) (2496 -768 896) (2496 -128 896)"
-			vertices_plus
-			{
-				"v" "2304 -768 896"
-				"v" "2496 -768 896"
-				"v" "2496 -128 896"
-				"v" "2304 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2469"
-			"plane" "(2304 -128 912) (2304 -768 912) (2304 -768 896)"
-			vertices_plus
-			{
-				"v" "2304 -128 912"
-				"v" "2304 -768 912"
-				"v" "2304 -768 896"
-				"v" "2304 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2468"
-			"plane" "(2496 -128 896) (2496 -768 896) (2496 -768 912)"
-			vertices_plus
-			{
-				"v" "2496 -128 896"
-				"v" "2496 -768 896"
-				"v" "2496 -768 912"
-				"v" "2496 -128 912"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2467"
-			"plane" "(2496 -128 912) (2304 -128 912) (2304 -128 896)"
-			vertices_plus
-			{
-				"v" "2496 -128 912"
-				"v" "2304 -128 912"
-				"v" "2304 -128 896"
-				"v" "2496 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2466"
-			"plane" "(2496 -768 896) (2304 -768 896) (2304 -768 912)"
-			vertices_plus
-			{
-				"v" "2496 -768 896"
-				"v" "2304 -768 896"
-				"v" "2304 -768 912"
-				"v" "2496 -768 912"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 165 250"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18450"
-		side
-		{
-			"id" "2465"
-			"plane" "(2288 -128 896) (2304 -128 896) (2304 -768 896)"
-			vertices_plus
-			{
-				"v" "2288 -128 896"
-				"v" "2304 -128 896"
-				"v" "2304 -768 896"
-				"v" "2288 -768 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2464"
-			"plane" "(2288 -768 768) (2304 -768 768) (2304 -128 768)"
-			vertices_plus
-			{
-				"v" "2288 -768 768"
-				"v" "2304 -768 768"
-				"v" "2304 -128 768"
-				"v" "2288 -128 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2463"
-			"plane" "(2288 -128 896) (2288 -768 896) (2288 -768 768)"
-			vertices_plus
-			{
-				"v" "2288 -128 896"
-				"v" "2288 -768 896"
-				"v" "2288 -768 768"
-				"v" "2288 -128 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2462"
-			"plane" "(2304 -128 768) (2304 -768 768) (2304 -768 896)"
-			vertices_plus
-			{
-				"v" "2304 -128 768"
-				"v" "2304 -768 768"
-				"v" "2304 -768 896"
-				"v" "2304 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2461"
-			"plane" "(2304 -128 896) (2288 -128 896) (2288 -128 768)"
-			vertices_plus
-			{
-				"v" "2304 -128 896"
-				"v" "2288 -128 896"
-				"v" "2288 -128 768"
-				"v" "2304 -128 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2460"
-			"plane" "(2304 -768 768) (2288 -768 768) (2288 -768 896)"
-			vertices_plus
-			{
-				"v" "2304 -768 768"
-				"v" "2288 -768 768"
-				"v" "2288 -768 896"
-				"v" "2304 -768 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 193 206"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18449"
-		side
-		{
-			"id" "2459"
-			"plane" "(2496 -128 896) (2512 -128 896) (2512 -768 896)"
-			vertices_plus
-			{
-				"v" "2496 -128 896"
-				"v" "2512 -128 896"
-				"v" "2512 -768 896"
-				"v" "2496 -768 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2458"
-			"plane" "(2496 -768 768) (2512 -768 768) (2512 -128 768)"
-			vertices_plus
-			{
-				"v" "2496 -768 768"
-				"v" "2512 -768 768"
-				"v" "2512 -128 768"
-				"v" "2496 -128 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2457"
-			"plane" "(2496 -128 896) (2496 -768 896) (2496 -768 768)"
-			vertices_plus
-			{
-				"v" "2496 -128 896"
-				"v" "2496 -768 896"
-				"v" "2496 -768 768"
-				"v" "2496 -128 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2456"
-			"plane" "(2512 -128 768) (2512 -768 768) (2512 -768 896)"
-			vertices_plus
-			{
-				"v" "2512 -128 768"
-				"v" "2512 -768 768"
-				"v" "2512 -768 896"
-				"v" "2512 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2455"
-			"plane" "(2512 -128 896) (2496 -128 896) (2496 -128 768)"
-			vertices_plus
-			{
-				"v" "2512 -128 896"
-				"v" "2496 -128 896"
-				"v" "2496 -128 768"
-				"v" "2512 -128 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2454"
-			"plane" "(2512 -768 768) (2496 -768 768) (2496 -768 896)"
-			vertices_plus
-			{
-				"v" "2512 -768 768"
-				"v" "2496 -768 768"
-				"v" "2496 -768 896"
-				"v" "2512 -768 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 217 190"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18448"
-		side
-		{
-			"id" "2453"
-			"plane" "(2304 -128 768) (2496 -128 768) (2496 -768 768)"
-			vertices_plus
-			{
-				"v" "2304 -128 768"
-				"v" "2496 -128 768"
-				"v" "2496 -768 768"
-				"v" "2304 -768 768"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2452"
-			"plane" "(2304 -768 704) (2496 -768 704) (2496 -128 704)"
-			vertices_plus
-			{
-				"v" "2304 -768 704"
-				"v" "2496 -768 704"
-				"v" "2496 -128 704"
-				"v" "2304 -128 704"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2451"
-			"plane" "(2304 -128 768) (2304 -768 768) (2304 -768 704)"
-			vertices_plus
-			{
-				"v" "2304 -128 768"
-				"v" "2304 -768 768"
-				"v" "2304 -768 704"
-				"v" "2304 -128 704"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2450"
-			"plane" "(2496 -128 704) (2496 -768 704) (2496 -768 768)"
-			vertices_plus
-			{
-				"v" "2496 -128 704"
-				"v" "2496 -768 704"
-				"v" "2496 -768 768"
-				"v" "2496 -128 768"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2449"
-			"plane" "(2496 -128 768) (2304 -128 768) (2304 -128 704)"
-			vertices_plus
-			{
-				"v" "2496 -128 768"
-				"v" "2304 -128 768"
-				"v" "2304 -128 704"
-				"v" "2496 -128 704"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2448"
-			"plane" "(2496 -768 704) (2304 -768 704) (2304 -768 768)"
-			vertices_plus
-			{
-				"v" "2496 -768 704"
-				"v" "2304 -768 704"
-				"v" "2304 -768 768"
-				"v" "2496 -768 768"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 233 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -13452,124 +12980,6 @@ world
 	}
 	solid
 	{
-		"id" "18447"
-		side
-		{
-			"id" "2447"
-			"plane" "(2304 -112 896) (2496 -112 896) (2496 -128 896)"
-			vertices_plus
-			{
-				"v" "2304 -112 896"
-				"v" "2496 -112 896"
-				"v" "2496 -128 896"
-				"v" "2304 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2446"
-			"plane" "(2304 -128 768) (2496 -128 768) (2496 -112 768)"
-			vertices_plus
-			{
-				"v" "2304 -128 768"
-				"v" "2496 -128 768"
-				"v" "2496 -112 768"
-				"v" "2304 -112 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2445"
-			"plane" "(2304 -112 896) (2304 -128 896) (2304 -128 768)"
-			vertices_plus
-			{
-				"v" "2304 -112 896"
-				"v" "2304 -128 896"
-				"v" "2304 -128 768"
-				"v" "2304 -112 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2444"
-			"plane" "(2496 -112 768) (2496 -128 768) (2496 -128 896)"
-			vertices_plus
-			{
-				"v" "2496 -112 768"
-				"v" "2496 -128 768"
-				"v" "2496 -128 896"
-				"v" "2496 -112 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2443"
-			"plane" "(2496 -112 896) (2304 -112 896) (2304 -112 768)"
-			vertices_plus
-			{
-				"v" "2496 -112 896"
-				"v" "2304 -112 896"
-				"v" "2304 -112 768"
-				"v" "2496 -112 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2442"
-			"plane" "(2496 -128 768) (2304 -128 768) (2304 -128 896)"
-			vertices_plus
-			{
-				"v" "2496 -128 768"
-				"v" "2304 -128 768"
-				"v" "2304 -128 896"
-				"v" "2496 -128 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 143 100"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "27356"
 		side
 		{
@@ -13786,124 +13196,6 @@ world
 	}
 	solid
 	{
-		"id" "18446"
-		side
-		{
-			"id" "2441"
-			"plane" "(2304 -768 896) (2496 -768 896) (2496 -784 896)"
-			vertices_plus
-			{
-				"v" "2304 -768 896"
-				"v" "2496 -768 896"
-				"v" "2496 -784 896"
-				"v" "2304 -784 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2440"
-			"plane" "(2304 -784 768) (2496 -784 768) (2496 -768 768)"
-			vertices_plus
-			{
-				"v" "2304 -784 768"
-				"v" "2496 -784 768"
-				"v" "2496 -768 768"
-				"v" "2304 -768 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2439"
-			"plane" "(2304 -768 896) (2304 -784 896) (2304 -784 768)"
-			vertices_plus
-			{
-				"v" "2304 -768 896"
-				"v" "2304 -784 896"
-				"v" "2304 -784 768"
-				"v" "2304 -768 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2438"
-			"plane" "(2496 -768 768) (2496 -784 768) (2496 -784 896)"
-			vertices_plus
-			{
-				"v" "2496 -768 768"
-				"v" "2496 -784 768"
-				"v" "2496 -784 896"
-				"v" "2496 -768 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2437"
-			"plane" "(2496 -768 896) (2304 -768 896) (2304 -768 768)"
-			vertices_plus
-			{
-				"v" "2496 -768 896"
-				"v" "2304 -768 896"
-				"v" "2304 -768 768"
-				"v" "2496 -768 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2436"
-			"plane" "(2496 -784 768) (2304 -784 768) (2304 -784 896)"
-			vertices_plus
-			{
-				"v" "2496 -784 768"
-				"v" "2304 -784 768"
-				"v" "2304 -784 896"
-				"v" "2496 -784 896"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 151 212"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "96"
 		side
 		{
@@ -14016,124 +13308,6 @@ world
 		editor
 		{
 			"color" "0 211 140"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18445"
-		side
-		{
-			"id" "2435"
-			"plane" "(2304 192 1040) (2496 192 1040) (2496 0 1040)"
-			vertices_plus
-			{
-				"v" "2304 192 1040"
-				"v" "2496 192 1040"
-				"v" "2496 0 1040"
-				"v" "2304 0 1040"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2434"
-			"plane" "(2304 0 1024) (2496 0 1024) (2496 192 1024)"
-			vertices_plus
-			{
-				"v" "2304 0 1024"
-				"v" "2496 0 1024"
-				"v" "2496 192 1024"
-				"v" "2304 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2433"
-			"plane" "(2304 192 1040) (2304 0 1040) (2304 0 1024)"
-			vertices_plus
-			{
-				"v" "2304 192 1040"
-				"v" "2304 0 1040"
-				"v" "2304 0 1024"
-				"v" "2304 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2432"
-			"plane" "(2496 192 1024) (2496 0 1024) (2496 0 1040)"
-			vertices_plus
-			{
-				"v" "2496 192 1024"
-				"v" "2496 0 1024"
-				"v" "2496 0 1040"
-				"v" "2496 192 1040"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2431"
-			"plane" "(2496 192 1040) (2304 192 1040) (2304 192 1024)"
-			vertices_plus
-			{
-				"v" "2496 192 1040"
-				"v" "2304 192 1040"
-				"v" "2304 192 1024"
-				"v" "2496 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2430"
-			"plane" "(2496 0 1024) (2304 0 1024) (2304 0 1040)"
-			vertices_plus
-			{
-				"v" "2496 0 1024"
-				"v" "2304 0 1024"
-				"v" "2304 0 1040"
-				"v" "2496 0 1040"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 165 250"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -14920,596 +14094,6 @@ world
 		editor
 		{
 			"color" "0 209 106"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18444"
-		side
-		{
-			"id" "2429"
-			"plane" "(2288 192 1024) (2304 192 1024) (2304 0 1024)"
-			vertices_plus
-			{
-				"v" "2288 192 1024"
-				"v" "2304 192 1024"
-				"v" "2304 0 1024"
-				"v" "2288 0 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2428"
-			"plane" "(2288 0 768) (2304 0 768) (2304 192 768)"
-			vertices_plus
-			{
-				"v" "2288 0 768"
-				"v" "2304 0 768"
-				"v" "2304 192 768"
-				"v" "2288 192 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2427"
-			"plane" "(2288 192 1024) (2288 0 1024) (2288 0 768)"
-			vertices_plus
-			{
-				"v" "2288 192 1024"
-				"v" "2288 0 1024"
-				"v" "2288 0 768"
-				"v" "2288 192 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2426"
-			"plane" "(2304 192 768) (2304 0 768) (2304 0 1024)"
-			vertices_plus
-			{
-				"v" "2304 192 768"
-				"v" "2304 0 768"
-				"v" "2304 0 1024"
-				"v" "2304 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2425"
-			"plane" "(2304 192 1024) (2288 192 1024) (2288 192 768)"
-			vertices_plus
-			{
-				"v" "2304 192 1024"
-				"v" "2288 192 1024"
-				"v" "2288 192 768"
-				"v" "2304 192 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2424"
-			"plane" "(2304 0 768) (2288 0 768) (2288 0 1024)"
-			vertices_plus
-			{
-				"v" "2304 0 768"
-				"v" "2288 0 768"
-				"v" "2288 0 1024"
-				"v" "2304 0 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 193 206"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18443"
-		side
-		{
-			"id" "2423"
-			"plane" "(2304 208 1024) (2496 208 1024) (2496 192 1024)"
-			vertices_plus
-			{
-				"v" "2304 208 1024"
-				"v" "2496 208 1024"
-				"v" "2496 192 1024"
-				"v" "2304 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2422"
-			"plane" "(2304 192 768) (2496 192 768) (2496 208 768)"
-			vertices_plus
-			{
-				"v" "2304 192 768"
-				"v" "2496 192 768"
-				"v" "2496 208 768"
-				"v" "2304 208 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2421"
-			"plane" "(2304 208 1024) (2304 192 1024) (2304 192 768)"
-			vertices_plus
-			{
-				"v" "2304 208 1024"
-				"v" "2304 192 1024"
-				"v" "2304 192 768"
-				"v" "2304 208 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2420"
-			"plane" "(2496 208 768) (2496 192 768) (2496 192 1024)"
-			vertices_plus
-			{
-				"v" "2496 208 768"
-				"v" "2496 192 768"
-				"v" "2496 192 1024"
-				"v" "2496 208 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2419"
-			"plane" "(2496 208 1024) (2304 208 1024) (2304 208 768)"
-			vertices_plus
-			{
-				"v" "2496 208 1024"
-				"v" "2304 208 1024"
-				"v" "2304 208 768"
-				"v" "2496 208 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2418"
-			"plane" "(2496 192 768) (2304 192 768) (2304 192 1024)"
-			vertices_plus
-			{
-				"v" "2496 192 768"
-				"v" "2304 192 768"
-				"v" "2304 192 1024"
-				"v" "2496 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 143 100"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18442"
-		side
-		{
-			"id" "2417"
-			"plane" "(2496 192 1024) (2512 192 1024) (2512 0 1024)"
-			vertices_plus
-			{
-				"v" "2496 192 1024"
-				"v" "2512 192 1024"
-				"v" "2512 0 1024"
-				"v" "2496 0 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2416"
-			"plane" "(2496 0 768) (2512 0 768) (2512 192 768)"
-			vertices_plus
-			{
-				"v" "2496 0 768"
-				"v" "2512 0 768"
-				"v" "2512 192 768"
-				"v" "2496 192 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2415"
-			"plane" "(2496 192 1024) (2496 0 1024) (2496 0 768)"
-			vertices_plus
-			{
-				"v" "2496 192 1024"
-				"v" "2496 0 1024"
-				"v" "2496 0 768"
-				"v" "2496 192 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2414"
-			"plane" "(2512 192 768) (2512 0 768) (2512 0 1024)"
-			vertices_plus
-			{
-				"v" "2512 192 768"
-				"v" "2512 0 768"
-				"v" "2512 0 1024"
-				"v" "2512 192 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2413"
-			"plane" "(2512 192 1024) (2496 192 1024) (2496 192 768)"
-			vertices_plus
-			{
-				"v" "2512 192 1024"
-				"v" "2496 192 1024"
-				"v" "2496 192 768"
-				"v" "2512 192 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2412"
-			"plane" "(2512 0 768) (2496 0 768) (2496 0 1024)"
-			vertices_plus
-			{
-				"v" "2512 0 768"
-				"v" "2496 0 768"
-				"v" "2496 0 1024"
-				"v" "2512 0 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 217 190"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18441"
-		side
-		{
-			"id" "2411"
-			"plane" "(2304 0 1024) (2496 0 1024) (2496 -16 1024)"
-			vertices_plus
-			{
-				"v" "2304 0 1024"
-				"v" "2496 0 1024"
-				"v" "2496 -16 1024"
-				"v" "2304 -16 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2410"
-			"plane" "(2304 -16 768) (2496 -16 768) (2496 0 768)"
-			vertices_plus
-			{
-				"v" "2304 -16 768"
-				"v" "2496 -16 768"
-				"v" "2496 0 768"
-				"v" "2304 0 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2409"
-			"plane" "(2304 0 1024) (2304 -16 1024) (2304 -16 768)"
-			vertices_plus
-			{
-				"v" "2304 0 1024"
-				"v" "2304 -16 1024"
-				"v" "2304 -16 768"
-				"v" "2304 0 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2408"
-			"plane" "(2496 0 768) (2496 -16 768) (2496 -16 1024)"
-			vertices_plus
-			{
-				"v" "2496 0 768"
-				"v" "2496 -16 768"
-				"v" "2496 -16 1024"
-				"v" "2496 0 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2407"
-			"plane" "(2496 0 1024) (2304 0 1024) (2304 0 768)"
-			vertices_plus
-			{
-				"v" "2496 0 1024"
-				"v" "2304 0 1024"
-				"v" "2304 0 768"
-				"v" "2496 0 768"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2406"
-			"plane" "(2496 -16 768) (2304 -16 768) (2304 -16 1024)"
-			vertices_plus
-			{
-				"v" "2496 -16 768"
-				"v" "2304 -16 768"
-				"v" "2304 -16 1024"
-				"v" "2496 -16 1024"
-			}
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 151 212"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "18440"
-		side
-		{
-			"id" "2405"
-			"plane" "(2304 192 768) (2496 192 768) (2496 0 768)"
-			vertices_plus
-			{
-				"v" "2304 192 768"
-				"v" "2496 192 768"
-				"v" "2496 0 768"
-				"v" "2304 0 768"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2404"
-			"plane" "(2304 0 704) (2496 0 704) (2496 192 704)"
-			vertices_plus
-			{
-				"v" "2304 0 704"
-				"v" "2496 0 704"
-				"v" "2496 192 704"
-				"v" "2304 192 704"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2403"
-			"plane" "(2304 192 768) (2304 0 768) (2304 0 704)"
-			vertices_plus
-			{
-				"v" "2304 192 768"
-				"v" "2304 0 768"
-				"v" "2304 0 704"
-				"v" "2304 192 704"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2402"
-			"plane" "(2496 192 704) (2496 0 704) (2496 0 768)"
-			vertices_plus
-			{
-				"v" "2496 192 704"
-				"v" "2496 0 704"
-				"v" "2496 0 768"
-				"v" "2496 192 768"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[0 1 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2401"
-			"plane" "(2496 192 768) (2304 192 768) (2304 192 704)"
-			vertices_plus
-			{
-				"v" "2496 192 768"
-				"v" "2304 192 768"
-				"v" "2304 192 704"
-				"v" "2496 192 704"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2400"
-			"plane" "(2496 0 704) (2304 0 704) (2304 0 768)"
-			vertices_plus
-			{
-				"v" "2496 0 704"
-				"v" "2304 0 704"
-				"v" "2304 0 768"
-				"v" "2496 0 768"
-			}
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 233 110"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -16810,124 +15394,6 @@ world
 	}
 	solid
 	{
-		"id" "27351"
-		side
-		{
-			"id" "3185"
-			"plane" "(1024.06 -1280 128) (1024.06 -1664 128) (128.059 -1664 128)"
-			vertices_plus
-			{
-				"v" "1024.06 -1280 128"
-				"v" "1024.06 -1664 128"
-				"v" "128.059 -1664 128"
-				"v" "128.059 -1280 128"
-			}
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[-1 0 0 0.234863] 0.25"
-			"vaxis" "[0 1 0 -0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3184"
-			"plane" "(1024.06 -1664 0) (1024.06 -1280 0) (128.059 -1280 0)"
-			vertices_plus
-			{
-				"v" "1024.06 -1664 0"
-				"v" "1024.06 -1280 0"
-				"v" "128.059 -1280 0"
-				"v" "128.059 -1664 0"
-			}
-			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[-1 0 0 0.234863] 0.25"
-			"vaxis" "[0 1 0 -0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3183"
-			"plane" "(1024.06 -1280 0) (1024.06 -1664 0) (1024.06 -1664 128)"
-			vertices_plus
-			{
-				"v" "1024.06 -1280 0"
-				"v" "1024.06 -1664 0"
-				"v" "1024.06 -1664 128"
-				"v" "1024.06 -1280 128"
-			}
-			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3182"
-			"plane" "(128.059 -1664 0) (128.059 -1280 0) (128.059 -1280 128)"
-			vertices_plus
-			{
-				"v" "128.059 -1664 0"
-				"v" "128.059 -1280 0"
-				"v" "128.059 -1280 128"
-				"v" "128.059 -1664 128"
-			}
-			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3181"
-			"plane" "(1024.06 -1664 0) (128.059 -1664 0) (128.059 -1664 128)"
-			vertices_plus
-			{
-				"v" "1024.06 -1664 0"
-				"v" "128.059 -1664 0"
-				"v" "128.059 -1664 128"
-				"v" "1024.06 -1664 128"
-			}
-			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[-1 0 0 0.234863] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3180"
-			"plane" "(128.059 -1280 0) (1024.06 -1280 0) (1024.06 -1280 128)"
-			vertices_plus
-			{
-				"v" "128.059 -1280 0"
-				"v" "1024.06 -1280 0"
-				"v" "1024.06 -1280 128"
-				"v" "128.059 -1280 128"
-			}
-			"material" "DEV/REFLECTIVITY_70"
-			"uaxis" "[-1 0 0 0.234863] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 152 141"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "27541"
 		side
 		{
@@ -18085,6 +16551,1788 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+	solid
+	{
+		"id" "29650"
+		side
+		{
+			"id" "3650"
+			"plane" "(2560 192 384) (2752 192 384) (2752 0 384)"
+			vertices_plus
+			{
+				"v" "2560 192 384"
+				"v" "2752 192 384"
+				"v" "2752 0 384"
+				"v" "2560 0 384"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3649"
+			"plane" "(2560 0 320) (2752 0 320) (2752 192 320)"
+			vertices_plus
+			{
+				"v" "2560 0 320"
+				"v" "2752 0 320"
+				"v" "2752 192 320"
+				"v" "2560 192 320"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3648"
+			"plane" "(2560 192 384) (2560 0 384) (2560 0 320)"
+			vertices_plus
+			{
+				"v" "2560 192 384"
+				"v" "2560 0 384"
+				"v" "2560 0 320"
+				"v" "2560 192 320"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3647"
+			"plane" "(2752 192 320) (2752 0 320) (2752 0 384)"
+			vertices_plus
+			{
+				"v" "2752 192 320"
+				"v" "2752 0 320"
+				"v" "2752 0 384"
+				"v" "2752 192 384"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3646"
+			"plane" "(2752 192 384) (2560 192 384) (2560 192 320)"
+			vertices_plus
+			{
+				"v" "2752 192 384"
+				"v" "2560 192 384"
+				"v" "2560 192 320"
+				"v" "2752 192 320"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3645"
+			"plane" "(2752 0 320) (2560 0 320) (2560 0 384)"
+			vertices_plus
+			{
+				"v" "2752 0 320"
+				"v" "2560 0 320"
+				"v" "2560 0 384"
+				"v" "2752 0 384"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 233 110"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29649"
+		side
+		{
+			"id" "3644"
+			"plane" "(2560 0 640) (2752 0 640) (2752 -16 640)"
+			vertices_plus
+			{
+				"v" "2560 0 640"
+				"v" "2752 0 640"
+				"v" "2752 -16 640"
+				"v" "2560 -16 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3643"
+			"plane" "(2560 -16 384) (2752 -16 384) (2752 0 384)"
+			vertices_plus
+			{
+				"v" "2560 -16 384"
+				"v" "2752 -16 384"
+				"v" "2752 0 384"
+				"v" "2560 0 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3642"
+			"plane" "(2560 0 640) (2560 -16 640) (2560 -16 384)"
+			vertices_plus
+			{
+				"v" "2560 0 640"
+				"v" "2560 -16 640"
+				"v" "2560 -16 384"
+				"v" "2560 0 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3641"
+			"plane" "(2752 0 384) (2752 -16 384) (2752 -16 640)"
+			vertices_plus
+			{
+				"v" "2752 0 384"
+				"v" "2752 -16 384"
+				"v" "2752 -16 640"
+				"v" "2752 0 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3640"
+			"plane" "(2752 0 640) (2560 0 640) (2560 0 384)"
+			vertices_plus
+			{
+				"v" "2752 0 640"
+				"v" "2560 0 640"
+				"v" "2560 0 384"
+				"v" "2752 0 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3639"
+			"plane" "(2752 -16 384) (2560 -16 384) (2560 -16 640)"
+			vertices_plus
+			{
+				"v" "2752 -16 384"
+				"v" "2560 -16 384"
+				"v" "2560 -16 640"
+				"v" "2752 -16 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 151 212"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29648"
+		side
+		{
+			"id" "3638"
+			"plane" "(2752 192 640) (2768 192 640) (2768 0 640)"
+			vertices_plus
+			{
+				"v" "2752 192 640"
+				"v" "2768 192 640"
+				"v" "2768 0 640"
+				"v" "2752 0 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3637"
+			"plane" "(2752 0 384) (2768 0 384) (2768 192 384)"
+			vertices_plus
+			{
+				"v" "2752 0 384"
+				"v" "2768 0 384"
+				"v" "2768 192 384"
+				"v" "2752 192 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3636"
+			"plane" "(2752 192 640) (2752 0 640) (2752 0 384)"
+			vertices_plus
+			{
+				"v" "2752 192 640"
+				"v" "2752 0 640"
+				"v" "2752 0 384"
+				"v" "2752 192 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3635"
+			"plane" "(2768 192 384) (2768 0 384) (2768 0 640)"
+			vertices_plus
+			{
+				"v" "2768 192 384"
+				"v" "2768 0 384"
+				"v" "2768 0 640"
+				"v" "2768 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3634"
+			"plane" "(2768 192 640) (2752 192 640) (2752 192 384)"
+			vertices_plus
+			{
+				"v" "2768 192 640"
+				"v" "2752 192 640"
+				"v" "2752 192 384"
+				"v" "2768 192 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3633"
+			"plane" "(2768 0 384) (2752 0 384) (2752 0 640)"
+			vertices_plus
+			{
+				"v" "2768 0 384"
+				"v" "2752 0 384"
+				"v" "2752 0 640"
+				"v" "2768 0 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 217 190"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29647"
+		side
+		{
+			"id" "3632"
+			"plane" "(2560 208 640) (2752 208 640) (2752 192 640)"
+			vertices_plus
+			{
+				"v" "2560 208 640"
+				"v" "2752 208 640"
+				"v" "2752 192 640"
+				"v" "2560 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3631"
+			"plane" "(2560 192 384) (2752 192 384) (2752 208 384)"
+			vertices_plus
+			{
+				"v" "2560 192 384"
+				"v" "2752 192 384"
+				"v" "2752 208 384"
+				"v" "2560 208 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3630"
+			"plane" "(2560 208 640) (2560 192 640) (2560 192 384)"
+			vertices_plus
+			{
+				"v" "2560 208 640"
+				"v" "2560 192 640"
+				"v" "2560 192 384"
+				"v" "2560 208 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3629"
+			"plane" "(2752 208 384) (2752 192 384) (2752 192 640)"
+			vertices_plus
+			{
+				"v" "2752 208 384"
+				"v" "2752 192 384"
+				"v" "2752 192 640"
+				"v" "2752 208 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3628"
+			"plane" "(2752 208 640) (2560 208 640) (2560 208 384)"
+			vertices_plus
+			{
+				"v" "2752 208 640"
+				"v" "2560 208 640"
+				"v" "2560 208 384"
+				"v" "2752 208 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3627"
+			"plane" "(2752 192 384) (2560 192 384) (2560 192 640)"
+			vertices_plus
+			{
+				"v" "2752 192 384"
+				"v" "2560 192 384"
+				"v" "2560 192 640"
+				"v" "2752 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 143 100"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29646"
+		side
+		{
+			"id" "3626"
+			"plane" "(2544 192 640) (2560 192 640) (2560 0 640)"
+			vertices_plus
+			{
+				"v" "2544 192 640"
+				"v" "2560 192 640"
+				"v" "2560 0 640"
+				"v" "2544 0 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3625"
+			"plane" "(2544 0 384) (2560 0 384) (2560 192 384)"
+			vertices_plus
+			{
+				"v" "2544 0 384"
+				"v" "2560 0 384"
+				"v" "2560 192 384"
+				"v" "2544 192 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3624"
+			"plane" "(2544 192 640) (2544 0 640) (2544 0 384)"
+			vertices_plus
+			{
+				"v" "2544 192 640"
+				"v" "2544 0 640"
+				"v" "2544 0 384"
+				"v" "2544 192 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3623"
+			"plane" "(2560 192 384) (2560 0 384) (2560 0 640)"
+			vertices_plus
+			{
+				"v" "2560 192 384"
+				"v" "2560 0 384"
+				"v" "2560 0 640"
+				"v" "2560 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3622"
+			"plane" "(2560 192 640) (2544 192 640) (2544 192 384)"
+			vertices_plus
+			{
+				"v" "2560 192 640"
+				"v" "2544 192 640"
+				"v" "2544 192 384"
+				"v" "2560 192 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3621"
+			"plane" "(2560 0 384) (2544 0 384) (2544 0 640)"
+			vertices_plus
+			{
+				"v" "2560 0 384"
+				"v" "2544 0 384"
+				"v" "2544 0 640"
+				"v" "2560 0 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 193 206"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29645"
+		side
+		{
+			"id" "3620"
+			"plane" "(2560 192 656) (2752 192 656) (2752 0 656)"
+			vertices_plus
+			{
+				"v" "2560 192 656"
+				"v" "2752 192 656"
+				"v" "2752 0 656"
+				"v" "2560 0 656"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3619"
+			"plane" "(2560 0 640) (2752 0 640) (2752 192 640)"
+			vertices_plus
+			{
+				"v" "2560 0 640"
+				"v" "2752 0 640"
+				"v" "2752 192 640"
+				"v" "2560 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3618"
+			"plane" "(2560 192 656) (2560 0 656) (2560 0 640)"
+			vertices_plus
+			{
+				"v" "2560 192 656"
+				"v" "2560 0 656"
+				"v" "2560 0 640"
+				"v" "2560 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3617"
+			"plane" "(2752 192 640) (2752 0 640) (2752 0 656)"
+			vertices_plus
+			{
+				"v" "2752 192 640"
+				"v" "2752 0 640"
+				"v" "2752 0 656"
+				"v" "2752 192 656"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3616"
+			"plane" "(2752 192 656) (2560 192 656) (2560 192 640)"
+			vertices_plus
+			{
+				"v" "2752 192 656"
+				"v" "2560 192 656"
+				"v" "2560 192 640"
+				"v" "2752 192 640"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3615"
+			"plane" "(2752 0 640) (2560 0 640) (2560 0 656)"
+			vertices_plus
+			{
+				"v" "2752 0 640"
+				"v" "2560 0 640"
+				"v" "2560 0 656"
+				"v" "2752 0 656"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 165 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29644"
+		side
+		{
+			"id" "3614"
+			"plane" "(2560 -768 512) (2752 -768 512) (2752 -784 512)"
+			vertices_plus
+			{
+				"v" "2560 -768 512"
+				"v" "2752 -768 512"
+				"v" "2752 -784 512"
+				"v" "2560 -784 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3613"
+			"plane" "(2560 -784 384) (2752 -784 384) (2752 -768 384)"
+			vertices_plus
+			{
+				"v" "2560 -784 384"
+				"v" "2752 -784 384"
+				"v" "2752 -768 384"
+				"v" "2560 -768 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3612"
+			"plane" "(2560 -768 512) (2560 -784 512) (2560 -784 384)"
+			vertices_plus
+			{
+				"v" "2560 -768 512"
+				"v" "2560 -784 512"
+				"v" "2560 -784 384"
+				"v" "2560 -768 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3611"
+			"plane" "(2752 -768 384) (2752 -784 384) (2752 -784 512)"
+			vertices_plus
+			{
+				"v" "2752 -768 384"
+				"v" "2752 -784 384"
+				"v" "2752 -784 512"
+				"v" "2752 -768 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3610"
+			"plane" "(2752 -768 512) (2560 -768 512) (2560 -768 384)"
+			vertices_plus
+			{
+				"v" "2752 -768 512"
+				"v" "2560 -768 512"
+				"v" "2560 -768 384"
+				"v" "2752 -768 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3609"
+			"plane" "(2752 -784 384) (2560 -784 384) (2560 -784 512)"
+			vertices_plus
+			{
+				"v" "2752 -784 384"
+				"v" "2560 -784 384"
+				"v" "2560 -784 512"
+				"v" "2752 -784 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 151 212"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29643"
+		side
+		{
+			"id" "3608"
+			"plane" "(2560 -112 512) (2752 -112 512) (2752 -128 512)"
+			vertices_plus
+			{
+				"v" "2560 -112 512"
+				"v" "2752 -112 512"
+				"v" "2752 -128 512"
+				"v" "2560 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3607"
+			"plane" "(2560 -128 384) (2752 -128 384) (2752 -112 384)"
+			vertices_plus
+			{
+				"v" "2560 -128 384"
+				"v" "2752 -128 384"
+				"v" "2752 -112 384"
+				"v" "2560 -112 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3606"
+			"plane" "(2560 -112 512) (2560 -128 512) (2560 -128 384)"
+			vertices_plus
+			{
+				"v" "2560 -112 512"
+				"v" "2560 -128 512"
+				"v" "2560 -128 384"
+				"v" "2560 -112 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3605"
+			"plane" "(2752 -112 384) (2752 -128 384) (2752 -128 512)"
+			vertices_plus
+			{
+				"v" "2752 -112 384"
+				"v" "2752 -128 384"
+				"v" "2752 -128 512"
+				"v" "2752 -112 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3604"
+			"plane" "(2752 -112 512) (2560 -112 512) (2560 -112 384)"
+			vertices_plus
+			{
+				"v" "2752 -112 512"
+				"v" "2560 -112 512"
+				"v" "2560 -112 384"
+				"v" "2752 -112 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3603"
+			"plane" "(2752 -128 384) (2560 -128 384) (2560 -128 512)"
+			vertices_plus
+			{
+				"v" "2752 -128 384"
+				"v" "2560 -128 384"
+				"v" "2560 -128 512"
+				"v" "2752 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 143 100"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29642"
+		side
+		{
+			"id" "3602"
+			"plane" "(2560 -128 384) (2752 -128 384) (2752 -768 384)"
+			vertices_plus
+			{
+				"v" "2560 -128 384"
+				"v" "2752 -128 384"
+				"v" "2752 -768 384"
+				"v" "2560 -768 384"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3601"
+			"plane" "(2560 -768 320) (2752 -768 320) (2752 -128 320)"
+			vertices_plus
+			{
+				"v" "2560 -768 320"
+				"v" "2752 -768 320"
+				"v" "2752 -128 320"
+				"v" "2560 -128 320"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3600"
+			"plane" "(2560 -128 384) (2560 -768 384) (2560 -768 320)"
+			vertices_plus
+			{
+				"v" "2560 -128 384"
+				"v" "2560 -768 384"
+				"v" "2560 -768 320"
+				"v" "2560 -128 320"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3599"
+			"plane" "(2752 -128 320) (2752 -768 320) (2752 -768 384)"
+			vertices_plus
+			{
+				"v" "2752 -128 320"
+				"v" "2752 -768 320"
+				"v" "2752 -768 384"
+				"v" "2752 -128 384"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3598"
+			"plane" "(2752 -128 384) (2560 -128 384) (2560 -128 320)"
+			vertices_plus
+			{
+				"v" "2752 -128 384"
+				"v" "2560 -128 384"
+				"v" "2560 -128 320"
+				"v" "2752 -128 320"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3597"
+			"plane" "(2752 -768 320) (2560 -768 320) (2560 -768 384)"
+			vertices_plus
+			{
+				"v" "2752 -768 320"
+				"v" "2560 -768 320"
+				"v" "2560 -768 384"
+				"v" "2752 -768 384"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 233 110"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29641"
+		side
+		{
+			"id" "3596"
+			"plane" "(2752 -128 512) (2768 -128 512) (2768 -768 512)"
+			vertices_plus
+			{
+				"v" "2752 -128 512"
+				"v" "2768 -128 512"
+				"v" "2768 -768 512"
+				"v" "2752 -768 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3595"
+			"plane" "(2752 -768 384) (2768 -768 384) (2768 -128 384)"
+			vertices_plus
+			{
+				"v" "2752 -768 384"
+				"v" "2768 -768 384"
+				"v" "2768 -128 384"
+				"v" "2752 -128 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3594"
+			"plane" "(2752 -128 512) (2752 -768 512) (2752 -768 384)"
+			vertices_plus
+			{
+				"v" "2752 -128 512"
+				"v" "2752 -768 512"
+				"v" "2752 -768 384"
+				"v" "2752 -128 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3593"
+			"plane" "(2768 -128 384) (2768 -768 384) (2768 -768 512)"
+			vertices_plus
+			{
+				"v" "2768 -128 384"
+				"v" "2768 -768 384"
+				"v" "2768 -768 512"
+				"v" "2768 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3592"
+			"plane" "(2768 -128 512) (2752 -128 512) (2752 -128 384)"
+			vertices_plus
+			{
+				"v" "2768 -128 512"
+				"v" "2752 -128 512"
+				"v" "2752 -128 384"
+				"v" "2768 -128 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3591"
+			"plane" "(2768 -768 384) (2752 -768 384) (2752 -768 512)"
+			vertices_plus
+			{
+				"v" "2768 -768 384"
+				"v" "2752 -768 384"
+				"v" "2752 -768 512"
+				"v" "2768 -768 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 217 190"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29640"
+		side
+		{
+			"id" "3590"
+			"plane" "(2544 -128 512) (2560 -128 512) (2560 -768 512)"
+			vertices_plus
+			{
+				"v" "2544 -128 512"
+				"v" "2560 -128 512"
+				"v" "2560 -768 512"
+				"v" "2544 -768 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3589"
+			"plane" "(2544 -768 384) (2560 -768 384) (2560 -128 384)"
+			vertices_plus
+			{
+				"v" "2544 -768 384"
+				"v" "2560 -768 384"
+				"v" "2560 -128 384"
+				"v" "2544 -128 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3588"
+			"plane" "(2544 -128 512) (2544 -768 512) (2544 -768 384)"
+			vertices_plus
+			{
+				"v" "2544 -128 512"
+				"v" "2544 -768 512"
+				"v" "2544 -768 384"
+				"v" "2544 -128 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3587"
+			"plane" "(2560 -128 384) (2560 -768 384) (2560 -768 512)"
+			vertices_plus
+			{
+				"v" "2560 -128 384"
+				"v" "2560 -768 384"
+				"v" "2560 -768 512"
+				"v" "2560 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3586"
+			"plane" "(2560 -128 512) (2544 -128 512) (2544 -128 384)"
+			vertices_plus
+			{
+				"v" "2560 -128 512"
+				"v" "2544 -128 512"
+				"v" "2544 -128 384"
+				"v" "2560 -128 384"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3585"
+			"plane" "(2560 -768 384) (2544 -768 384) (2544 -768 512)"
+			vertices_plus
+			{
+				"v" "2560 -768 384"
+				"v" "2544 -768 384"
+				"v" "2544 -768 512"
+				"v" "2560 -768 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 193 206"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29639"
+		side
+		{
+			"id" "3584"
+			"plane" "(2560 -128 528) (2752 -128 528) (2752 -768 528)"
+			vertices_plus
+			{
+				"v" "2560 -128 528"
+				"v" "2752 -128 528"
+				"v" "2752 -768 528"
+				"v" "2560 -768 528"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3583"
+			"plane" "(2560 -768 512) (2752 -768 512) (2752 -128 512)"
+			vertices_plus
+			{
+				"v" "2560 -768 512"
+				"v" "2752 -768 512"
+				"v" "2752 -128 512"
+				"v" "2560 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3582"
+			"plane" "(2560 -128 528) (2560 -768 528) (2560 -768 512)"
+			vertices_plus
+			{
+				"v" "2560 -128 528"
+				"v" "2560 -768 528"
+				"v" "2560 -768 512"
+				"v" "2560 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3581"
+			"plane" "(2752 -128 512) (2752 -768 512) (2752 -768 528)"
+			vertices_plus
+			{
+				"v" "2752 -128 512"
+				"v" "2752 -768 512"
+				"v" "2752 -768 528"
+				"v" "2752 -128 528"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3580"
+			"plane" "(2752 -128 528) (2560 -128 528) (2560 -128 512)"
+			vertices_plus
+			{
+				"v" "2752 -128 528"
+				"v" "2560 -128 528"
+				"v" "2560 -128 512"
+				"v" "2752 -128 512"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3579"
+			"plane" "(2752 -768 512) (2560 -768 512) (2560 -768 528)"
+			vertices_plus
+			{
+				"v" "2752 -768 512"
+				"v" "2560 -768 512"
+				"v" "2560 -768 528"
+				"v" "2752 -768 528"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 165 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "29830"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "35"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "-1"
+	"StartDisabled" "1"
+	"targetname" "wave19_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave19_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave19_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -736 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29828"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave20_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave20_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
+	}
+	"origin" "2592 -760 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29826"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave19_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave20_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave19_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
+	}
+	"origin" "2592 -736 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29824"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 19"
+	"spawnflags" "0"
+	"targetname" "wave19_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -736 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29822"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 18"
+	"spawnflags" "0"
+	"targetname" "wave18_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -704 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29820"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 18 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave18_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -704 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29818"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "35"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "-1"
+	"StartDisabled" "1"
+	"targetname" "wave18_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave18_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave18_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -704 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29816"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 7 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave7_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -352 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29814"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 8 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave8_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -384 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29812"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "28"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "-1"
+	"StartDisabled" "1"
+	"targetname" "wave11_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave12_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave11_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -480 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29810"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave11_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave11_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave11_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 308,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
+	}
+	"origin" "2592 -480 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29808"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 3"
+	"spawnflags" "0"
+	"targetname" "wave3_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -224 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "9115"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/nzprops/zombies_power_lever.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1216 -4.99994 0.249969"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -19639,374 +19887,7 @@ entity
 }
 entity
 {
-	"id" "18623"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave20_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave20_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
-	}
-	"origin" "2336 -760 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18621"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
-	"MaxNPCCount" "35"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave19_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave19_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave19_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -736 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18619"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave19_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave20_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave19_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
-	}
-	"origin" "2336 -736 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18617"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 19 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave19_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -736 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18615"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 19"
-	"spawnflags" "0"
-	"targetname" "wave19_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -736 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18613"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 18"
-	"spawnflags" "0"
-	"targetname" "wave18_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -704 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18611"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 18 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave18_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -704 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18609"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
-	"MaxNPCCount" "35"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave18_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave18_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave18_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -704 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18476"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 7 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave7_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -352 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18474"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 8 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave8_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -384 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18472"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
-	"MaxNPCCount" "28"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave11_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave12_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave11_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -480 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18470"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave11_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave11_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave11_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 308,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
-	}
-	"origin" "2336 -480 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18468"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 3"
-	"spawnflags" "0"
-	"targetname" "wave3_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -224 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18466"
+	"id" "29806"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -20021,7 +19902,7 @@ entity
 	"targetname" "wave2_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -192 816"
+	"origin" "2592 -192 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -20032,7 +19913,7 @@ entity
 }
 entity
 {
-	"id" "18464"
+	"id" "29804"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -20047,7 +19928,7 @@ entity
 	"targetname" "wave15_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -608 800"
+	"origin" "2592 -608 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -20058,7 +19939,7 @@ entity
 }
 entity
 {
-	"id" "18462"
+	"id" "29802"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -20077,7 +19958,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 451,0,-1"
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
 	}
-	"origin" "2336 -608 776"
+	"origin" "2592 -608 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -20088,13 +19969,13 @@ entity
 }
 entity
 {
-	"id" "18460"
+	"id" "29800"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "30"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -20109,7 +19990,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave12_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -512 776"
+	"origin" "2624 -512 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -20120,13 +20001,13 @@ entity
 }
 entity
 {
-	"id" "18458"
+	"id" "29798"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "32"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -20141,7 +20022,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave13_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -544 776"
+	"origin" "2624 -544 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -20152,7 +20033,7 @@ entity
 }
 entity
 {
-	"id" "18456"
+	"id" "29796"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -20171,7 +20052,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 200,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 240,0,-1"
 	}
-	"origin" "2336 -384 776"
+	"origin" "2592 -384 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -20182,7 +20063,7 @@ entity
 }
 entity
 {
-	"id" "18454"
+	"id" "29794"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -20201,7 +20082,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 220,0,-1"
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 180,0,-1"
 	}
-	"origin" "2336 -352 776"
+	"origin" "2592 -352 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -20212,7 +20093,7 @@ entity
 }
 entity
 {
-	"id" "18452"
+	"id" "29792"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -20227,7 +20108,361 @@ entity
 	"targetname" "wave3_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -224 800"
+	"origin" "2592 -224 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29790"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 7"
+	"spawnflags" "0"
+	"targetname" "wave7_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -352 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29788"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 6"
+	"spawnflags" "0"
+	"targetname" "wave6_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -320 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29786"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "12"
+	"MaxNPCCount" "22"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "1"
+	"StartDisabled" "1"
+	"targetname" "wave7_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave8_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave7_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -352 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29784"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 11 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave11_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -480 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29782"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 2 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave2_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -192 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29780"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave18_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave19_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave18_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
+	}
+	"origin" "2592 -704 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29778"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 20"
+	"spawnflags" "0"
+	"targetname" "wave20_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -760 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29776"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 17"
+	"spawnflags" "0"
+	"targetname" "wave17_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -672 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29774"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 17 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave17_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -672 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29772"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "35"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "-1"
+	"StartDisabled" "1"
+	"targetname" "wave17_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave17_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave17_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -672 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29770"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave17_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave18_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave17_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
+	}
+	"origin" "2592 -672 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29768"
+	"classname" "logic_timer"
+	"RefireTime" "4"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"targetname" "ai_think"
+	connections
+	{
+		"OnTimer" "aiscripted_schedule,StartSchedule,,0,-1"
+		"OnTimer" "ai_think,ResetTimer,,0,-1"
+	}
+	"origin" "2736 96 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 1500]"
+	}
+}
+entity
+{
+	"id" "29766"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 12"
+	"spawnflags" "0"
+	"targetname" "wave12_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -512 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -20335,7 +20570,28 @@ entity
 }
 entity
 {
-	"id" "18478"
+	"id" "29763"
+	"classname" "aiscripted_schedule"
+	"forcestate" "0"
+	"goalent" "!player"
+	"graball" "1"
+	"interruptability" "0"
+	"m_iszEntity" "zomb"
+	"schedule" "3"
+	"spawnflags" "4"
+	"targetname" "aiscripted_schedule"
+	"origin" "2736 96 392"
+	editor
+	{
+		"color" "255 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 2000]"
+	}
+}
+entity
+{
+	"id" "29761"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -20345,12 +20601,12 @@ entity
 	"fadeout" "0.1"
 	"fxtime" "0.1"
 	"holdtime" "3"
-	"message" "Wave 7"
+	"message" "Wave 12 Cleared!"
 	"spawnflags" "0"
-	"targetname" "wave7_start_text"
+	"targetname" "wave12_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -352 816"
+	"origin" "2592 -512 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -20361,7 +20617,7 @@ entity
 }
 entity
 {
-	"id" "18482"
+	"id" "29759"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -20371,50 +20627,18 @@ entity
 	"fadeout" "0.1"
 	"fxtime" "0.1"
 	"holdtime" "3"
-	"message" "Wave 6"
+	"message" "Wave 1"
 	"spawnflags" "0"
-	"targetname" "wave6_start_text"
+	"targetname" "wave1_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -320 816"
+	"origin" "2592 -160 432"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18500"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
-	"MaxNPCCount" "22"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave7_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave8_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave7_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -352 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -21157,54 +21381,64 @@ entity
 }
 entity
 {
-	"id" "18480"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 11 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave11_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -480 800"
+	"id" "29757"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "26"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "1"
+	"StartDisabled" "1"
+	"targetname" "wave10_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave11_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave10_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -448 392"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 0 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
 {
-	"id" "18502"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 2 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave2_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -192 800"
+	"id" "29755"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave9_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave9_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave9_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 260,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 260,0,-1"
+	}
+	"origin" "2592 -416 392"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
+		"logicalpos" "[0 3000]"
 	}
 }
 entity
@@ -21539,360 +21773,7 @@ entity
 }
 entity
 {
-	"id" "18607"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave18_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave19_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave18_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
-	}
-	"origin" "2336 -704 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18605"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 20"
-	"spawnflags" "0"
-	"targetname" "wave20_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -760 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18603"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 17"
-	"spawnflags" "0"
-	"targetname" "wave17_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -672 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18601"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 17 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave17_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -672 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18599"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
-	"MaxNPCCount" "35"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave17_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave17_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave17_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -672 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18597"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave17_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave18_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave17_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
-	}
-	"origin" "2336 -672 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18595"
-	"classname" "logic_timer"
-	"RefireTime" "4"
-	"spawnflags" "4"
-	"StartDisabled" "0"
-	"targetname" "ai_think"
-	connections
-	{
-		"OnTimer" "aiscripted_schedule,StartSchedule,,0,-1"
-		"OnTimer" "ai_think,ResetTimer,,0,-1"
-	}
-	"origin" "2480 96 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 1500]"
-	}
-}
-entity
-{
-	"id" "18593"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 12"
-	"spawnflags" "0"
-	"targetname" "wave12_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -512 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18590"
-	"classname" "aiscripted_schedule"
-	"forcestate" "0"
-	"goalent" "!player"
-	"graball" "1"
-	"interruptability" "0"
-	"m_iszEntity" "zomb"
-	"schedule" "3"
-	"spawnflags" "4"
-	"targetname" "aiscripted_schedule"
-	"origin" "2480 96 776"
-	editor
-	{
-		"color" "255 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 2000]"
-	}
-}
-entity
-{
-	"id" "18588"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 12 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave12_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -512 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18586"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 1"
-	"spawnflags" "0"
-	"targetname" "wave1_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -160 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18584"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
-	"MaxNPCCount" "26"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave10_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave11_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave10_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -448 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18582"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave9_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave9_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave9_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 260,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 260,0,-1"
-	}
-	"origin" "2336 -416 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18580"
+	"id" "29753"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -21911,7 +21792,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 280,0,-1"
 	}
-	"origin" "2336 -448 776"
+	"origin" "2592 -448 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -21922,13 +21803,13 @@ entity
 }
 entity
 {
-	"id" "18578"
+	"id" "29751"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "34"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -21943,7 +21824,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave14_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -576 776"
+	"origin" "2624 -576 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -21954,7 +21835,7 @@ entity
 }
 entity
 {
-	"id" "18576"
+	"id" "29749"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -21969,7 +21850,7 @@ entity
 	"targetname" "wave14_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -576 800"
+	"origin" "2592 -576 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -21980,18 +21861,18 @@ entity
 }
 entity
 {
-	"id" "18574"
+	"id" "29747"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "8"
+	"MaxLiveChildren" "10"
 	"MaxNPCCount" "18"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "1"
+	"SpawnFrequency" "2"
 	"StartDisabled" "1"
 	"targetname" "wave4_template"
 	"TemplateName" "zomb"
@@ -22001,7 +21882,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave4_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -256 776"
+	"origin" "2624 -256 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22012,7 +21893,7 @@ entity
 }
 entity
 {
-	"id" "18572"
+	"id" "29745"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22031,7 +21912,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 120,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 120,0,-1"
 	}
-	"origin" "2336 -224 776"
+	"origin" "2592 -224 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22042,18 +21923,18 @@ entity
 }
 entity
 {
-	"id" "18570"
+	"id" "29743"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
 	"MaxLiveChildren" "8"
 	"MaxNPCCount" "16"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "1"
+	"SpawnFrequency" "3"
 	"StartDisabled" "1"
 	"targetname" "wave3_template"
 	"TemplateName" "zomb"
@@ -22063,7 +21944,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave3_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -224 776"
+	"origin" "2624 -224 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22074,18 +21955,18 @@ entity
 }
 entity
 {
-	"id" "18568"
+	"id" "29741"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
 	"MaxLiveChildren" "8"
 	"MaxNPCCount" "14"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "2"
+	"SpawnFrequency" "3"
 	"StartDisabled" "1"
 	"targetname" "wave2_template"
 	"TemplateName" "zomb"
@@ -22095,7 +21976,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave2_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -192 776"
+	"origin" "2624 -192 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22106,7 +21987,7 @@ entity
 }
 entity
 {
-	"id" "18566"
+	"id" "29739"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22125,7 +22006,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 160,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 180,0,-1"
 	}
-	"origin" "2336 -288 776"
+	"origin" "2592 -288 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22136,7 +22017,7 @@ entity
 }
 entity
 {
-	"id" "18564"
+	"id" "29737"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22155,7 +22036,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 160,0,-1"
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 120,0,-1"
 	}
-	"origin" "2336 -256 776"
+	"origin" "2592 -256 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22166,18 +22047,18 @@ entity
 }
 entity
 {
-	"id" "18562"
+	"id" "29735"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "8"
+	"MaxLiveChildren" "10"
 	"MaxNPCCount" "18"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "2"
 	"StartDisabled" "1"
 	"targetname" "wave5_template"
 	"TemplateName" "zomb"
@@ -22187,7 +22068,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave5_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -288 776"
+	"origin" "2624 -288 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22198,7 +22079,7 @@ entity
 }
 entity
 {
-	"id" "18559"
+	"id" "29732"
 	"classname" "ambient_generic"
 	"health" "10"
 	"message" "nz.round.start"
@@ -22207,7 +22088,7 @@ entity
 	"radius" "99999"
 	"spawnflags" "49"
 	"targetname" "wave_sound_start"
-	"origin" "2464 -160 776"
+	"origin" "2720 -160 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22218,10 +22099,10 @@ entity
 }
 entity
 {
-	"id" "18557"
+	"id" "29730"
 	"classname" "point_servercommand"
 	"targetname" "difficulty"
-	"origin" "2480 -192 776"
+	"origin" "2736 -192 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22232,7 +22113,7 @@ entity
 }
 entity
 {
-	"id" "18555"
+	"id" "29728"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22247,7 +22128,7 @@ entity
 	"targetname" "wave16_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -640 816"
+	"origin" "2592 -640 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22258,18 +22139,18 @@ entity
 }
 entity
 {
-	"id" "18553"
+	"id" "29726"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
 	"MaxLiveChildren" "6"
 	"MaxNPCCount" "8"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "3"
+	"SpawnFrequency" "4"
 	"StartDisabled" "1"
 	"targetname" "wave1_template"
 	"TemplateName" "zomb"
@@ -22279,7 +22160,7 @@ entity
 		"OnAllLiveChildrenDead" "wave2_timer,Resume,,0,-1"
 		"OnAllLiveChildrenDead" "wave1_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -160 776"
+	"origin" "2624 -160 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22290,7 +22171,7 @@ entity
 }
 entity
 {
-	"id" "18550"
+	"id" "29723"
 	"classname" "ambient_generic"
 	"health" "10"
 	"message" "nz.round.end"
@@ -22299,7 +22180,7 @@ entity
 	"radius" "99999"
 	"spawnflags" "49"
 	"targetname" "wave_sound_end"
-	"origin" "2480 -160 776"
+	"origin" "2736 -160 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22310,7 +22191,7 @@ entity
 }
 entity
 {
-	"id" "18548"
+	"id" "29721"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22329,7 +22210,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 120,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 100,0,-1"
 	}
-	"origin" "2336 -192 776"
+	"origin" "2592 -192 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22340,18 +22221,18 @@ entity
 }
 entity
 {
-	"id" "18546"
+	"id" "29719"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
+	"MaxLiveChildren" "16"
 	"MaxNPCCount" "24"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "1"
 	"StartDisabled" "1"
 	"targetname" "wave8_template"
 	"TemplateName" "zomb"
@@ -22361,7 +22242,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave8_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -384 776"
+	"origin" "2624 -384 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22372,7 +22253,7 @@ entity
 }
 entity
 {
-	"id" "18544"
+	"id" "29717"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22387,7 +22268,7 @@ entity
 	"targetname" "wave10_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -448 816"
+	"origin" "2592 -448 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22398,7 +22279,7 @@ entity
 }
 entity
 {
-	"id" "18542"
+	"id" "29715"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22413,7 +22294,7 @@ entity
 	"targetname" "wave9_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -416 800"
+	"origin" "2592 -416 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -22424,7 +22305,7 @@ entity
 }
 entity
 {
-	"id" "18540"
+	"id" "29713"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22439,7 +22320,7 @@ entity
 	"targetname" "wave9_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -416 816"
+	"origin" "2592 -416 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22450,7 +22331,7 @@ entity
 }
 entity
 {
-	"id" "18538"
+	"id" "29711"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22465,7 +22346,7 @@ entity
 	"targetname" "wave8_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -384 816"
+	"origin" "2592 -384 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22476,7 +22357,7 @@ entity
 }
 entity
 {
-	"id" "18536"
+	"id" "29709"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22491,7 +22372,7 @@ entity
 	"targetname" "wave10_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -448 800"
+	"origin" "2592 -448 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -22502,7 +22383,7 @@ entity
 }
 entity
 {
-	"id" "18534"
+	"id" "29707"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22517,7 +22398,7 @@ entity
 	"targetname" "wave4_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -256 800"
+	"origin" "2592 -256 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -22528,13 +22409,13 @@ entity
 }
 entity
 {
-	"id" "18532"
+	"id" "29705"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -22549,7 +22430,7 @@ entity
 		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
 		"OnAllLiveChildrenDead" "wave15_end_text,Display,,0,-1"
 	}
-	"origin" "2368 -608 776"
+	"origin" "2624 -608 392"
 	editor
 	{
 		"color" "0 0 255"
@@ -22560,7 +22441,7 @@ entity
 }
 entity
 {
-	"id" "18530"
+	"id" "29703"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22579,7 +22460,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 496,0,-1"
 	}
-	"origin" "2336 -640 776"
+	"origin" "2592 -640 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22590,7 +22471,7 @@ entity
 }
 entity
 {
-	"id" "18528"
+	"id" "29701"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22605,7 +22486,7 @@ entity
 	"targetname" "wave16_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -640 800"
+	"origin" "2592 -640 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -22616,7 +22497,7 @@ entity
 }
 entity
 {
-	"id" "18526"
+	"id" "29699"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22631,7 +22512,7 @@ entity
 	"targetname" "wave15_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -608 816"
+	"origin" "2592 -608 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22642,7 +22523,7 @@ entity
 }
 entity
 {
-	"id" "18524"
+	"id" "29697"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22657,7 +22538,7 @@ entity
 	"targetname" "wave14_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -576 816"
+	"origin" "2592 -576 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22668,7 +22549,7 @@ entity
 }
 entity
 {
-	"id" "18522"
+	"id" "29695"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22687,7 +22568,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 410,0,-1"
 	}
-	"origin" "2336 -576 776"
+	"origin" "2592 -576 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22698,7 +22579,7 @@ entity
 }
 entity
 {
-	"id" "18520"
+	"id" "29693"
 	"classname" "npc_zombie"
 	"angles" "0 0 0"
 	"noheadcrab" "1"
@@ -22713,7 +22594,7 @@ entity
 		"OnDamaged" "logic_currencymanager,GiveCurrency,10,0,-1"
 		"OnDeath" "logic_currencymanager,GiveCurrency,60,0,-1"
 	}
-	"origin" "2336 128 776"
+	"origin" "2592 128 390"
 	editor
 	{
 		"color" "0 200 200"
@@ -22724,7 +22605,7 @@ entity
 }
 entity
 {
-	"id" "18518"
+	"id" "29691"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22743,7 +22624,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 338,0,-1"
 	}
-	"origin" "2336 -512 776"
+	"origin" "2592 -512 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22754,7 +22635,7 @@ entity
 }
 entity
 {
-	"id" "18516"
+	"id" "29689"
 	"classname" "team_round_timer"
 	"auto_countdown" "0"
 	"reset_time" "1"
@@ -22773,7 +22654,7 @@ entity
 		"OnSetupFinished" "difficulty,Command,sk_zombie_health 373,0,-1"
 		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 300,0,-1"
 	}
-	"origin" "2336 -544 776"
+	"origin" "2592 -544 392"
 	editor
 	{
 		"color" "220 30 220"
@@ -22784,7 +22665,7 @@ entity
 }
 entity
 {
-	"id" "18514"
+	"id" "29687"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22799,7 +22680,7 @@ entity
 	"targetname" "wave13_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -544 800"
+	"origin" "2592 -544 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -22810,7 +22691,7 @@ entity
 }
 entity
 {
-	"id" "18512"
+	"id" "29685"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22825,7 +22706,7 @@ entity
 	"targetname" "wave13_start_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -544 816"
+	"origin" "2592 -544 432"
 	editor
 	{
 		"color" "220 30 220"
@@ -22836,7 +22717,7 @@ entity
 }
 entity
 {
-	"id" "18510"
+	"id" "29683"
 	"classname" "game_text_tf"
 	"channel" "1"
 	"color" "69 182 52"
@@ -22851,13 +22732,383 @@ entity
 	"targetname" "wave1_end_text"
 	"x" "-1"
 	"y" "0.4"
-	"origin" "2336 -160 800"
+	"origin" "2592 -160 416"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29681"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "35"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "-1"
+	"StartDisabled" "1"
+	"targetname" "wave20_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave20_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave20_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -760 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29679"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 11"
+	"spawnflags" "0"
+	"targetname" "wave11_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -480 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29677"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 6 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave6_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -320 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29675"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 4"
+	"spawnflags" "0"
+	"targetname" "wave4_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -256 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29673"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 19 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave19_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -736 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29671"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 5"
+	"spawnflags" "0"
+	"targetname" "wave5_start_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -288 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29669"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 5 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave5_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -288 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29667"
+	"classname" "game_text_tf"
+	"channel" "1"
+	"color" "69 182 52"
+	"color2" "90 255 86"
+	"effect" "2"
+	"fadein" "0.1"
+	"fadeout" "0.1"
+	"fxtime" "0.1"
+	"holdtime" "3"
+	"message" "Wave 20 Cleared!"
+	"spawnflags" "0"
+	"targetname" "wave20_end_text"
+	"x" "-1"
+	"y" "0.4"
+	"origin" "2592 -760 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "29665"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "16"
+	"MaxNPCCount" "24"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "1"
+	"StartDisabled" "1"
+	"targetname" "wave9_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave10_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave9_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -416 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29663"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "24"
+	"MaxNPCCount" "35"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "-1"
+	"StartDisabled" "1"
+	"targetname" "wave16_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave16_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave16_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -640 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29661"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "15"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "0"
+	"StartDisabled" "0"
+	"targetname" "wave1_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave1_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave1_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 80,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 100,0,-1"
+	}
+	"origin" "2592 -160 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29659"
+	"classname" "team_round_timer"
+	"auto_countdown" "0"
+	"reset_time" "1"
+	"setup_length" "10"
+	"show_in_hud" "0"
+	"show_time_remaining" "0"
+	"start_paused" "1"
+	"StartDisabled" "0"
+	"targetname" "wave6_timer"
+	"timer_length" "0"
+	connections
+	{
+		"OnSetupFinished" "wave6_template,Enable,,3,-1"
+		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
+		"OnSetupFinished" "wave6_start_text,Display,,0,-1"
+		"OnSetupFinished" "difficulty,Command,sk_zombie_health 200,0,-1"
+		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 160,0,-1"
+	}
+	"origin" "2592 -320 392"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "29657"
+	"classname" "npc_template_maker"
+	"angles" "0 0 0"
+	"CriterionDistance" "0"
+	"CriterionVisibility" "2"
+	"DestinationGroup" "zombspawn_1"
+	"MaxLiveChildren" "12"
+	"MaxNPCCount" "20"
+	"MinSpawnDistance" "100"
+	"Radius" "128"
+	"spawnflags" "128"
+	"SpawnFrequency" "1"
+	"StartDisabled" "1"
+	"targetname" "wave6_template"
+	"TemplateName" "zomb"
+	connections
+	{
+		"OnAllLiveChildrenDead" "wave7_timer,Resume,,0,-1"
+		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
+		"OnAllLiveChildrenDead" "wave6_end_text,Display,,0,-1"
+	}
+	"origin" "2624 -320 392"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -23677,34 +23928,16 @@ entity
 }
 entity
 {
-	"id" "18625"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
-	"MaxNPCCount" "35"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave20_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave20_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave20_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -760 776"
+	"id" "29655"
+	"classname" "lfe_logic_coop"
+	"effects" "0"
+	"origin" "2576 16 392"
 	editor
 	{
-		"color" "0 0 255"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -24082,28 +24315,16 @@ entity
 }
 entity
 {
-	"id" "18504"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 11"
-	"spawnflags" "0"
-	"targetname" "wave11_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -480 816"
+	"id" "29653"
+	"classname" "logic_currencymanager"
+	"targetname" "logic_currencymanager"
+	"origin" "2608 16 392"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
+		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -24171,54 +24392,137 @@ entity
 }
 entity
 {
-	"id" "18484"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 6 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave6_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -320 800"
-	editor
+	"id" "29651"
+	"classname" "func_respawnroom"
+	"AllowFlag" "0"
+	"effects" "0"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_blue"
+	"TeamNum" "3"
+	solid
 	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
+		"id" "29652"
+		side
+		{
+			"id" "3656"
+			"plane" "(2688 192 640) (2752 192 640) (2752 128 640)"
+			vertices_plus
+			{
+				"v" "2688 192 640"
+				"v" "2752 192 640"
+				"v" "2752 128 640"
+				"v" "2688 128 640"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 -0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3655"
+			"plane" "(2688 128 384) (2752 128 384) (2752 192 384)"
+			vertices_plus
+			{
+				"v" "2688 128 384"
+				"v" "2752 128 384"
+				"v" "2752 192 384"
+				"v" "2688 192 384"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0 -0 -0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3654"
+			"plane" "(2688 192 640) (2688 128 640) (2688 128 384)"
+			vertices_plus
+			{
+				"v" "2688 192 640"
+				"v" "2688 128 640"
+				"v" "2688 128 384"
+				"v" "2688 192 384"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0 -1 -0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3653"
+			"plane" "(2752 192 384) (2752 128 384) (2752 128 640)"
+			vertices_plus
+			{
+				"v" "2752 192 384"
+				"v" "2752 128 384"
+				"v" "2752 128 640"
+				"v" "2752 192 640"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3652"
+			"plane" "(2752 192 640) (2688 192 640) (2688 192 384)"
+			vertices_plus
+			{
+				"v" "2752 192 640"
+				"v" "2688 192 640"
+				"v" "2688 192 384"
+				"v" "2752 192 384"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 -0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3651"
+			"plane" "(2752 128 384) (2688 128 384) (2688 128 640)"
+			vertices_plus
+			{
+				"v" "2752 128 384"
+				"v" "2688 128 384"
+				"v" "2688 128 640"
+				"v" "2752 128 640"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
 	}
-}
-entity
-{
-	"id" "18486"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 4"
-	"spawnflags" "0"
-	"targetname" "wave4_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -256 816"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -24269,84 +24573,6 @@ entity
 }
 entity
 {
-	"id" "18488"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 5"
-	"spawnflags" "0"
-	"targetname" "wave5_start_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -288 816"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18490"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 5 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave5_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -288 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "18492"
-	"classname" "game_text_tf"
-	"channel" "1"
-	"color" "69 182 52"
-	"color2" "90 255 86"
-	"effect" "2"
-	"fadein" "0.1"
-	"fadeout" "0.1"
-	"fxtime" "0.1"
-	"holdtime" "3"
-	"message" "Wave 20 Cleared!"
-	"spawnflags" "0"
-	"targetname" "wave20_end_text"
-	"x" "-1"
-	"y" "0.4"
-	"origin" "2336 -760 800"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
 	"id" "4149"
 	"classname" "ambient_generic"
 	"angles" "0 0 0"
@@ -24364,100 +24590,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "18508"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
-	"MaxNPCCount" "24"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave9_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave10_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave9_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -416 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18494"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
-	"MaxNPCCount" "35"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave16_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave16_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave16_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -640 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "18506"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "15"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "0"
-	"StartDisabled" "0"
-	"targetname" "wave1_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave1_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave1_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 80,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 100,0,-1"
-	}
-	"origin" "2336 -160 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
 	}
 }
 entity
@@ -24497,68 +24629,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 6500]"
-	}
-}
-entity
-{
-	"id" "18498"
-	"classname" "team_round_timer"
-	"auto_countdown" "0"
-	"reset_time" "1"
-	"setup_length" "10"
-	"show_in_hud" "0"
-	"show_time_remaining" "0"
-	"start_paused" "1"
-	"StartDisabled" "0"
-	"targetname" "wave6_timer"
-	"timer_length" "0"
-	connections
-	{
-		"OnSetupFinished" "wave6_template,Enable,,3,-1"
-		"OnSetupFinished" "wave_sound_start,PlaySound,,0,-1"
-		"OnSetupFinished" "wave6_start_text,Display,,0,-1"
-		"OnSetupFinished" "difficulty,Command,sk_zombie_health 200,0,-1"
-		"OnSetupFinished" "difficulty,Command,fotd_npc_zombie_speed 160,0,-1"
-	}
-	"origin" "2336 -320 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "18496"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
-	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
-	"MaxNPCCount" "20"
-	"MinSpawnDistance" "100"
-	"Radius" "128"
-	"spawnflags" "128"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"targetname" "wave6_template"
-	"TemplateName" "zomb"
-	connections
-	{
-		"OnAllLiveChildrenDead" "wave7_timer,Resume,,0,-1"
-		"OnAllLiveChildrenDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllLiveChildrenDead" "wave6_end_text,Display,,0,-1"
-	}
-	"origin" "2368 -320 776"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -26080,27 +26150,26 @@ entity
 }
 entity
 {
-	"id" "9115"
-	"classname" "prop_dynamic"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/nzprops/zombies_power_lever.mdl"
-	"modelscale" "1.0"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1216 -4.99994 0.249969"
+	"id" "29007"
+	"classname" "info_node_hint"
+	"angles" "0 90 0"
+	"effects" "0"
+	"hinttype" "901"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "360"
+	"nodeid" "138"
+	"spawnflags" "0"
+	"StartHintDisabled" "0"
+	"TargetNode" "139"
+	"origin" "1344 -1312 192"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "232 219 8"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 -3268]"
 	}
 }
 entity
@@ -26521,34 +26590,6 @@ entity
 }
 entity
 {
-	"id" "19419"
-	"classname" "lfe_logic_coop"
-	"effects" "0"
-	"origin" "2320 16 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "19421"
-	"classname" "logic_currencymanager"
-	"targetname" "logic_currencymanager"
-	"origin" "2352 16 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
 	"id" "21727"
 	"classname" "info_npc_spawn_destination"
 	"angles" "0 0 0"
@@ -26824,141 +26865,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "23037"
-	"classname" "func_respawnroom"
-	"AllowFlag" "0"
-	"effects" "0"
-	"StartDisabled" "0"
-	"targetname" "respawnroom_blue"
-	"TeamNum" "3"
-	solid
-	{
-		"id" "23035"
-		side
-		{
-			"id" "2724"
-			"plane" "(2432 192 1024) (2496 192 1024) (2496 128 1024)"
-			vertices_plus
-			{
-				"v" "2432 192 1024"
-				"v" "2496 192 1024"
-				"v" "2496 128 1024"
-				"v" "2432 128 1024"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 -0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2723"
-			"plane" "(2432 128 768) (2496 128 768) (2496 192 768)"
-			vertices_plus
-			{
-				"v" "2432 128 768"
-				"v" "2496 128 768"
-				"v" "2496 192 768"
-				"v" "2432 192 768"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 -0 -0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2722"
-			"plane" "(2432 192 1024) (2432 128 1024) (2432 128 768)"
-			vertices_plus
-			{
-				"v" "2432 192 1024"
-				"v" "2432 128 1024"
-				"v" "2432 128 768"
-				"v" "2432 192 768"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0 -1 -0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2721"
-			"plane" "(2496 192 768) (2496 128 768) (2496 128 1024)"
-			vertices_plus
-			{
-				"v" "2496 192 768"
-				"v" "2496 128 768"
-				"v" "2496 128 1024"
-				"v" "2496 192 1024"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2720"
-			"plane" "(2496 192 1024) (2432 192 1024) (2432 192 768)"
-			vertices_plus
-			{
-				"v" "2496 192 1024"
-				"v" "2432 192 1024"
-				"v" "2432 192 768"
-				"v" "2496 192 768"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 -0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2719"
-			"plane" "(2496 128 768) (2432 128 768) (2432 128 1024)"
-			vertices_plus
-			{
-				"v" "2496 128 768"
-				"v" "2432 128 768"
-				"v" "2432 128 1024"
-				"v" "2496 128 1024"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -33190,48 +33096,6 @@ entity
 	"angles" "0 0 0"
 	"nodeid" "137"
 	"origin" "1405.77 -1335.34 192"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "28982"
-	"classname" "lfce_weapon_progress"
-	"effects" "0"
-	"physcannon_progress" "0"
-	"portalgun_progress" "0"
-	"progression_paused" "0"
-	"wpnprogress" "2"
-	"origin" "2320 32 776"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "29007"
-	"classname" "info_node_hint"
-	"angles" "0 90 0"
-	"effects" "0"
-	"hinttype" "901"
-	"IgnoreFacing" "2"
-	"MaximumState" "3"
-	"MinimumState" "1"
-	"nodeFOV" "360"
-	"nodeid" "138"
-	"spawnflags" "0"
-	"StartHintDisabled" "0"
-	"TargetNode" "139"
-	"origin" "1344 -1312 192"
 	editor
 	{
 		"color" "232 219 8"

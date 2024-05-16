@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "173"
+	"mapversion" "177"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "173"
+	"mapversion" "177"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4696,7 +4696,7 @@ world
 				"v" "128 512 160"
 			}
 			"material" "CONCRETE/CONCRETEWALL003E"
-			"uaxis" "[-0 -1 0 1024] 0.25"
+			"uaxis" "[-0 -1 0 0] 0.25"
 			"vaxis" "[0 -0 -1 512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
@@ -83317,10 +83317,10 @@ world
 			"plane" "(-150 -382 -7.62939e-06) (-150 -350 -7.62939e-06) (-182 -350 -7.62939e-06)"
 			vertices_plus
 			{
-				"v" "-150 -382 -7.62939e-06"
-				"v" "-150 -350 -7.62939e-06"
-				"v" "-182 -350 -7.62939e-06"
-				"v" "-182 -382 -7.62939e-06"
+				"v" "-150 -382 -0"
+				"v" "-150 -350 -0"
+				"v" "-182 -350 -0"
+				"v" "-182 -382 -0"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-0 -1 0 -56] 0.25"
@@ -83335,8 +83335,8 @@ world
 			"plane" "(-150 -350 -7.62939e-06) (-150 -382 -7.62939e-06) (-150 -382 88.2109)"
 			vertices_plus
 			{
-				"v" "-150 -350 -7.62939e-06"
-				"v" "-150 -382 -7.62939e-06"
+				"v" "-150 -350 -0"
+				"v" "-150 -382 -0"
 				"v" "-150 -382 88.2109"
 				"v" "-150 -350 88.2109"
 			}
@@ -83353,8 +83353,8 @@ world
 			"plane" "(-182 -382 -7.62939e-06) (-182 -350 -7.62939e-06) (-182 -350 88.2109)"
 			vertices_plus
 			{
-				"v" "-182 -382 -7.62939e-06"
-				"v" "-182 -350 -7.62939e-06"
+				"v" "-182 -382 -0"
+				"v" "-182 -350 -0"
 				"v" "-182 -350 88.2109"
 				"v" "-182 -382 88.2109"
 			}
@@ -83371,8 +83371,8 @@ world
 			"plane" "(-150 -382 -7.62939e-06) (-182 -382 -7.62939e-06) (-182 -382 88.2109)"
 			vertices_plus
 			{
-				"v" "-150 -382 -7.62939e-06"
-				"v" "-182 -382 -7.62939e-06"
+				"v" "-150 -382 -0"
+				"v" "-182 -382 -0"
 				"v" "-182 -382 88.2109"
 				"v" "-150 -382 88.2109"
 			}
@@ -83389,8 +83389,8 @@ world
 			"plane" "(-182 -350 -7.62939e-06) (-150 -350 -7.62939e-06) (-150 -350 88.2109)"
 			vertices_plus
 			{
-				"v" "-182 -350 -7.62939e-06"
-				"v" "-150 -350 -7.62939e-06"
+				"v" "-182 -350 -0"
+				"v" "-150 -350 -0"
 				"v" "-150 -350 88.2109"
 				"v" "-182 -350 88.2109"
 			}
@@ -83509,20 +83509,153 @@ world
 }
 entity
 {
-	"id" "55089"
-	"classname" "lfce_weapon_progress"
-	"effects" "0"
-	"physcannon_progress" "0"
-	"portalgun_progress" "0"
-	"progression_paused" "0"
-	"wpnprogress" "2"
-	"origin" "2320 -352 -504"
+	"id" "56126"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-509.98 -165.04 33.12"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "0"
+	"spawnflags" "1025"
+	"speed" "1"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "1"
+	connections
+	{
+		"OnPressed" "wall_weapon_merchant_8,Purchase,,0,-1"
+	}
+	solid
+	{
+		"id" "56127"
+		side
+		{
+			"id" "10857"
+			"plane" "(-512 -192 66) (-512 -192 0) (-512 -138 0)"
+			vertices_plus
+			{
+				"v" "-512 -192 66"
+				"v" "-512 -192 0"
+				"v" "-512 -138 0"
+				"v" "-512 -138 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0 -1 0 -35.5555] 0.84375"
+			"vaxis" "[0 0 -1 0] 1.03125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10856"
+			"plane" "(-508 -138 66) (-508 -138 0) (-508 -192 0)"
+			vertices_plus
+			{
+				"v" "-508 -138 66"
+				"v" "-508 -138 0"
+				"v" "-508 -192 0"
+				"v" "-508 -192 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 35.5555] 0.84375"
+			"vaxis" "[0 0 -1 0] 1.03125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10855"
+			"plane" "(-508 -192 66) (-508 -192 0) (-512 -192 0)"
+			vertices_plus
+			{
+				"v" "-508 -192 66"
+				"v" "-508 -192 0"
+				"v" "-512 -192 0"
+				"v" "-512 -192 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 -0 0 63.9746] 0.0625001"
+			"vaxis" "[0 0 -1 0] 1.03125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10854"
+			"plane" "(-512 -138 66) (-512 -138 0) (-508 -138 0)"
+			vertices_plus
+			{
+				"v" "-512 -138 66"
+				"v" "-512 -138 0"
+				"v" "-508 -138 0"
+				"v" "-508 -138 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -63.9746] 0.0625001"
+			"vaxis" "[0 0 -1 0] 1.03125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10853"
+			"plane" "(-512 -138 0) (-512 -192 0) (-508 -192 0)"
+			vertices_plus
+			{
+				"v" "-512 -138 0"
+				"v" "-512 -192 0"
+				"v" "-508 -192 0"
+				"v" "-508 -138 0"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -63.9746] 0.0625001"
+			"vaxis" "[-0 -1 0 -35.5555] 0.84375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10852"
+			"plane" "(-512 -192 66) (-512 -138 66) (-508 -138 66)"
+			vertices_plus
+			{
+				"v" "-512 -192 66"
+				"v" "-512 -138 66"
+				"v" "-508 -138 66"
+				"v" "-508 -192 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 -0 0 63.9746] 0.0625001"
+			"vaxis" "[-0 -1 0 -35.5555] 0.84375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
+		"logicalpos" "[2500 -11768]"
 	}
 }
 entity
@@ -83694,14 +83827,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
+	"MaxLiveChildren" "12"
 	"MaxNPCCount" "20"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "1"
 	"StartDisabled" "1"
 	"targetname" "wave6_template"
 	"TemplateName" "zomb"
@@ -83786,9 +83919,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -83818,14 +83951,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
+	"MaxLiveChildren" "16"
 	"MaxNPCCount" "24"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "1"
 	"StartDisabled" "1"
 	"targetname" "wave9_template"
 	"TemplateName" "zomb"
@@ -84963,9 +85096,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -85297,9 +85430,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -85485,14 +85618,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
+	"MaxLiveChildren" "16"
 	"MaxNPCCount" "24"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "1"
 	"StartDisabled" "1"
 	"targetname" "wave8_template"
 	"TemplateName" "zomb"
@@ -85567,14 +85700,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
 	"MaxLiveChildren" "6"
 	"MaxNPCCount" "8"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "3"
+	"SpawnFrequency" "4"
 	"StartDisabled" "1"
 	"targetname" "wave1_template"
 	"TemplateName" "zomb"
@@ -85659,14 +85792,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "8"
+	"MaxLiveChildren" "10"
 	"MaxNPCCount" "18"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "2"
 	"StartDisabled" "1"
 	"targetname" "wave5_template"
 	"TemplateName" "zomb"
@@ -85751,14 +85884,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
 	"MaxLiveChildren" "8"
 	"MaxNPCCount" "14"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "2"
+	"SpawnFrequency" "3"
 	"StartDisabled" "1"
 	"targetname" "wave2_template"
 	"TemplateName" "zomb"
@@ -85783,14 +85916,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
 	"MaxLiveChildren" "8"
 	"MaxNPCCount" "16"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "1"
+	"SpawnFrequency" "3"
 	"StartDisabled" "1"
 	"targetname" "wave3_template"
 	"TemplateName" "zomb"
@@ -85845,14 +85978,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "8"
+	"MaxLiveChildren" "10"
 	"MaxNPCCount" "18"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "1"
+	"SpawnFrequency" "2"
 	"StartDisabled" "1"
 	"targetname" "wave4_template"
 	"TemplateName" "zomb"
@@ -85903,9 +86036,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "34"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -85995,14 +86128,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "26"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "1"
 	"StartDisabled" "1"
 	"targetname" "wave10_template"
 	"TemplateName" "zomb"
@@ -86178,9 +86311,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -86370,14 +86503,14 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "10"
+	"MaxLiveChildren" "12"
 	"MaxNPCCount" "22"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
 	"spawnflags" "128"
-	"SpawnFrequency" "-1"
+	"SpawnFrequency" "1"
 	"StartDisabled" "1"
 	"targetname" "wave7_template"
 	"TemplateName" "zomb"
@@ -86540,9 +86673,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "32"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -86572,9 +86705,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "30"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -86742,9 +86875,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "13"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "28"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -92638,146 +92771,19 @@ entity
 }
 entity
 {
-	"id" "21615"
-	"classname" "func_dustcloud"
-	"Alpha" "24"
-	"angles" "0 0 0"
-	"Color" "28 73 98"
-	"DistMax" "3000"
-	"effects" "0"
-	"FallSpeed" "0"
-	"Frozen" "0"
-	"LifetimeMax" "8"
-	"LifetimeMin" "4"
-	"SizeMax" "300"
-	"SizeMin" "100"
-	"SpawnRate" "30"
-	"SpeedMax" "13"
-	"StartDisabled" "0"
-	solid
-	{
-		"id" "21613"
-		side
-		{
-			"id" "8178"
-			"plane" "(-1536 256 48) (-2176 256 168) (-2176 1024 168)"
-			vertices_plus
-			{
-				"v" "-1536 256 48"
-				"v" "-2176 256 168"
-				"v" "-2176 1024 168"
-				"v" "-1536 1024 48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8177"
-			"plane" "(-1536 1024 -32) (-2176 1024 -32) (-2176 256 -32)"
-			vertices_plus
-			{
-				"v" "-1536 1024 -32"
-				"v" "-2176 1024 -32"
-				"v" "-2176 256 -32"
-				"v" "-1536 256 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8176"
-			"plane" "(-2176 256 168) (-2176 256 -32) (-2176 1024 -32)"
-			vertices_plus
-			{
-				"v" "-2176 256 168"
-				"v" "-2176 256 -32"
-				"v" "-2176 1024 -32"
-				"v" "-2176 1024 168"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8175"
-			"plane" "(-1536 1024 48) (-1536 1024 -32) (-1536 256 -32)"
-			vertices_plus
-			{
-				"v" "-1536 1024 48"
-				"v" "-1536 1024 -32"
-				"v" "-1536 256 -32"
-				"v" "-1536 256 48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8174"
-			"plane" "(-2176 1024 168) (-2176 1024 -32) (-1536 1024 -32)"
-			vertices_plus
-			{
-				"v" "-2176 1024 168"
-				"v" "-2176 1024 -32"
-				"v" "-1536 1024 -32"
-				"v" "-1536 1024 48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8173"
-			"plane" "(-2176 256 -32) (-2176 256 168) (-1536 256 48)"
-			vertices_plus
-			{
-				"v" "-2176 256 -32"
-				"v" "-2176 256 168"
-				"v" "-1536 256 48"
-				"v" "-1536 256 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"id" "56129"
+	"classname" "point_message"
+	"developeronly" "0"
+	"message" "Buy Csmg for 1200 points"
+	"radius" "128"
+	"spawnflags" "0"
+	"origin" "-510 -160 58"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
+		"logicalpos" "[2500 -12268]"
 	}
 }
 entity
@@ -92926,578 +92932,112 @@ entity
 }
 entity
 {
-	"id" "21664"
-	"classname" "func_dustcloud"
-	"Alpha" "24"
-	"angles" "0 0 0"
-	"Color" "28 73 98"
-	"DistMax" "3000"
-	"effects" "0"
-	"FallSpeed" "0"
-	"Frozen" "0"
-	"LifetimeMax" "8"
-	"LifetimeMin" "4"
-	"SizeMax" "300"
-	"SizeMin" "100"
-	"SpawnRate" "30"
-	"SpeedMax" "13"
+	"id" "56140"
+	"classname" "logic_merchant_relay"
+	"AnnounceCashNeeded" "1"
+	"CostOf" "1200"
+	"IsShared" "0"
+	"MaxPointsTake" "0"
+	"PurchaseName" "Bought Csmg"
+	"purchasesound" "Buy.Accept"
 	"StartDisabled" "0"
-	solid
+	"targetname" "wall_weapon_merchant_8"
+	connections
 	{
-		"id" "21665"
-		side
-		{
-			"id" "8202"
-			"plane" "(1536 -256 160) (896 -256 32) (896 768 32)"
-			vertices_plus
-			{
-				"v" "1536 -256 160"
-				"v" "896 -256 32"
-				"v" "896 768 32"
-				"v" "1536 768 160"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8201"
-			"plane" "(1536 768 -64) (896 768 -64) (896 -256 -64)"
-			vertices_plus
-			{
-				"v" "1536 768 -64"
-				"v" "896 768 -64"
-				"v" "896 -256 -64"
-				"v" "1536 -256 -64"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8200"
-			"plane" "(896 -256 32) (896 -256 -64) (896 768 -64)"
-			vertices_plus
-			{
-				"v" "896 -256 32"
-				"v" "896 -256 -64"
-				"v" "896 768 -64"
-				"v" "896 768 32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8199"
-			"plane" "(1536 768 160) (1536 768 -64) (1536 -256 -64)"
-			vertices_plus
-			{
-				"v" "1536 768 160"
-				"v" "1536 768 -64"
-				"v" "1536 -256 -64"
-				"v" "1536 -256 160"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8198"
-			"plane" "(1536 768 -64) (1536 768 160) (896 768 32)"
-			vertices_plus
-			{
-				"v" "1536 768 -64"
-				"v" "1536 768 160"
-				"v" "896 768 32"
-				"v" "896 768 -64"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8197"
-			"plane" "(1536 -256 160) (1536 -256 -64) (896 -256 -64)"
-			vertices_plus
-			{
-				"v" "1536 -256 160"
-				"v" "1536 -256 -64"
-				"v" "896 -256 -64"
-				"v" "896 -256 32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
+		"OnPurchased" "wall_weapon_template_8,ForceSpawn,,0,-1"
 	}
+	"origin" "-510 -176 76"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
+		"logicalpos" "[2500 -11268]"
 	}
 }
 entity
 {
-	"id" "22084"
-	"classname" "func_dustcloud"
-	"Alpha" "20"
-	"angles" "0 0 0"
-	"Color" "28 73 98"
-	"DistMax" "1024"
-	"effects" "0"
-	"FallSpeed" "0"
-	"Frozen" "0"
-	"LifetimeMax" "8"
-	"LifetimeMin" "4"
-	"SizeMax" "200"
-	"SizeMin" "100"
-	"SpawnRate" "10"
-	"SpeedMax" "13"
-	"StartDisabled" "0"
-	solid
-	{
-		"id" "22081"
-		side
-		{
-			"id" "8214"
-			"plane" "(256 768 40) (768 768 -16) (768 -384 -16)"
-			vertices_plus
-			{
-				"v" "256 768 40"
-				"v" "768 768 -16"
-				"v" "768 -384 -16"
-				"v" "256 -384 40"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8213"
-			"plane" "(256 -384 -48) (768 -384 -48) (768 768 -48)"
-			vertices_plus
-			{
-				"v" "256 -384 -48"
-				"v" "768 -384 -48"
-				"v" "768 768 -48"
-				"v" "256 768 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8212"
-			"plane" "(256 768 -48) (256 768 40) (256 -384 40)"
-			vertices_plus
-			{
-				"v" "256 768 -48"
-				"v" "256 768 40"
-				"v" "256 -384 40"
-				"v" "256 -384 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8211"
-			"plane" "(768 -384 -48) (768 -384 -16) (768 768 -16)"
-			vertices_plus
-			{
-				"v" "768 -384 -48"
-				"v" "768 -384 -16"
-				"v" "768 768 -16"
-				"v" "768 768 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8210"
-			"plane" "(768 768 -48) (768 768 -16) (256 768 40)"
-			vertices_plus
-			{
-				"v" "768 768 -48"
-				"v" "768 768 -16"
-				"v" "256 768 40"
-				"v" "256 768 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8209"
-			"plane" "(768 -384 -16) (768 -384 -48) (256 -384 -48)"
-			vertices_plus
-			{
-				"v" "768 -384 -16"
-				"v" "768 -384 -48"
-				"v" "256 -384 -48"
-				"v" "256 -384 40"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"id" "56138"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "wall_weapon_template_8"
+	"Template01" "wall_weapon_giver_8"
+	"origin" "-510 -144 76"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"logicalpos" "[2500 -10768]"
 	}
 }
 entity
 {
-	"id" "22105"
-	"classname" "func_dustcloud"
-	"Alpha" "20"
-	"angles" "0 0 0"
-	"Color" "28 73 98"
-	"DistMax" "1024"
-	"effects" "0"
-	"FallSpeed" "0"
-	"Frozen" "0"
-	"LifetimeMax" "8"
-	"LifetimeMin" "4"
-	"SizeMax" "200"
-	"SizeMin" "100"
-	"SpawnRate" "20"
-	"SpeedMax" "13"
-	"StartDisabled" "0"
-	solid
-	{
-		"id" "22106"
-		side
-		{
-			"id" "8226"
-			"plane" "(-768 -1024 48) (-768 -448 16) (512 -448 16)"
-			vertices_plus
-			{
-				"v" "-768 -1024 48"
-				"v" "-768 -448 16"
-				"v" "512 -448 16"
-				"v" "512 -1024 48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8225"
-			"plane" "(-768 -448 -32) (-768 -1024 -32) (512 -1024 -32)"
-			vertices_plus
-			{
-				"v" "-768 -448 -32"
-				"v" "-768 -1024 -32"
-				"v" "512 -1024 -32"
-				"v" "512 -448 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8224"
-			"plane" "(-768 -1024 -32) (-768 -448 -32) (-768 -448 16)"
-			vertices_plus
-			{
-				"v" "-768 -1024 -32"
-				"v" "-768 -448 -32"
-				"v" "-768 -448 16"
-				"v" "-768 -1024 48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8223"
-			"plane" "(512 -1024 48) (512 -448 16) (512 -448 -32)"
-			vertices_plus
-			{
-				"v" "512 -1024 48"
-				"v" "512 -448 16"
-				"v" "512 -448 -32"
-				"v" "512 -1024 -32"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8222"
-			"plane" "(-768 -448 -32) (512 -448 -32) (512 -448 16)"
-			vertices_plus
-			{
-				"v" "-768 -448 -32"
-				"v" "512 -448 -32"
-				"v" "512 -448 16"
-				"v" "-768 -448 16"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8221"
-			"plane" "(512 -1024 -32) (-768 -1024 -32) (-768 -1024 48)"
-			vertices_plus
-			{
-				"v" "512 -1024 -32"
-				"v" "-768 -1024 -32"
-				"v" "-768 -1024 48"
-				"v" "512 -1024 48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"id" "56133"
+	"classname" "light"
+	"_fifty_percent_distance" "60"
+	"_light" "45 139 255 20"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "100"
+	"origin" "-500 -160 60"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"logicalpos" "[0 9500]"
 	}
 }
 entity
 {
-	"id" "22527"
-	"classname" "func_dustcloud"
-	"Alpha" "20"
-	"angles" "0 0 0"
-	"Color" "28 73 98"
-	"DistMax" "1024"
-	"effects" "0"
-	"FallSpeed" "0"
-	"Frozen" "0"
-	"LifetimeMax" "8"
-	"LifetimeMin" "4"
-	"SizeMax" "200"
-	"SizeMin" "100"
-	"SpawnRate" "20"
-	"SpeedMax" "13"
+	"id" "56131"
+	"classname" "lfe_weapon_custom"
+	"angles" "0 90 0"
+	"at1" "0"
+	"at10" "0"
+	"at11" "0"
+	"at12" "0"
+	"at13" "0"
+	"at14" "0"
+	"at15" "0"
+	"at16" "0"
+	"at2" "0"
+	"at3" "0"
+	"at4" "0"
+	"at5" "0"
+	"at6" "0"
+	"at7" "0"
+	"at8" "0"
+	"at9" "0"
+	"atv1" "0"
+	"atv10" "0"
+	"atv11" "0"
+	"atv12" "0"
+	"atv13" "0"
+	"atv14" "0"
+	"atv15" "0"
+	"atv16" "0"
+	"atv2" "0"
+	"atv3" "0"
+	"atv4" "0"
+	"atv5" "0"
+	"atv6" "0"
+	"atv7" "0"
+	"atv8" "0"
+	"atv9" "0"
+	"itemid" "1515"
 	"StartDisabled" "0"
-	solid
-	{
-		"id" "22528"
-		side
-		{
-			"id" "8244"
-			"plane" "(-768 1024 8) (-768 -256 8) (-1472 -256 -16)"
-			vertices_plus
-			{
-				"v" "-768 1024 8"
-				"v" "-768 -256 8"
-				"v" "-1472 -256 -16"
-				"v" "-1472 1024 -16"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8243"
-			"plane" "(-768 -256 -48) (-768 1024 -48) (-1472 1024 -48)"
-			vertices_plus
-			{
-				"v" "-768 -256 -48"
-				"v" "-768 1024 -48"
-				"v" "-1472 1024 -48"
-				"v" "-1472 -256 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8242"
-			"plane" "(-768 1024 -48) (-768 1024 8) (-1472 1024 -16)"
-			vertices_plus
-			{
-				"v" "-768 1024 -48"
-				"v" "-768 1024 8"
-				"v" "-1472 1024 -16"
-				"v" "-1472 1024 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8241"
-			"plane" "(-768 -256 8) (-768 -256 -48) (-1472 -256 -48)"
-			vertices_plus
-			{
-				"v" "-768 -256 8"
-				"v" "-768 -256 -48"
-				"v" "-1472 -256 -48"
-				"v" "-1472 -256 -16"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8240"
-			"plane" "(-768 -256 -48) (-768 -256 8) (-768 1024 8)"
-			vertices_plus
-			{
-				"v" "-768 -256 -48"
-				"v" "-768 -256 8"
-				"v" "-768 1024 8"
-				"v" "-768 1024 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8239"
-			"plane" "(-1472 1024 -48) (-1472 1024 -16) (-1472 -256 -16)"
-			vertices_plus
-			{
-				"v" "-1472 1024 -48"
-				"v" "-1472 1024 -16"
-				"v" "-1472 -256 -16"
-				"v" "-1472 -256 -48"
-			}
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"targetname" "wall_weapon_giver_8"
+	"TeamNum" "0"
+	"origin" "-494 -160 58"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"logicalpos" "[2500 -12768]"
 	}
 }
 entity
@@ -95380,9 +94920,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -99431,10 +98971,10 @@ entity
 			"plane" "(144 284 3.39746e-06) (128 284 3.39746e-06) (128 212 3.39746e-06)"
 			vertices_plus
 			{
-				"v" "144 284 3.39746e-06"
-				"v" "128 284 3.39746e-06"
-				"v" "128 212 3.39746e-06"
-				"v" "144 212 3.39746e-06"
+				"v" "144 284 0"
+				"v" "128 284 0"
+				"v" "128 212 0"
+				"v" "144 212 0"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 -0 -0 0] 0.25"
@@ -99449,8 +98989,8 @@ entity
 			"plane" "(128 284 2.14018e-05) (144 284 2.14018e-05) (144 284 108)"
 			vertices_plus
 			{
-				"v" "128 284 2.14018e-05"
-				"v" "144 284 2.14018e-05"
+				"v" "128 284 0"
+				"v" "144 284 0"
 				"v" "144 284 108"
 				"v" "128 284 108"
 			}
@@ -99467,8 +99007,8 @@ entity
 			"plane" "(144 212 2.14018e-05) (128 212 2.14018e-05) (128 212 108)"
 			vertices_plus
 			{
-				"v" "144 212 2.14018e-05"
-				"v" "128 212 2.14018e-05"
+				"v" "144 212 0"
+				"v" "128 212 0"
 				"v" "128 212 108"
 				"v" "144 212 108"
 			}
@@ -99485,8 +99025,8 @@ entity
 			"plane" "(144 284 2.14018e-05) (144 212 2.14018e-05) (144 212 108)"
 			vertices_plus
 			{
-				"v" "144 284 2.14018e-05"
-				"v" "144 212 2.14018e-05"
+				"v" "144 284 0"
+				"v" "144 212 0"
 				"v" "144 212 108"
 				"v" "144 284 108"
 			}
@@ -99503,8 +99043,8 @@ entity
 			"plane" "(128 212 2.14018e-05) (128 284 2.14018e-05) (128 284 108)"
 			vertices_plus
 			{
-				"v" "128 212 2.14018e-05"
-				"v" "128 284 2.14018e-05"
+				"v" "128 212 0"
+				"v" "128 284 0"
 				"v" "128 284 108"
 				"v" "128 212 108"
 			}
@@ -99578,10 +99118,10 @@ entity
 			"plane" "(-656 660 3.39746e-06) (-640 660 3.39746e-06) (-640 732 3.39746e-06)"
 			vertices_plus
 			{
-				"v" "-656 660 3.39746e-06"
-				"v" "-640 660 3.39746e-06"
-				"v" "-640 732 3.39746e-06"
-				"v" "-656 732 3.39746e-06"
+				"v" "-656 660 0"
+				"v" "-640 660 0"
+				"v" "-640 732 0"
+				"v" "-656 732 0"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -99596,8 +99136,8 @@ entity
 			"plane" "(-640 660 2.14018e-05) (-656 660 2.14018e-05) (-656 660 108)"
 			vertices_plus
 			{
-				"v" "-640 660 2.14018e-05"
-				"v" "-656 660 2.14018e-05"
+				"v" "-640 660 0"
+				"v" "-656 660 0"
 				"v" "-656 660 108"
 				"v" "-640 660 108"
 			}
@@ -99614,8 +99154,8 @@ entity
 			"plane" "(-656 732 2.14018e-05) (-640 732 2.14018e-05) (-640 732 108)"
 			vertices_plus
 			{
-				"v" "-656 732 2.14018e-05"
-				"v" "-640 732 2.14018e-05"
+				"v" "-656 732 0"
+				"v" "-640 732 0"
 				"v" "-640 732 108"
 				"v" "-656 732 108"
 			}
@@ -99632,8 +99172,8 @@ entity
 			"plane" "(-656 660 2.14018e-05) (-656 732 2.14018e-05) (-656 732 108)"
 			vertices_plus
 			{
-				"v" "-656 660 2.14018e-05"
-				"v" "-656 732 2.14018e-05"
+				"v" "-656 660 0"
+				"v" "-656 732 0"
 				"v" "-656 732 108"
 				"v" "-656 660 108"
 			}
@@ -99650,8 +99190,8 @@ entity
 			"plane" "(-640 732 2.14018e-05) (-640 660 2.14018e-05) (-640 660 108)"
 			vertices_plus
 			{
-				"v" "-640 732 2.14018e-05"
-				"v" "-640 660 2.14018e-05"
+				"v" "-640 732 0"
+				"v" "-640 660 0"
 				"v" "-640 660 108"
 				"v" "-640 732 108"
 			}
@@ -99725,10 +99265,10 @@ entity
 			"plane" "(-404 -400 -4.17233e-07) (-404 -384 -4.17233e-07) (-476 -384 -4.17233e-07)"
 			vertices_plus
 			{
-				"v" "-404 -400 -4.17233e-07"
-				"v" "-404 -384 -4.17233e-07"
-				"v" "-476 -384 -4.17233e-07"
-				"v" "-476 -400 -4.17233e-07"
+				"v" "-404 -400 -0"
+				"v" "-404 -384 -0"
+				"v" "-476 -384 -0"
+				"v" "-476 -400 -0"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-0 1 0 0] 0.25"
@@ -99743,8 +99283,8 @@ entity
 			"plane" "(-404 -384 1.75871e-05) (-404 -400 1.75871e-05) (-404 -400 108)"
 			vertices_plus
 			{
-				"v" "-404 -384 1.75871e-05"
-				"v" "-404 -400 1.75871e-05"
+				"v" "-404 -384 0"
+				"v" "-404 -400 0"
 				"v" "-404 -400 108"
 				"v" "-404 -384 108"
 			}
@@ -99761,8 +99301,8 @@ entity
 			"plane" "(-476 -400 1.75871e-05) (-476 -384 1.75871e-05) (-476 -384 108)"
 			vertices_plus
 			{
-				"v" "-476 -400 1.75871e-05"
-				"v" "-476 -384 1.75871e-05"
+				"v" "-476 -400 0"
+				"v" "-476 -384 0"
 				"v" "-476 -384 108"
 				"v" "-476 -400 108"
 			}
@@ -99779,8 +99319,8 @@ entity
 			"plane" "(-404 -400 1.75871e-05) (-476 -400 1.75871e-05) (-476 -400 108)"
 			vertices_plus
 			{
-				"v" "-404 -400 1.75871e-05"
-				"v" "-476 -400 1.75871e-05"
+				"v" "-404 -400 0"
+				"v" "-476 -400 0"
 				"v" "-476 -400 108"
 				"v" "-404 -400 108"
 			}
@@ -99797,8 +99337,8 @@ entity
 			"plane" "(-476 -384 1.75871e-05) (-404 -384 1.75871e-05) (-404 -384 108)"
 			vertices_plus
 			{
-				"v" "-476 -384 1.75871e-05"
-				"v" "-404 -384 1.75871e-05"
+				"v" "-476 -384 0"
+				"v" "-404 -384 0"
 				"v" "-404 -384 108"
 				"v" "-476 -384 108"
 			}
@@ -100095,9 +99635,9 @@ entity
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
 	"CriterionDistance" "0"
-	"CriterionVisibility" "1"
+	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_1"
-	"MaxLiveChildren" "15"
+	"MaxLiveChildren" "24"
 	"MaxNPCCount" "35"
 	"MinSpawnDistance" "100"
 	"Radius" "128"
@@ -100323,8 +99863,8 @@ entity
 			vertices_plus
 			{
 				"v" "-512 388 66"
-				"v" "-512 388 -7.62939e-06"
-				"v" "-512 442 -7.62939e-06"
+				"v" "-512 388 -0"
+				"v" "-512 442 -0"
 				"v" "-512 442 66"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
@@ -100341,8 +99881,8 @@ entity
 			vertices_plus
 			{
 				"v" "-508 442 66"
-				"v" "-508 442 -7.62939e-06"
-				"v" "-508 388 -7.62939e-06"
+				"v" "-508 442 -0"
+				"v" "-508 388 -0"
 				"v" "-508 388 66"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
@@ -100359,8 +99899,8 @@ entity
 			vertices_plus
 			{
 				"v" "-508 388 66"
-				"v" "-508 388 -7.62939e-06"
-				"v" "-512 388 -7.62939e-06"
+				"v" "-508 388 -0"
+				"v" "-512 388 -0"
 				"v" "-512 388 66"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
@@ -100377,8 +99917,8 @@ entity
 			vertices_plus
 			{
 				"v" "-512 442 66"
-				"v" "-512 442 -7.62939e-06"
-				"v" "-508 442 -7.62939e-06"
+				"v" "-512 442 -0"
+				"v" "-508 442 -0"
 				"v" "-508 442 66"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
@@ -100394,10 +99934,10 @@ entity
 			"plane" "(-512 442 -7.62939e-06) (-512 388 -7.62939e-06) (-508 388 -7.62939e-06)"
 			vertices_plus
 			{
-				"v" "-512 442 -7.62939e-06"
-				"v" "-512 388 -7.62939e-06"
-				"v" "-508 388 -7.62939e-06"
-				"v" "-508 442 -7.62939e-06"
+				"v" "-512 442 -0"
+				"v" "-512 388 -0"
+				"v" "-508 388 -0"
+				"v" "-508 442 -0"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 -63.9748] 0.0625001"
@@ -102009,10 +101549,10 @@ entity
 			"plane" "(-150 -350 -7.62939e-06) (-150 -342 -7.62939e-06) (-182 -342 -7.62939e-06)"
 			vertices_plus
 			{
-				"v" "-150 -350 -7.62939e-06"
-				"v" "-150 -342 -7.62939e-06"
-				"v" "-182 -342 -7.62939e-06"
-				"v" "-182 -350 -7.62939e-06"
+				"v" "-150 -350 -0"
+				"v" "-150 -342 -0"
+				"v" "-182 -342 -0"
+				"v" "-182 -350 -0"
 			}
 			"material" "TOOLS/TOOLSBLOCKBULLETS"
 			"uaxis" "[-0 -1 0 -40] 0.25"
@@ -102027,8 +101567,8 @@ entity
 			"plane" "(-150 -342 -7.62939e-06) (-150 -350 -7.62939e-06) (-150 -350 88.2109)"
 			vertices_plus
 			{
-				"v" "-150 -342 -7.62939e-06"
-				"v" "-150 -350 -7.62939e-06"
+				"v" "-150 -342 -0"
+				"v" "-150 -350 -0"
 				"v" "-150 -350 88.2109"
 				"v" "-150 -342 88.2109"
 			}
@@ -102045,8 +101585,8 @@ entity
 			"plane" "(-182 -350 -7.62939e-06) (-182 -342 -7.62939e-06) (-182 -342 88.2109)"
 			vertices_plus
 			{
-				"v" "-182 -350 -7.62939e-06"
-				"v" "-182 -342 -7.62939e-06"
+				"v" "-182 -350 -0"
+				"v" "-182 -342 -0"
 				"v" "-182 -342 88.2109"
 				"v" "-182 -350 88.2109"
 			}
@@ -102063,8 +101603,8 @@ entity
 			"plane" "(-150 -350 -7.62939e-06) (-182 -350 -7.62939e-06) (-182 -350 88.2109)"
 			vertices_plus
 			{
-				"v" "-150 -350 -7.62939e-06"
-				"v" "-182 -350 -7.62939e-06"
+				"v" "-150 -350 -0"
+				"v" "-182 -350 -0"
 				"v" "-182 -350 88.2109"
 				"v" "-150 -350 88.2109"
 			}
@@ -102081,8 +101621,8 @@ entity
 			"plane" "(-182 -342 -7.62939e-06) (-150 -342 -7.62939e-06) (-150 -342 88.2109)"
 			vertices_plus
 			{
-				"v" "-182 -342 -7.62939e-06"
-				"v" "-150 -342 -7.62939e-06"
+				"v" "-182 -342 -0"
+				"v" "-150 -342 -0"
 				"v" "-150 -342 88.2109"
 				"v" "-182 -342 88.2109"
 			}
@@ -104589,284 +104129,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -6768]"
-	}
-}
-entity
-{
-	"id" "56126"
-	"classname" "func_button"
-	"disablereceiveshadows" "0"
-	"health" "0"
-	"lip" "0"
-	"locked_sentence" "0"
-	"locked_sound" "0"
-	"movedir" "0 0 0"
-	"origin" "-509.98 -165.04 33.12"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sounds" "0"
-	"spawnflags" "1025"
-	"speed" "1"
-	"unlocked_sentence" "0"
-	"unlocked_sound" "0"
-	"wait" "1"
-	connections
-	{
-		"OnPressed" "wall_weapon_merchant_8,Purchase,,0,-1"
-	}
-	solid
-	{
-		"id" "56127"
-		side
-		{
-			"id" "10857"
-			"plane" "(-512 -192 66) (-512 -192 0) (-512 -138 0)"
-			vertices_plus
-			{
-				"v" "-512 -192 66"
-				"v" "-512 -192 0"
-				"v" "-512 -138 0"
-				"v" "-512 -138 66"
-			}
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-0 -1 0 -35.5555] 0.84375"
-			"vaxis" "[0 0 -1 0] 1.03125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10856"
-			"plane" "(-508 -138 66) (-508 -138 0) (-508 -192 0)"
-			vertices_plus
-			{
-				"v" "-508 -138 66"
-				"v" "-508 -138 0"
-				"v" "-508 -192 0"
-				"v" "-508 -192 66"
-			}
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 1 0 35.5555] 0.84375"
-			"vaxis" "[0 0 -1 0] 1.03125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10855"
-			"plane" "(-508 -192 66) (-508 -192 0) (-512 -192 0)"
-			vertices_plus
-			{
-				"v" "-508 -192 66"
-				"v" "-508 -192 0"
-				"v" "-512 -192 0"
-				"v" "-512 -192 66"
-			}
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 -0 0 63.9746] 0.0625001"
-			"vaxis" "[0 0 -1 0] 1.03125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10854"
-			"plane" "(-512 -138 66) (-512 -138 0) (-508 -138 0)"
-			vertices_plus
-			{
-				"v" "-512 -138 66"
-				"v" "-512 -138 0"
-				"v" "-508 -138 0"
-				"v" "-508 -138 66"
-			}
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-1 0 0 -63.9746] 0.0625001"
-			"vaxis" "[0 0 -1 0] 1.03125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10853"
-			"plane" "(-512 -138 0) (-512 -192 0) (-508 -192 0)"
-			vertices_plus
-			{
-				"v" "-512 -138 0"
-				"v" "-512 -192 0"
-				"v" "-508 -192 0"
-				"v" "-508 -138 0"
-			}
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-1 0 0 -63.9746] 0.0625001"
-			"vaxis" "[-0 -1 0 -35.5555] 0.84375"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10852"
-			"plane" "(-512 -192 66) (-512 -138 66) (-508 -138 66)"
-			vertices_plus
-			{
-				"v" "-512 -192 66"
-				"v" "-512 -138 66"
-				"v" "-508 -138 66"
-				"v" "-508 -192 66"
-			}
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 -0 0 63.9746] 0.0625001"
-			"vaxis" "[-0 -1 0 -35.5555] 0.84375"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -11768]"
-	}
-}
-entity
-{
-	"id" "56129"
-	"classname" "point_message"
-	"developeronly" "0"
-	"message" "Buy Csmg for 1200 points"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "-510 -160 58"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -12268]"
-	}
-}
-entity
-{
-	"id" "56131"
-	"classname" "lfe_weapon_custom"
-	"angles" "0 90 0"
-	"at1" "0"
-	"at10" "0"
-	"at11" "0"
-	"at12" "0"
-	"at13" "0"
-	"at14" "0"
-	"at15" "0"
-	"at16" "0"
-	"at2" "0"
-	"at3" "0"
-	"at4" "0"
-	"at5" "0"
-	"at6" "0"
-	"at7" "0"
-	"at8" "0"
-	"at9" "0"
-	"atv1" "0"
-	"atv10" "0"
-	"atv11" "0"
-	"atv12" "0"
-	"atv13" "0"
-	"atv14" "0"
-	"atv15" "0"
-	"atv16" "0"
-	"atv2" "0"
-	"atv3" "0"
-	"atv4" "0"
-	"atv5" "0"
-	"atv6" "0"
-	"atv7" "0"
-	"atv8" "0"
-	"atv9" "0"
-	"itemid" "1515"
-	"StartDisabled" "0"
-	"targetname" "wall_weapon_giver_8"
-	"TeamNum" "0"
-	"origin" "-494 -160 58"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -12768]"
-	}
-}
-entity
-{
-	"id" "56133"
-	"classname" "light"
-	"_fifty_percent_distance" "60"
-	"_light" "45 139 255 20"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "100"
-	"origin" "-500 -160 60"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 9500]"
-	}
-}
-entity
-{
-	"id" "56138"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "wall_weapon_template_8"
-	"Template01" "wall_weapon_giver_8"
-	"origin" "-510 -144 76"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -10768]"
-	}
-}
-entity
-{
-	"id" "56140"
-	"classname" "logic_merchant_relay"
-	"AnnounceCashNeeded" "1"
-	"CostOf" "1200"
-	"IsShared" "0"
-	"MaxPointsTake" "0"
-	"PurchaseName" "Bought Csmg"
-	"purchasesound" "Buy.Accept"
-	"StartDisabled" "0"
-	"targetname" "wall_weapon_merchant_8"
-	connections
-	{
-		"OnPurchased" "wall_weapon_template_8,ForceSpawn,,0,-1"
-	}
-	"origin" "-510 -176 76"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -11268]"
 	}
 }
 cameras
