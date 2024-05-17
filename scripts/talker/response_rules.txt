@@ -185,6 +185,8 @@ criterion "ConceptEngineerPickupBuilding" "Concept" "TLK_PICKUP_BUILDING" requir
 criterion "ConceptEngineerDeployBuilding" "Concept" "TLK_REDEPLOY_BUILDING" required 
 criterion "ConceptEngineerCarryingBuilding" "Concept" "TLK_CARRYING_BUILDING" required 
 
+criterion "ConceptPerkJugg" "Concept" "TLK_PLAYER_PERK_JUGG" required 
+
 criterion "ConceptPlayerCombine" "Concept" "TLK_PLAYER_COMBINE_CO" required 
 criterion "ConceptPlayerRebel" "Concept" "TLK_PLAYER_REBEL_CO" required 
 criterion "ConceptPlayerStrider" "Concept" "TLK_PLAYER_STRIDER_CO" required 

@@ -74,7 +74,7 @@
 			// Where the game's binaries are.
 			gamebin				|gameinfo_path|bin
 
-			game			"|all_source_engine_paths|Team Fortress 2/tf"
+			//game			"|all_source_engine_paths|Team Fortress 2/tf"
 			game			"|all_source_engine_paths|Team Fortress 2/tf/tf2_misc.vpk"
 			game			"|all_source_engine_paths|Team Fortress 2/tf/tf2_sound_misc.vpk"
 			game			"|all_source_engine_paths|Team Fortress 2/tf/tf2_sound_vo_english.vpk"

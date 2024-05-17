@@ -1843,3 +1843,15 @@ Rule PlayerMatchWinCompSoldier
 //--------------------------------------------------------------------------------------------------------------
 // End Competitive Mode VO
 //--------------------------------------------------------------------------------------------------------------
+
+// custom FZ
+
+Response PlayerPerkJuggSoldier
+{
+	speak "Soldier.PerkJugg01"
+}
+Rule PlayerPerkJuggSoldier
+{
+	criteria ConceptPerkJugg IsSoldier
+	Response PlayerPerkJuggSoldier
+}

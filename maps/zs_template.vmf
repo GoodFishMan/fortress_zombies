@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "128"
+	"mapversion" "134"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "128"
+	"mapversion" "134"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -20435,6 +20435,7 @@ entity
 	{
 		"OnTimer" "aiscripted_schedule,StartSchedule,,0,-1"
 		"OnTimer" "ai_think,ResetTimer,,0,-1"
+		"OnTimer" "aiscripted_schedule,StartSchedule,,0,-1"
 	}
 	"origin" "2736 96 416"
 	editor
@@ -24941,7 +24942,7 @@ entity
 	{
 		"OnPurchased" "jugg_get,PlaySound,,0,-1"
 		"OnPurchased" "jugg_template,ForceSpawn,,0,-1"
-		"OnPurchased" "!activator,SpeakResponseConcept,TLK_PLAYER_CHEERS,2,-1"
+		"OnPurchased" "!activator,SpeakResponseConcept,TLK_PLAYER_PERK_JUGG,2,-1"
 	}
 	"origin" "1496 -128 88.2094"
 	editor
@@ -33096,6 +33097,96 @@ entity
 	"angles" "0 0 0"
 	"nodeid" "137"
 	"origin" "1405.77 -1335.34 192"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "30500"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "140"
+	"origin" "952.305 -1348.92 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "30502"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "141"
+	"origin" "964.358 -1589.49 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "30504"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "142"
+	"origin" "677.092 -1362.79 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "30506"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "143"
+	"origin" "678.237 -1573.1 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "30508"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "144"
+	"origin" "360.191 -1372.08 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "30510"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "145"
+	"origin" "344.472 -1577.88 128"
 	editor
 	{
 		"color" "232 219 8"
