@@ -18,13 +18,13 @@
     {
         "ControlName"    "ImagePanel"
         "fieldName"        "TitleBanner"
-        "xpos"            "0"
-        "ypos"            "0"
-        "wide"            "o8"
-        "tall"            "86"
+		"xpos"			"42"
+		"ypos"			"10"
+		"wide"			"310"
+		"tall"			"135"
         "visible"        "1"
         "enabled"        "1"
-        "image"            "menu_header"
+        "image"            "../logo/fz_logo"
         "scaleImage"    "1"
     }
 	

@@ -3404,6 +3404,11 @@
 	input CaptureCurrentCP(string) : "If we're being capped, forces the current point to capture."	
 ]
 
+@SolidClass base(Targetname) = trigger_zombie_jump : "Zombiejumpzone."
+[
+	
+]
+
 @PointClass base(Targetname, TeamNum, EnableDisable) iconsprite("editor-puddy/team_train_watcher") = team_train_watcher :
 	"Entity that tracks the train progress through train escort maps"
 [

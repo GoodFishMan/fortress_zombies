@@ -28,7 +28,7 @@ WeaponData
 				
 		// Ammo & Clip
 		"primary_ammo"			"TF_AMMO_PRIMARY"
-		"clip_size"				"1"
+		"clip_size"				"2"
 		"MaxAmmo"				"16"	
 		"AmmoPerShot"			"1"
 

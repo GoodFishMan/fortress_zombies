@@ -692,8 +692,16 @@
 		"interrupts"		"BA_INT_NONE"
 		"use_automovement"	"1"
 	}
-
-
+	
+	// FZ ZOMBIE
+	"nz_barricade_sprint_1"
+	{
+		"busy_sequence"		"nz_barricade_sprint_1"
+		"min_time"		"0.0"
+		"max_time"		"0.0"
+		"interrupts"		"BA_INT_NONE"
+		"use_automovement"	"1"
+	}
 
 //*****************************************************************************
 //************  Alyx				  *****************************
