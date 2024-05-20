@@ -40,7 +40,7 @@ PlayerClass
 		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"1"
 		"tf_ammo_grenades2"	"1"
-		"lfe_ammo_grenades1"	"2"
+		"lfe_ammo_grenades1"	"4"
 		"lfe_ammo_grenades2"	"2"
 	}	
 	

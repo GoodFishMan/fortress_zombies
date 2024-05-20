@@ -697,7 +697,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 2048 }
-		{ "200" }
+		{ "400" }
 	}
 
 	"engine_no_focus_sleep"

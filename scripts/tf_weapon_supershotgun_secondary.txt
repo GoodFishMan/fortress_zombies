@@ -8,7 +8,7 @@ WeaponData
 		"ITEM_FLAG_NOITEMPICKUP" 	"1"
 			
 		// Attributes TF
-		"Damage"				"6"
+		"Damage"				"100"
 		"InstagibDamage"		"999"
 		"Range"					"8192"
 		"Spread"				"0.0575"

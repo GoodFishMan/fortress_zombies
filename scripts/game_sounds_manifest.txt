@@ -8,7 +8,6 @@ game_sounds_manifest
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo.txt"
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo_handmade.txt"
 	"precache_file"		"scripts/game_sounds_vo_tf2c.txt"
-	"precache_file"		"scripts/game_sounds_vo_fc.txt"
 	"preload_file"		"scripts/game_sounds_ui_fc.txt"
 	"precache_file"		"scripts/game_sounds_fc.txt"
 	"precache_file"		"scripts/game_sounds_npcs_fc.txt"
