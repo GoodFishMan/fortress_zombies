@@ -126,7 +126,7 @@
 			"command"				"newoptionsadv"
 			"labelText"			"#GameUI_Multiplayer"
 			"xshift" 			"0"
-			"yshift"			""0""
+			"yshift"			"0"
 			"stayselectedonclick"	"1"
 			"textAlignment"		"center"	
 			"font"				""
@@ -148,7 +148,7 @@
 			"command"				"newoptionsmouse"
 			"labelText"			"#GameUI_Mouse"
 			"xshift" 			"0"
-			"yshift"			""0""
+			"yshift"			"0"
 			"stayselectedonclick"	"1"
 			"textAlignment"		"center"	
 			"font"				""
@@ -169,7 +169,7 @@
 			"command"				"newoptionskeyboard"
 			"labelText"			"#GameUI_Keyboard"
 			"xshift" 			"0"
-			"yshift"			""0""
+			"yshift"			"0"
 			"stayselectedonclick"	"1"
 			"textAlignment"		"center"
 			"paintbackground"   "0"
@@ -190,7 +190,7 @@
 			"command"				"newoptionsaudio"
 			"labelText"			"#GameUI_Audio"
 			"xshift" 			"0"
-			"yshift"			""0""
+			"yshift"			"0"
 			"stayselectedonclick"	"1"
 			"paintbackground"   "0"
 			"textAlignment"		"center"	
@@ -212,7 +212,7 @@
 			"labelText"			"#GameUI_Video"
 			"paintbackground"   "0"
 			"xshift" 			"0"
-			"yshift"			""0""
+			"yshift"			"0"
 			"stayselectedonclick"	"1"
 			"textAlignment"		"center"	
 			"font"				""
@@ -233,7 +233,7 @@
 			"labelText"			"VGUI"
 			"paintbackground"   "0"
 			"xshift" 			"0"
-			"yshift"			""0""
+			"yshift"			"0"
 			"stayselectedonclick"	"1"
 			"textAlignment"		"center"	
 			"font"				""
@@ -241,7 +241,6 @@
 			"border_armed"			"AdvRightButtonArmed"
 			"border_depressed"		"AdvRightButtonDepressed"	
 			"selectedFgColor_override"		"255 255 180 255"
-			
+		}
 	}
-
 }

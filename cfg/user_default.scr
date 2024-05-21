@@ -254,30 +254,6 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 1 255 }
 		{ "0" }
 	}
-	
-	"tf_remember_activeweapon"
-	{
-		"#TF_rememberactiveweapon"
-		"#Tooltip_rememberactiveweapon"
-		{ BOOL }
-		{ "0" }
-	}	
-	
-	"tf_remember_lastswitched"
-	{
-		"#TF_rememberlastweapon"
-		"#Tooltip_rememberlastweapon"
-		{ BOOL }
-		{ "0" }
-	}	
-
-	"tf_simple_disguise_menu"
-	{
-		"Compact Disguise Menu"
-		"#Tooltip_simple_disguise_menu_option"
-		{ BOOL }
-		{ "0" }
-	}
 
 	"cl_autorezoom"
 	{
@@ -311,32 +287,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"hud_medichealtargetmarker"
-	{
-		"Heal Target Marker"
-		"#Tooltip_HealTargetMarker"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"hud_medicautocallers"
-	{
-		"#TF_AutoMedicCallers"
-		"#Tooltip_AutoMedicCallers"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"hud_medicautocallersthreshold"
-	{
-		"Medic Auto-Call Threshold"
-		"#Tooltip_AutoMedicCallThreshold"
-		{ NUMBER 10 99 }
-		{ "75" }
-	}
-
-
-
 	"category2"
 	{
 		"UI Options"
@@ -351,41 +301,10 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"tf_colorblindassist"
-	{
-		"#TF_colorblindassist"
-		"#Tooltip_colorblindassist"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"cl_use_tournament_specgui"
-	{
-		"#TF_UseAdvancedTourneyGUI"
-		"#Tooltip_UseAdvancedTourneyGUI"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"cl_spec_carrieditems"
-	{
-		"#TF_SpectateCarriedItems"
-		"#Tooltip_SpectateCarriedItems"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"glow_outline_effect_enable"
 	{
 		"#TF_UseGlowEffect"
 		"#Tooltip_UseGlowEffect"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"tf_enable_glows_after_respawn"
-	{
-		"#TF_EnableGlowsAfterRespawn"
 		{ BOOL }
 		{ "1" }
 	}
@@ -444,18 +363,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-
-	"tf_spectator_target_location"
-	{
-		"#TF_Spectator_TargetID_Location"
-		{ LIST
-			"#TF_Spectator_Default" "0"
-			"#TF_Spectator_Bottom_Left" "1"
-			"#TF_Spectator_Bottom_Center" "2"
-			"#TF_Spectator_Bottom_Right" "3"
-		}
-		{ "0" }
-	}	
 
 	"hud_freezecamhide"
 	{
@@ -521,21 +428,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"tf_queue_spinner_color"
-	{
-		"Use alternate queue spinner color"
-		"Displays the queue spinner seen while queued for matchmaking."
-		{ BOOL }
-		{ "0" }
-	}
-
-	"tf_use_match_hud"
-	{
-		"#TF_UseMatchHUD"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"hud_saytext_time"
 	{
 		"Chat Message Lifetime"
@@ -552,16 +444,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "6" }
 	}
 
-	"cl_hud_killstreak_display_time"
-	{
-		"Killstreak Notification Display Time"
-		"The number of seconds to display killstreak banners."
-		{ NUMBER 0 100 }
-		{ "3" }
-	}
-
-
-
 	"category8"
 	{
 		"#TF_OptionCategory_Communication"
@@ -574,22 +456,6 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_EnableVoiceChat"
 		{ BOOL }
 		{ "0" }
-	}
-	
-	"cl_enable_text_chat"
-	{
-		"#TF_EnableTextChat"
-		"#Tooltip_EnableTextChat"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"chat_filter_settings"
-	{
-		"#TF_ChatFilterSettings"
-		"#Tooltip_ChatFilterSettings"
-		{ BUTTON }
-		{ "open_chat_filter_settings" }
 	}
 
 	"voice_loopback"
@@ -767,22 +633,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "30" }
 	}
 
-	"tf_mm_custom_ping_enabled"
-	{
-		"Use Matchmaking Ping Limit"
-		"Set an upper bound on ping when searching for a match via matchmaking."
-		{ BOOL }
-		{ "0" }
-	}
-
-	"tf_mm_custom_ping"
-	{
-		"Matchmaking Ping Limit"
-		"The highest ping server matchmaking can join you into."
-		{ NUMBER 25 350 }
-		{ "100" }
-	}
-
 	"cl_allowupload"
 	{
 		"Upload Player Files"
@@ -851,98 +701,6 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"Taunt in First Person"
 		"If set, taunts will be done from a first person perspective, instead of third person."
-		{ BOOL }
-		{ "0" }
-	}
-
-	"category6"
-	{
-		"#TF_OptionCategory_DemoSupport"
-		{ CATEGORY }
-	}
-
-	"ds_enable"
-	{
-		"#TF_DemoSupport"
-		"#TF_DemoSupport_ToolTip"
-		{ LIST
-			"#TF_DemoSupport_Manual" "0"
-			"#TF_DemoSupport_Comp" "1"
-			"#TF_DemoSupport_All" "2"
-			"#TF_DemoSupport_Tournament" "3"
-		}
-		{ "0" }
-	}
-
-	"ds_dir"
-	{
-		"#TF_DemoSupport_Dir"
-		"#TF_DemoSupport_Dir_ToolTip"
-		{ STRING }
-		{ "Demos" }
-	}
-
-	"ds_prefix"
-	{
-		"#TF_DemoSupport_Prefix"
-		"#TF_DemoSupport_Prefix_ToolTip"
-		{ STRING }
-		{ "" }
-	}
-
-	"ds_sound"
-	{
-		"#TF_DemoSupport_Sound"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"ds_log"
-	{
-		"#TF_DemoSupport_Log"
-		"#TF_DemoSupport_Log_ToolTip"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"ds_notify"
-	{
-		"#TF_DemoSupport_Notify"
-		{ LIST
-			"#TF_DemoSupport_Notify_ConsoleOnly" "0"
-			"#TF_DemoSupport_Notify_Chat" "1"
-			"#TF_DemoSupport_Notify_HUD" "2"
-		}
-		{ "0" }
-	}
-
-	"ds_screens"
-	{
-		"#TF_DemoSupport_Screens"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"ds_min_streak"
-	{
-		"#TF_DemoSupport_MinStreak"
-		"#TF_DemoSupport_MinStreak_ToolTip"
-		{ NUMBER 2 1000 }
-		{ "4" }
-	}
-
-	"ds_kill_delay"
-	{
-		"#TF_DemoSupport_KillDelay"
-		"#TF_DemoSupport_KillDelay_ToolTip"
-		{ NUMBER 5 1000 }
-		{ "15" }
-	}
-
-	"ds_autodelete"
-	{
-		"#TF_DemoSupport_AutoDelete"
-		"#TF_DemoSupport_AutoDelete_ToolTip"
 		{ BOOL }
 		{ "0" }
 	}
