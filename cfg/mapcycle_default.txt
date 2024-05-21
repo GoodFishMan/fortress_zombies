@@ -3,3 +3,4 @@ dm_nz_courthouse_fishalphafinale2
 zs_nacht_der_untoten
 dm_nz_cabin_fever
 zs_prison_of_the_damned_a3
+zs_blood_harvest_b1
