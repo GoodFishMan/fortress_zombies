@@ -48,6 +48,42 @@
 //	SNDLVL_140dB	= 140,	// 0.2
 //	SNDLVL_150dB	= 150,	// 0.2
 
+"Perk.Open"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_60dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"nzombies/perkacola/open.wav"
+	}
+}
+
+"Perk.Swallow"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.6"
+	"soundlevel"		"SNDLVL_60dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"nzombies/perkacola/swallow.wav"
+	}
+}
+
+"Perk.Break"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"nzombies/perkacola/break.wav"
+	}
+}
+
 // ------------------------------------------------------------------------------------ //
 // Grant
 // ------------------------------------------------------------------------------------ //
