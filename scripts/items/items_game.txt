@@ -597,7 +597,7 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"base_item_name"	"The Ambassador"
+			"base_item_name"	"Ambassador"
 			"item_type_name"	"#TF_Weapon_Revolver"
 			"item_name"	"#TF_Unique_Achievement_Revolver"
 			"item_slot"	"secondary"
@@ -733,7 +733,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_destroy_sappers"		"1"
 			}
-			"base_item_name"	"The Neon Annihilator"
+			"base_item_name"	"Neon Annihilator"
 			"item_logname"	"annihilator"
 			"item_iconname"	"annihilator"
 			"item_type_name"	"#TF_Weapon_Sign"
@@ -805,7 +805,7 @@
 				"can_deal_damage"			"1"
 				"can_deal_critical_damage"	"1"
 			}
-			"base_item_name"	"The Axtinguisher"
+			"base_item_name"	"Axtinguisher"
 			"item_logname"	"axtinguisher"
 			"item_iconname"	"axtinguisher"
 			"item_type_name"	"#TF_Weapon_FireAxe"
@@ -936,7 +936,7 @@
 				"can_deal_critical_damage"	"1"
 				"is_flamethrower" "1"
 			}
-			"base_item_name"	"The Backburner"
+			"base_item_name"	"Backburner"
 			"item_logname"	"backburner"
 			"item_iconname"	"backburner"
 			"show_in_armory"	"1"
@@ -1270,7 +1270,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"base_item_name"	"The Black Box"
+			"base_item_name"	"Black Box"
 			"item_logname"	"blackbox"
 			"item_iconname"	"blackbox"
 			"show_in_armory"	"0"
@@ -1434,7 +1434,7 @@
 			{
 				"can_apply_soldier_buff"	"1"
 			}
-			"base_item_name"	"The Buff Banner"
+			"base_item_name"	"Buff Banner"
 			"item_type_name"	"#TF_Weapon_Battle_Banner"
 			"item_name"	"#TF_Unique_Achievement_SoldierBuff"
 			"item_description"	"#TF_Unique_Achievement_SoldierBuff_Desc"
@@ -1508,7 +1508,7 @@
 				"can_deal_long_distance_damage"	"1"
 				"can_heal_allies"		"1"
 			}
-			"base_item_name"	"The Crusader's Crossbow"
+			"base_item_name"	"Crusader's Crossbow"
 			"item_type_name"	"#TF_Weapon_Crossbow"
 			"item_name"	"#TF_CrusadersCrossbow"
 			"item_description"	"#TF_CrusadersCrossbow_desc"
@@ -1795,7 +1795,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
 			}
-			"base_item_name"	"The Eyelander"
+			"base_item_name"	"Eyelander"
 			"item_name"	"#TF_Unique_Achievement_Sword"
 			"item_description"	"#TF_Unique_Achievement_Sword_Desc"
 			"propername"	"1"
@@ -1982,7 +1982,7 @@
 				"can_deal_long_distance_damage"	"1"
 				"can_deal_taunt_damage"		"1"
 			}
-			"base_item_name"	"The Flare Gun"
+			"base_item_name"	"Flare Gun"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Flaregun"
 			"item_name"	"#TF_Unique_Achievement_Flaregun"
@@ -2178,7 +2178,7 @@
 				"can_deal_long_distance_damage"	"1"
 				"cannot_damage_buildings"		"1"
 			}
-			"base_item_name"	"The Flying Guillotine"
+			"base_item_name"	"Flying Guillotine"
 			"item_type_name"	"#TF_Weapon_Cleaver"
 			"item_name"	"#TF_SD_Cleaver"
 			"item_logname"	"guillotine"
@@ -2270,7 +2270,7 @@
 				"can_deal_long_distance_damage"	"1"
 				"can_deal_taunt_damage"		"1"
 			}
-			"base_item_name"	"The Huntsman"
+			"base_item_name"	"Huntsman"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_CompoundBow"
 			"item_name"	"#TF_Unique_Achievement_CompoundBow"
@@ -2582,7 +2582,7 @@
 				"can_deal_long_distance_damage"	"1"
 				"can_deal_posthumous_damage"	"1"
 			}
-			"base_item_name"	"The Huo Long Heatmaker"
+			"base_item_name"	"Huo Long Heatmaker"
 			"item_type_name"	"#TF_Weapon_Minigun"
 			"item_name"	"#TF_SD_Minigun"
 			"item_slot"	"primary"
@@ -2644,7 +2644,7 @@
 			"prefab"	"weapon_sniperrifle_alt1"
 			"enabled"	"1"
 			"item_class"	"tf_weapon_sniperrifle"
-			"base_item_name"	"The Machina"
+			"base_item_name"	"Machina"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -3356,69 +3356,6 @@
 			"drop_sound"		"ui/item_shovel_drop.wav"
 		}
 
-		"weapon_smg_telecon"
-		{
-			"enabled"	"1"
-			"item_class"	"tf_weapon_smg"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"base_item_name"	"TF_WEAPON_SMG"
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Weapon_SMG"
-			"item_name"	"#TF_Weapon_SMG"
-			"item_slot"	"secondary"
-			"item_quality"		"unique"
-			"image_inventory"	"backpack/weapons/w_models/w_mac10"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_world"	"models\weapons\w_models\telecon\w_nailgun.mdl"
-			"model_player"	"models/weapons/v_models/telecon/v_nailgun_scout.mdl"
-			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"robo"	"1"
-			}
-			"attributes"
-			{
-				"fire rate bonus"
-				{
-					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.50"
-				}
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"0.5"
-				}
-				"spread penalty"
-				{
-					"attribute_class"	"mult_spread_scale"
-					"value"	"2.50"
-				}
-				"dmg falloff increased"
-				{
-					"attribute_class"	"mult_dmg_falloff"
-					"value"	"2.00"
-				}
-			}
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-			"static_attrs"
-			{
-				"weapon_stattrak_module_scale"			"0.505"
-				"min_viewmodel_offset"					"10 0 -7"
-			}
-		}
-
 		"weapon_smg"
 		{
 			"enabled"	"1"
@@ -3748,7 +3685,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
 			}
-			"base_item_name"	"The Ubersaw"
+			"base_item_name"	"Ubersaw"
 			"item_logname"	"ubersaw"
 			"item_iconname"	"ubersaw"
 			"show_in_armory"	"1"
@@ -4299,36 +4236,6 @@
 			"prefab"	"weapon_medigun"
 			"baseitem" "1"
 		}
-		"32"
-		{
-			"name"	"TF_WEAPON_SMG_TELECON"
-			"prefab"	"weapon_smg_telecon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"item_class"	"tf_weapon_smg"
-			"item_type_name"	"#TF_Weapon_SMG"
-			"item_name"	"The Mac Donald"
-			"item_slot"	"secondary"
-			"item_quality"	"normal"
-			"baseitem" "1"
-			"model_world"	"models/weapons/w_models/telecon/w_nailgun.mdl"
-			"model_player"	"models/weapons/v_models/telecon/v_nailgun_scout.mdl"
-			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"robo"	"1"
-			}
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-		}
 		"1132"
 		{
 			"name"	"TF_WEAPON_SPELLBOOK"
@@ -4343,7 +4250,7 @@
 		}
 		"35"
 		{
-			"name"	"The Kritzkrieg"
+			"name"	"Kritzkrieg"
 			"prefab"	"weapon_kritzkrieg"
 			"tags"
 			{
@@ -4352,7 +4259,7 @@
 		}
 		"37"
 		{
-			"name"	"The Ubersaw"
+			"name"	"Ubersaw"
 			"prefab"	"valve weapon_ubersaw"
 			"particle_suffix"	"ubersaw"
 			"tags"
@@ -4363,7 +4270,7 @@
 		}
 		"38"
 		{
-			"name"	"The Axtinguisher"
+			"name"	"Axtinguisher"
 			"prefab"	"valve weapon_axtinguisher"
 			"show_in_armory"	"1"
 			"static_attrs"
@@ -4393,12 +4300,12 @@
 		}
 		"39"
 		{
-			"name"	"The Flare Gun"
+			"name"	"Flare Gun"
 			"prefab"	"valve weapon_flaregun"
 		}
 		"43"
 		{
-			"name"	"The Killing Gloves of Boxing"
+			"name"	"Killing Gloves of Boxing"
 			"prefab"	"valve"
 			"item_class"	"tf_weapon_fists"
 			"capabilities"
@@ -4468,7 +4375,7 @@
 		}
 		"56"
 		{
-			"name"	"The Huntsman"
+			"name"	"Huntsman"
 			"prefab"	"valve weapon_huntsman"
 			"xifier_class_remap"	"huntsman"
 			"baseitem"	"0"
@@ -4482,7 +4389,7 @@
 		}
 		"127"
 		{
-			"name"	"The Direct Hit"
+			"name"	"Direct Hit"
 			"prefab"	"valve"
 			"item_class"	"tf_weapon_rocketlauncher_directhit"
 			"capabilities"
@@ -4550,7 +4457,7 @@
 		}
 		"128"
 		{
-			"name"	"The Equalizer"
+			"name"	"Equalizer"
 			"prefab"	"valve"
 			"item_class"	"tf_weapon_shovel"
 			"capabilities"
@@ -4618,14 +4525,14 @@
 		}
 		"129"
 		{
-			"name"	"The Buff Banner"
+			"name"	"Buff Banner"
 			"prefab"	"valve weapon_buff_banner"
 			"xifier_class_remap"	"buff_banner"
 			"show_in_armory"	"1"
 		}
 		"130"
 		{
-			"name"	"The Scottish Resistance"
+			"name"	"Scottish Resistance"
 			"prefab"	"valve"
 			"item_class"	"tf_weapon_pipebomblauncher"
 			"capabilities"
@@ -4710,7 +4617,7 @@
 		}
 		"132"
 		{
-			"name"	"The Eyelander"
+			"name"	"Eyelander"
 			"prefab"	"valve weapon_eyelander"
 			"show_in_armory"	"1"
 			"static_attrs"
@@ -4720,7 +4627,7 @@
 		}
 		"171"
 		{
-			"name"	"The Tribalman's Shiv"
+			"name"	"Tribalman's Shiv"
 			"item_class"	"tf_weapon_club"
 			"capabilities"
 			{
@@ -4771,7 +4678,7 @@
 		}
 		"172"
 		{
-			"name"	"The Scotsman's Skullcutter"
+			"name"	"Scotsman's Skullcutter"
 			"prefab"	"weapon_battleaxe"
 			"particle_suffix"	"scotsmans_skullcutter"
 			"show_in_armory"	"0"
@@ -4792,7 +4699,7 @@
 		}
 		"215"
 		{
-			"name"	"The Degreaser"
+			"name"	"Degreaser"
 			"prefab" "weapon_degreaser"
 			"particle_suffix"	"degreaser"
 			"show_in_armory"	"1"
@@ -4835,7 +4742,7 @@
 		}
 		"226"
 		{
-			"name"	"The Battalion's Backup"
+			"name"	"Battalion's Backup"
 			"item_class"	"tf_weapon_buff_item"
 			"capabilities"
 			{
@@ -4907,7 +4814,7 @@
 		}
 		"228"
 		{
-			"name"	"The Black Box"
+			"name"	"Black Box"
 			"prefab" "weapon_blackbox"
 			"particle_suffix"	"black_box"
 			"tags"
@@ -4917,7 +4824,7 @@
 		}
 		"230"
 		{
-			"name"	"The Sydney Sleeper"
+			"name"	"Sydney Sleeper"
 			"prefab"	"weapon_sniperrifle_alt1"
 			"item_class"	"tf_weapon_sniperrifle"
 			"capabilities"
@@ -4990,7 +4897,7 @@
 		}
 		"232"
 		{
-			"name"	"The Bushwacka"
+			"name"	"Bushwacka"
 			"item_class"	"tf_weapon_club"
 			"capabilities"
 			{
@@ -5050,7 +4957,7 @@
 		}
 		"305"
 		{
-			"name"	"The Crusader's Crossbow"
+			"name"	"Crusader's Crossbow"
 			"prefab" "weapon_crusaders_crossbow"
 			"particle_suffix"	"crusaders_crossbow"
 			"show_in_armory"	"1"
@@ -5071,7 +4978,7 @@
 		}
 		"307"
 		{
-			"name"	"The Ullapool Caber"
+			"name"	"Ullapool Caber"
 			"item_class"	"tf_weapon_stickbomb"
 			"capabilities"
 			{
@@ -5130,7 +5037,7 @@
 		}
 		"308"
 		{
-			"name"			"The Loch-n-Load"
+			"name"			"Loch-n-Load"
 			"prefab" "weapon_lochnload"
 			"particle_suffix"	"loch_n_load"
 			"show_in_armory"	"1"
@@ -5279,7 +5186,7 @@
 		}
 		"357"
 		{
-			"name"	"The Half-Zatoichi"
+			"name"	"Half-Zatoichi"
 			"prefab"	"weapon_sword"
 			"item_class"	"tf_weapon_katana"
 			"capabilities"
@@ -5345,7 +5252,7 @@
 		}
 		"411"
 		{
-			"name"	"The Quick-Fix"
+			"name"	"Quick-Fix"
 			"prefab"	"valve"
 			"item_class"	"tf_weapon_medigun"
 			"capabilities"
@@ -5459,7 +5366,7 @@
 		}
 		"416"
 		{
-			"name"	"The Market Gardener"
+			"name"	"Market Gardener"
 			"item_class"	"tf_weapon_shovel"
 			"capabilities"
 			{
@@ -5516,7 +5423,7 @@
 		}
 		"425"
 		{
-			"name"	"The Family Business"
+			"name"	"Family Business"
 			"prefab"	"weapon_russian_riot"
 			"particle_suffix"	"family_business"
 			"show_in_armory"	"1"
@@ -5527,7 +5434,7 @@
 		}
 		"447"
 		{
-			"name"	"The Disciplinary Action"
+			"name"	"Disciplinary Action"
 			"prefab" "weapon_disciplinary_action"
 			"particle_suffix"	"disciplinary_action"
 			"tags"
@@ -5540,7 +5447,7 @@
 		}
 		"448"
 		{
-			"name"	"The Soda Popper"
+			"name"	"Soda Popper"
 			"prefab" "weapon_soda_popper"
 			"particle_suffix"	"soda_popper"
 			"show_in_armory"	"1"
@@ -5611,7 +5518,7 @@
 		}
 		"477"
 		{
-			"name"	"Meet the Medic Heroic Taunt"
+			"name"	"Meet Medic Heroic Taunt"
 			"prefab"	"valve taunt"
 			"item_name"		"#TF_TauntEnabler_MedicHeroicPose"
 			"item_description"	"#TF_TauntEnabler_MedicHeroicPose_Desc"
@@ -5658,7 +5565,7 @@
 		}
 		"526"
 		{
-			"name"	"The Machina"
+			"name"	"Machina"
 			"prefab"	"weapon_machina"
 			"item_name"	"#TF_DEX_Rifle"
 			"item_description"	"#TF_DEX_Rifle_Desc"
@@ -5676,7 +5583,7 @@
 		}
 		"594"
 		{
-			"name"	"The Phlogistinator"
+			"name"	"Phlogistinator"
 			"prefab"	"weapon_newflame"
 			"item_class"	"tf_weapon_flamethrower"
 			"capabilities"
@@ -5770,7 +5677,7 @@
 		}
 		"609"
 		{
-			"name"	"The Scottish Handshake"
+			"name"	"Scottish Handshake"
 			"item_class"	"tf_weapon_bottle"
 			"capabilities"
 			{
@@ -5880,7 +5787,7 @@
 		}
 		"730"
 		{
-			"name"	"The Beggar's Bazooka"
+			"name"	"Beggar's Bazooka"
 			"item_class"	"tf_weapon_rocketlauncher"
 			"propername"	"1"
 			"capabilities"
@@ -6041,7 +5948,7 @@
 		}
 		"775"
 		{
-			"name"	"The Escape Plan"
+			"name"	"Escape Plan"
 			"prefab"	"valve"
 			"item_class"	"tf_weapon_shovel"
 			"capabilities"
@@ -6115,13 +6022,13 @@
 
 		"811"
 		{
-			"name"	"The Huo Long Heatmaker"
+			"name"	"Huo Long Heatmaker"
 			"prefab"		"weapon_long_heatmaker"
 			"show_in_armory"	"1"
 		}
  		"812"
 		{
-			"name"	"The Flying Guillotine"
+			"name"	"Flying Guillotine"
 			"prefab"		"weapon_guillotine"
 			"show_in_armory"	"1"
 		}
@@ -6382,7 +6289,7 @@
 		}
 		"996"
 		{
-			"name"			"The Loose Cannon"
+			"name"			"Loose Cannon"
 			"prefab"		"weapon_demo_cannon"
 			"particle_suffix" 	"loose_cannon"
 			"show_in_armory"	"1"
@@ -6403,7 +6310,7 @@
 		}
 		"1015"
 		{
-			"name"	"The Shred Alert"
+			"name"	"Shred Alert"
 			"prefab"	"taunt"
 			"item_name"		"#TF_ShredAlert"
 			"item_description"	"#TF_ShredAlert_Desc"
@@ -6470,7 +6377,7 @@
 		}
 		"1092"
 		{
-			"name"	"The Fortified Compound"
+			"name"	"Fortified Compound"
 			"prefab"	"weapon_huntsman"
 			"capabilities"
 			{
@@ -6500,7 +6407,7 @@
 		}
 		"1098"
 		{
-			"name"	"The Classic"
+			"name"	"Classic"
 			"prefab"	"valve weapon_sniperrifle_alt1"
 			"item_class"	"tf_weapon_sniperrifle_classic"
 			"capabilities"
@@ -6586,7 +6493,7 @@
 		}
 		"1104"
 		{
-			"name"	"The Air Strike"
+			"name"	"Air Strike"
 			"prefab" "weapon_atom_launcher"
 			"particle_suffix"	"air_strike"
 			"tags"
@@ -7500,7 +7407,7 @@
 		}
 		"1172"
 		{
-			"name"	"Taunt: The Victory Lap"
+			"name"	"Taunt: Victory Lap"
 			"prefab"	"valve taunt"
 			"item_name"	"#TF_TauntAllClassKart"
 			"item_description"	"#TF_TauntAllClassKart_Desc"
@@ -7604,7 +7511,7 @@
 		}
 		"1174"
 		{
-			"name"	"Taunt: The Table Tantrum"
+			"name"	"Taunt: Table Tantrum"
 			"prefab"	"valve taunt"
 			"item_name"		"#TF_TauntTableTantrum"
 			"item_description"	"#TF_TauntTableTantrum_Desc"
@@ -8080,7 +7987,7 @@
 		}
 		"1175"
 		{
-			"name"	"Taunt: The Boiling Point"
+			"name"	"Taunt: Boiling Point"
 			"prefab"	"taunt"
 			"item_name"		"#TF_TauntBoilingPoint"
 			"item_description"		"#TF_TauntBoilingPoint_Desc"
@@ -8334,12 +8241,12 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"base_item_name"	"The Stampede Destroyer"
+			"base_item_name"	"Stampede Destroyer"
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_slot"	"primary"
 			"item_quality"	"unique"
 			"anim_slot" "secondary"
-			"item_name"			"The Stampede Destroyer"
+			"item_name"			"Stampede Destroyer"
 			"item_description"	"Model by Toad"
 			"show_in_armory"	"1"
 			"propername"	"1"
@@ -8444,7 +8351,7 @@
         }
 		"1501"
 		{
-			"name"	"The Tommy Gun"
+			"name"	"Tommy Gun"
 			"item_class"	"tf_weapon_smg_primary"
 			"capabilities"
 			{
@@ -8459,7 +8366,7 @@
 			"item_class"	"tf_weapon_smg_primary"
 			"show_in_armory"	"1"
 			"item_type_name"	"Submachine Gun"
-			"item_name"	"The Tommy gun"
+			"item_name"	"Tommy gun"
 			"item_description"	"Model from Open Fortress"
 			"item_slot"			"primary"
 			"item_quality"		"unique"
@@ -8534,7 +8441,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_taunt_damage"		"1"
 			}
-			"base_item_name"	"The Eyelander"
+			"base_item_name"	"Eyelander"
 			"item_name"	"#TF_Unique_Achievement_Sword"
 			"item_description"	"#TF_Unique_Achievement_Sword_Desc"
 			"propername"	"1"
@@ -8621,7 +8528,7 @@
 		}
 		"1503"
 		{
-			"name"	"The Assault Rifle"
+			"name"	"Assault Rifle"
 			"item_class"	"tf_weapon_smg_primary"
 			"capabilities"
 			{
@@ -8636,7 +8543,7 @@
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"Rifle"
-			"item_name"	"The Assault Rifle"
+			"item_name"	"Assault Rifle"
 			"item_description"	"Model from Open Fortress"
 			"item_slot"			"primary"
 			"item_quality"		"unique"
@@ -8786,9 +8693,9 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"base_item_name"	"The Super-Short Shotgun"
+			"base_item_name"	"Super-Short Shotgun"
 			"item_type_name"	"Shortened DB Shotgun"
-			"item_name"	"The Super-Short Shotgun"
+			"item_name"	"Super-Short Shotgun"
 			"item_description"	"(Model from tholp)"
 			"item_logname"	"supershort"
 			"item_iconname"	"supershort"
@@ -8967,7 +8874,7 @@
 				"can_deal_long_distance_damage"	"1"
 			}
 			"item_type_name"	"Shotgun"
-			"item_name"	"The Thumper"
+			"item_name"	"Thumper"
 			"item_description"	"Shoots less bullets.
 			Model port by 'Svdl' & 'Sparkwire'"
 			"item_slot"	"primary"
@@ -9036,7 +8943,7 @@
 		}
 		"1510"
 		{
-			"name"						"The Shotgun Revolver"
+			"name"						"Shotgun Revolver"
 			"prefab"					"weapon_sniperrifle"
 			"show_in_armory"			"1"
 			"item_class"				"tf_weapon_supershotgun_secondary"
@@ -9163,7 +9070,7 @@
 		{
 			"baseitem"		"1"
 			"enabled"	"1"
-			"item_class"	"tf_weapon_pistol"
+			"item_class"	"tf_weapon_pistol_classic"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9244,9 +9151,9 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"base_item_name"	"The Super Shotgun"
+			"base_item_name"	"Super Shotgun"
 			"item_type_name"	"Double Barreled Shotgun"
-			"item_name"	"The Super Shotgun"
+			"item_name"	"Super Shotgun"
 			"item_description"	"Model from Open Fortress"
 			"item_logname"	"supershot"
 			"item_iconname"	"supershot"
@@ -9395,7 +9302,7 @@
 		}
 		"1515"
 		{
-			"name"	"The Csmg"
+			"name"	"Csmg"
 			"item_class"	"tf_weapon_smg"
 			"capabilities"
 			{
@@ -9411,7 +9318,7 @@
 			"show_in_armory"	"1"
 			"item_type_name"	"Rifle"
 			"item_slot"					"secondary"
-			"item_name"	"The Csmg"
+			"item_name"	"Csmg"
 			"item_description"	"Model from Open Fortress"
 			"item_slot"	"secondary"
 			"item_quality"		"unique"
@@ -9519,7 +9426,7 @@
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.5"
+					"value"	"2.0"
 				}
 				"SRifle Charge rate increased"
 				{
@@ -9536,10 +9443,15 @@
 					"attribute_class"	"sniper_fires_tracer"
 					"value"	"1"
 				}
-				"hidden primary max ammo bonus"
+				"spawn ammo override"
 				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value"	"0.3"
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"30"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "30"
 				}
 
 			}
@@ -9598,9 +9510,9 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"base_item_name"	"The Olympea"
+			"base_item_name"	"Olympea"
 			"item_type_name"	"Double Barreled Shotgun"
-			"item_name"	"The Olympea"
+			"item_name"	"Olympea"
 			"item_description"	"Model from Open Fortress"
 			"item_logname"	"supershot"
 			"item_iconname"	"supershot"
@@ -18250,7 +18162,7 @@
 			"hidden"	"0"
 			"effect_type"	"neutral"
 			"stored_as_integer"	"1"
-			"description_string" "Press the alt-fire key to fire a grenade"
+			"description_string" "Press alt-fire key to fire a grenade"
 		}
 		"10058"
 		{
