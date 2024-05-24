@@ -577,89 +577,7 @@ DESCRIPTION INFO_OPTIONS
 		{ "50" }
 	}
 
-
-
 	"category4"
-	{
-		"Networking Settings"
-		{ CATEGORY }
-	}
-
-	"cl_interp"
-	{
-		"Interpolation Amount"
-		"The minimum interpolation delay in milliseconds. Set to 0 to use 'Interp. Ratio' instead."
-		{ NUMBER 0.0 0.5 }
-		{ "0.1" }
-	}
-
-	"cl_interp_ratio"
-	{
-		"Interp. Ratio"
-		"The number of dropped packed to compensate for."
-		{ NUMBER 1 33 }
-		{ "2" }
-	}
-
-	"cl_updaterate"
-	{
-		"Update Rate"
-		"How often to receive updates from the server."
-		{ NUMBER 20 66 }
-		{ "20" }
-	}
-
-	"cl_cmdrate"
-	{
-		"Command Rate"
-		"How often inputs are sent to the server."
-		{ NUMBER 30 66 }
-		{ "30" }
-	}
-
-	"rate"
-	{
-		"Data Rate"
-		"The maximum download speed for received data, measured in bytes/second."
-		{ NUMBER 24576 1048576 }
-		{ "80000" }
-	}
-
-	"cl_timeout"
-	{
-		"Server Timeout Cap"
-		"The number of seconds before you are forced to disconnect due to lost connection."
-		{ NUMBER 5 60 }
-		{ "30" }
-	}
-
-	"cl_allowupload"
-	{
-		"Upload Player Files"
-		"Upload custom files to other players, such as sprays."
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_allowdownload"
-	{
-		"Download Player Files"
-		"Download custom files from other players, such as sprays."
-		{ BOOL }
-		{ "1" }
-	}
-
-	"tf_mm_custom_ping_enabled"
-	{
-		"Use Matchmaking Ping Limit"
-		"Set an upper bound on ping when searching for a match via matchmaking."
-		{ BOOL }
-		{ "0" }
-	}
-
-
-
-	"category5"
 	{
 		"#TF_OptionCategory_Misc"
 		{ CATEGORY }
@@ -685,14 +603,6 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_loadoutrespawn"
 		"#Tooltip_loadoutrespawn"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_spraydisable"
-	{
-		"#GameUI_DisableSprays"
-		"#Tooltip_DisableSprays"
 		{ BOOL }
 		{ "1" }
 	}
