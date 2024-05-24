@@ -194,8 +194,9 @@
 		"enabled"		"1"
 
 		"render_texture"	"0"
-		"fov"			"30"
-		"allow_manip"		"1"
+		"fov"				"20"
+		"allow_rot"			"1"
+		"allow_manip"		"0"
 
 		"model"
 		{
@@ -204,9 +205,9 @@
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
-			"origin_x" "190"
+			"origin_x" "240"
 			"origin_y" "0"
-			"origin_z" "-48"
+			"origin_z" "-46"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"

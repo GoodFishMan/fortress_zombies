@@ -1,0 +1,697 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+
+
+
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/zs_template_new/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (81743 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 300 texinfos to 44
+Reduced 11 texdatas to 9 (257 bytes to 212)
+Writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+Wrote ZIP buffer, estimated size 481, actual size 401
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt
+  62 portalclusters
+ 141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.19%)
+Total clusters visible: 2661
+Average clusters visible: 42
+Building PAS...
+Average clusters audible: 58
+visdatasize:1504  compressed from 992
+writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+340 faces
+103008 square feet [14833288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+340 patches before subdivision
+9868 patches after subdivision
+20 direct lights
+0...1.
+WARNING: Too many light styles on a face at (904.000000, -1.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1400.000000, -1.000000, 120.000000)
+..2...3..
+WARNING: Too many light styles on a face at (1288.000000, -904.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1288.000000, -920.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1096.000000, -536.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 1.000000)
+.
+WARNING: Too many light styles on a face at (1096.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -8.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1352.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1535.000000, -504.000000, 120.000000)
+4
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 95.000000)
+...5.
+WARNING: Too many light styles on a face at (1352.000000, -1032.000000, 1.000000)
+..6.
+WARNING: Too many light styles on a face at (904.000000, -8.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (904.000000, -511.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (897.000000, -504.000000, 120.000000)
+.7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 531641, max 272
+transfer lists:   4.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(129544, 118720, 109653)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31387, 28642, 26404)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7478, 6806, 6277)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1903, 1727, 1592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(495, 448, 413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 119, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 32, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/1024         1440/49152    ( 2.9%) 
+brushes                195/8192         2340/98304    ( 2.4%) 
+brushsides            1201/65536        9608/524288   ( 1.8%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes               691/65536        8292/786432   ( 1.1%) 
+nodes                  344/65536       11008/2097152  ( 0.5%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  340/65536       19040/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              253/65536       14168/3670016  ( 0.4%) 
+leaves                 375/65536       12000/2097152  ( 0.6%) 
+leaffaces              380/65536         760/131072   ( 0.6%) 
+leafbrushes            265/65536         530/131072   ( 0.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2623/512000      10492/2048000  ( 0.5%) 
+edges                 1538/256000       6152/1024000  ( 0.6%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           681/65536        1362/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      237904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1504/16777216 ( 0.0%) 
+entdata               [variable]      123820/393216   (31.5%) 
+LDR ambient table      375/65536        1500/262144   ( 0.6%) 
+HDR ambient table      375/65536        1500/262144   ( 0.6%) 
+LDR leaf ambient      1341/65536       37548/1835008  ( 2.0%) 
+HDR leaf ambient       375/65536       10500/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1296     ( 0.1%) 
+pakfile               [variable]         401/0        ( 0.0%) 
+physics               [variable]       81743/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 930
+Writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/zs_template_new/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (81743 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 300 texinfos to 44
+Reduced 11 texdatas to 9 (257 bytes to 212)
+Writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+Wrote ZIP buffer, estimated size 481, actual size 401
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt
+  62 portalclusters
+ 141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.19%)
+Total clusters visible: 2661
+Average clusters visible: 42
+Building PAS...
+Average clusters audible: 58
+visdatasize:1504  compressed from 992
+writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+340 faces
+103008 square feet [14833288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+340 patches before subdivision
+9868 patches after subdivision
+20 direct lights
+0...1.
+WARNING: Too many light styles on a face at (904.000000, -1.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1400.000000, -1.000000, 120.000000)
+..2...3..
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 1.000000)
+.
+WARNING: Too many light styles on a face at (1096.000000, -536.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1288.000000, -904.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1288.000000, -920.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -8.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1352.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1096.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1535.000000, -504.000000, 120.000000)
+4
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 95.000000)
+...5.
+WARNING: Too many light styles on a face at (1352.000000, -1032.000000, 1.000000)
+..6.
+WARNING: Too many light styles on a face at (904.000000, -8.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (904.000000, -511.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (897.000000, -504.000000, 120.000000)
+.7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 531641, max 272
+transfer lists:   4.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(129544, 118720, 109653)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31387, 28642, 26404)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7478, 6806, 6277)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1903, 1727, 1592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(495, 448, 413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 119, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 32, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/1024         1440/49152    ( 2.9%) 
+brushes                195/8192         2340/98304    ( 2.4%) 
+brushsides            1201/65536        9608/524288   ( 1.8%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes               691/65536        8292/786432   ( 1.1%) 
+nodes                  344/65536       11008/2097152  ( 0.5%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  340/65536       19040/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              253/65536       14168/3670016  ( 0.4%) 
+leaves                 375/65536       12000/2097152  ( 0.6%) 
+leaffaces              380/65536         760/131072   ( 0.6%) 
+leafbrushes            265/65536         530/131072   ( 0.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2623/512000      10492/2048000  ( 0.5%) 
+edges                 1538/256000       6152/1024000  ( 0.6%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           681/65536        1362/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      237904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1504/16777216 ( 0.0%) 
+entdata               [variable]      123813/393216   (31.5%) 
+LDR ambient table      375/65536        1500/262144   ( 0.6%) 
+HDR ambient table      375/65536        1500/262144   ( 0.6%) 
+LDR leaf ambient      1341/65536       37548/1835008  ( 2.0%) 
+HDR leaf ambient       375/65536       10500/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1296     ( 0.1%) 
+pakfile               [variable]         401/0        ( 0.0%) 
+physics               [variable]       81743/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 930
+Writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/zs_template_new/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (81743 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 300 texinfos to 44
+Reduced 11 texdatas to 9 (257 bytes to 212)
+Writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+Wrote ZIP buffer, estimated size 481, actual size 401
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt
+  62 portalclusters
+ 141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.19%)
+Total clusters visible: 2661
+Average clusters visible: 42
+Building PAS...
+Average clusters audible: 58
+visdatasize:1504  compressed from 992
+writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+340 faces
+103008 square feet [14833288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+340 patches before subdivision
+9868 patches after subdivision
+20 direct lights
+0...1.
+WARNING: Too many light styles on a face at (1400.000000, -1.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (904.000000, -1.000000, 120.000000)
+..2...3..
+WARNING: Too many light styles on a face at (1288.000000, -904.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1288.000000, -920.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1096.000000, -536.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -8.000000, 1.000000)
+.
+WARNING: Too many light styles on a face at (1096.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1352.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1535.000000, -504.000000, 120.000000)
+4
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 95.000000)
+...5.
+WARNING: Too many light styles on a face at (1352.000000, -1032.000000, 1.000000)
+..6.
+WARNING: Too many light styles on a face at (904.000000, -8.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (904.000000, -511.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (897.000000, -504.000000, 120.000000)
+.7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 531641, max 272
+transfer lists:   4.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(129544, 118720, 109653)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31387, 28642, 26404)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7478, 6806, 6277)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1903, 1727, 1592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(495, 448, 413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 119, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 32, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/1024         1440/49152    ( 2.9%) 
+brushes                195/8192         2340/98304    ( 2.4%) 
+brushsides            1201/65536        9608/524288   ( 1.8%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes               691/65536        8292/786432   ( 1.1%) 
+nodes                  344/65536       11008/2097152  ( 0.5%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  340/65536       19040/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              253/65536       14168/3670016  ( 0.4%) 
+leaves                 375/65536       12000/2097152  ( 0.6%) 
+leaffaces              380/65536         760/131072   ( 0.6%) 
+leafbrushes            265/65536         530/131072   ( 0.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2623/512000      10492/2048000  ( 0.5%) 
+edges                 1538/256000       6152/1024000  ( 0.6%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           681/65536        1362/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      237904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1504/16777216 ( 0.0%) 
+entdata               [variable]      123816/393216   (31.5%) 
+LDR ambient table      375/65536        1500/262144   ( 0.6%) 
+HDR ambient table      375/65536        1500/262144   ( 0.6%) 
+LDR leaf ambient      1341/65536       37548/1835008  ( 2.0%) 
+HDR leaf ambient       375/65536       10500/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1296     ( 0.1%) 
+pakfile               [variable]         401/0        ( 0.0%) 
+physics               [variable]       81743/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 930
+Writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\materials
+Loading D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/zs_template_new/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 22 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (81743 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 300 texinfos to 44
+Reduced 11 texdatas to 9 (257 bytes to 212)
+Writing D:\SteamLibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+Wrote ZIP buffer, estimated size 481, actual size 401
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+reading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.prt
+  62 portalclusters
+ 141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.19%)
+Total clusters visible: 2661
+Average clusters visible: 42
+Building PAS...
+Average clusters audible: 58
+visdatasize:1504  compressed from 992
+writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+340 faces
+103008 square feet [14833288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+340 patches before subdivision
+9868 patches after subdivision
+20 direct lights
+0...1.
+WARNING: Too many light styles on a face at (904.000000, -1.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1400.000000, -1.000000, 120.000000)
+..2...3..
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1096.000000, -536.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1288.000000, -904.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1288.000000, -920.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -8.000000, 1.000000)
+.
+WARNING: Too many light styles on a face at (1096.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1032.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1352.000000, -511.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (1535.000000, -504.000000, 120.000000)
+4
+WARNING: Too many light styles on a face at (1096.000000, -520.000000, 95.000000)
+...5.
+WARNING: Too many light styles on a face at (1352.000000, -1032.000000, 1.000000)
+..6.
+WARNING: Too many light styles on a face at (904.000000, -8.000000, 1.000000)
+
+WARNING: Too many light styles on a face at (904.000000, -511.000000, 120.000000)
+.
+WARNING: Too many light styles on a face at (897.000000, -504.000000, 120.000000)
+.7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 531641, max 272
+transfer lists:   4.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(129544, 118720, 109653)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31387, 28642, 26404)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7478, 6806, 6277)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1903, 1727, 1592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(495, 448, 413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 119, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(35, 32, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 9, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/1024         1440/49152    ( 2.9%) 
+brushes                195/8192         2340/98304    ( 2.4%) 
+brushsides            1201/65536        9608/524288   ( 1.8%) 
+planes                 500/65536       10000/1310720  ( 0.8%) 
+vertexes               691/65536        8292/786432   ( 1.1%) 
+nodes                  344/65536       11008/2097152  ( 0.5%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  340/65536       19040/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              253/65536       14168/3670016  ( 0.4%) 
+leaves                 375/65536       12000/2097152  ( 0.6%) 
+leaffaces              380/65536         760/131072   ( 0.6%) 
+leafbrushes            265/65536         530/131072   ( 0.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2623/512000      10492/2048000  ( 0.5%) 
+edges                 1538/256000       6152/1024000  ( 0.6%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           681/65536        1362/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      237904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1504/16777216 ( 0.0%) 
+entdata               [variable]      123925/393216   (31.5%) 
+LDR ambient table      375/65536        1500/262144   ( 0.6%) 
+HDR ambient table      375/65536        1500/262144   ( 0.6%) 
+LDR leaf ambient      1341/65536       37548/1835008  ( 2.0%) 
+HDR leaf ambient       375/65536       10500/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1296     ( 0.1%) 
+pakfile               [variable]         401/0        ( 0.0%) 
+physics               [variable]       81743/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 930
+Writing d:\steamlibrary\steamapps\sourcemods\fortress_zombies\maps\zs_template_new.bsp
+3 seconds elapsed

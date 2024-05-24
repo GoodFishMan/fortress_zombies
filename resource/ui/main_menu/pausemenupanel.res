@@ -267,8 +267,6 @@
 		"image_drawcolor"		"TanLight"
 		"image_armedcolor"		"TanLight"
 		"image_depressedcolor"	"MatchmakingMenuItemTitleColor"
-		"xshift"				"5"
-		"yshift"				"0"
 		
 		"if_inmenu"
 		{
@@ -316,8 +314,6 @@
 		"command"			"callvote"
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 			"#MMenu_CallVote"
 		"textAlignment"		"west"
 		"font"				"HudFontSmallBold"
@@ -348,8 +344,6 @@
 		"command"			"gamemenucommand openplayerlistdialog"
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 			"#MMenu_MutePlayers"
 		"textAlignment"		"west"
 		"font"				"HudFontSmallBold"
@@ -381,8 +375,6 @@
 		"command"				"gamemenucommand OpenServerBrowser"		
 
 		"labelText" 			"#GameUI_GameMenu_FindServers"
-		"xshift" 				"0"
-		"yshift" 				"-2"
 		"textAlignment"			"west"
 		"font"					"HudFontSmallBold"
 		"border_default"		"AdvRoundedButtonDefault"
@@ -415,8 +407,6 @@
 		"command"				"newcreategame"
 
 		"labelText" 		"#MMenu_Create"
-		"xshift" 			"0"
-		"yshift" 			"-2"
 		"textAlignment"		"west"
 		"font"				"HudFontSmallBold"
 		"border_default"	"AdvRoundedButtonDefault"
@@ -446,8 +436,6 @@
 		"command"				"newloadout"
 
 		"labelText" 		"#MMenu_Loadout"
-		"xshift" 			"0"
-		"yshift" 			"-2"
 		"textAlignment"		"west"
 		"font"				"HudFontSmallBold"
 		"border_default"	"AdvRoundedButtonDefault"
@@ -477,8 +465,6 @@
 		"Command"			"gamemenucommand OpenAchievementsDialog"
 
 		"labelText" 			"#GameUI_GameMenu_Achievements"
-		"xshift" 				"0"
-		"yshift" 				"-2"
 		"textAlignment"			"west"	
 		"font"					"HudFontSmallBold"
 		"border_default"		"AdvRoundedButtonDefault"
@@ -515,8 +501,6 @@
 		"image_drawcolor"	"235 226 202 255"
 
 		"labelText" 			"#GameUI_GameMenu_PlayerStats"
-		"xshift" 				"0"
-		"yshift" 				"-2"
 		"textAlignment"			"west"	
 		"font"					"HudFontSmallBold"
 		"border_default"		"AdvRoundedButtonDefault"
@@ -555,8 +539,6 @@
 		"command"				"newoptionsdialog"
 
 		"labelText" 			"#GameUI_GameMenu_Options"
-		"xshift" 				"0"
-		"yshift" 				"-2"
 		"textAlignment"			"west"	
 		"font"					"HudFontSmallBold"
 		"border_default"		"AdvRoundedButtonDefault"
@@ -586,8 +568,6 @@
 		"command"				"disconnect"
 
 		"labelText" 			"#GameUI_GameMenu_Disconnect"
-		"xshift" 				"0"
-		"yshift" 				"-2"
 		"textAlignment"			"west"
 		"font"					"HudFontSmallBold"
 		"border_default"		"AdvRoundedButtonDefault"
@@ -620,8 +600,6 @@
 		"inverted"			"1"
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 			"#MMenu_Tooltip_ToggleRandomMusic"
 		"textAlignment"		"center"
 		"font"				"MenuSmallFont"
@@ -658,8 +636,6 @@
 		"command"			"randommusic"			
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 			"#MMenu_Tooltip_RandomMusic"
 		"textAlignment"		"center"
 		"font"				"MenuSmallFont"
@@ -694,8 +670,6 @@
 		"inverted"			"0"
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 			"#MMenu_Tooltip_ToggleBlog"
 		"textAlignment"		"center"
 		"font"				"MenuSmallFont"
@@ -734,8 +708,6 @@
 		"image_drawcolor"	"235 226 202 255"
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 				"#MMenu_Tooltip_OldOptions"
 		"textAlignment"			"center"
 		"font"					"HudFontSmallBold"
@@ -775,8 +747,6 @@
 		"image_drawcolor"	"235 226 202 255"
 
 		"labelText" 		""
-		"xshift" 			"0"
-		"yshift" 			"-1"
 		"tooltip" 			"#MMenu_Tooltip_ToggleBlog"
 		"textAlignment"		"center"
 		"font"				"MenuSmallFont"

@@ -10421,3 +10421,11 @@
 	// Outputs
 	output OnFoundEntity(void) : "Fired when FindEntity is input and an entity was found. Passes the found entity as !Caller."
 ]
+
+@PointClass base(Targetname) = tf_weapon_spawner :
+	"Fortress Zombies weapon spawner."
+[
+	itemid(integer) : "Item ID" : 1 : "The weapon id (from items_game.txt) to use for the spawner."
+	itemcost(integer) : "Price" : 100 : "The cost of the weapon, default if 0."
+
+]
