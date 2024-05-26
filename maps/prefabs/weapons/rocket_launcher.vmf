@@ -1,0 +1,189 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8860"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "487"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "490"
+		side
+		{
+			"id" "96"
+			"plane" "(-32 4 66) (32 4 66) (32 0 66)"
+			vertices_plus
+			{
+				"v" "-32 4 66"
+				"v" "32 4 66"
+				"v" "32 0 66"
+				"v" "-32 0 66"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 -0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(-32 0 0) (32 0 0) (32 4 0)"
+			vertices_plus
+			{
+				"v" "-32 0 0"
+				"v" "32 0 0"
+				"v" "32 4 0"
+				"v" "-32 4 0"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 -0 -0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(-32 4 66) (-32 0 66) (-32 0 0)"
+			vertices_plus
+			{
+				"v" "-32 4 66"
+				"v" "-32 0 66"
+				"v" "-32 0 0"
+				"v" "-32 4 0"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-0 -1 -0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(32 4 0) (32 0 0) (32 0 66)"
+			vertices_plus
+			{
+				"v" "32 4 0"
+				"v" "32 0 0"
+				"v" "32 0 66"
+				"v" "32 4 66"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(32 4 66) (-32 4 66) (-32 4 0)"
+			vertices_plus
+			{
+				"v" "32 4 66"
+				"v" "-32 4 66"
+				"v" "-32 4 0"
+				"v" "32 4 0"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 0 -0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(32 0 0) (-32 0 0) (-32 0 66)"
+			vertices_plus
+			{
+				"v" "32 0 0"
+				"v" "-32 0 0"
+				"v" "-32 0 66"
+				"v" "32 0 66"
+			}
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 164 141"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "488"
+	"classname" "point_message"
+	"developeronly" "0"
+	"message" "Cost - 2000 points"
+	"radius" "128"
+	"spawnflags" "0"
+	"origin" "0 2 58"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -12268]"
+	}
+}
+entity
+{
+	"id" "491"
+	"classname" "light"
+	"_fifty_percent_distance" "60"
+	"_light" "255 45 45 80"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "100"
+	"origin" "0 18 58"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "496"
+	"classname" "tf_weapon_spawner"
+	"angles" "0 0 0"
+	"itemcost" "2000"
+	"itemid" "14"
+	"model" "models/weapons/w_models/w_rocketlauncher.mdl"
+	"origin" "8 2 58"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -6768]"
+	}
+}
