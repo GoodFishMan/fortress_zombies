@@ -1,6 +1,6 @@
-#base "../scripts/hudlayout.res"
+#base "hudlayout.res"
 
-"Resource/HudLayout_fc.res"
+"scripts/HudLayout_fc.res"
 {
 	
 	HudTeleportMeter

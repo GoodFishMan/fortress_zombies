@@ -2004,5 +2004,8 @@
 	{
 		"userid"	"short"
 	}
-
+	
+	"perks_changed"
+	{
+	}
 }
