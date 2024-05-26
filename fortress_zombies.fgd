@@ -1926,6 +1926,8 @@
 		1 : "Farthest"
 		2 : "Don't Care"
 	]
+	
+
 
 	MinSpawnDistance(integer) : "Minimum spawn distance from player" : 0 : "The spawn destination node distance to the player will have to be further or equal than this value."
 
@@ -1937,12 +1939,17 @@
 	input SetMinimumSpawnDistance(integer) : "Set the minimum spawn distance from player to destination node."
 ]
 
+
 @PointClass base(Targetname, Parentname, Angles) iconsprite("editor/info_target.vmt") = info_npc_spawn_destination : 
 	"NPC Spawn Destination. (Consult npc_template_maker help for more info)"
 [
 	ReuseDelay(float) : "Reuse Delay" : 1 : "After an NPC is spawned at this destination, the delay before this destination is eligible for selection again."
 	RenameNPC(string) : "New NPC Name" : "" : "If an NPC spawns at this destination, change that NPC's targetname to this."
-	disabled(integer) : "Disabled" : 0 : "Should this spawn point start disabled?"
+	StartDisabled(choices) : "Start Disabled" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
 	
 	// Outputs
 	output OnSpawnNPC(void) : "Fired when an NPC spawns at this destination."
