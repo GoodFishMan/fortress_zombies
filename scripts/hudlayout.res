@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+"scripts/HudLayout.res"
 {
 	"HudPlayerStatus"
 	{
