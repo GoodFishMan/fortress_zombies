@@ -4122,7 +4122,6 @@
             "name"    "TF_WEAPON_PISTOL"
             "prefab"    "weapon_pistol"
             "baseitem"    "1"
-			//"bucket"			"1"
 			"model_player"	"models/weapons/v_models/v_1911.mdl"
 			"model_world"	"models/weapons/w_models/w_pistol_1911.mdl"
 			"headshot_multiplier" 		"1.3"
@@ -4133,8 +4132,7 @@
                 "engineer"    	"secondary"
 				"soldier"    	"secondary"
 				"pyro"    		"secondary"
-				"demoman"    		"secondary"
-				"demoman"    		"secondary"
+				"demoman"    	"secondary"
             }
 			"attributes"
 			{
@@ -8325,7 +8323,6 @@
 		"1501"
 		{
 			"name"	"Tommy Gun"
-			"item_class"	"tf_weapon_smg"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -8336,7 +8333,7 @@
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"item_class"	"tf_weapon_smg"
+			"item_class"	"tf_weapon_assault_rifle"
 			"show_in_armory"	"1"
 			"item_type_name"	"Submachine Gun"
 			"item_name"	"Tommy gun"
@@ -8351,7 +8348,6 @@
 			"model_world"	"models/weapons/w_models/w_tommygun.mdl"
 			"headshot_multiplier" 		"1.3"
 			"attach_to_hands"	"2"
-			"bucket"					"0"
 			"used_by_classes"
 			{
 				"mercenary"	"1"
@@ -8504,7 +8500,7 @@
 		"1503"
 		{
 			"name"	"Assault Rifle"
-			"item_class"	"tf_weapon_smg"
+			"item_class"	"tf_weapon_assault_rifle"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -8531,7 +8527,6 @@
 			"model_player"	"models/weapons/v_models/v_assault_rifle_dm.mdl"
 			"model_world"	"models/weapons/w_models/w_assault_rifle.mdl"
 			"attach_to_hands"	"2"
-			"bucket"					"0"
 			"used_by_classes"
 			{
 				"mercenary"	"1"
@@ -8923,7 +8918,7 @@
 			"name"						"Shotgun Revolver"
 			"prefab"					"weapon_sniperrifle"
 			"show_in_armory"			"1"
-			"item_class"				"tf_weapon_supershotgun"
+			"item_class"				"tf_weapon_shotgun"
 			"item_logname"				"hunterrifle"
 			"item_iconname"				"hunterrifle"
 			"item_type_name"			"Shotgun"
@@ -8935,7 +8930,6 @@
 			"model_world"				"models/weapons/w_models/w_revshotgun_sniper.mdl"
 			"model_player"				"models/weapons/v_models/v_revshotgun_sniper.mdl"
 			"attach_to_hands"			"2"
-			"bucket"					"1"
 			"attributes"
 			{
 				"damage bonus"
@@ -8980,7 +8974,7 @@
 		{
 			"name"						"Kar98"
 			"show_in_armory"			"1"
-			"item_class"				"tf_weapon_smg"
+			"item_class"				"tf_weapon_assault_rifle"
 			"item_quality"				"unique"
 			"item_logname"				"kar98"
 			"item_iconname"				"kar98"
@@ -8995,7 +8989,6 @@
 			"model_world"				"models/weapons/w_models/w_kar98.mdl"
 			"model_player"				"models/weapons/v_models/v_kar98.mdl"
 			"attach_to_hands"			"2"
-			"bucket"					"0"
 			"used_by_classes"
 			{
 				"soldier" "1"
