@@ -5644,6 +5644,11 @@
 
 @NPCClass base(BaseNPC, BaseZombie) studio("models/Zombie/Classic.mdl") = npc_zombie : "Zombie"
 [
+	model(choices) : "Model" : "models/Zombie/Classic.mdl" : "Zombie" = 
+	[
+		"models/Zombie/Classic.mdl" : "Zombie"
+		"models/Zombie/classic_slow.mdl" : "Slow Zombie"
+	]
 ]
 
 @NPCClass base(BaseNPC, BaseZombie) studio("models/Zombie/Classic_torso.mdl") = npc_zombie_torso : "Zombie Torso"
