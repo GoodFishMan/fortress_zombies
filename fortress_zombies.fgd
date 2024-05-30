@@ -10441,4 +10441,28 @@
 	itemid(integer) : "Item ID" : 1 : "The weapon id (from items_game.txt) to use for the spawner."
 	itemcost(integer) : "Price" : 100 : "The cost of the weapon, default if 0."
 
+	output OnPurchaseSuccessful(void) : ""
+	output OnPurchaseFailure(void) : ""
+	output OnAmmoTaken(void) : ""
+	output OnItemTaken(void) : ""
+]
+
+@SolidClass base(Targetname, Button, func_button) = func_perkmachine :
+	"Fortress Zombies weapon spawner."
+[
+	model(studio) : "Model" : "" : "Overwrite the default model with a custom one."
+	itemid(integer) : "Item ID" : 1 : "The weapon id (from items_game.txt) to use for the spawner."
+	itemcost(integer) : "Price" : 100 : "The cost of the weapon, default if 0."
+
+	output OnPurchaseSuccessful(void) : ""
+	output OnPurchaseFailure(void) : ""
+	output OnItemTaken(void) : ""
+]
+
+@PointClass base(Targetname) = tf_mysterybox :
+	"Fortress Zombies mystery box."
+[
+	mysteryboxscript(string) : "Script" : "" : "The full path to the script that this Mystery Box will use."
+	
+	output OnItemTaken(void) : ""
 ]

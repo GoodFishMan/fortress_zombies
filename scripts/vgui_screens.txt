@@ -103,15 +103,6 @@
 		"resfile"		"scripts/screens/pda_spy_invis_pocket_ttg.res"
 	}
 
-	"pda_panel_spy_invis_pocket_hm"
-	{
-		"type"			"pda_panel_spy_invis_pocket_hm"
-		"pixelswide"	280
-		"pixelshigh"	100
-		"acceptsinput"  0
-		"resfile"		"scripts/screens/pda_spy_invis_pocket_hm.res"
-	}
-
 	"screen_obj_dispenser_red"
 	{
 		"type"			"screen_obj_dispenser_red"
