@@ -2231,3 +2231,23 @@
 	"volume"	"1.0"
 	"wave"		")weapons/flame_thrower_dm_end.wav"
 }
+
+"MysteryBox.Jingle"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+	
+	"wave"	"mysterybox/mystery_jingle.wav"
+}
+
+"MysteryBox.Open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"	"mysterybox/mystery_open.wav"
+}

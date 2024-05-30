@@ -1,0 +1,33 @@
+"mystery_box"
+{
+	"1"
+	{
+		"itemid"	"357"
+		"chance"	"12.5"
+	}
+	"2"
+	{
+		"itemid"	"132"
+		"chance"	"12.5"
+	}
+	"3"
+	{
+		"itemid"	"39"
+		"chance"	"12.5"
+	}
+	"4"
+	{
+		"itemid"	"1501"
+		"chance"	"12.5"
+	}
+	"5"
+	{
+		"itemid"	"1510"
+		"chance"	"12.5"
+	}
+	"6"
+	{
+		"itemid"	"1508"
+		"chance"	"12.5"
+	}
+}

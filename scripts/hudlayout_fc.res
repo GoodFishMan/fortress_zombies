@@ -1,6 +1,6 @@
-#base "hudlayout.res"
+#base "../scripts/hudlayout.res"
 
-"scripts/HudLayout_fc.res"
+"Resource/HudLayout_fc.res"
 {
 	
 	HudTeleportMeter
@@ -88,9 +88,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"r95"
-		"xpos_minmode"	"r85"
-		"ypos"	"r105"
-		"ypos_minmode"	"r86"
+		"ypos"	"r300"
 		"wide"	"94"
 		"tall"	"70"
 	}
