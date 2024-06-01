@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/moo/codz_props/t7/_vtfs/i_mtl_p7_zm_der_magic_box_qmark_bg_c"
+	"$model" 1
+	"$translucent" 1
+	"$selfillum" 1
+	"$additive" 1
+	"$color2" "[1 1 0.5]"
+}

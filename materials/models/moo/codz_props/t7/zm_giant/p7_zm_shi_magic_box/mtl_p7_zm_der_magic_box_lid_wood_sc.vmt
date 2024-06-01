@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models/moo/codz_props/t7/_vtfs/i_mtl_p7_zm_der_magic_box_wood_01_sc_c"
+	$bumpmap				"models/moo/codz_props/t7/_vtfs/i_mtl_p7_zm_der_magic_box_lid_wood_n"
+	// $phongexponenttexture	""
+
+	$nodecal "1"
+
+	$phong	"1"
+	$phongboost	"0.05"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$detail 		"models/moo/codz_props/t7/_vtfs/i_t7_detail_wood_02"
+	$detailscale 3
+	$detailblendfactor 1
+	$detailblendmode 0
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.05 .05 .05]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+}

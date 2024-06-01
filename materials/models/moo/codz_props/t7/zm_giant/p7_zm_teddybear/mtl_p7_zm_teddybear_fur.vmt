@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models/moo/codz_props/t7/_vtfs/i_p7_zm_teddybear_c"
+	$bumpmap				"models/moo/codz_props/t7/_vtfs/i_p7_zm_teddybear_n"
+	// $phongexponenttexture	""
+
+	$nodecal "1"
+
+	$nocull "1"
+	$alphatest "1"
+
+	$phong	"1"
+	$phongboost	"0.05"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.05 .05 .05]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+}

@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models/moo/codz_props/t7/_vtfs/i_t7_cloth_leather_white_c"
+	$bumpmap				"models/moo/codz_props/t7/_vtfs/i_mtl_p7_zm_der_magic_box_fake_leather_n"
+	$phongexponenttexture	"models/$black_color"
+
+	$nodecal "1"
+
+	$color2 "{ 50 50 50 }"
+
+	$phong	"1"
+	$phongboost	"0.025"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$envmap	"models/$black_color"
+	$envmaptint	"[.05 .05 .05]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+}

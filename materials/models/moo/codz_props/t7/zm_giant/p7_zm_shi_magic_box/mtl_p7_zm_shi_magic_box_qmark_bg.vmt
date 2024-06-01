@@ -1,0 +1,30 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/moo/codz_props/t7/_vtfs/i_mtl_p7_zm_der_magic_box_qmark_trim_c"
+	"$model" 1
+	"$selfillum" 1
+	"$additive" 1
+	"$color" "[1 1 0]"
+	"$color2" "[1 1 0]"
+	"$nofog" "1"
+
+	"$Texture2" "models/moo/codz_props/t7/_vtfs/i_mtl_p7_zm_der_magic_box_qmark_clds_c"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "0"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 0.1
+		}
+	}
+}
+
