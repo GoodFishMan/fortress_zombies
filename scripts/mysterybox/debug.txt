@@ -2,32 +2,42 @@
 {
 	"1"
 	{
-		"itemid"	"357"
+		"itemid"	"1513" // SUPERSHOTGUN
 		"chance"	"12.5"
 	}
 	"2"
 	{
-		"itemid"	"132"
+		"itemid"	"1519" // SWEEPERS
 		"chance"	"12.5"
 	}
 	"3"
 	{
-		"itemid"	"39"
+		"itemid"	"1515" // CSMG
 		"chance"	"12.5"
 	}
 	"4"
 	{
-		"itemid"	"1501"
+		"itemid"	"1514" // PPSH
 		"chance"	"12.5"
 	}
 	"5"
 	{
-		"itemid"	"1510"
+		"itemid"	"1512" // HMG
 		"chance"	"12.5"
 	}
 	"6"
 	{
-		"itemid"	"1508"
+		"itemid"	"1503" // ASSAULT RIFLE
+		"chance"	"12.5"
+	}
+	"7"
+	{
+		"itemid"	"1501" // TOMMYGUN
+		"chance"	"12.5"
+	}
+	"8"
+	{
+		"itemid"	"13" // SMG
 		"chance"	"12.5"
 	}
 }
