@@ -11,10 +11,10 @@
 	"HasTeamSkins_Worldmodel"			"1"
 	
 	// Attributes TF.
-	"Damage"			"100"
+	"Damage"			"130"
 	"Secondary_Damage"	"10" // burn damage
 	
-	"DamageRadius"		"132"
+	"DamageRadius"		"180"
 	"TimeFireDelay"			"0.8"
 	"TimeIdle"			"5.0"
 	"LowerMainWeapon"		"1"

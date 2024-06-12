@@ -8,7 +8,7 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Primary Attributes
-	"Damage"			"10"
+	"Damage"			"12"
 	"Range"				"8192"
 	"BulletsPerShot"		"10"
 	"Spread"			"0.0675"
@@ -18,7 +18,7 @@ WeaponData
 	"TimeIdleEmpty"			"0.25"
 	"TimeReloadStart"		"0.1"
 	"TimeReload"			"0.5"
-	"primary_ammo"			"TF_AMMO_PRIMARY"
+	"primary_ammo"			"TF_AMMO_SECONDARY"
 	"clip_size"			"6"
 	"default_clip"			"6"
 	"ProjectileType"		"projectile_bullet"
