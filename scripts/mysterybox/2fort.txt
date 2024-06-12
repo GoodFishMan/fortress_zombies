@@ -1,0 +1,69 @@
+"mystery_box"
+{
+	"1"
+	{
+		"itemid"	"14" // ROCKETLAUNCHER
+		"chance"	"10.0"
+	}
+	"2"
+	{
+		"itemid"	"1519" // SWEEPERS
+		"chance"	"20.0"
+	}
+	"3"
+	{
+		"itemid"	"1515" // CSMG
+		"chance"	"30.0"
+	}
+	"4"
+	{
+		"itemid"	"1514" // PPSH
+		"chance"	"20.0"
+	}
+	"5"
+	{
+		"itemid"	"1512" // HMG
+		"chance"	"10.0"
+	}
+	"6"
+	{
+		"itemid"	"1503" // ASSAULT RIFLE
+		"chance"	"20.0"
+	}
+	"7"
+	{
+		"itemid"	"1501" // TOMMYGUN
+		"chance"	"20.0"
+	}
+	"8"
+	{
+		"itemid"	"21" // FLAMETHROWER
+		"chance"	"10.0"
+	}
+	"9"
+	{
+		"itemid"	"1508" // REVOLVER
+		"chance"	"20.0"
+	}
+	"10"
+	{
+		"itemid"	"132" // EYELANDER
+		"chance"	"10.0"
+	}
+	"11"
+	{
+		"itemid"	"1511" // KAR98
+		"chance"	"30.0"
+	}
+	"12"
+	{
+		"itemid"	"1510" // SHOTGUN REVOLVER
+		"chance"	"20.0"
+	}
+	"13"
+	{
+		"itemid"	"10" // SHOTGUN
+		"chance"	"30.0"
+	}
+	
+}
