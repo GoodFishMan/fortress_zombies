@@ -14,10 +14,10 @@ PlayerClass
 	"health_armor_max"		"90"
 	"armor_max"		"50"
 	"armortype"		"1"
-	"health_max"		"125"
+	"health_max"		"100"
 
 	// Grenades.
-	"grenade1"		"TF_WEAPON_GRENADE_CALTROP"
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
 	"grenade2"		"TF_WEAPON_GRENADE_CONCUSSION"
 
 	// Weapons.
@@ -37,7 +37,7 @@ PlayerClass
 		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"1"
 		"tf_ammo_grenades2"	"1"
-		"lfe_ammo_grenades1"	"2"
+		"lfe_ammo_grenades1"	"4"
 		"lfe_ammo_grenades2"	"2"
 	}		
 
