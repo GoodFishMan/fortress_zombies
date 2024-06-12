@@ -216,23 +216,108 @@
 	}
 }
 
-//kar98
-"Weapon_kar98.Single"
+//Bolt Rifle
+"Weapon_boltaction.Single"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"weapons/kar98k_shoot.wav"
+	"wave"		"weapons/bolt_rifle_shoot.wav"
 }
 
-//machinegun
+//Trenchgun
+"Weapon_trench.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/trench_shoot.wav"
+}
+// NEW
+
+//1911
+"Weapon_1911.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"wave"		"weapons/1911_shoot.wav"
+}
+"Weapon_1911.Clipin"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/1911_clipin.wav"
+}
+"Weapon_1911.Clipout"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/1911_clipout.wav"
+}
+"Weapon_1911.Slide_back"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/1911_slide_back.wav"
+}
+"Weapon_1911.Slide_fwd"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/1911_slide_fwd.wav"
+}
+//ovdb
+"Weapon_ovdb.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"95,105"
+	"wave"		"weapons/ovdb_shoot.wav"
+}
+"Weapon_ovdb.TubeClose"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/ovdb_tubeclose.wav"
+}
+"Weapon_ovdb.ShellsIn"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/ovdb_shells_in.wav"
+}
+"Weapon_ovdb.ShellsOut"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/ovdb_shells_out.wav"
+}
+"Weapon_ovdb.TubeOpen"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1.0"
+	"wave"		"weapons/ovdb_tubeopen.wav"
+}
+
+//HMG
 "Weapon_Machinegun.Single"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"pitch"		"90,105"
-	"wave"		"weapons/machinegun_fire.wav"
+	"wave"		"weapons/machinegun_shoot.wav"
 }
 
 //Trenchgun

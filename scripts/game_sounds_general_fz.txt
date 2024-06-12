@@ -52,6 +52,15 @@
 // Misc
 // ------------------------------------------------------------------------------------ //
 
+"RandomBox.Jingle"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_70dB"
+	"volume"	"1"
+	"pitch"		"PITCH_NORM"
+	"wave"		"nzombies/randombox/random_box_jingle.wav"
+}
+
 "Perk.Humm"
 {
 	"channel"	"CHAN_STATIC"
