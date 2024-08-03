@@ -8,7 +8,7 @@ objects
 		StatusName			"#TF_Object_Sentry"
 		BuildTime			10
 		MaxObjects			1
-		Cost				130
+		Cost				100
 		CostMultiplier		1
 		UpgradeCost			200
 		UpgradeDuration		1.5
