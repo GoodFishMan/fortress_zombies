@@ -12,18 +12,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
-		"TooltipSubPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"TooltipSubPanel"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"0"
-			"wide"			"118"
-			"tall"			"20"
-			"visible"		"1"
-		}
 
 		"TextLabel"
 		{

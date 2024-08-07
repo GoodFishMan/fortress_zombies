@@ -7,12 +7,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"f-1"
-		"tall"			"f-1"
+		"wide"			"f0"
+		"tall"			"f0"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"repeat"		"1"
 	}
 				
-}		
+}
