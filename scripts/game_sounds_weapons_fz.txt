@@ -326,5 +326,5 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"weapons/trench_shoot.wav"
+	"wave"		"weapons/trenchgun_shoot.wav"
 }

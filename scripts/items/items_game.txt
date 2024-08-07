@@ -1440,6 +1440,7 @@
 			"used_by_classes"
 			{
 				"soldier"	"1"
+				"mercenary"	"1"
 			}
 			"static_attrs"
 			{
@@ -1898,6 +1899,11 @@
 					"attribute_class"	"max_ammo"
 					"value" "200"
 				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"500"
+				}
 
 			}
 			"visuals"
@@ -1925,6 +1931,7 @@
                 "engineer"    	"secondary"
 				"soldier"    	"secondary"
 				"demoman"    	"secondary"
+				"mercenary"    	"secondary"
             }
 			"attributes"
 			{
@@ -3644,56 +3651,6 @@
 				}
 			}
 		}
-		"1115"
-		{
-			"name"	"Rancho Relaxo Taunt"
-			"prefab"	"valve taunt"
-			"item_name"			"#TF_TauntEngineerRancho"
-			"item_description"	"#TF_TauntEngineerRancho_Desc"
-			"image_inventory"	"backpack/player/items/all_class/taunt_rancho_relaxo"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"valid_for_shuffle"	"1"
-			"used_by_classes"
-			{
-				"engineer"	"1"
-			}
-			"attributes"
-			{
-				"taunt is press and hold"
-				{
-					"attribute_class"	"enable_misc2_holdtaunt"
-					"value"				"1"
-				}
-			}
-			"taunt"
-			{
-				"custom_taunt_scene_per_class"
-				{
-					"engineer"	"scenes/player/engineer/low/taunt_killer_time_intro.vcd"
-				}
-				"custom_taunt_outro_scene_per_class"
-				{
-					"engineer"	"scenes/player/engineer/low/taunt_killer_time_outro.vcd"
-				}
-				"custom_taunt_prop_per_class"
-				{
-					"engineer"	"models/player/items/taunts/engys_new_chair/engys_new_chair_articlulated.mdl"
-				}
-				"custom_taunt_prop_scene_per_class"
-				{
-					"engineer"	"scenes/player/items/taunts/engys_new_chair_intro.vcd"
-				}
-				"custom_taunt_prop_outro_scene_per_class"
-				{
-					"engineer"	"scenes/player/items/taunts/engys_new_chair_outro.vcd"
-				}
-				"particle_attachment"		"taunt_effect"
-				"min_taunt_time"		"5"
-				"stop_taunt_if_moved"	"1"
-			}
-		}
 		"1117"
 		{
 			"name"	"Battin' a Thousand Taunt"
@@ -4920,7 +4877,7 @@
 		}
 		"1503"
 		{
-			"name"	"Assault Rifle"
+			"name"	"Burst Rifle"
 			"item_class"	"tf_weapon_assault_rifle"
 			"capabilities"
 			{
@@ -4961,6 +4918,11 @@
 			}
 			"attributes"
 			{
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "1"
+				}
 				"clip size bonus"
 				{
 					"attribute_class"	"mult_clipsize"
@@ -4969,7 +4931,7 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.75"
+					"value"	"0.65"
 				}
 				"damage penalty"
 				{
@@ -4995,6 +4957,16 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "180"
+				}
+				"Burst Fire Size"
+				{
+					"attribute_class"	"burst_size"
+					"value"	"3"
+				}
+				"Burst Fire Delay"
+				{
+					"attribute_class"	"burst_delay"
+					"value"	"0.4"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -5062,93 +5034,172 @@
 		}
 		"1505"
 		{
-			"enabled"	"1"
-			"item_class"	"tf_weapon_shotgun_hwg"
+			"name"	"Heavy Rifle"
+			"item_class"	"tf_weapon_assault_rifle"
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_collect" "1"
 			}
 			"tags"
 			{
 				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
 				"can_deal_mvm_penetration_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
+				"can_headshot"			"1"
 			}
-			"base_item_name"	"Super-Short Shotgun"
-			"item_type_name"	"Shortened DB Shotgun"
-			"item_name"	"Super-Short Shotgun"
-			"item_description"	"(Model from tholp)"
-			"item_logname"	"supershort"
-			"item_iconname"	"supershort"
-			"item_slot"	"secondary"
-			"item_quality"	"unique"
 			"show_in_armory"	"1"
-			"propername"	"1"
-			"anim_slot"		"primary"
-			"image_inventory"	"backpack/weapons/w_models/w_supershort"
+			"item_type_name"	"Rifle"
+			"item_name"	"Assault Rifle"
+			"item_description"	"Model from Open Fortress"
+			"item_slot"			"primary"
+			"item_quality"		"unique"
+			"anim_slot"			"secondary"
+			"item_logname"	"Assault Rifle"
+			"item_iconname"	"AR2"
+			"image_inventory"	"backpack/weapons/w_models/w_assaultrifle"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/v_models/v_supershort/v_supershotgun_mercenary.mdl"
-			"model_world"	"models/weapons/w_models/w_supershort/w_supershotgun.mdl"
-			"attach_to_hands" "2"
+			"model_player"	"models/weapons/v_models/v_ak47.mdl"
+			"model_world"	"models/weapons/w_models/w_ak47.mdl"
+			"attach_to_hands"	"2"
+			"headshot_multiplier" 		"1.5"
 			"used_by_classes"
 			{
 				"mercenary"	"1"
 			}
-			"static_attrs"
+		    "visuals"
 			{
-				"min_viewmodel_offset"					"10 0 -10"
+				"sound_single_shot"		"Weapon_AR.Single"
+				"sound_burst"			"Weapon_AR.SingleCrit"
+				"sound_reload"			"Weapon_AR.WorldReload"
 			}
 			"attributes"
 			{
-
-				"damage causes airblast"
+				"mod_recoil_angle"
 				{
-					"attribute_class"	"damage_causes_airblast"
-					"value" "30"
+					"attribute_class"	"mod_recoil_angle"
+					"value" "2"
+				}
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"	"1.20"
 				}
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value" "0.80"
+					"value"	"0.85"
 				}
-				"spread penalty"
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"3.5"
+				}
+				"weapon spread bonus"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value" "3"
+					"value"	"0.90"
 				}
-				"clip size penalty"
+				"weapon can headshot"
+				{
+					"attribute_class"	"allow_headshot"
+					"value"	"1"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"180"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "180"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
+		"1506"
+		{
+			"name"	"Assault Rifle"
+			"item_class"	"tf_weapon_assault_rifle"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_headshot"			"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"Rifle"
+			"item_name"	"Assault Rifle"
+			"item_description"	"Model from Open Fortress"
+			"item_slot"			"primary"
+			"item_quality"		"unique"
+			"anim_slot"			"secondary"
+			"item_logname"	"Assault Rifle"
+			"item_iconname"	"AR2"
+			"image_inventory"	"backpack/weapons/w_models/w_assaultrifle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_mk18.mdl"
+			"model_world"	"models/weapons/w_models/w_mk18.mdl"
+			"attach_to_hands"	"2"
+			"headshot_multiplier" 		"1.5"
+			"used_by_classes"
+			{
+				"mercenary"	"1"
+			}
+		    "visuals"
+			{
+				"sound_single_shot"		"Weapon_AR.Single"
+				"sound_burst"			"Weapon_AR.SingleCrit"
+				"sound_reload"			"Weapon_AR.WorldReload"
+			}
+			"attributes"
+			{
+				"clip size bonus"
 				{
 					"attribute_class"	"mult_clipsize"
-					"value" "0.30"
+					"value"	"1.20"
 				}
-				"maxammo secondary reduced"
+				"fire rate bonus"
 				{
-					"attribute_class"	"mult_maxammo_secondary"
-					"value"	"0.32"
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.75"
 				}
-				"no reload single"
+				"damage penalty"
 				{
-					"attribute_class"	"set_no_reload_single"
-					"value" "1"
+					"attribute_class"	"mult_dmg"
+					"value"	"3.0"
 				}
-				"dmg falloff increased"
+				"weapon spread bonus"
 				{
-					"attribute_class"	"mult_dmg_falloff"
-					"value"	"3.00"
+					"attribute_class"	"mult_spread_scale"
+					"value"	"0.85"
+				}
+				"weapon can headshot"
+				{
+					"attribute_class"	"allow_headshot"
+					"value"	"1"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"210"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "210"
 				}
 			}
-			"visuals"
-			{
-				"sound_single_shot"		"Weapon_SuperShotgun.Single"
-				"sound_burst"			"Weapon_SuperShotgun.SingleCrit"
-				"muzzle_flash"	"muzzle_bignasty"
-				"tracer_effect"	"bullet_bignasty_tracer01"
-			}
-			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
-			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
 		"1507"
 		{
@@ -5215,7 +5266,7 @@
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "1.5"
+					"value" "2.5"
 				}
 				"fire rate bonus"
 				{
@@ -5234,96 +5285,75 @@
 				}
 			}
 			
-			"visuals"
-			{
-				"sound_single_shot" "Weapon_M1.Single"
-				"sound_burst" "Weapon_M1.Single"
-				"sound_reload"	"Weapon_M1.Reload"
-			}
 		}
 		"1509"
 		{
-			"name"	"Engi Thumper"
-			"item_class"	"tf_weapon_shotgun_primary"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"		"1"
-				"can_headshot"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_mvm_penetration_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"item_type_name"	"Shotgun"
-			"item_name"	"Thumper"
-			"item_description"	"Shoots less bullets.
-			Model port by 'Svdl' & 'Sparkwire'"
-			"item_slot"	"primary"
-			"anim_slot"	"primary"
-			"item_quality"	"unique"
-			"show_in_armory"	"1"
-			"propername"	"0"
-			"item_logname"	"shotgun"
-			"item_iconname"	"shotgun"
-			"image_inventory"	"backpack/workshop/weapons/c_models/c_kanopykiller/c_kanopykiller"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			//someone make functional viewmodels, by god
-			"model_player"	"models/workshop/weapons/v_models/kanopykiller/v_kanopy_engineer.mdl"
-			"model_world"	"models/workshop/weapons/w_models/kanopykiller/w_shotgun.mdl"
-			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"engineer"	"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -6"
-				"weapon_stattrak_module_scale"				"0.608"				
-			}
+			"name"						"Trench Gun"
+			"show_in_armory"			"1"
+			"item_class"				"tf_weapon_shotgun"
+			"item_logname"				"trenchgun"
+			"item_iconname"				"trenchgun"
+			"item_type_name"			"Shotgun"
+			"item_name"					"Trench Gun"
+			"anim_slot"					"secondary"
+			"item_slot"					"secondary"
+			"propername"				"1"
+			"image_inventory"			"backpack/weapons/w_models/w_revshotgun"
+			"model_world"				"models/weapons/w_models/w_trenchgun.mdl"
+			"model_player"				"models/weapons/v_models/v_trenchgun.mdl"
+			"attach_to_hands"			"2"
 			"attributes"
 			{
-
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "5"
+				}
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "1.5"
-				}
-				"clip size bonus"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value"				"1.30"
+					"value" "3.0"
 				}
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.2"
-				}
-				"bullets per shot hidden"
-				{
-					"attribute_class"	"mult_bullets_per_shot"
-					"value"	"0.5"
+					"value"				"1.1s"
 				}
 				"spread penalty"
 				{
-					"attribute_class"	"mult_spread_scale"
-					"value"	"0.60"
+					"attribute_class" 	"mult_spread_scale"
+					"value" "1.50"
 				}
-
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"64"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "64"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"8"
+				}
+                "Reload time decreased"
+                {
+                    "attribute_class"    "mult_reload_time"
+                    "value" "0.8"
+                }
+				"bullets per shot bonus"
+				{
+					"attribute_class" 	"mult_bullets_per_shot"
+					"value" "1.5"
+				}
 			}
 			"visuals"
 			{
-				"sound_single_shot"		"Weapon_ShotgunHL1.Single"
-				"sound_burst"			"Weapon_Shotgun.Double"
-				"sound_empty"			"HL2_Weapon_Shotgun.Empty"
-				"sound_reload"			"HL2_Weapon_Shotgun.Reload"
-				"sound_special1"		"HL2_Weapon_Shotgun.Special1"
+				"sound_single_shot" "Weapon_trench.Single"
 			}
-			"mouse_pressed_sound"	"weapons/scock1.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
 		"1510"
 		{
@@ -5605,22 +5635,22 @@
 				"spawn ammo override"
 				{
 					"attribute_class"	"mod_spawn_ammo_override"
-					"value"	"32"
+					"value"	"40"
 				}
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "32"
+					"value" "40"
 				}
 				"mod_recoil_angle"
 				{
 					"attribute_class"	"mod_recoil_angle"
-					"value" "10"
+					"value" "8"
 				}
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.6"
+					"value"	"3.0"
 				}
 				"weapon spread bonus"
 				{
@@ -5667,22 +5697,12 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.4"
+					"value"	"0.6"
 				}
-				"maxammo secondary increased"
+				"mod max primary clip override"
 				{
-					"attribute_class"	"mult_maxammo_secondary"
-					"value"	"1.80"
-				}
-				"clip size bonus"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value"	"1.60"
-				}
-				"maxammo secondary reduced"
-				{
-					"attribute_class"	"mult_maxammo_secondary"
-					"value"	"1.60"
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"40"
 				}
 				"weapon spread bonus"
 				{
@@ -5698,6 +5718,11 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "240"
+				}
+				"bullets per shot bonus"
+				{
+					"attribute_class" 	"mult_bullets_per_shot"
+					"value" "2.0"
 				}
 			}
 			
@@ -5733,7 +5758,7 @@
 			"anim_slot"			"secondary"
 			"item_logname"	"csmg"
 			"item_iconname"	"csmg"
-			"headshot_multiplier" 		"2.0"
+			"headshot_multiplier" 		"3.0"
 			"image_inventory"	"backpack/weapons/w_models/w_assaultrifle"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -5751,15 +5776,15 @@
 			}
 			"attributes"
 			{
-				"clip size bonus"
+				"mod max primary clip override"
 				{
-					"attribute_class"	"mult_clipsize"
-					"value"	"1.20"
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"32"
 				}
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.2"
+					"value"	"1.15"
 				}
 				"damage penalty"
 				{
@@ -5774,17 +5799,12 @@
 				"spawn ammo override"
 				{
 					"attribute_class"	"mod_spawn_ammo_override"
-					"value"	"180"
+					"value"	"192"
 				}
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "180"
-				}
-				"mod_recoil_angle"
-				{
-					"attribute_class"	"mod_recoil_angle"
-					"value" "1"
+					"value" "192"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -5904,12 +5924,52 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.6"
+					"value"	"0.5"
 				}
 				"weapon spread bonus"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value" "1.3"
+					"value" "0.8"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"300"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "300"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"500"
+				}
+				"bullets per shot bonus"
+				{
+					"attribute_class" 	"mult_bullets_per_shot"
+					"value" "0.5"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "1"
+				}
+				"damage bonus"
+				{
+					"attribute_class" 	"mult_dmg"
+					"value" "2.0"
+				}
+				"provide on active"
+				{
+					"attribute_class"	"provide_on_active"
+					"value" "1"
+				}
+				"move speed penalty"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"	"0.8"
 				}
 			}
 		}

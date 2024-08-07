@@ -3,41 +3,86 @@
 	"1"
 	{
 		"itemid"	"1513" // SUPERSHOTGUN
-		"chance"	"12.5"
+		"chance"	"50.0"
 	}
 	"2"
 	{
 		"itemid"	"1519" // SWEEPERS
-		"chance"	"12.5"
+		"chance"	"40.0"
 	}
 	"3"
 	{
 		"itemid"	"1515" // CSMG
-		"chance"	"12.5"
+		"chance"	"60.0"
 	}
 	"4"
 	{
 		"itemid"	"1514" // PPSH
-		"chance"	"12.5"
+		"chance"	"40.0"
 	}
 	"5"
 	{
 		"itemid"	"1512" // HMG
-		"chance"	"12.5"
+		"chance"	"30.0"
 	}
 	"6"
 	{
-		"itemid"	"1503" // ASSAULT RIFLE
-		"chance"	"12.5"
+		"itemid"	"1503" // BURST RIFLE
+		"chance"	"50.0"
 	}
 	"7"
 	{
 		"itemid"	"1501" // TOMMYGUN
-		"chance"	"12.5"
+		"chance"	"50.0"
 	}
 	"8"
 	{
 		"itemid"	"13" // SMG
-		"chance"	"12.5"
+		"chance"	"60.0"
+	}
+	"9"
+	{
+		"itemid"	"1508" // REVOLVER
+		"chance"	"30.0"
+	}
+	"10"
+	{
+		"itemid"	"1509" // TRENCH GUN
+		"chance"	"50.0"
+	}
+	"11"
+	{
+		"itemid"	"1505" // HEAVY RIFLE
+		"chance"	"40.0"
+	}
+	"12"
+	{
+		"itemid"	"1506" // ASSAULT RIFLE
+		"chance"	"50.0"
+	}
+	"13"
+	{
+		"itemid"	"14" // ROCKET LAUNCHER
+		"chance"	"30.0"
+	}
+	"14"
+	{
+		"itemid"	"15" // GRENADE LAUNCHER
+		"chance"	"20.0"
+	}
+	"15"
+	{
+		"itemid"	"21" // FLAMETHROWER
+		"chance"	"20.0"
+	}
+	"16"
+	{
+		"itemid"	"1516" // ONESHOT
+		"chance"	"20.0"
+	}
+	"17"
+	{
+		"itemid"	"1517" // CHAINGUN
+		"chance"	"10.0"
 	}
 }
