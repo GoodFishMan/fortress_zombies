@@ -1,15 +1,15 @@
 "characters"
 {
-	"basic_merc"
-	{
-		"image"	"../console/characters/mercenary"
-		"item_url"	"demoman"
-		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
-	}
-	"zombie_merc"
-	{
-		"image"	"../console/characters/zombie_mercenary"
-		"item_url"	"demoman"
-		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
-	}
+	//"basic_merc"
+	//{
+		//"image"	"../console/characters/mercenary"
+		//"item_url"	"demoman"
+		//"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	//}
+	//"zombie_merc"
+	//{
+		//"image"	"../console/characters/zombie_mercenary"
+		//"item_url"	"demoman"
+		//"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	//}
 }
