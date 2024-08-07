@@ -5312,7 +5312,7 @@
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "3.0"
+					"value" "3.5"
 				}
 				"fire rate bonus"
 				{
@@ -5327,17 +5327,17 @@
 				"spawn ammo override"
 				{
 					"attribute_class"	"mod_spawn_ammo_override"
-					"value"	"64"
+					"value"	"52"
 				}
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "64"
+					"value" "52"
 				}
 				"mod max primary clip override"
 				{
 					"attribute_class"	"mod_max_primary_clip_override"
-					"value"	"8"
+					"value"	"4"
 				}
                 "Reload time decreased"
                 {
@@ -5348,6 +5348,11 @@
 				{
 					"attribute_class" 	"mult_bullets_per_shot"
 					"value" "1.5"
+				}
+				"fixed_shot_pattern"
+				{
+					"attribute_class" 	"fixed_shot_pattern"
+					"value" "1"
 				}
 			}
 			"visuals"
