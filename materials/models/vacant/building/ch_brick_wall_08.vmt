@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/vacant/building/brick"
-	"$bumpmap" 	"models/vacant/building/brickn"
-
-}

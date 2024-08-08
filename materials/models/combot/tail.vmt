@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitSelfIlluminatedTexture
-	"$basetexture" "models/Combot/tail"
-	"$selfillum" 1
-}

@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitMaskedEnvMappedTexture
-	"$basetexture" "models/Combine_Guard/guardgun_uvw"
-	"$selfillum" "1"
-}

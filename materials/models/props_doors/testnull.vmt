@@ -1,5 +1,0 @@
-VertexLitGeneric
-{
-$baseTexture "models\Props_Doors/TestNull"
-$alphatest 1
-}

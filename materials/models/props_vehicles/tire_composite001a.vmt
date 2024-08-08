@@ -1,8 +1,0 @@
-VertexLitGeneric
-{
-
-$basetexture "Models/props_vehicles/tire_composite001a"
-$surfaceprop rubbertire
-
-
-}

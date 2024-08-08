@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models/static_fittings/ir_brick04"
-
-	"$surfaceprop" "brick" 
-	"%keywords" "ins2,iraq"
-}

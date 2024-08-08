@@ -1,7 +1,0 @@
-"unlitgeneric"
-{
-	$model 1 	"$basetexture" "lights/white"
-	"$selfillum" 1
-	"$surfaceprop" "glass"
-	"$nodecal" "1"
-}

@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\conscript\material_cl"
-	"$bumpmap" "models\conscript\material_cl_normal"
-}

@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" 	"models\bloocobalt\combine\hands_glove"
-    "$bumpmap" 		"models\bloocobalt\combine\hands_glove_n"
-	"$halflambert" 1
-	"$nocull" 1
-}

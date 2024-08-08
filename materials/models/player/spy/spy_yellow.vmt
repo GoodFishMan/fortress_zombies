@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\models\player\spy\spy_red.vmt"
-	
-	insert
-	{
-	"$baseTexture" "models\player\spy\spy_yellow"
-	}
-}

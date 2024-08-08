@@ -1,6 +1,0 @@
-"vertexlitGeneric"
-{
-	"$baseTexture" "models/props_doors/doora"
-	"$surfaceprop" "wood"
-//	"$bumpmap" "models/props_doors/doora_normal"
-}

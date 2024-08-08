@@ -1,6 +1,0 @@
-VertexLitGeneric
-{
-
-$basetexture "Models/props_vehicles/car001_hatchback_02"
-$surfaceprop solidmetal
-}

@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitTexture
-	"$basetexture" "models/conscript/soldiertex2"
-	"$bumpmap" "models\conscript\soldiertex2_normal"
-
-}
