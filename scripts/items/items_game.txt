@@ -443,6 +443,7 @@
 				"spy"	"1"
 				"engineer"	"1"
 				"pyro"	"1"
+				"mercenary"	"1"
 			}
 		}
 		"hat_decoration"
@@ -1702,6 +1703,7 @@
 				"spy" "1"
 				"engineer" "1"
 				"pyro" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -2158,6 +2160,7 @@
 				"heavy"		"1"
 				"engineer" 	"1"
 				"pyro" 		"1"
+				"mercenary"	"1"
 			}
 			"taunt"
 			{
@@ -2378,6 +2381,7 @@
 				"zombiefast" "1"
 				"mercenary" "1"
 				"civilian" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -2694,6 +2698,7 @@
 				"saxton" "1"
 				"robo" "1"
 				"combine" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -2759,6 +2764,7 @@
 				"saxton" "1"
 				"robo" "1"
 				"combine" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -2825,6 +2831,7 @@
 				"saxton" "1"
 				"robo" "1"
 				"combine" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -2887,6 +2894,7 @@
 				"zombiefast" "1"
 				"mercenary" "1"
 				"civilian" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -2942,6 +2950,7 @@
 				"heavy"		"1"
 				"engineer" 	"1"
 				"pyro" 		"1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -3143,6 +3152,7 @@
 				"heavy"	"1"
 				"engineer" "1"
 				"pyro" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -3239,6 +3249,7 @@
 				"heavy"	"1"
 				"engineer" "1"
 				"pyro" "1"
+				"mercenary"	"1"
 			}
 			"attributes"
 			{
@@ -5266,7 +5277,7 @@
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "2.5"
+					"value" "6.0"
 				}
 				"fire rate bonus"
 				{
@@ -5415,6 +5426,65 @@
 					"value"	"1"
 				}
 			}
+		}
+		"9960"
+		{
+			"name"	"Displacer Cannon"
+			"item_class"	"tf_weapon_displacer"
+			"baseitem" "0"
+			"enabled" "1"
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_type_name"	"#TF_Weapon_RocketLauncher"
+			"item_name"	"#TF_Weapon_Displacer"
+			"item_slot"	"primary"
+			"item_description"	"poop"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"image_inventory"			"backpack/weapons/w_models/w_rocketlauncher"
+			"model_player"	"models/weapons/v_models/v_displacer_merc.mdl"
+			"model_world"	"models/weapons/w_models/w_displacer.mdl"
+			"attach_to_hands" "2"
+			"inspect_panel_dist" "40"
+			"attach_to_hands" "2"
+			"show_in_armory"	"1"
+			"inspect_panel_dist" "40"
+			"item_quality"	"normal"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"mercenary"  "1"
+				"robo" "1"
+			}
+			"attributes"
+			{
+				"blast dmg to self reduced"
+				{
+					"attribute_class"	"blast_dmg_to_self"
+					"value"	"0.5"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "20"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value" "20"
+				}
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -7"
+			}
+			"mouse_pressed_sound"    "ui/item_metal_weapon_pickup.wav"
+            "drop_sound"        "ui/item_metal_weapon_drop.wav"
 		}
 		"1511"
 		{
