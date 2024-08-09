@@ -85,7 +85,7 @@ DESCRIPTION INFO_OPTIONS
 		"Enable Auto Reload"
 		"Automatically reload when not firing, if possible."
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_fastswitch"
@@ -98,7 +98,7 @@ DESCRIPTION INFO_OPTIONS
 			"Buckets Plus"    "2"
 			"Carousel Scroll" "3"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_dingalingaling"
