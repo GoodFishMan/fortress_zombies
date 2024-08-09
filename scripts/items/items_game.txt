@@ -1659,7 +1659,7 @@
 			"image_inventory_size_h"	"128"
 			"attach_to_hands"			"2"
 			"model_world"				"models/weapons/w_models/w_nailgun.mdl"
-			"model_player"				"models/weapons/v_models/v_nailgun_scout.mdl"
+			"model_player"				"models/weapons/lambda/nailgun/v_nailgun_scout.mdl"
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -11"
@@ -1930,10 +1930,10 @@
 			"attach_to_hands"	"2"
             "used_by_classes"
             {
-                "engineer"    	"secondary"
-				"soldier"    	"secondary"
-				"demoman"    	"secondary"
-				"mercenary"    	"secondary"
+                "engineer"    	"1"
+				"soldier"    	"1"
+				"demoman"    	"1"
+				"mercenary"    	"1"
             }
 			"attributes"
 			{
@@ -1964,6 +1964,81 @@
 				"sound_burst" "Weapon_1911.Single"
 			}
         }
+		"9101"
+		{
+			"name"	"Luger"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_weapon_pistol"
+			"prefab"	"weapon_pistol"
+			"craft_class"	""
+			"craft_material_type"		""
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Pistol"
+			"item_name"	"#TF_TTG_MaxGun"
+			"item_description"	"#TF_TTG_MaxGun_Desc"
+			"item_slot"	"secondary"
+			"item_logname"	"maxgun"
+			"item_iconname"	"maxgun"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_ttg_max_gun/c_ttg_max_gun"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_ttg_max_gun_engineer.mdl"
+			"model_world"	"models/weapons/w_models/w_ttg_max_gun_engineer.mdl"
+			"headshot_multiplier" 		"1.3"
+			"attach_to_hands"	"2"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+            "used_by_classes"
+            {
+                "engineer"    	"1"
+				"soldier"    	"1"
+				"demoman"    	"1"
+				"mercenary"    	"1"
+            }
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_Lugermorph.Single"
+				"sound_burst"			"Weapon_Lugermorph.SingleCrit"
+			}		
+			"attributes"
+			{
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"80"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "80"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"8"
+				}
+				"weapon can headshot"
+				{
+					"attribute_class"	"allow_headshot"
+					"value"	"1"
+				}
+			}			
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+			"xifier_class_remap"	"TTG Max Pistol"
+		}
         "23"
         {
             "name"    				"TF_WEAPON_NAILGUN"
@@ -4776,7 +4851,7 @@
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "150"
+					"value" "200"
 				}
 				"weapon can headshot"
 				{
@@ -5309,7 +5384,6 @@
 			"anim_slot"					"secondary"
 			"item_slot"					"secondary"
 			"propername"				"1"
-			"image_inventory"			"backpack/weapons/w_models/w_revshotgun"
 			"model_world"				"models/weapons/w_models/w_trenchgun.mdl"
 			"model_player"				"models/weapons/v_models/v_trenchgun.mdl"
 			"attach_to_hands"			"2"
@@ -5368,7 +5442,7 @@
 			}
 			"visuals"
 			{
-				"sound_single_shot" "Weapon_trench.Single"
+				"sound_single_shot" "Weapon_trenchgun.Single"
 			}
 		}
 		"1510"
@@ -5458,8 +5532,6 @@
 			"max_ilevel"	"5"
 			"used_by_classes"
 			{
-				"mercenary"  "1"
-				"robo" "1"
 			}
 			"attributes"
 			{
@@ -6034,7 +6106,7 @@
 				"damage bonus"
 				{
 					"attribute_class" 	"mult_dmg"
-					"value" "2.0"
+					"value" "3.0"
 				}
 				"provide on active"
 				{
