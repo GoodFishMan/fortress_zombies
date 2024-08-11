@@ -1,0 +1,7 @@
+"sky"
+{
+	"$hdrcompressedTexture" "skybox/rieseboxRT"
+	"$nofog" "1"
+	"$ignorez" "1"
+	"$basetexture" "skybox/rieseboxRT"
+}
