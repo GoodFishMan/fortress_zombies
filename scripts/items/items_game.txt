@@ -275,27 +275,6 @@
 	}
 	"prefabs"
 	{
-		"valve"
-		{
-		}
-		"default_bundle_payment"
-		{
-		}
-		"promo"
-		{
-			"capabilities"
-			{
-				"can_gift_wrap"	"0"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"	"1"
-				}
-			}
-		}
 		"halloween"
 		{
 			"capabilities"
@@ -417,44 +396,6 @@
 				"cosmetic_allow_inspect"				"1"
 			}
 		}
-		"score_reward_hat"
-		{
-			"prefab"	"promo hat"
-			"capabilities"
-			{
-				"paintable"	"1"
-			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"hat"	"1"
-					"headphones"	"1"
-				}
-			}
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy"	"1"
-				"engineer"	"1"
-				"pyro"	"1"
-				"mercenary"	"1"
-			}
-		}
-		"hat_decoration"
-		{
-			"prefab"	"cosmetic base_hat"
-			"item_type_name"	"#TF_Wearable_Hat"
-			"item_slot"	"head"
-			"equip_region"	"hat"
-			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
-			"drop_sound"	"ui/item_hat_drop.wav"
-		}
 		"mask"
 		{
 			"prefab"	"misc"
@@ -549,10 +490,6 @@
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
 			"model_player"	"models/weapons/c_models/c_bat.mdl"
-			"used_by_classes"
-			{
-				"scout"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -7"
@@ -583,10 +520,6 @@
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
 			"model_player"	"models/weapons/c_models/c_wrench/c_wrench.mdl"
-			"used_by_classes"
-			{
-				"engineer"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -7"
@@ -635,10 +568,6 @@
 			"propername"	"1"
 			"image_inventory"	"backpack/weapons/c_models/c_claymore/c_claymore"
 			"model_player"	"models/weapons/c_models/c_claymore/c_claymore.mdl"
-			"used_by_classes"
-			{
-				"demoman"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"12 -3 -10"
@@ -730,10 +659,6 @@
 			"image_inventory_size_h"		"82"
 			"attach_to_hands"	"1"
 			"model_player"		"models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro.mdl"
-			"used_by_classes"
-			{
-				"pyro"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -9"
@@ -762,10 +687,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	""
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-				"heavy"	"1"
-			}
 			"visuals"
 			{
 				"animation_replacement"
@@ -815,17 +736,12 @@
 			"item_name"	"#TF_Weapon_FlameThrower"
 			"item_slot"	"primary"
 			"item_quality"	"normal"
-			"baseitem"	"0"
 			"image_inventory"	"backpack/weapons/c_models/c_flamethrower/c_flamethrower"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"attach_to_hands" "2"
 			"model_player"	"models/weapons/v_models/v_flamethrower_pyro.mdl"
 			"model_world"	"models/weapons/w_models/w_flamethrower.mdl"
-			"used_by_classes"
-			{
-				"pyro"	"1"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"	"ui/item_heavy_gun_drop.wav"
 		}
@@ -919,10 +835,6 @@
 			"attach_to_hands"	"1"
 			"propername"	"1"
 			"item_quality"	"unique"
-			"used_by_classes"
-			{
-				"heavy"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -9"
@@ -1022,10 +934,6 @@
 			"model_world"	"models/weapons/w_models/w_grenadelauncher.mdl"
 			"model_player"	"models\weapons\v_models\v_grenadelauncher_demo.mdl"
 			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"demoman"	"1"
-			}
 			"static_attrs"
 			{
 				"weapon_stattrak_module_scale"			"1"
@@ -1095,10 +1003,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_minigun/c_minigun.mdl"
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-				"heavy"	"1"
-			}
 			"visuals_mvm_boss"
 			{
 				"sound_double_shot"	"MVM.GiantHeavyGunFire"
@@ -1140,11 +1044,6 @@
 			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/c_models/c_pistol"
 			"model_player"	"models/weapons/c_models/c_pistol/c_pistol.mdl"
-			"used_by_classes"
-			{
-				"engineer"	"1"
-				"soldier" "1"
-			}
 			"static_attrs"
 			{
 				"weapon_stattrak_module_scale"			"0.723"
@@ -1157,7 +1056,6 @@
 		
 		"weapon_1911"
 		{
-			"baseitem"		"0"
 			"enabled"	"1"
 			"item_class"	"tf_weapon_pistol"
 			"capabilities"
@@ -1221,7 +1119,6 @@
 		
 		"weapon_1911_primary"
 		{
-			"baseitem"		"0"
 			"enabled"	"1"
 			"item_class"	"tf_weapon_syringegun_medic"
 			"capabilities"
@@ -1312,10 +1209,6 @@
 			"image_inventory"	"backpack/weapons/w_models/w_revolver"
 			"model_player"	"models/weapons/v_models/v_revolver_spy.mdl"
 			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"spy"	"1"
-			}
 			"static_attrs"
 			{
 				"weapon_stattrak_module_scale"			"0.497"
@@ -1356,10 +1249,6 @@
 			"attach_to_hands" "2"
 			"model_player"	"models/weapons/v_models/v_rocketlauncher_soldier.mdl"
 			"model_world"	"models/weapons/w_models/w_rocketlauncher.mdl"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
 			"visuals_mvm_boss"
 			{
 				"sound_single_shot"	"MVM.GiantSoldierRocketShoot"
@@ -1438,11 +1327,6 @@
 			"model_player"	"models/weapons/v_models/v_shovel_soldier.mdl"
 			"model_world"	"models/weapons/w_models/w_shovel.mdl"
 			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-				"mercenary"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 -6 -12"
@@ -1486,13 +1370,6 @@
 			"model_player"	"models/weapons/v_models/v_smg_sniper.mdl"
 			"model_world"	"models/weapons/w_models/w_smg.mdl"
 			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-				"heavy"		"1"
-				"demoman"	"1"
-				"medic"		"1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 			"visuals"
@@ -1549,10 +1426,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_stickybomb_launcher/c_stickybomb_launcher.mdl"
 			"attach_to_hands"	"1"
-			"used_by_classes"
-			{
-				"demoman"	"1"
-			}
 			"static_attrs"
 			{
 				"weapon_stattrak_module_scale"			"0.9"
@@ -1589,13 +1462,6 @@
 			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_trenchgun/c_trenchgun"
 			"model_player"	"models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
-			"used_by_classes"
-			{
-				"engineer"	"primary"
-				"pyro" "secondary"
-				"soldier" "secondary"
-				"heavy" "secondary"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -11"
@@ -1693,18 +1559,6 @@
 			"item_quality"	"unique"
 			"propername" "0"
 			"model_player"	""
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-				"mercenary"	"1"
-			}
 			"attributes"
 			{
 				"single wep deploy time decreased"
@@ -1752,6 +1606,10 @@
 			"name"	"TF_WEAPON_BAT"
 			"prefab"	"weapon_bat"
 			"baseitem" "1"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
 		}
 		"1"
 		{
@@ -1763,24 +1621,40 @@
 			"name"	"TF_WEAPON_FIREAXE"
 			"prefab"	"weapon_fireaxe"
 			"baseitem" "1"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
 		}
 		"5"
 		{
 			"name"	"TF_WEAPON_FISTS"
 			"prefab"	"weapon_fists"
 			"baseitem" "1"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
 		}
 		"6"
 		{
 			"name"	"TF_WEAPON_SHOVEL"
 			"prefab"	"weapon_shovel"
 			"baseitem" "1"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
 		}
 		"7"
 		{
 			"name"	"TF_WEAPON_WRENCH"
 			"prefab"	"weapon_wrench"
 			"baseitem" "1"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
 		}
 		"10"
 		{
@@ -2069,16 +1943,11 @@
 			"item_name"	"#TF_Weapon_Revolver"
 			"item_slot"	"secondary"
 			"item_quality"	"normal"
-			"baseitem" "1"
 			"image_inventory"	"backpack/weapons/w_models/w_revolver"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_revolver/c_revolver.mdl"
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-				"spy"	"1"
-			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
@@ -2127,14 +1996,13 @@
 			"item_name"			"#TF_Spellbook_Basic"
 			"item_description"	"#TF_SpellBook_Basic_Desc"
 			"item_quality"		"normal"
-			"baseitem"			"0"
 			"show_in_armory"	"1"
 			"image_inventory"	"backpack/props_halloween/hwn_spellbook_magazine"
 		}
 		"39"
 		{
 			"name"				"Flare Gun"
-			"prefab"			"valve weapon_flaregun"
+			"prefab"			"weapon_flaregun"
 			"baseitem"			"1"
 			"used_by_classes"
 			{
@@ -2143,9 +2011,13 @@
 		}
 		"132"
 		{
-			"name"	"Eyelander"
-			"prefab"	"valve weapon_eyelander"
-			"show_in_armory"	"1"
+			"name"		"Eyelander"
+			"prefab"	"weapon_eyelander"
+			"baseitem"	"1"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -11"				
@@ -2175,7 +2047,6 @@
 			"item_description"	"#TF_SoldierKatana_Desc"
 			"anim_slot"			""
 			"propername"		"1"
-			"baseitem" 			"1"
 			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_shogun_katana/c_shogun_katana"
 			"used_by_classes"
 			{
@@ -2220,7 +2091,7 @@
 		"463"
 		{
 			"name"	"Laugh Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"		"#TF_TauntEnabler_Laugh"
 			"item_description"	"#TF_TauntEnabler_Laugh_Desc"
 			"image_inventory"	"backpack/player/items/all_class/all_laugh_taunt"
@@ -2306,10 +2177,6 @@
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
 			"propername"	"1"
-			"used_by_classes"
-			{
-				"pyro"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -12"		
@@ -2398,10 +2265,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/workshop/weapons/c_models/c_scotland_shard/c_scotland_shard.mdl"
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-				"heavy"		"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -14"
@@ -2511,10 +2374,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/workshop/weapons/c_models/c_dumpster_device/c_dumpster_device.mdl"
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 -3 -10"				
@@ -2601,11 +2460,6 @@
 			{
 				"min_viewmodel_offset"					"10 0 -12"
 			}
-			"used_by_classes"
-			{
-				"scout" "1"
-				"robo"	"0"
-			}
 			"attributes"
 			{
 				"move speed penalty"
@@ -2643,7 +2497,6 @@
 		"775"
 		{
 			"name"	"Escape Plan"
-			"prefab"	"valve"
 			"item_class"	"tf_weapon_shovel"
 			"capabilities"
 			{
@@ -2668,10 +2521,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_pickaxe/c_pickaxe.mdl"
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 -3 -11"
@@ -2725,265 +2574,6 @@
 			"name"	"Flying Guillotine"
 			"prefab"		"weapon_guillotine"
 			"show_in_armory"	"1"
-		}
-		"940"
-		{
-			"name"	"Base Item 1"
-			"prefab"		"base_hat"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-				"paintable"		"1"
-				"nameable"		"1"
-			}
-			"loadondemand" "1"
-			"show_in_armory"	"1"
-			"item_type_name" "#TF_Wearable_Hat"
-			"item_name"	"None"
-			"item_description"	""
-			"item_slot"	"head"
-			"equip_region"	"hat"
-			"item_quality"	"unique"
-			"baseitem" "1"
-			"image_inventory"	"backpack/c_nothing"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player_per_class"
-			{
-				"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
-			}
-			"drop_type"	"drop"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-				"antlion" "1"
-				"john" "1"
-				"zombiefast" "1"
-				"mercenary" "1"
-				"civilian" "1"
-				"saxton" "1"
-				"robo" "1"
-				"combine" "1"
-				"mercenary"	"1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-				}
-			}
-			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
-			"drop_sound" 			"ui/item_hat_drop.wav"
-		}
-		"941"
-		{
-			"name"	"Base Item 2"
-			"prefab"		"base_hat"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-				"paintable"		"1"
-				"nameable"		"1"
-			}
-			"loadondemand" "1"
-			"show_in_armory"	"1"
-			"item_type_name" "Misc"
-			"item_name"	"None"
-			"item_description"	""
-			"item_slot"	"misc"
-			"equip_region"	"hat"
-			"item_quality"	"unique"
-			"baseitem" "1"
-			"image_inventory"	"backpack/c_nothing"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player_per_class"
-			{
-				"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
-			}
-			"drop_type"	"drop"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-				"antlion" "1"
-				"john" "1"
-				"zombiefast" "1"
-				"mercenary" "1"
-				"civilian" "1"
-				"saxton" "1"
-				"robo" "1"
-				"combine" "1"
-				"mercenary"	"1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-				}
-			}
-			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
-			"drop_sound" 			"ui/item_hat_drop.wav"
-		}
-		"942"
-		{
-			"name"	"Base Item 3"
-			"prefab"		"base_hat"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-				"paintable"		"1"
-				"nameable"		"1"
-			}
-			"loadondemand" "1"
-			"show_in_armory"	"1"
-			"enabled"	"0"
-			"item_type_name" "Misc 2"
-			"item_name"	"None"
-			"item_description"	""
-			"item_slot"	"misc2"
-			"equip_region"		"shirt"
-			"item_quality"	"unique"
-			"baseitem" "1"
-			"image_inventory"	"backpack/c_nothing"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player_per_class"
-			{
-				"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
-			}
-			"drop_type"	"drop"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-				"antlion" "1"
-				"john" "1"
-				"zombiefast" "1"
-				"mercenary" "1"
-				"civilian" "1"
-				"saxton" "1"
-				"robo" "1"
-				"combine" "1"
-				"mercenary"	"1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-				}
-			}
-			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
-			"drop_sound" 			"ui/item_hat_drop.wav"
-		}
-		"943"
-		{
-			"name"	"Base Item 4"
-			"prefab"		"base_hat"
-			"hidden"	"0"
-			"item_class"	"tf_wearable"
-			"capabilities"
-			{
-				"paintable"		"1"
-				"nameable"		"1"
-			}
-			"loadondemand" "1"
-			"show_in_armory"	"1"
-			"item_type_name" "Action"
-			"item_name"	"None"
-			"item_description"	""
-			"item_slot"	"action"
-			"equip_region"		"shirt"
-			"item_quality"	"unique"
-			"baseitem" "1"
-			"image_inventory"	"backpack/c_nothing"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player_per_class"
-			{
-				"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
-			}
-			"drop_type"	"drop"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
-				"antlion" "1"
-				"john" "1"
-				"zombiefast" "1"
-				"mercenary" "1"
-				"civilian" "1"
-				"mercenary"	"1"
-			}
-			"attributes"
-			{
-				"cannot trade"
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-			}
-			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
-			"drop_sound" 			"ui/item_hat_drop.wav"
 		}
 		"996"
 		{
@@ -3104,7 +2694,7 @@
 		"1098"
 		{
 			"name"	"Classic"
-			"prefab"	"valve weapon_sniperrifle_alt1"
+			"prefab"	"weapon_sniperrifle_alt1"
 			"item_class"	"tf_weapon_sniperrifle_classic"
 			"capabilities"
 			{
@@ -3137,10 +2727,6 @@
 				"show_player_bodygroup_name"	"bullets"
 				"sound_single_shot"	"Weapon_ClassicSniperRifle.Single"
 				"sound_burst"	"Weapon_ClassicSniperRifle.SingleCrit"
-			}
-			"used_by_classes"
-			{
-				"sniper"	"1"
 			}
 			"static_attrs"
 			{
@@ -3211,7 +2797,7 @@
 		"1106"
 		{
 			"name"	"Square Dance Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassSquareDance"
 			"item_description"	"#TF_TauntAllClassSquareDance_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_dosido"
@@ -3308,7 +2894,7 @@
 		"1107"
 		{
 			"name"	"Flippin' Awesome Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassFlip"
 			"item_description"	"#TF_TauntAllClassFlip_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_flip"
@@ -3428,7 +3014,7 @@
 		"1110"
 		{
 			"name"	"RPS Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassRPS"
 			"item_description"	"#TF_TauntAllClassRPS_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_rps"
@@ -3596,7 +3182,7 @@
 		"1111"
 		{
 			"name"	"Skullcracker Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassSkullcracker"
 			"item_description"	"#TF_TauntAllClassSkullcracker_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_skullcracker"
@@ -3648,7 +3234,7 @@
 		"1112"
 		{
 			"name"	"Party Trick Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"		"#TF_TauntPyroPartyTrick"
 			"item_description"	"#TF_TauntPyroPartyTrick_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_party_trick"
@@ -3675,7 +3261,7 @@
 		"1113"
 		{
 			"name"	"Fresh Brewed Victory Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"		"#TF_TauntSoldierCoffee"
 			"item_description"	"#TF_TauntSoldierCoffee_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_fresh_brewed"
@@ -3702,7 +3288,7 @@
 		"1114"
 		{
 			"name"	"Spent Well Spirits Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"			"#TF_TauntDemomanNuke"
 			"item_description"	"#TF_TauntDemomanNuke_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_spent_well"
@@ -3740,7 +3326,7 @@
 		"1117"
 		{
 			"name"	"Battin' a Thousand Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"			"#TF_TauntScoutBatMan"
 			"item_description"	"#TF_TauntScoutBatMan_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_battin_thousand"
@@ -3771,7 +3357,7 @@
 		"1118"
 		{
 			"name"	"Conga Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassConga"
 			"item_description"	"#TF_TauntAllClassConga_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_conga"
@@ -3842,7 +3428,7 @@
 		"1119"
 		{
 			"name"	"Deep Fried Desire Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"			"#TF_TauntScoutChickenBucket"
 			"item_description"	"#TF_TauntScoutChickenBucket_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_deep_fried"
@@ -3869,7 +3455,7 @@
 		"1120"
 		{
 			"name"	"Oblooterated Taunt"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"			"#TF_TauntDemomanWoohoo"
 			"item_description"			"#TF_TauntDemomanWoohoo_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_oblooterated"
@@ -3917,7 +3503,7 @@
 		"1157"
 		{
 			"name"	"Taunt: Kazotsky Kick"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassRussianDance"
 			"item_description"	"#TF_TauntAllClassRussianDance_Desc"
 			"ad_text"			"#TF_TauntAllClassRussianDance_AdText"
@@ -3983,7 +3569,7 @@
 		"1172"
 		{
 			"name"	"Taunt: Victory Lap"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"	"#TF_TauntAllClassKart"
 			"item_description"	"#TF_TauntAllClassKart_Desc"
 			"image_inventory"	"backpack/player/items/all_class/taunt_bumpercar"
@@ -4082,7 +3668,7 @@
 		"1174"
 		{
 			"name"	"Taunt: Table Tantrum"
-			"prefab"	"valve taunt"
+			"prefab"	"taunt"
 			"item_name"		"#TF_TauntTableTantrum"
 			"item_description"	"#TF_TauntTableTantrum_Desc"
 			"ad_text"			"#TF_TauntTableTantrum_AdText"
@@ -4687,10 +4273,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_stampede/c_frontierjustice/c_frontierjustice.mdl"
 			"attach_to_hands" "1"
-			"used_by_classes"
-			{
-             "heavy" "primary"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"		"10 0 -6"
@@ -4735,9 +4317,9 @@
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
-            }
-			"9701"
-			{
+		}
+		"9701"
+		{
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -4759,12 +4341,9 @@
 			"attach_to_hands"	"1"
 			"model_player"		"models/weapons/w_models/w_shovel.mdl"
 			"anim_slot" "MELEE_ALLCLASS"
-			"used_by_classes"
-			{
-				"spy"	"1"
-                        }
-                        "visuals"
-			{       "sound_melee_hit_world"	"Weapon_Machete.HitWorld"
+			"visuals"
+			{   
+				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
 				"sound_melee_miss"	"Weapon_Machete.Miss"
 				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
 				"sound_burst"		"Weapon_Machete.MissCrit"
@@ -4807,10 +4386,6 @@
 			"model_world"	"models/weapons/w_models/w_tommygun.mdl"
 			"headshot_multiplier" 		"1.3"
 			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 			"visuals"
 			{
 				"sound_single_shot"		"Weapon_Tommygun.Single"
@@ -4886,10 +4461,6 @@
 			"show_in_armory"	"0"
 			"attach_to_hands"	"2"
 			"anim_slot"	"melee"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"12 -3 -10"
@@ -4992,10 +4563,6 @@
 			"model_world"	"models/weapons/w_models/w_assault_rifle.mdl"
 			"attach_to_hands"	"2"
 			"headshot_multiplier" 		"1.5"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 		    "visuals"
 			{
 				"sound_single_shot"		"Weapon_AR.Single"
@@ -5061,7 +4628,6 @@
 		"1504"
 		{
 			"name"	"lever"
-			"prefab"	"valve"
 			"item_class"	"tf_weapon_sniperrifle"
 			"capabilities"
 			{
@@ -5091,10 +4657,6 @@
 			"visuals"
 			{
 				"show_player_bodygroup_name"	"bullets"
-			}
-			"used_by_classes"
-			{
-				"sniper"	"1"
 			}
 			"attributes"
 			{
@@ -5149,10 +4711,6 @@
 			"model_world"	"models/weapons/w_models/w_ak47.mdl"
 			"attach_to_hands"	"2"
 			"headshot_multiplier" 		"1.5"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 		    "visuals"
 			{
 				"sound_single_shot"		"Weapon_AR.Single"
@@ -5236,10 +4794,6 @@
 			"model_world"	"models/weapons/w_models/w_mk18.mdl"
 			"attach_to_hands"	"2"
 			"headshot_multiplier" 		"1.5"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 		    "visuals"
 			{
 				"sound_single_shot"		"Weapon_AR.Single"
@@ -5287,30 +4841,6 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
-		"1507"
-		{
-			"name"						"TF_WEAPON_NAILGUN"
-			"prefab"					"weapon_nailgun"
-			"show_in_armory"			"0"
-			"used_by_classes"
-			{
-				"scout"					"1"
-				"robo"	"1"
-			}
-			"attributes"
-			{
-				"custom projectile model"
-				{
-					"attribute_class"	"custom_projectile_model"
-					"value"				"models\w_nail.mdl"
-				}
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"10 0 -11"
-				"mult_maxammo_primary"					"4.0"
-			}
-		}
 		"1508"
 		{
 			"name"						"Revolver"
@@ -5333,10 +4863,6 @@
 			"model_player"				"models/weapons/v_models/v_revolver_dm.mdl"
 			"attach_to_hands"			"2"
 			"bucket"					"1"
-			"used_by_classes"
-			{
-				"soldier" "1"
-			}
 			"attributes"
 			{
 				"weapon can headshot"
@@ -5505,7 +5031,6 @@
 		{
 			"name"	"Displacer Cannon"
 			"item_class"	"tf_weapon_displacer"
-			"baseitem" "0"
 			"enabled" "1"
 			"tags"
 			{
@@ -5530,9 +5055,6 @@
 			"propername"	"1"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
-			"used_by_classes"
-			{
-			}
 			"attributes"
 			{
 				"blast dmg to self reduced"
@@ -5577,10 +5099,6 @@
 			"model_world"				"models/weapons/w_models/w_kar98.mdl"
 			"model_player"				"models/weapons/v_models/v_bolt_action.mdl"
 			"attach_to_hands"			"2"
-			"used_by_classes"
-			{
-				"soldier" "1"
-			}
 			"attributes"
 			{
 				"weapon can headshot"
@@ -5753,10 +5271,6 @@
 			"model_player"	"models/weapons/v_models/v_supershotgun_mercenary.mdl"
 			"model_world"	"models/weapons/w_models/w_supershotgun.mdl"
 			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 			"attributes"
 			{
 				"fixed_shot_pattern_supershotgun"
@@ -5835,10 +5349,6 @@
 			"model_world"				"models\weapons\w_models\w_ppsh.mdl"
 			"model_player"				"models/weapons/v_models/v_ppsh.mdl"
 			"attach_to_hands"			"2"
-			"used_by_classes"
-			{
-				"soldier" "1"
-			}
 			"attributes"
 			{
 				"fire rate bonus"
@@ -5912,10 +5422,6 @@
 			"model_player"	"models\weapons\v_models\mp40_smg.mdl"
 			"model_world"	"models/weapons/w_models/w_smg_dm.mdl"
 			"attach_to_hands"	"2"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 		    "visuals"
 			{
 				"sound_single_shot"		"Weapon_SMG_DM.Single"
@@ -5960,7 +5466,6 @@
 		"1516"
 		{
 			"name"	"Oneshot"
-			"prefab"	"valve"
 			"item_class"	"tf_weapon_sniperrifle"
 			"capabilities"
 			{
@@ -5988,10 +5493,6 @@
 			"model_world"	"models\weapons\lambda\onehit\w_onehit.mdl"
 			"attach_to_hands"	"2"
 			"headshot_multiplier" 		"2.0"
-			"used_by_classes"
-			{
-				"sniper"	"1"
-			}
 			"attributes"
 			{
 				"sniper penetrate players when charged"
@@ -6062,10 +5563,6 @@
 			"model_world"				"models/weapons/w_models/w_minigun_dm.mdl"
 			"model_player"				"models/weapons/v_models/v_minigun_dm.mdl"
 			"attach_to_hands"			"2"
-			"used_by_classes"
-			{
-				"soldier" "1"
-			}
 			"attributes"
 			{
 				"fire rate bonus"
@@ -6153,10 +5650,6 @@
 			"model_player"	"models/weapons/v_models/v_ovdb_mercenary.mdl"
 			"model_world"	"models/weapons/w_models/w_ovdb.mdl"
 			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"mercenary"	"1"
-			}
 			"attributes"
 			{
                 "fire rate bonus"
