@@ -2,14 +2,74 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "1"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "59"
-	"mapversion" "1"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -18,7 +78,7 @@ world
 }
 entity
 {
-	"id" "60"
+	"id" "88"
 	"classname" "prop_dynamic"
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "0"
@@ -49,7 +109,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "magic_box_prop"
-	"origin" "0 -20 0"
+	"origin" "0 -20 0.25"
 	editor
 	{
 		"color" "220 30 220"
@@ -60,7 +120,35 @@ entity
 }
 entity
 {
-	"id" "64"
+	"id" "86"
+	"classname" "logic_merchant_relay"
+	"AnnounceCashNeeded" "1"
+	"CostOf" "950"
+	"CostType" "0"
+	"effects" "0"
+	"IsShared" "0"
+	"MaxPointsTake" "0"
+	"PurchaseName" "Bought Magic Box"
+	"StartDisabled" "0"
+	"targetname" "magic_box_buy"
+	connections
+	{
+		"OnPurchased" "magic_box,startitemshuffle,,1,-1"
+		"OnPurchased" "magic_box_prop,SetAnimation,open,0,-1"
+		"OnPurchased" "magic_box_button,Lock,,0,-1"
+	}
+	"origin" "0 -40 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "84"
 	"classname" "point_message"
 	"message" "Magic Box - 950"
 	"radius" "200"
@@ -76,7 +164,30 @@ entity
 }
 entity
 {
-	"id" "66"
+	"id" "79"
+	"classname" "tf_mysterybox"
+	"effects" "0"
+	"mysteryboxscript" "scripts/mysterybox/debug.txt"
+	"targetname" "magic_box"
+	connections
+	{
+		"OnItemTaken" "magic_box_prop,SetAnimation,close,0,-1"
+		"OnItemFall" "magic_box_prop,SetAnimation,close,0,-1"
+		"OnItemFall" "magic_box_button,Unlock,,1,-1"
+		"OnItemTaken" "magic_box_button,Unlock,,1,-1"
+	}
+	"origin" "0 -40 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "81"
 	"classname" "func_button"
 	"disablereceiveshadows" "0"
 	"effects" "0"
@@ -103,10 +214,10 @@ entity
 	}
 	solid
 	{
-		"id" "67"
+		"id" "82"
 		side
 		{
-			"id" "1"
+			"id" "18"
 			"plane" "(-72 0 32) (72 0 32) (72 -40 32)"
 			vertices_plus
 			{
@@ -124,7 +235,7 @@ entity
 		}
 		side
 		{
-			"id" "2"
+			"id" "17"
 			"plane" "(-72 -40 0) (72 -40 0) (72 0 0)"
 			vertices_plus
 			{
@@ -142,7 +253,7 @@ entity
 		}
 		side
 		{
-			"id" "3"
+			"id" "16"
 			"plane" "(-72 0 32) (-72 -40 32) (-72 -40 0)"
 			vertices_plus
 			{
@@ -153,14 +264,14 @@ entity
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "4"
+			"id" "15"
 			"plane" "(72 0 0) (72 -40 0) (72 -40 32)"
 			vertices_plus
 			{
@@ -171,14 +282,14 @@ entity
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "5"
+			"id" "14"
 			"plane" "(72 0 32) (-72 0 32) (-72 0 0)"
 			vertices_plus
 			{
@@ -189,14 +300,14 @@ entity
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "6"
+			"id" "13"
 			"plane" "(72 -40 0) (-72 -40 0) (-72 -40 32)"
 			vertices_plus
 			{
@@ -207,7 +318,7 @@ entity
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -225,52 +336,5 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "69"
-	"classname" "tf_mysterybox"
-	"effects" "0"
-	"mysteryboxscript" "scripts/mysterybox/debug.txt"
-	"targetname" "magic_box"
-	connections
-	{
-		"OnItemTaken" "magic_box_prop,SetAnimation,close,0,-1"
-	}
-	"origin" "0 -40 56"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "71"
-	"classname" "logic_merchant_relay"
-	"AnnounceCashNeeded" "1"
-	"CostOf" "950"
-	"CostType" "0"
-	"effects" "0"
-	"IsShared" "0"
-	"MaxPointsTake" "0"
-	"PurchaseName" "Bought Magic Box"
-	"StartDisabled" "0"
-	"targetname" "magic_box_buy"
-	connections
-	{
-		"OnPurchased" "magic_box,startitemshuffle,,0,-1"
-		"OnPurchased" "magic_box_prop,SetAnimation,open,0,-1"
-	}
-	"origin" "0 -40 72"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
