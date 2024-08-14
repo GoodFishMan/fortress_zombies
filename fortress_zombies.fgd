@@ -10465,4 +10465,7 @@
 	mysteryboxscript(string) : "Script" : "" : "The full path to the script that this Mystery Box will use."
 	
 	output OnItemTaken(void) : ""
+	output OnItemFall(void) : ""
+	
+	input startitemshuffle(void) : ""
 ]
