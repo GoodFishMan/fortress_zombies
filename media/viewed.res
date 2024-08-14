@@ -20,4 +20,8 @@
 	{
 		"viewed"		"1"
 	}
+	"zs_2fort"
+	{
+		"viewed"		"6"
+	}
 }

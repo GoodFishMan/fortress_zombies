@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/box_truck_red"
+	"$bumpmap" "models/props_vehicles/box_truck_normal"
+	"$bumpmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".20"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$lightwarptexture" "models\props_vehicles\pickup_lightwarp"
+
+	"$envmap" "cubemaps/env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" "1"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/monaro_red"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".20"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$lightwarptexture" "models\props_vehicles\pickup_lightwarp"
+
+	"$envmap" "cubemaps/env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" "1"
+}

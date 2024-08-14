@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/more_vehicles/snowplow_cab"
+	"$bumpmap" "models/props_vehicles/more_vehicles/snowplow_cab_nrm"
+	"$bumpmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+}
