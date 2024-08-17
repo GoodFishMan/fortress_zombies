@@ -6019,6 +6019,163 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
+		"1521"
+		{
+			"name"	"The Pomson 6001" //The Pomson but a little cooler
+			"first_sale_date"	"2011/12/15"
+			"item_class"	"tf_weapon_drg_pomson"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"item_type_name"	"#TF_Weapon_IndivisibleParticleSmasher"
+			"item_name"	"Pomson 6001"
+			"item_description"	"#TF_Pomson_Desc"
+			"item_slot"	"primary"
+			"item_logname"	"pomson"
+			"item_iconname"	"pomson"
+			"show_in_armory"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"attach_to_hands"	"2"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_drg_pomson/c_drg_pomson"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"55"
+			"model_player"	"models/weapons/v_models/v_drg_pomson.mdl"
+			"model_world"	"models/workshop/weapons/c_models/c_drg_pomson/c_drg_pomson.mdl"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -10"
+			}
+			"attributes"
+			{
+				"energy weapon no ammo"
+				{
+					"attribute_class"	"energy_weapon_no_ammo"
+					"value" "1"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.60"
+				}
+				"dmg pierces resists absorbs"
+				{
+					"attribute_class"	"mod_pierce_resists_absorbs"
+					"value"	"1"
+				}
+				"energy weapon no hurt building"
+				{
+					"attribute_class"	"energy_weapon_no_hurt_building"
+					"value" "1"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"	"Weapon_Pomson.Single"
+				"sound_burst"		"Weapon_Pomson.SingleCrit"
+				"sound_reload"		"Weapon_Pomson.Reload"
+				"muzzle_flash"		"drg_pomson_muzzleflash"
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+		"1522"
+		{
+			"name"	"Raaaygun"
+			"prefab"	"valve"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_weapon_rocketlauncher_directhit"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"Raygun"
+			"item_name"	"Raygun"
+			"item_slot"	"primary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/weapons/c_models/c_directhit/c_directhit"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_raygun.mdl"
+			"model_world"	"models/weapons/w_models/w_raygun.mdl"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -3 -10"				
+			}
+			"attributes"
+			{
+				"Blast radius decreased"
+				{
+					"attribute_class"	"mult_explosion_radius"
+					"value"	"0.5"
+				}
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"	"1.8"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.25"
+				}
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"	"5.00"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"80"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "80"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
 	}
 	"attributes"
 	{
