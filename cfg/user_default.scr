@@ -35,41 +35,11 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-
-	"mat_vignette_enable"
-	{
-		"#LFEOption_Vignette"
-		"#LFEOption_Vignette"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"fc_dof"
-	{
-		"#LFEOption_DOF"
-		"#LFEOption_DOF"
-		{ BOOL }
-		{ "0" }
-	}
 	
 	"category1"
 	{
 		"Gameplay Options"
 		{ CATEGORY }
-	}
-	
-	"cl_wpn_sway_interp"
-	{
-		"Weapon sway interp"
-		{ SLIDER 0 0.1 }
-		{ "0" }
-	}
-
-	"cl_wpn_sway_scale"
-	{
-		"Weapon sway scale"
-		{ SLIDER 0 5 }
-		{ "5" }
 	}
 	
 	
@@ -116,7 +86,7 @@ DESCRIPTION INFO_OPTIONS
 			"#tf_dingalingaling_Default"				"0"
 			"#tf_dingalingaling_Electro"				"1"
 			"#tf_dingalingaling_Notes"					"2"
-			"#tf_dingalingaling_Percussion"			"3"
+			"#tf_dingalingaling_Percussion"				"3"
 			"#tf_dingalingaling_Retro"					"4"
 			"#tf_dingalingaling_Space"					"5"
 			"#tf_dingalingaling_Beepo"					"6"
@@ -131,7 +101,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_Volume"
 		"#Tooltip_Dingaling_Volume"
 		{ SLIDER 0 1 }
-		{ "0.75" }
+		{ "0.50" }
 	}
 	
 	"tf_dingaling_pitchmindmg"
@@ -147,7 +117,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_PitchHighDmg"
 		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 1 255 }
-		{ "100" }
+		{ "80" }
 	}
 	
 	"tf_dingalingaling_lasthit"
@@ -155,7 +125,7 @@ DESCRIPTION INFO_OPTIONS
 		"Enable Killsounds"
 		"Plays a sound upon killing an enemy"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_dingalingaling_last_effect"
@@ -165,7 +135,7 @@ DESCRIPTION INFO_OPTIONS
 			"#tf_dingalingaling_Default"				"0"
 			"#tf_dingalingaling_Electro"				"1"
 			"#tf_dingalingaling_Notes"					"2"
-			"#tf_dingalingaling_Percussion"			"3"
+			"#tf_dingalingaling_Percussion"				"3"
 			"#tf_dingalingaling_Retro"					"4"
 			"#tf_dingalingaling_Space"					"5"
 			"#tf_dingalingaling_Beepo"					"6"
@@ -180,7 +150,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_LastHit_Volume"
 		"#Tooltip_Dingaling_Volume"
 		{ SLIDER 0 1 }
-		{ "0.75" }
+		{ "0.50" }
 	}
 
 	"tf_dingaling_lasthit_pitchmindmg"
@@ -196,7 +166,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Dingaling_LastHit_PitchHighDmg"
 		"#Tooltip_Dingaling_PitchHighDmg"
 		{ SLIDER 1 255 }
-		{ "100" }
+		{ "80" }
 	}
 
 	"hud_combattext"
@@ -204,7 +174,7 @@ DESCRIPTION INFO_OPTIONS
 		"Display Damage Numbers"
 		"#Tooltip_CombatText"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 	
 	"hud_combattext_batching"
@@ -236,7 +206,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextRed"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "255" }
+		{ "180" }
 	}
 
 	"hud_combattext_green"
@@ -244,7 +214,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextGreen"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "0" }
+		{ "180" }
 	}
 
 	"hud_combattext_blue"
@@ -252,7 +222,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextBlue"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "0" }
+		{ "180" }
 	}
 
 	"cl_autorezoom"
@@ -268,7 +238,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_sniperbell"
 		"#Tooltip_sniperbell"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}	
 
 	"tf_hud_no_crosshair_on_scope_zoom"
@@ -278,14 +248,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-
-	"tf_medigun_autoheal"
-	{
-		"Enable Medigun Lock-On"
-		"#Tooltip_medigun_autoheal"
-		{ BOOL }
-		{ "0" }
-	}
 
 	"category2"
 	{
@@ -372,14 +334,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}	
 
-	"cl_mvm_wave_status_visible_during_wave"
-	{
-		"Display remaining robots in wave"
-		"Shows the total robots remaining in an MvM wave in the status bar."
-		{ BOOL }
-		{ "0" }
-	}
-
 	"tf_hud_target_id_disable_floating_health"
 	{
 		"#TF_TargetID_Disable_Floating"
@@ -435,7 +389,12 @@ DESCRIPTION INFO_OPTIONS
 		{ NUMBER 0 4096 }
 		{ "12" }
 	}
-
+	"fz_npcdeathnotice"
+	{
+		"Enable Killfeed"
+		{ BOOL }
+		{ "0" }
+	}
 	"hud_deathnotice_time"
 	{
 		"Killfeed Item Display Time"
@@ -466,14 +425,25 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-
-
 	"category7"
 	{
 		"Graphics Settings"
 		{ CATEGORY }
 	}
-
+	"mat_vignette_enable"
+	{
+		"#LFEOption_Vignette"
+		"#LFEOption_Vignette"
+		{ BOOL }
+		{ "0" }
+	}
+	"fc_dof"
+	{
+		"#LFEOption_DOF"
+		"#LFEOption_DOF"
+		{ BOOL }
+		{ "0" }
+	}
 	"cl_burninggibs"
 	{
 		"Burning Gibs"
@@ -490,38 +460,70 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"r_lod"
-	{
-		"Object LODs"
-		"Determines the level of detail used on objects."
-		{ LIST
-			"Detail is determined by distance" "-1"
-			"Force high detail models" "0"
-			"Force low detail models" "2"
-		}
-		{ "-1" }
-	}
-
-
-
 	"category3"
 	{
 		"#TF_OptionCategory_Performance"
 		{ CATEGORY }
 	}
 
+ 	"r_decals"
+	{
+		"Number of Decals"
+		{ LIST
+			"None"      "0"
+			"Low (200)" 	  "200"
+			"Medium (400)"    "400"
+			"High (600)" 		"600"
+			"Insane (800)" 	"800"
+		}
+		{ "400" }
+	}
+	
+	"g_ragdoll_maxcount"
+	{
+		"Number of corpses"
+		{ LIST
+			"None"         	"0"
+			"Small"     	"4"
+			"Medium"    	"8"
+			"Large" 		"16"
+			"Insane" 		"24"
+		}
+		{ "16" }
+	}	
+	
+	"cl_detaildist"
+	{
+		"Detail fade distance"
+		"Distance at which detail props are no longer visible"
+		{ LIST
+			"None"      "0"
+			"Low (600)" 	  "600"
+			"Medium (1200)"    "1200"
+			"High (1600)" 		"1600"
+			"Insane (2000)" 	"2000"
+		}
+		{ "1200" }
+	}	
+	
+	"mat_phong"
+	{
+		"Enable Phong"
+		{ BOOL }
+		{ "1" }
+	}	
+	
+	"mat_specular"
+	{
+		"Enable Reflections"
+		{ BOOL }
+		{ "1" }
+	}	
+	
 	"tf_particles_disable_weather"
 	{
 		"#TF_DisableWeatherParticles"
 		"#Tooltip_DisableWeatherParticles"
-		{ BOOL }
-		{ "0" }
-	}	
-
-	"r_3dsky"
-	{
-		"Draw 3D Skybox"
-		"Sets whether to render the 3D environment used for distant scenery."
 		{ BOOL }
 		{ "0" }
 	}	
@@ -542,29 +544,15 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
-	"cl_jiggle_bone_framerate_cutoff"
-	{
-		"Jigglebone Minimum Framerate"
-		"If the frames per second drops below this value, disables jigglebone simulation."
-		{ NUMBER 0.001563 1 }
-		{ "1" }
-	}
-
 	"fps_max"
 	{
 		"Framerate Limit"
 		"The upper limit to the rendered FPS. Option does not save between sessions."
 		{ NUMBER 0 999 }
-		{ "300" }
+		{ "120" }
 	}
 
-	"mp_decals"
-	{
-		"#Valve_Multiplayer_Decal_Limit"
-		"#Tooltip_Multiplayer_Decal_Limit"
-		{ NUMBER 0 2048 }
-		{ "400" }
-	}
+
 
 	"engine_no_focus_sleep"
 	{
