@@ -2008,4 +2008,13 @@
 	"perks_changed"
 	{
 	}
+	
+	"wave_start"
+	{
+		"wave"		"long"
+	}
+	
+	"wave_end"
+	{
+	}
 }

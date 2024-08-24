@@ -12,4 +12,16 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 	}
+	
+	"CTFWaveStatus"
+	{
+		"fieldName" 			"CTFWaveStatus"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"  				"70"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"proportionaltoparent"	"1"
+	}
 }
