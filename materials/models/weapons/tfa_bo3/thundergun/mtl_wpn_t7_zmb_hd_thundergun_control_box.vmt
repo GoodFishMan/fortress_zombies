@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models/weapons/tfa_bo3/thundergun/i_wpn_t7_zmb_hd_thundergun_control_box_d"
+	$bumpmap				"models/weapons/tfa_bo3/thundergun/i_wpn_t7_zmb_hd_thundergun_control_box_n"
+	$phongexponenttexture	"models/weapons/tfa_bo3/thundergun/i_wpn_t7_zmb_hd_thundergun_control_box_s"
+
+	$phong	"0"
+	$phongboost	"5"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+	
+	$emissiveblendenabled		"1"
+	$emissiveblendstrength		"1"
+	$emissiveblendtexture		"vgui/white"
+	$emissiveblendbasetexture	"models/weapons/tfa_bo3/thundergun/i_wpn_t7_zmb_hd_thundergun_control_box_e"
+	$emissiveblendflowtexture	"vgui/white"
+	$emissiveblendtint			"[1 1 1]"
+	$emissiveblendscrollvector	"[0 0 0]"
+}

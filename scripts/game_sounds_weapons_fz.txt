@@ -321,10 +321,11 @@
 }
 
 //Trenchgun
-"Weapon_trench.Single"
+"Weapon_trenchgun.Single"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
+	"pitch"		"90,105"
 	"wave"		"weapons/trenchgun_shoot.wav"
 }

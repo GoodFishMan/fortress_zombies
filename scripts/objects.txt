@@ -10,7 +10,7 @@ objects
 		MaxObjects			1
 		Cost				100
 		CostMultiplier		1
-		UpgradeCost			200
+		UpgradeCost			400
 		UpgradeDuration		1.5
 		MaxUpgradeLevel		0
 		BuilderWeaponName	"Sentry Gun"
@@ -20,8 +20,8 @@ objects
 		SapperAttachTime	0.0
 		IconActive			obj_sentrygun
 		IconInactive		obj_sentrygun
-		IconMenu		hud_menu_sentry_build
-		UseItemInfo		1
+		IconMenu			hud_menu_sentry_build
+		UseItemInfo			1
 		Viewmodel			"models/weapons/c_models/c_toolbox/c_toolbox.mdl"
 		Playermodel			"models/weapons/c_models/c_toolbox/c_toolbox.mdl"
 		DisplayPriority		4
@@ -30,7 +30,7 @@ objects
 		ExplodeSound		"Building_Sentry.Explode"
 		ExplodeEffect		"ExplosionCore_buildings"	
 		UpgradeSound		"Building_Sentrygun.Built"
-		BuildCount		1
+		BuildCount			1
 		RequiresOwnBuilder	0
 	}
 
@@ -40,9 +40,9 @@ objects
 		StatusName			"#TF_Object_Dispenser"
 		BuildTime			20
 		MaxObjects			1
-		Cost				100
+		Cost				0
 		CostMultiplier		1
-		UpgradeCost			200
+		UpgradeCost			400
 		UpgradeDuration		1.5
 		MaxUpgradeLevel		0
 		BuilderWeaponName	"Dispenser"
