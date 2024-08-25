@@ -9,7 +9,7 @@ WeaponData
 	"HasTeamSkins_Viewmodel"			"1"	
 
 	// Attributes TF.
-	"damage"		"160"
+	"damage"		"300"
 	"DamageRadius"		"180"
 	"BulletsPerShot"	"1"
 	"Spread"		"0.0"	

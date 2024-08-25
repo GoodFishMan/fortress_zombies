@@ -8,7 +8,7 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Primary Attributes.
-	"Damage"		"200"
+	"Damage"		"400"
 	"DamageRadius"		"210"
 	"Range"			"0"
 	"BulletsPerShot"	"1"
