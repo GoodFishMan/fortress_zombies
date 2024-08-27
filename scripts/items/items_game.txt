@@ -5193,7 +5193,7 @@
 			"item_slot"					"secondary"
 			"propername"				"1"
 			"image_inventory"			"backpack/weapons/w_models/w_revshotgun"
-			"model_world"				"models/weapons/w_models/w_revshotgun_sniper.mdl"
+			"model_world"				"models/weapons/lambda/revrifletf2c/w_revrifle_sniper.mdl"
 			"model_player"				"models/weapons/v_models/v_revshotgun_sniper.mdl"
 			"attach_to_hands"			"2"
 			"attributes"
@@ -6294,6 +6294,94 @@
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+		"1524"
+		{
+			"name"	"M1A1"
+			"item_class"	"tf_weapon_assault_rifle"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_headshot"			"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"Rifle"
+			"item_name"			"Carbine Rifle"
+			"item_description"	"Model from Open Fortress"
+			"item_slot"			"primary"
+			"item_quality"		"unique"
+			"anim_slot"			"secondary"
+			"item_logname"	"carbine"
+			"item_iconname"	"carbine"
+			"image_inventory"	"backpack/weapons/w_models/w_assaultrifle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_m1a1.mdl"
+			"model_world"	"models/weapons/w_models/w_m1a1.mdl"
+			"attach_to_hands"	"2"
+			"headshot_multiplier" 		"1.8"
+		    "visuals"
+			{
+				"sound_single_shot"		"Weapon_AR.Single"
+				"sound_burst"			"Weapon_AR.SingleCrit"
+				"sound_reload"			"Weapon_AR.WorldReload"
+			}
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"2.0"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.8"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"0.70"
+				}
+				"weapon can headshot"
+				{
+					"attribute_class"	"allow_headshot"
+					"value"	"1"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"135"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "135"
+				}
+				"click fire"
+				{
+					"attribute_class"	"click_fire"
+					"value"	"1"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"15"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
 		}
 	}
 	"attributes"
