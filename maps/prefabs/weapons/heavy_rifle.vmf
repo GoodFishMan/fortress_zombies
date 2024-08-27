@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "468"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -218,7 +218,7 @@ entity
 	"id" "475"
 	"classname" "point_message"
 	"developeronly" "0"
-	"message" "Cost - 1500 points"
+	"message" "Cost - 1800"
 	"radius" "128"
 	"spawnflags" "0"
 	"origin" "0 2 58"
@@ -235,7 +235,7 @@ entity
 	"id" "477"
 	"classname" "tf_weapon_spawner"
 	"angles" "0 0 0"
-	"itemcost" "1500"
+	"itemcost" "1800"
 	"itemid" "1505"
 	"model" "models/weapons/w_models/w_ak47.mdl"
 	"skin" "0"

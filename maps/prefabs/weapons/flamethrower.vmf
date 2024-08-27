@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "3"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "513"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -235,7 +235,7 @@ entity
 	"id" "522"
 	"classname" "point_message"
 	"developeronly" "0"
-	"message" "Cost - 3000 points"
+	"message" "Cost - 3000"
 	"radius" "128"
 	"spawnflags" "0"
 	"origin" "0 2 58"
