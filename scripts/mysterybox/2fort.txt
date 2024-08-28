@@ -85,4 +85,19 @@
 		"itemid"	"1517" // CHAINGUN
 		"chance"	"10.0"
 	}
+	"18"
+	{
+		"itemid"	"1520" // THUNDERGUN
+		"chance"	"10.0"
+	}
+	"19"
+	{
+		"itemid"	"1521" // POMSON
+		"chance"	"20.0"
+	}
+	"20"
+	{
+		"itemid"	"1524" // M1A1
+		"chance"	"60.0"
+	}
 }
