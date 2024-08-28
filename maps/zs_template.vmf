@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "230"
+	"mapversion" "239"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "230"
+	"mapversion" "239"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -16465,7 +16465,8 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMultiNewRound" "wave1_template,enable,,5,-1"
+		"OnMultiNewRound" "wave1_template,enable,,10,-1"
+		"OnMultiNewRound" "wave_sound_start,PlaySound,,5,-1"
 	}
 	"origin" "2080 16 234"
 	editor
@@ -16481,12 +16482,12 @@ entity
 	"id" "36674"
 	"classname" "npc_template_maker"
 	"angles" "0 0 0"
-	"CriterionDistance" "0"
+	"CriterionDistance" "2"
 	"CriterionVisibility" "2"
 	"DestinationGroup" "zombspawn_*"
 	"MaxLiveChildren" "32"
 	"MaxNPCCount" "8"
-	"MinSpawnDistance" "100"
+	"MinSpawnDistance" "128"
 	"Radius" "128"
 	"spawnflags" "128"
 	"SpawnFrequency" "1"
@@ -16496,8 +16497,8 @@ entity
 	connections
 	{
 		"OnAllSpawnedDead" "wave_sound_end,PlaySound,,0,-1"
-		"OnAllSpawnedDead" "wave1_template,enable,,10,-1"
-		"OnAllSpawnedDead" "wave_sound_start,PlaySound,,15,-1"
+		"OnAllSpawnedDead" "wave1_template,enable,,15,-1"
+		"OnAllSpawnedDead" "wave_sound_start,PlaySound,,10,-1"
 	}
 	"origin" "2064 16 234"
 	editor
@@ -25809,6 +25810,36 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "37166"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "prefabs/weapons/carbine_rifle.vmf"
+	"origin" "960 -1280 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "37172"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "prefabs/weapons/smg.vmf"
+	"origin" "960 -896 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
