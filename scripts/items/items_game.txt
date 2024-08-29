@@ -5792,7 +5792,7 @@
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "300"
+					"value" "400"
 				}
 				"mod max primary clip override"
 				{
