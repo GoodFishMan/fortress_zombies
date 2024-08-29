@@ -1910,7 +1910,6 @@
 	]
 
 	TemplateName(target_destination) : "Name of template NPC" : "" : "Template NPC that this maker should be creating clones of."
-
 	Radius(float) : "Radius" : 256 : "Radius around this maker within which NPCs are to be placed. Spawned NPCs will try and find empty space within this radius to spawn."
 
 	DestinationGroup(target_destination) : "Name of Destination Group" : : "If you'd like spawned NPCs to be created at an info_npc_spawn_destination entity, enter the name of that entity here. If you have more than one destination entity by that name, the Destination Criteria will be used to select one from the group."
@@ -1937,6 +1936,8 @@
 	input SpawnMultiple(integer) : "Spawn multiple NPCs (uses destination group, else radius)."
 	input ChangeDestinationGroup(string) : "Switch to a different set of Destination entities."
 	input SetMinimumSpawnDistance(integer) : "Set the minimum spawn distance from player to destination node."
+	
+	output OnWaveEnd(void) : ""
 ]
 
 
