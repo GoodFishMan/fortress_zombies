@@ -1916,7 +1916,7 @@
 				"self dmg push force decreased"
 				{
 					"attribute_class"	"mult_dmgself_push_force"
-					"value"		"0.5"
+					"value"		"3.0"
 				}
 			}
 		}
@@ -6292,6 +6292,91 @@
 					"attribute_class"	"projectile_penetration"
 					"value"		"1"
 				}
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+		"1525"
+		{
+			"name"	"Battle Rifle"
+			"item_class"	"tf_weapon_smg"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"item_type_name"	"Scar"
+			"item_name"	"Flakcannon"
+			"item_slot"	"primary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_scargl.mdl"
+			"model_world"	"models/weapons/w_models/w_scargl.mdl"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -3 -10"				
+			}
+			"attributes"
+			{
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"45"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.2"
+				}
+
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"315"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "315"
+				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"1.3"
+				}
+				"fire rate penalty"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.4"
+				}
+				"mod underbarrel grenade cost"
+				{
+					"attribute_class"	"mod_underbarrel_ammo_cost"
+					"value"		"15"
+				}
+				"underbarrel grenade"
+				{
+					"attribute_class"	"underbarrel_grenade"
+					"value"		"1"
+				}
+
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
